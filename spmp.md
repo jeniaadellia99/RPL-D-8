@@ -9,7 +9,7 @@ Bagian Koriah
 	**1.5 Definisi dan Akronim (Singkatan)**
 
 **BAB 2 ORGANISASI PROYEK**
-
+adbsdgvgvgfydvgvf
 
 
 
@@ -28,8 +28,35 @@ Bagian Koriah
 
 ------------
 Bagian Bayu
-BAB 3 MANAGERIAL PROCESS
-BAB 4 TECHNICAL PROCESS
+**BAB 3 Proses Manajerial**
+
+	3.1	Tujuan dan prioritas manajemen
+
+			Tujuan dari 
+
+	3.2	Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan
+
+	3.3	Manajemen resiko
+
+	3.4	Makanismme monitoring dan kontroling
+
+	3.5	Perancangan Staf
+
+			Adapun staf yang terlibat dalam projek 
+
+			**Jabatan**  | **Jabatan**
+			------------- | ------------
+			Ketua TIM | Koriah
+			Android Development | Bayu Rasukma Raga
+			WEB Development	| Syamsul Fahri Hadi
+
+**BAB 4 Prosess Teknis**
+
+	4.1	Metoda, toolm dan teknik
+
+	4.2	Dokumentasi perangkat lunak
+
+	4.3	Fungsi-fungsi pendukung proyek
 
 
 
