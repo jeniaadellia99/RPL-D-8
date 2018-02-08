@@ -35,7 +35,7 @@ Bagian Bayu
 
 			Adapun staf yang terlibat dalam projek 
 
-			**Jabatan***  | **Jabatan**
+			**Jabatan**  | **Jabatan**
 			------------- | ------------
 			Ketua TIM | Koriah
 			Android Development | Bayu Rasukma Raga
