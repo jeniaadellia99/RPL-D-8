@@ -30,7 +30,7 @@ adbsdgvgvgfydvgvf
 Bagian Bayu
 **BAB 3 Proses Manajerial**
 
-	3.1	Tujuan dan prioritas manajemen
+	**3.1	Tujuan dan prioritas manajemen**
 
 			Tujuan dari dilaksanakanya projek ini adalah sebagai berikut
 
@@ -52,7 +52,7 @@ Bagian Bayu
 
 **BAB 4 Prosess Teknis**
 
-	4.1	Metoda, toolm dan teknik
+	4.1	Metoda, tool dan teknik
 
 	4.2	Dokumentasi perangkat lunak
 
