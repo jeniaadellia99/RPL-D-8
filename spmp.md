@@ -35,9 +35,7 @@ adbsdgvgvgfydvgvf
 ------------
 Bagian Bayu
 **BAB 3 Proses Manajerial**
-
 	**3.1	Tujuan dan prioritas manajemen**
-
 			Tujuan dari dilaksanakanya projek ini adalah sebagai berikut
 
 	3.2	Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan
