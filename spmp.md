@@ -29,13 +29,8 @@
 		   - QR-Code
 		   - Q-PRES
 		   - HP
-		3. Struktur Organisasi
-			| No. | Jabatan           | Nama               | Nim     |
-			|-----|-------------------|--------------------|---------|
-			| 1   | Ketua Tim         | Koriah             | 1603103 |
-			| 2   | Android Developer | Bayu Rasukma Raga  | 1603093 |
-			| 3   | Web Developer     | Syamsul Fahri hadi | 1603115 |
-		 4. Jadwal Pengerjaan
+
+		3. Jadwal Pengerjaan
 		 	1. Penentuan Judul (Tema)
 		 	2. Analisis Kebutuhan
 		 	   - Flowchart
@@ -61,46 +56,34 @@
 
 **BAB 2 ORGANISASI PROYEK**
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-# Bagian Bayu #
-=======
 	2.1	Model Proses
 		Proses yang digunakan pada proyek ini menggunakan Kode QR (Quick Respon). Dimana user mahasiswa harus mendaftar terlebih dahulu menggunakan MAC Address dari perangkat HP dan menggunakan NIM dari mahasiswa tersebut. Kemudian, jika mahasiswa tersebut ingin masuk atau melakukan presensi, ia harus memasukkan NIM-nya. NIM tersebut akan mencocokkan atau mencari MAC Address yang sudah didaftarakan pada awal pendaftaran untuk bisa masuk ke akun mahasiswa tersebut.
 		Dosen akan didaftarkan pada Admin. Admin mempunyai kewenanangan yang lebih pada aplikasi ini.
 	2.2  Struktur Organisasi
-		 ------------------------------------------------------
-		 |No.|Jabatan		    | Nama		    	| Nim     |
-		 ------------------------------------------------------
-		 |1. |Ketua Tim 		| Koriah			| 1603103 |
-		 ------------------------------------------------------
-		 |2. |Android Developer	| Bayu Rasukma Raga	| 1603093 |
-		 ------------------------------------------------------
-		 |3. |Web Developer		| Syamsul Fahri hadi| 1603115 |
-		 ------------------------------------------------------
+
+			| No. | Jabatan           | Nama               | Nim     |
+			|-----|-------------------|--------------------|---------|
+			| 1   | Ketua Tim         | Koriah             | 1603103 |
+			| 2   | Android Developer | Bayu Rasukma Raga  | 1603093 |
+			| 3   | Web Developer     | Syamsul Fahri hadi | 1603115 |
+
 	2.3 Batasan dan Antarmuka Organisasi
 		Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa menggunakan akun atau device dari mahasiswa lainnya. Kalaupun terdapat beberapa mahasiswa yang tidak mempunyai HP, maka dosen akan melaukukan presensi manual. Melalui pemanggilan nama mahasiswa tersebut. 
 		Mahasiswa tidak boleh menitipkan HP-nya ke mahasiswa lain untuk melakukan presensi, karena setiap dosen akan melakukan validasi presensi.
 	2.4 Lingkup Tanggung Jawab
 		Setiap anggota mempunyai tanggung jawab terhadap tugasnya. Anggota mempunyai jobdesk-nya masing-masing sesuai dengan poin 2.2.
 
-------------
+
 Bagian Bayu
->>>>>>> 69e5a61fb548ff96b1dbab4416fff1203f17f98a
+
 **BAB 3 Proses Manajerial**
-	**3.1	Tujuan dan prioritas manajemen**
+	3.1	Tujuan dan prioritas manajemen
 			Tujuan dari proyek ini adalah mengembangkan sistem Aplikasi Absensi dengan menggunakan kode QR
 			Agar bisa dijalankan dan diimplementasikan dengan baik oleh mitra. Proyek ini sangat diprioritaskan
 			karena bermanfaat untuk menambah kinerja admin dalam mengelola data absensi dan meminimalisir penggunaan
 			kertas sehingga biaya yang dikeluarkan oleh mitra dapat dikurangi.
 
-	**3.2	Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan**
+	3.2	Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan
 			Asumsi proyek ini adalah sebagai berikut :
 			1. 	Tim terdiri dari 3 orang
 			2. 	Ketersediaan peralatan dan perangkat lunak
@@ -141,6 +124,8 @@ Bagian Bayu
 
 	4.3	Fungsi-fungsi pendukung proyek
 		Semua dokumen pendukung proyek akan selesai dalam tahap yang sesuai
+
+
 
 # Bagian Syamsul #
 BAB 5 WORK, ELEMENTS, SCEDULE, AND BUDGET
