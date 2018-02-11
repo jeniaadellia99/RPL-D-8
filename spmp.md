@@ -76,6 +76,7 @@
 # Bagian Bayu #
 
 **BAB 3 Proses Manajerial**
+
 	3.1	Tujuan dan prioritas manajemen
 			Tujuan dari proyek ini adalah mengembangkan sistem Aplikasi Absensi dengan menggunakan kode QR
 			Agar bisa dijalankan dan diimplementasikan dengan baik oleh mitra. Proyek ini sangat diprioritaskan
