@@ -1,5 +1,4 @@
---------
-Bagian Koriah
+# Bagian Koriah #
 **BAB 1. PENDAHULUAN** 
 
 	1.1 Gambaran Proyek
@@ -31,15 +30,11 @@ Bagian Koriah
 		   - Q-PRES
 		   - HP
 		3. Struktur Organisasi
-		 ------------------------------------------------------
-		 |No.|Jabatan		    | Nama		    	| Nim     |
-		 ------------------------------------------------------
-		 |1. |Ketua Tim 		| Koriah			| 1603103 |
-		 ------------------------------------------------------
-		 |2. |Android Developer	| Bayu Rasukma Raga	| 1603093 |
-		 ------------------------------------------------------
-		 |3. |Web Developer		| Syamsul Fahri hadi| 1603115 |
-		 ------------------------------------------------------
+			| No. | Jabatan           | Nama               | Nim     |
+			|-----|-------------------|--------------------|---------|
+			| 1   | Ketua Tim         | Koriah             | 1603103 |
+			| 2   | Android Developer | Bayu Rasukma Raga  | 1603093 |
+			| 3   | Web Developer     | Syamsul Fahri hadi | 1603115 |
 		 4. Jadwal Pengerjaan
 		 	1. Penentuan Judul (Tema)
 		 	2. Analisis Kebutuhan
@@ -73,58 +68,55 @@ Bagian Koriah
 
 
 
-
-
-
-
-
-
-
-
-
-------------
-Bagian Bayu
+# Bagian Bayu #
 **BAB 3 Proses Manajerial**
 	**3.1	Tujuan dan prioritas manajemen**
-			Tujuan dari dilaksanakanya projek ini adalah sebagai berikut
+			Tujuan dari proyek ini adalah mengembangkan sistem Aplikasi Absensi dengan menggunakan kode QR
+			Agar bisa dijalankan dan diimplementasikan dengan baik oleh mitra. Proyek ini sangat diprioritaskan
+			karena bermanfaat untuk menambah kinerja admin dalam mengelola data absensi dan meminimalisir penggunaan
+			kertas sehingga biaya yang dikeluarkan oleh mitra dapat dikurangi.
 
-	3.2	Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan
+	**3.2	Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan**
+			Asumsi proyek ini adalah sebagai berikut :
+			1. 	Tim terdiri dari 3 orang
+			2. 	Ketersediaan peralatan dan perangkat lunak
+			3. 	Persetujuan dan Perizinan dari mitra
+			
+			Proyek ini berketergantungan pada :
+			1. Biaya
+			2. Ketersediaan software dan hardware
+			3. Keahlian anggota dalam penggunaan software dan bahasa pemrogramman
+			4. Data-data yang diberikan oleh mitra
 
-	3.3	Manajemen resiko
-
+			Batasan Masalah dalam proyek ini adalah sebagai berikut :
+			1. Tidak adanya vailidasi ketika HandPhone mahasiswa dititipkan ke temanya sehingga dapat menitipkan absen
+			2. Software yang digunakan adalah Android Studio, Sublmie Text 3 dan Firebase
+			
+	3.3	Manajemen risiko
+			Resiko yang ada pada proyek ini adalah :
+			1. Risiko Finansial
+			2. Risiko Waktu
+			3. Risiko Teknologi
+			4. Risiko Sumberdaya Manusia
+			5. Risiko Alat dan Bahan
+			
 	3.4	Makanismme monitoring dan kontroling
-
-	3.5	Perancangan Staf
-
-			Adapun staf yang terlibat dalam projek 
-
-			**Jabatan**  | **Jabatan**
-			------------- | ------------
-			Ketua TIM | Koriah
-			Android Development | Bayu Rasukma Raga
-			WEB Development	| Syamsul Fahri Hadi
+			1. Rapat dan Pengerjaan mingguan
+			2. Pembuatan Dokumentasi Proyek
+			3. Testing dan evaluasi kinerja Aplikasi
 
 **BAB 4 Prosess Teknis**
 
 	4.1	Metoda, tool dan teknik
-
+		Proyek ini akan diimplementasikan dengan memanfaatkan metodologi Water fall, dan alat seperti
+		Android Studio, dan Sublime Text 3 sebagai alat pembuatan Aplikasi ini. Menggunakan Framework laravel sebagai
+		penunjang Aplikasi bagian WEB nya serta menggunakan teknik Object Oriented dalam pengerjaan proyek ini.
+		
 	4.2	Dokumentasi perangkat lunak
+		Dokumentasi proyek seerti Proposal Poryek, Log Book, Surat Pengajuan, Kuisioner.
 
 	4.3	Fungsi-fungsi pendukung proyek
+		Semua dokumen pendukung proyek akan selesai dalam tahap yang sesuai
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-----------
-Bagian Syamsul
+# Bagian Syamsul #
 BAB 5 WORK, ELEMENTS, SCEDULE, AND BUDGET
