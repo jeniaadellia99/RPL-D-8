@@ -73,8 +73,7 @@
 	2.4 Lingkup Tanggung Jawab
 		Setiap anggota mempunyai tanggung jawab terhadap tugasnya. Anggota mempunyai jobdesk-nya masing-masing sesuai dengan poin 2.2.
 
-
-Bagian Bayu
+# Bagian Bayu #
 
 **BAB 3 Proses Manajerial**
 	3.1	Tujuan dan prioritas manajemen
