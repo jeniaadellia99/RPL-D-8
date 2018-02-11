@@ -128,4 +128,39 @@
 
 
 # Bagian Syamsul #
-BAB 5 WORK, ELEMENTS, SCEDULE, AND BUDGET
+BAB 5 Paket Pekerjaan, jadwal, dan anggaran
+	
+	5.1 Paket Pekerjaan
+		Paket pekerjaan yang akan di lakukan :
+		1. Minggu ke 1-2        : Penentuan ide dan rumusan masalah yang dibutuhkan
+		2. Minggu ke 3-4		: Pembuatan rancangan sistem aplikasi yang akan di buat
+		3. Minggu ke 5-10		: Pembuatan sistem aplikasi
+		4. Minggu ke 11-12		: Uji coba dan revisi bila di perlukan
+
+	5.2 Ketergantungan dan ketrtarikan
+		semua sumber daya saling ketergantungan satu sama lain dalam hal pembuatan aplikasi.
+
+	5.3 Kebutuhan-kebutuhan sumber daya
+		Sumber daya yang di perlukan untuk pembuatan aplikasi ini terdiri dari 3 orang dengan divisi yang sudah di tentukan di atas.
+		dan adanya kebutuhan-kebutuhan yang diperlukan sebagai berikut :
+		| No. | Kebutuhan             |
+		|-----|-----------------------|
+		| 1   | 3 Unit Laptop         |
+		| 2   | Koneksi Internet      |
+		| 3   | Pangan                |
+
+
+	5.4 Alokasi Anggaran dan sumber daya
+		Alokasi Anggaran dalam pembuatan aplkasi ini sebagai berikut :
+		| No. | Keperluan           | Angaran            |
+		|-----|---------------------|--------------------|
+		| 1   | Laptop              | Rp. 3.500.000      |
+		| 2   | Koneksi Internet    | Rp. 200.000        |
+		| 2   | Pangan              | Rp. 600.000        |
+
+	5.5 Jadwal
+		Jadwal dalam pengerjaan aplikasi adalaha 12 minggu atau 3 bulan, adapun rincianya sebagai berikut :
+		1. Minggu ke 1-2        : Penentuan ide dan rumusan masalah yang dibutuhkan
+		2. Minggu ke 3-4		: Pembuatan rancangan sistem aplikasi yang akan di buat
+		3. Minggu ke 5-10		: Pembuatan sistem aplikasi
+		4. Minggu ke 11-12		: Uji coba dan revisi bila di perlukan
