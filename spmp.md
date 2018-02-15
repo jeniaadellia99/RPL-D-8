@@ -3,7 +3,8 @@
 **BAB 1. PENDAHULUAN** 
 
 **1.1	Gambaran Proyek**
-		Pada umumnya sistem presensi kehadiran menggunakan pemanggilan dosen ke siswa satu per satu dengan menyebutkan nama dari siswa tersebut. Dalam penggunaan sistem tersebut, sangat memakan waktu dan tidak efesien, karena memakan banyak waktu dari jam mata kuliah. Selain itu, sistem presensi manual menggunakan banyak kertas sehingga terjadi pemborosan. Pembuatan kertas menggunakan bahan baku kulit pohon, jadi jika menggunakan banyak kertas tentunya menggunakan kulit pohon secara berlebihan, jika hal ini terjadi kemungkinan besar terjadinya kerusan alam.
+
+Pada umumnya sistem presensi kehadiran menggunakan pemanggilan dosen ke siswa satu per satu dengan menyebutkan nama dari siswa tersebut. Dalam penggunaan sistem tersebut, sangat memakan waktu dan tidak efesien, karena memakan banyak waktu dari jam mata kuliah. Selain itu, sistem presensi manual menggunakan banyak kertas sehingga terjadi pemborosan. Pembuatan kertas menggunakan bahan baku kulit pohon, jadi jika menggunakan banyak kertas tentunya menggunakan kulit pohon secara berlebihan, jika hal ini terjadi kemungkinan besar terjadinya kerusan alam.
 
 Untuk itu, kelompok 8 mempunyai gagasan yang dapat meminimialisir dari tidak efesiennya sistem presensi sekarang, yaitu dengan membuat aplikas Q-PRES (QR-Code Presensi). Aplikasi menggunakan sistem scan kode QR untuk setiap presensi pada jadwal mata kuliah di setiap Lab atau Kelas. 
 
@@ -62,8 +63,8 @@ Media pendukung unutk pembuatan aplikasi.
 **BAB 2 ORGANISASI PROYEK**
 
 **2.1 Model Proses**
-		Proses yang digunakan pada proyek ini menggunakan Kode QR (Quick Respon). Dimana user mahasiswa harus mendaftar terlebih dahulu menggunakan MAC Address dari perangkat HP dan menggunakan NIM dari mahasiswa tersebut. Kemudian, jika mahasiswa tersebut ingin masuk atau melakukan presensi, ia harus memasukkan NIM-nya. NIM tersebut akan mencocokkan atau mencari MAC Address yang sudah didaftarakan pada awal pendaftaran untuk bisa masuk ke akun mahasiswa tersebut.
-		Dosen akan didaftarkan pada Admin. Admin mempunyai kewenanangan yang lebih pada aplikasi ini.
+		
+Proses yang digunakan pada proyek ini menggunakan Kode QR (Quick Respon). Dimana user mahasiswa harus mendaftar terlebih dahulu menggunakan MAC Address dari perangkat HP dan menggunakan NIM dari mahasiswa tersebut. Kemudian, jika mahasiswa tersebut ingin masuk atau melakukan presensi, ia harus memasukkan NIM-nya. NIM tersebut akan mencocokkan atau mencari MAC Address yang sudah didaftarakan pada awal pendaftaran untuk bisa masuk ke akun mahasiswa tersebut. Dosen akan didaftarkan pada Admin. Admin mempunyai kewenanangan yang lebih pada aplikasi ini.
 		
 **2.2 truktur Organisasi**
 
@@ -75,21 +76,24 @@ Media pendukung unutk pembuatan aplikasi.
 	
 	
 **2.3 Batasan dan Antarmuka Organisasi**
-		Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa menggunakan akun atau device dari mahasiswa lainnya. Kalaupun terdapat beberapa mahasiswa yang tidak mempunyai HP, maka dosen akan melaukukan presensi manual. Melalui pemanggilan nama mahasiswa tersebut. 
-		Mahasiswa tidak boleh menitipkan HP-nya ke mahasiswa lain untuk melakukan presensi, karena setiap dosen akan melakukan validasi presensi.
+
+Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa menggunakan akun atau device dari mahasiswa lainnya. Kalaupun terdapat beberapa mahasiswa yang tidak mempunyai HP, maka dosen akan melaukukan presensi manual. Melalui pemanggilan nama mahasiswa tersebut. Mahasiswa tidak boleh menitipkan HP-nya ke mahasiswa lain untuk melakukan presensi, karena setiap dosen akan melakukan validasi presensi.
 
 **2.4 Lingkup Tanggung Jawab**
-		Setiap anggota mempunyai tanggung jawab terhadap tugasnya. Anggota mempunyai jobdesk-nya masing-masing sesuai dengan poin 2.2.
+
+Setiap anggota mempunyai tanggung jawab terhadap tugasnya. Anggota mempunyai jobdesk-nya masing-masing sesuai dengan poin 2.2.
 
 # Bagian Bayu :smirk_cat:
 
 **BAB 3 Proses Manajerial**
 	
 **3.1	Tujuan dan prioritas manajemen**
+
 Tujuan dari proyek ini adalah mengembangkan sistem Aplikasi Absensi dengan menggunakan kode QR Agar bisa dijalankan dan diimplementasikan dengan baik oleh mitra. Proyek ini sangat diprioritaskan karena bermanfaat untuk menambah kinerja admin dalam mengelola data absensi dan meminimalisir penggunaan kertas sehingga biaya yang dikeluarkan oleh mitra dapat dikurangi.
 
 **3.2	Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan**
-	Asumsi proyek ini adalah sebagai berikut :
+	
+Asumsi proyek ini adalah sebagai berikut :
 -  	Tim terdiri dari 3 orang
 -  	Ketersediaan peralatan dan perangkat lunak
 - 	Persetujuan dan Perizinan dari mitra
@@ -119,13 +123,16 @@ Batasan Masalah dalam proyek ini adalah sebagai berikut :
 **BAB 4 Prosess Teknis**
 
 **4.1	Metoda, tool dan teknik**
+
 Proyek ini akan diimplementasikan dengan memanfaatkan metodologi Water fall, dan alat seperti Android Studio, dan Sublime Text 3 sebagai alat pembuatan Aplikasi ini. Menggunakan Framework laravel sebagai penunjang Aplikasi bagian WEB nya serta menggunakan teknik Object Oriented dalam pengerjaan proyek ini. --> Bagian yang dirubah
 
 **4.2	Dokumentasi perangkat lunak**
-		Dokumentasi proyek seerti Proposal Poryek, Log Book, Surat Pengajuan, Kuisioner. --> Bagian yang dirubah
+		
+Dokumentasi proyek seerti Proposal Poryek, Log Book, Surat Pengajuan, Kuisioner. --> Bagian yang dirubah
 
 **4.3	Fungsi-fungsi pendukung proyek**
-		Semua dokumen pendukung proyek akan selesai dalam tahap yang sesuai --> Bagian yang di perbaiki
+		
+Semua dokumen pendukung proyek akan selesai dalam tahap yang sesuai --> Bagian yang di perbaiki
 
 
 
@@ -133,17 +140,20 @@ Proyek ini akan diimplementasikan dengan memanfaatkan metodologi Water fall, dan
 **BAB 5 Paket Pekerjaan, jadwal, dan anggaran**
 	
 **5.1 Paket Pekerjaan**
-		Paket pekerjaan yang akan di lakukan :
+		
+Paket pekerjaan yang akan di lakukan :
 1. Minggu ke 1-2        : Penentuan ide dan rumusan masalah yang dibutuhkan
 2. Minggu ke 3-4		: Pembuatan rancangan sistem aplikasi yang akan di buat
 3. Minggu ke 5-10		: Pembuatan sistem aplikasi
 4. Minggu ke 11-12		: Uji coba dan revisi bila di perlukan
 
 **5.2 Ketergantungan dan ketrtarikan**
-		semua sumber daya saling ketergantungan satu sama lain dalam hal pembuatan aplikasi.
+
+Semua sumber daya saling ketergantungan satu sama lain dalam hal pembuatan aplikasi.
 
 **5.3 Kebutuhan-kebutuhan sumber daya**
-		Sumber daya yang di perlukan untuk pembuatan aplikasi ini terdiri dari 3 orang dengan divisi yang sudah di tentukan di atas. dan adanya kebutuhan-kebutuhan yang diperlukan sebagai berikut :
+
+Sumber daya yang di perlukan untuk pembuatan aplikasi ini terdiri dari 3 orang dengan divisi yang sudah di tentukan di atas. dan adanya kebutuhan-kebutuhan yang diperlukan sebagai berikut :
 
 | No. | Kebutuhan             |
 |-----|-----------------------|
@@ -162,8 +172,9 @@ Proyek ini akan diimplementasikan dengan memanfaatkan metodologi Water fall, dan
 | 2   | Pangan              | Rp. 600.000        |
 
 **5.5 Jadwal**
-		Jadwal dalam pengerjaan aplikasi adalaha 12 minggu atau 3 bulan, adapun rincianya sebagai berikut :
-		1. Minggu ke 1-2        : Penentuan ide dan rumusan masalah yang dibutuhkan
-		2. Minggu ke 3-4		: Pembuatan rancangan sistem aplikasi yang akan di buat
-		3. Minggu ke 5-10		: Pembuatan sistem aplikasi
-		4. Minggu ke 11-12		: Uji coba dan revisi bila di perlukan
+
+Jadwal dalam pengerjaan aplikasi adalaha 12 minggu atau 3 bulan, adapun rincianya sebagai berikut :
+1. Minggu ke 1-2        : Penentuan ide dan rumusan masalah yang dibutuhkan
+2. Minggu ke 3-4		: Pembuatan rancangan sistem aplikasi yang akan di buat
+3. Minggu ke 5-10		: Pembuatan sistem aplikasi
+4. Minggu ke 11-12		: Uji coba dan revisi bila di perlukan
