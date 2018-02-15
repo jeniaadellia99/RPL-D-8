@@ -144,6 +144,7 @@ Proyek ini akan diimplementasikan dengan memanfaatkan metodologi Water fall, dan
 
 **5.3 Kebutuhan-kebutuhan sumber daya**
 		Sumber daya yang di perlukan untuk pembuatan aplikasi ini terdiri dari 3 orang dengan divisi yang sudah di tentukan di atas. dan adanya kebutuhan-kebutuhan yang diperlukan sebagai berikut :
+
 | No. | Kebutuhan             |
 |-----|-----------------------|
 | 1   | 3 Unit Laptop         |
@@ -153,6 +154,7 @@ Proyek ini akan diimplementasikan dengan memanfaatkan metodologi Water fall, dan
 
 **5.4 Alokasi Anggaran dan sumber daya**
 		Alokasi Anggaran dalam pembuatan aplkasi ini sebagai berikut :
+	
 | No. | Keperluan           | Angaran            |
 |-----|---------------------|--------------------|
 | 1   | Laptop              | Rp. 3.500.000      |
