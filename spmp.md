@@ -13,36 +13,39 @@ Dari sistemnya sendiri menggunakan 3 user, yaitu mahasiswa, dosen dan admin. Dar
 Pada sistem Admin, akan menerima data mahasiswa yang masuk secara otomatis. Admin mempunyai hak akses yang lebih, yaitu dapat input mahasiswa yang mendaftar, input dosen, input jadwal, presentase presensi mahasiswa per hari dan per semester.
 
 **1.2 Dokumen - dokumen dalam Proyek**
-	  - Proposal Proyek 
-	  - Logbook
-        Dokumentasi pengerjaan.
-	  - Modul penggunaan Android
-	  - Modul atau tutorial mengunakan laravel
-	  - Modul atau tutorial menggunakan firebase
-	  - Laporan
+	  
+- Proposal Proyek 
+- Logbook
+- Dokumentasi pengerjaan.
+- Modul penggunaan Android
+- Modul atau tutorial mengunakan laravel
+- Modul atau tutorial menggunakan firebase
+- Laporan
 
 **1.3 Evolusi SPMP**
-	1.	Referensi
-	- https://laravel.com/
-	- https://firebase.google.com/?hl=id
-	- https://getbootstrap.com/
-	- Software Project Management Plan
-	2.  Definisi, Akronim, dan Singkatan
-	 - QR-Code
-	- Q-PRES
-	- HP
 
-	3. Jadwal Pengerjaan
-		1. Penentuan Judul (Tema)
-		2. Analisis Kebutuhan
-		 - Flowchart
-		 - Use Case
-		 - Mockup
-		 - DFD
-		3. Perancangan Perangkat Lunak
-		 - Mengenai perangkat/aplikasi yang dibutuhkan untuk membantu pengerjaan.
-		4. Construction 
-		5. Testing
+1.	Referensi
+- https://laravel.com/
+- https://firebase.google.com/?hl=id
+- https://getbootstrap.com/
+- Software Project Management Plan
+2.  Definisi, Akronim, dan Singkatan
+- QR-Code
+- Q-PRES
+- HP
+
+3. Jadwal Pengerjaan
+	
+	1. Penentuan Judul (Tema)
+	2. Analisis Kebutuhan
+		- Flowchart
+		- Use Case
+		- Mockup
+		- DFD
+	3. Perancangan Perangkat Lunak
+		- Mengenai perangkat/aplikasi yang dibutuhkan untuk membantu pengerjaan.
+	4. Construction 
+	5. Testing
 
 **1.4 Material Acuan**
 	- https://developer.android.com/studio/index.html?hl=id
