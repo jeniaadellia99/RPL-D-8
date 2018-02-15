@@ -66,7 +66,7 @@ Media pendukung unutk pembuatan aplikasi.
 		
 Proses yang digunakan pada proyek ini menggunakan Kode QR (Quick Respon). Dimana user mahasiswa harus mendaftar terlebih dahulu menggunakan MAC Address dari perangkat HP dan menggunakan NIM dari mahasiswa tersebut. Kemudian, jika mahasiswa tersebut ingin masuk atau melakukan presensi, ia harus memasukkan NIM-nya. NIM tersebut akan mencocokkan atau mencari MAC Address yang sudah didaftarakan pada awal pendaftaran untuk bisa masuk ke akun mahasiswa tersebut. Dosen akan didaftarkan pada Admin. Admin mempunyai kewenanangan yang lebih pada aplikasi ini.
 		
-**2.2 truktur Organisasi**
+**2.2 Struktur Organisasi**
 
 | No. | Jabatan           | Nama               | Nim     |
 |-----|-------------------|--------------------|---------|
@@ -125,7 +125,7 @@ Resiko yang ada pada proyek ini adalah :
 
 **4.1	Metoda, tool dan teknik**
 
-Proyek ini akan diimplementasikan dengan memanfaatkan metodologi Water fall, dan alat seperti Android Studio, dan Sublime Text 3 sebagai alat pembuatan Aplikasi ini. Menggunakan Framework laravel sebagai penunjang Aplikasi bagian WEB nya serta menggunakan teknik Object Oriented dalam pengerjaan proyek ini. --> Bagian yang dirubah
+Proyek ini akan diimplementasikan dengan memanfaatkan metodologi V Model, dan alat seperti Android Studio, Sublime Text 3  dan Firebase sebagai alat pembuatan Aplikasi ini. Juga Menggunakan Framework laravel dan bootstrap sebagai penunjang Aplikasi bagian WEB nya serta menggunakan teknik Object Oriented dalam pengerjaan proyek ini. --> Bagian yang dirubah
 
 **4.2	Dokumentasi perangkat lunak**
 		
