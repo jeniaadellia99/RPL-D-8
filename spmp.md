@@ -13,58 +13,55 @@ Dari sistemnya sendiri menggunakan 3 user, yaitu mahasiswa, dosen dan admin. Dar
 Pada sistem Admin, akan menerima data mahasiswa yang masuk secara otomatis. Admin mempunyai hak akses yang lebih, yaitu dapat input mahasiswa yang mendaftar, input dosen, input jadwal, presentase presensi mahasiswa per hari dan per semester.
 
 **1.2 Dokumen - dokumen dalam Proyek**
-- Proposal Mitra 
-	Untuk kerja sama dengan mitra sebagai client. 
-- Logbook
-Dokumentasi hasil pengerjaan.
-- Android Studio
-Media pendukung unutk pembuatan aplikasi.
-- Sublime
-	Media pendukung unutk pembuatan aplikasi.
-- Laravel
-	Framework yang digunakan untuk mendukung pembuatan aplikasi.
+	  - Proposal Proyek 
+	  - Logbook
+        Dokumentasi pengerjaan.
+	  - Modul penggunaan Android
+	  - Modul atau tutorial mengunakan laravel
+	  - Modul atau tutorial menggunakan firebase
+	  - Laporan
 
 **1.3 Evolusi SPMP**
-1.	Referensi
+	1.	Referensi
 	- https://laravel.com/
 	- https://firebase.google.com/?hl=id
-	-	https://getbootstrap.com/
+	- https://getbootstrap.com/
 	- Software Project Management Plan
-2.  Definisi, Akronim, dan Singkatan
+	2.  Definisi, Akronim, dan Singkatan
 	 - QR-Code
 	- Q-PRES
 	- HP
 
-3. Jadwal Pengerjaan
-	1. Penentuan Judul (Tema)
-	2. Analisis Kebutuhan
-		- Flowchart
+	3. Jadwal Pengerjaan
+		1. Penentuan Judul (Tema)
+		2. Analisis Kebutuhan
+		 - Flowchart
 		 - Use Case
 		 - Mockup
 		 - DFD
-	3. Perancangan Perangkat Lunak
+		3. Perancangan Perangkat Lunak
 		 - Mengenai perangkat/aplikasi yang dibutuhkan untuk membantu pengerjaan.
-	4. Construction 
-	5. Testing
+		4. Construction 
+		5. Testing
 
 **1.4 Material Acuan**
--	https://developer.android.com/studio/index.html?hl=id
-- https://developer.android.com/index.html
-- https://laravel.com/
-- https://firebase.google.com/?hl=id
-- https://getbootstrap.com/
-	
+	- https://developer.android.com/studio/index.html?hl=id
+	- https://developer.android.com/index.html
+	- https://laravel.com/
+	- https://firebase.google.com/?hl=id
+	- https://getbootstrap.com/
+		
 **1.5 Definisi dan Akronim (Singkatan)**
-- QR-Code	: Quick Response Code
-- Q-PRES	: QR Presensi
-- HP 		: Handphone
-- presensi  : Kehadiran
+	- QR-Code	: Quick Response Code
+	- Q-PRES	: QR Presensi
+	- HP 		: Handphone
+	- Presensi  : Kehadiran
 
 **BAB 2 ORGANISASI PROYEK**
 
 **2.1 Model Proses**
-		
-Proses yang digunakan pada proyek ini menggunakan Kode QR (Quick Respon). Dimana user mahasiswa harus mendaftar terlebih dahulu menggunakan MAC Address dari perangkat HP dan menggunakan NIM dari mahasiswa tersebut. Kemudian, jika mahasiswa tersebut ingin masuk atau melakukan presensi, ia harus memasukkan NIM-nya. NIM tersebut akan mencocokkan atau mencari MAC Address yang sudah didaftarakan pada awal pendaftaran untuk bisa masuk ke akun mahasiswa tersebut. Dosen akan didaftarkan pada Admin. Admin mempunyai kewenanangan yang lebih pada aplikasi ini.
+	  
+Proses yang digunakan pada proyek ini menggunakan Kode QR (Quick Respon). Dimana user mahasiswa harus mendaftar terlebih dahulu menggunakan MAC Address dari perangkat HP dan menggunakan NIM dari mahasiswa tersebut. Kemudian, jika mahasiswa tersebut ingin masuk atau melakukan presensi, ia harus memasukkan NIM-nya. NIM tersebut akan mencocokkan atau mencari MAC Address yang sudah didaftarakan pada awal pendaftaran untuk bisa masuk ke akun mahasiswa tersebut. Dosen akan didaftarkan pada Admin. Admin mempunyai kewenanangan yang lebih pada aplikasi ini. 
 		
 **2.2 Struktur Organisasi**
 
@@ -76,11 +73,11 @@ Proses yang digunakan pada proyek ini menggunakan Kode QR (Quick Respon). Dimana
 	
 	
 **2.3 Batasan dan Antarmuka Organisasi**
-
+	  
 Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa menggunakan akun atau device dari mahasiswa lainnya. Kalaupun terdapat beberapa mahasiswa yang tidak mempunyai HP, maka dosen akan melaukukan presensi manual. Melalui pemanggilan nama mahasiswa tersebut. Mahasiswa tidak boleh menitipkan HP-nya ke mahasiswa lain untuk melakukan presensi, karena setiap dosen akan melakukan validasi presensi.
 
 **2.4 Lingkup Tanggung Jawab**
-
+	  
 Setiap anggota mempunyai tanggung jawab terhadap tugasnya. Anggota mempunyai jobdesk-nya masing-masing sesuai dengan poin 2.2.
 
 # Bagian Bayu :smirk_cat:
