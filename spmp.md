@@ -117,13 +117,13 @@
 	4.1	Metoda, tool dan teknik
 		Proyek ini akan diimplementasikan dengan memanfaatkan metodologi Water fall, dan alat seperti
 		Android Studio, dan Sublime Text 3 sebagai alat pembuatan Aplikasi ini. Menggunakan Framework laravel sebagai
-		penunjang Aplikasi bagian WEB nya serta menggunakan teknik Object Oriented dalam pengerjaan proyek ini.
+		penunjang Aplikasi bagian WEB nya serta menggunakan teknik Object Oriented dalam pengerjaan proyek ini. --> Bagian yang dirubah
 		
 	4.2	Dokumentasi perangkat lunak
-		Dokumentasi proyek seerti Proposal Poryek, Log Book, Surat Pengajuan, Kuisioner.
+		Dokumentasi proyek seerti Proposal Poryek, Log Book, Surat Pengajuan, Kuisioner. --> Bagian yang dirubah
 
 	4.3	Fungsi-fungsi pendukung proyek
-		Semua dokumen pendukung proyek akan selesai dalam tahap yang sesuai
+		Semua dokumen pendukung proyek akan selesai dalam tahap yang sesuai --> Bagian yang di perbaiki
 
 
 
