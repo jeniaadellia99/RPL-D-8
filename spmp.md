@@ -129,7 +129,7 @@ Proyek ini akan diimplementasikan dengan memanfaatkan metodologi V Model, dan al
 
 **4.2	Dokumentasi perangkat lunak**
 		
-Dokumentasi proyek seerti Proposal Poryek, Log Book, Surat Pengajuan, Kuisioner. --> Bagian yang dirubah
+SQAP
 
 **4.3	Fungsi-fungsi pendukung proyek**
 		
