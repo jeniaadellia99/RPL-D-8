@@ -133,7 +133,12 @@ Dokumentasi proyek seerti Proposal Poryek, Log Book, Surat Pengajuan, Kuisioner.
 
 **4.3	Fungsi-fungsi pendukung proyek**
 		
-Semua dokumen pendukung proyek akan selesai dalam tahap yang sesuai --> Bagian yang di perbaiki
+Tim Pendukung proyek ini terdiri dari :
+
+1. Teknisi Jaringan
+2. Teknisi Hardware
+3. Spesialis Web
+4. Spesialis Android
 
 
 
