@@ -164,4 +164,4 @@ Proyek ini akan diimplementasikan dengan memanfaatkan metodologi Water fall, dan
 		1. Minggu ke 1-2        : Penentuan ide dan rumusan masalah yang dibutuhkan
 		2. Minggu ke 3-4		: Pembuatan rancangan sistem aplikasi yang akan di buat
 		3. Minggu ke 5-10		: Pembuatan sistem aplikasi
-		4. Minggu ke 11-12		: Uji coba dan revisi bila di perlukan
+		4. Minggu ke 11-12		: Uji coba dan revisi bila di perlukan# Bagian Koriah #
