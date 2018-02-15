@@ -63,17 +63,19 @@ Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa men
 	5. Testing
 
 **1.4 Material Acuan**
-	- https://developer.android.com/studio/index.html?hl=id
-	- https://developer.android.com/index.html
-	- https://laravel.com/
-	- https://firebase.google.com/?hl=id
-	- https://getbootstrap.com/
+
+- https://developer.android.com/studio/index.html?hl=id
+- https://developer.android.com/index.html
+- https://laravel.com/
+- https://firebase.google.com/?hl=id
+- https://getbootstrap.com/
 		
 **1.5 Definisi dan Akronim (Singkatan)**
-	- QR-Code	: Quick Response Code
-	- Q-PRES	: QR Presensi
-	- HP 		: Handphone
-	- Presensi  : Kehadiran
+	
+- QR-Code	: Quick Response Code
+- Q-PRES	: QR Presensi
+- HP 		: Handphone
+- Presensi  : Kehadiran
 
 **BAB 2 ORGANISASI PROYEK**
 
