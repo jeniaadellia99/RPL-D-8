@@ -1,6 +1,5 @@
 
-# GUNAKAN stackedit.io SUPAYA TAMPILANYA GA NGACO! JANGAN DICOPAS SEMUA! CUKUP BAGIAN BAGIAN YANG LU KERJAIN AJA
-
+# GUNAKAN stackedit.io Baru pas submit pake Sublmie atau yg lainya
 
 # Bagian Koriah :broken_heart: 
 **BAB 1. PENDAHULUAN** 
