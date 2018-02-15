@@ -43,7 +43,7 @@ Media pendukung unutk pembuatan aplikasi.
 1.	Referensi
 	- https://laravel.com/
 	- https://firebase.google.com/?hl=id
-	-	https://getbootstrap.com/
+	- https://getbootstrap.com/
 	- Software Project Management Plan
 2.  Definisi, Akronim, dan Singkatan
 	 - QR-Code
@@ -129,11 +129,11 @@ Tujuan dari proyek ini adalah mengembangkan sistem Aplikasi Absensi dengan mengg
 **3.2	Asumsi-asumsi, ketergantungan/keterkaitan dan batasan-batasan**
 	
 Asumsi proyek ini adalah sebagai berikut :
--  	Tim terdiri dari 3 orang
--  	Ketersediaan peralatan dan perangkat lunak
-- 	Persetujuan dan Perizinan dari mitra
+- Tim terdiri dari 3 orang
+- Ketersediaan peralatan dan perangkat lunak
+- Persetujuan dan Perizinan dari mitra
 	
-	Proyek ini berketergantungan pada :
+Proyek ini berketergantungan pada :
 1. Biaya
 2. Ketersediaan software dan hardware
 3. Keahlian anggota dalam penggunaan software dan bahasa pemrogramman
@@ -143,12 +143,13 @@ Batasan Masalah dalam proyek ini adalah sebagai berikut :
 1. Tidak adanya vailidasi ketika HandPhone mahasiswa dititipkan ke temanya sehingga dapat menitipkan absen
 2. Software yang digunakan adalah Android Studio, Sublmie Text 3 dan Firebase
 3.	Manajemen risiko
-			Resiko yang ada pada proyek ini adalah :
-			1. Risiko Finansial
-			2. Risiko Waktu
-			3. Risiko Teknologi
-			4. Risiko Sumberdaya Manusia
-			5. Risiko Alat dan Bahan
+
+Resiko yang ada pada proyek ini adalah :
+1. Risiko Finansial
+2. Risiko Waktu
+3. Risiko Teknologi
+4. Risiko Sumberdaya Manusia
+5. Risiko Alat dan Bahan
 			
 3.4	Makanismme monitoring dan kontroling
 - Rapat dan Pengerjaan mingguan
@@ -159,15 +160,19 @@ Batasan Masalah dalam proyek ini adalah sebagai berikut :
 
 **4.1	Metoda, tool dan teknik**
 
-Proyek ini akan diimplementasikan dengan memanfaatkan metodologi Water fall, dan alat seperti Android Studio, dan Sublime Text 3 sebagai alat pembuatan Aplikasi ini. Menggunakan Framework laravel sebagai penunjang Aplikasi bagian WEB nya serta menggunakan teknik Object Oriented dalam pengerjaan proyek ini. --> Bagian yang dirubah
+Proyek ini akan diimplementasikan dengan memanfaatkan metodologi V Model, dan alat seperti Android Studio, Sublime Text 3 dan Firebase sebagai alat pembuatan Aplikasi ini. Menggunakan Framework laravel dan Bootstrap sebagai penunjang Aplikasi bagian WEB nya serta menggunakan teknik Object Oriented dalam pengerjaan proyek ini.
 
 **4.2	Dokumentasi perangkat lunak**
 		
-Dokumentasi proyek seerti Proposal Poryek, Log Book, Surat Pengajuan, Kuisioner. --> Bagian yang dirubah
+SQAP
 
 **4.3	Fungsi-fungsi pendukung proyek**
 		
-Semua dokumen pendukung proyek akan selesai dalam tahap yang sesuai --> Bagian yang di perbaiki
+Fungsi Pendukung dalam protek ini adalah :
+- Teknisi Jaringan
+- Teknisi Hardware
+- Spesialis WEB
+- Spesialis Androud
 
 
 
