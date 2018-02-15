@@ -93,8 +93,17 @@ Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa men
 	
 	
 **2.3 Batasan dan Antarmuka Organisasi**
-	  |No. | Nama 			| Jabatan 
+	  |No. | Nama 				| Nim 		| Penanggung Jawab 	  |
+	  |-----------------------------------------------------------|
+	  |1.  | Koriah			    | 1603103	| Konsep Sistem       |
+	  |	   |					|			| Use Case		      |
+	  |    | 					|			| Design 			  |
+	  |-----------------------------------------------------------|
+	  |	   | Bayu Rasukma	    | 1603093	| Lead Android Develop|
+	  |-----------------------------------------------------------|
+	  |	   | Syamsul Fahri H    | 1603115	| Lead Web Develop    |
 
+	  --> Silahkan tambah lagi bagian-bagiannya :)
 
 **2.4 Lingkup Tanggung Jawab**
 	  
