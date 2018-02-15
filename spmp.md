@@ -80,8 +80,8 @@ Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa men
 **BAB 2 ORGANISASI PROYEK**
 
 **2.1 Model Proses**
-	  Model Proses yang digunakan pada aplikasi menggunakan V-Model. Dikarenakan v-model sangat fleksibel, yang mendukung pengurangan maupun penambahan project dalam prosesnya. 
-	  Meminimalisasikan kesalahan pada hasil akhir karena  ada test pada setiap prosesnya.
+	  
+Model Proses yang digunakan pada aplikasi menggunakan V-Model. Dikarenakan v-model sangat fleksibel, yang mendukung pengurangan maupun penambahan project dalam prosesnya. Meminimalisasikan kesalahan pada hasil akhir karena  ada test pada setiap prosesnya.
 		
 **2.2 Struktur Organisasi**
 
@@ -93,7 +93,9 @@ Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa men
 	
 	
 **2.3 Batasan dan Antarmuka Organisasi**
-	  |No. | Nama 			| Jabatan 
+
+|No. | Nama 	| Jabatan |
+|----|----------|---------|
 
 
 **2.4 Lingkup Tanggung Jawab**
