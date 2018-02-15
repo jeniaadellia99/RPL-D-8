@@ -106,17 +106,6 @@ Proses yang digunakan pada proyek ini menggunakan Kode QR (Quick Respon). Dimana
 	
 **2.3 Batasan dan Antarmuka Organisasi**
 
-
-|No. | Nama 			| Nim 		| Penanggung Jawab 	  |
-|----|------------------|-----------|---------------------|
-| 1  | Koriah			| 1603103	| Konsep Sistem       |
-|	 |					|			| Use Case		      |
-|    | 					|			| Design 			  |
-| 2	 | Bayu Rasukma	    | 1603093	| Lead Android Develop|
-|	 | Syamsul Fahri H  | 1603115	| Lead Web Develop    |
-
-
-
 Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa menggunakan akun atau device dari mahasiswa lainnya. Kalaupun terdapat beberapa mahasiswa yang tidak mempunyai HP, maka dosen akan melaukukan presensi manual. Melalui pemanggilan nama mahasiswa tersebut. Mahasiswa tidak boleh menitipkan HP-nya ke mahasiswa lain untuk melakukan presensi, karena setiap dosen akan melakukan validasi presensi.
 
 
