@@ -92,7 +92,7 @@ Asumsi proyek ini adalah sebagai berikut :
 -  	Ketersediaan peralatan dan perangkat lunak
 - 	Persetujuan dan Perizinan dari mitra
 	
-	Proyek ini berketergantungan pada :
+Proyek ini berketergantungan pada :
 1. Biaya
 2. Ketersediaan software dan hardware
 3. Keahlian anggota dalam penggunaan software dan bahasa pemrogramman
@@ -102,12 +102,13 @@ Batasan Masalah dalam proyek ini adalah sebagai berikut :
 1. Tidak adanya vailidasi ketika HandPhone mahasiswa dititipkan ke temanya sehingga dapat menitipkan absen
 2. Software yang digunakan adalah Android Studio, Sublmie Text 3 dan Firebase
 3.	Manajemen risiko
-			Resiko yang ada pada proyek ini adalah :
-			1. Risiko Finansial
-			2. Risiko Waktu
-			3. Risiko Teknologi
-			4. Risiko Sumberdaya Manusia
-			5. Risiko Alat dan Bahan
+
+Resiko yang ada pada proyek ini adalah :
+1. Risiko Finansial
+2. Risiko Waktu
+3. Risiko Teknologi
+4. Risiko Sumberdaya Manusia
+5. Risiko Alat dan Bahan
 			
 3.4	Makanismme monitoring dan kontroling
 - Rapat dan Pengerjaan mingguan
