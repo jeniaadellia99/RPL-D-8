@@ -98,7 +98,7 @@ Asumsi proyek ini adalah sebagai berikut :
 -  	Ketersediaan peralatan dan perangkat lunak
 - 	Persetujuan dan Perizinan dari mitra
 	
-	Proyek ini berketergantungan pada :
+Proyek ini berketergantungan pada :
 1. Biaya
 2. Ketersediaan software dan hardware
 3. Keahlian anggota dalam penggunaan software dan bahasa pemrogramman
