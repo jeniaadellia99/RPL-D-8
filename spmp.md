@@ -8,57 +8,59 @@ Pada umumnya sistem presensi kehadiran menggunakan pemanggilan dosen ke siswa sa
 
 Untuk itu, kelompok 8 mempunyai gagasan yang dapat meminimialisir dari tidak efesiennya sistem presensi sekarang, yaitu dengan membuat aplikas Q-PRES (QR-Code Presensi). Aplikasi menggunakan sistem scan kode QR untuk setiap presensi pada jadwal mata kuliah di setiap Lab atau Kelas. Dari sistemnya sendiri menggunakan 3 user, yaitu mahasiswa, dosen dan admin. 
 Dari sistem mahasiswa menggunakan MAC address device (HP) dan Nim untuk pendaftaran. Hak akses dari mahasiswa menggunakan NIM, yang kemudian NIM tersebut akan mencari MAC device pada saat pertama pendaftaran untuk mencocokkannya. Jika NIM dan MAC addressnya sudah sinkron maka mahasiswa tersebut dapat login. Kemudian mahasiswa dapat melakukan Scan QR-Code presensi yang menyatakan bahwa dia hadir. Mahasiswa tidak akan bisa melakukan scan Kode QR jikalau dosen belum mengaktivasi atau membuka sistemnya. Pada sistem siswa, terdapat beberapa fungsi utama yaitu : 
-	- Siswa dapat melihat jadwal perkuliahan.
-	- Sebelum siswa melakukan presensi, dia akan mendapatkan notifikasi untuk memulai scan, jika berhasil melakukan scan siswa akan mendapat notifikasi scan telah berhasil
-	- Siswa dapat melihat jumlah kompen yang dia dapatkan karena keterlambatan maupun ketidakhadiran. 
-	Sedangkan pada sistem Dosen memiliki hak akses untuk membuka presensi. Setelah para mahasiswa telah melakukan presensi, maka dosen akan mendapat data siswa yang masuk pada mata kuliah hari itu. Jika hasilnya tidak sesuai maka untuk validasinya Dosen akan pengecekan ulang untuk memastikan. Pada sistem Dosen memiliki fungsi yaitu :
-	- Dosen bisa melihat jadwal.
-	- Dosen memilih jadwal yang akan dilaksanakan.
-	- Mempunyai hak akses untuk membuka presensi untuk mahasiswa.
-	- Melihat data kehadiran siswa. 
-	- Validasi siswa
-	Pada sistem Admin yaitu :
-	- Menerima data mahasiswa yang hadir secara otomatis. 
-	- Menginput data mahasiswa.
-	- Menginput dosen.
-	- Menginput jadwal Kuliah.
-	- Presentase presensi mahasiswa per hari dan per semester.
+- Siswa dapat melihat jadwal perkuliahan.
+- Sebelum siswa melakukan presensi, dia akan mendapatkan notifikasi untuk memulai scan, jika berhasil melakukan scan siswa akan mendapat notifikasi scan telah berhasil
+- Siswa dapat melihat jumlah kompen yang dia dapatkan karena keterlambatan maupun ketidakhadiran. 
+Sedangkan pada sistem Dosen memiliki hak akses untuk membuka presensi. Setelah para mahasiswa telah melakukan presensi, maka dosen akan mendapat data siswa yang masuk pada mata kuliah hari itu. Jika hasilnya tidak sesuai maka untuk validasinya Dosen akan pengecekan ulang untuk memastikan. Pada sistem Dosen memiliki fungsi yaitu :
+- Dosen bisa melihat jadwal.
+- Dosen memilih jadwal yang akan dilaksanakan.
+- Mempunyai hak akses untuk membuka presensi untuk mahasiswa.
+- Melihat data kehadiran siswa. 
+- Validasi siswa
+Pada sistem Admin yaitu :
+- Menerima data mahasiswa yang hadir secara otomatis. 
+- Menginput data mahasiswa.
+- Menginput dosen.
+- Menginput jadwal Kuliah.
+- Presentase presensi mahasiswa per hari dan per semester.
 
-	Batasan pada Sistem Aplikasi :
-	Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa menggunakan akun atau device dari mahasiswa lainnya. Kalaupun terdapat beberapa mahasiswa yang tidak mempunyai HP, maka dosen akan melaukukan presensi manual. Melalui pemanggilan nama mahasiswa tersebut. Mahasiswa tidak boleh menitipkan HP-nya ke mahasiswa lain untuk melakukan presensi, karena setiap dosen akan melakukan validasi presensi.
+Batasan pada Sistem Aplikasi :
+Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa menggunakan akun atau device dari mahasiswa lainnya. Kalaupun terdapat beberapa mahasiswa yang tidak mempunyai HP, maka dosen akan melaukukan presensi manual. Melalui pemanggilan nama mahasiswa tersebut. Mahasiswa tidak boleh menitipkan HP-nya ke mahasiswa lain untuk melakukan presensi, karena setiap dosen akan melakukan validasi presensi.
 
-    <bagian ini sudah fiks : kalo mau rubah, rubah tampilannya jangan isinya :)>
 **1.2 Dokumen - dokumen dalam Proyek**
-	  - Proposal Proyek 
-	  - Logbook
-        Dokumentasi pengerjaan.
-	  - Modul penggunaan Android
-	  - Modul atau tutorial mengunakan laravel
-	  - Modul atau tutorial menggunakan firebase
-	  - Laporan
+	  
+- Proposal Proyek 
+- Logbook
+- Dokumentasi pengerjaan.
+- Modul penggunaan Android
+- Modul atau tutorial mengunakan laravel
+- Modul atau tutorial menggunakan firebase
+- Laporan
 
 **1.3 Evolusi SPMP**
-	1.	Referensi
-	- https://laravel.com/
-	- https://firebase.google.com/?hl=id
-	- https://getbootstrap.com/
-	- Software Project Management Plan
-	2.  Definisi, Akronim, dan Singkatan
-	 - QR-Code
-	- Q-PRES
-	- HP
 
-	3. Jadwal Pengerjaan
-		1. Penentuan Judul (Tema)
-		2. Analisis Kebutuhan
-		 - Flowchart
-		 - Use Case
-		 - Mockup
-		 - DFD
-		3. Perancangan Perangkat Lunak
-		 - Mengenai perangkat/aplikasi yang dibutuhkan untuk membantu pengerjaan.
-		4. Construction 
-		5. Testing
+1.	Referensi
+- https://laravel.com/
+- https://firebase.google.com/?hl=id
+- https://getbootstrap.com/
+- Software Project Management Plan
+2.  Definisi, Akronim, dan Singkatan
+- QR-Code
+- Q-PRES
+- HP
+
+3. Jadwal Pengerjaan
+	
+	1. Penentuan Judul (Tema)
+	2. Analisis Kebutuhan
+		- Flowchart
+		- Use Case
+		- Mockup
+		- DFD
+	3. Perancangan Perangkat Lunak
+		- Mengenai perangkat/aplikasi yang dibutuhkan untuk membantu pengerjaan.
+	4. Construction 
+	5. Testing
 
 **1.4 Material Acuan**
 	- https://developer.android.com/studio/index.html?hl=id
@@ -77,7 +79,7 @@ Dari sistem mahasiswa menggunakan MAC address device (HP) dan Nim untuk pendafta
 
 **2.1 Model Proses**
 	  Model Proses yang digunakan pada aplikasi menggunakan V-Model. Dikarenakan v-model sangat fleksibel, yang mendukung pengurangan maupun penambahan project dalam prosesnya. 
-	  Meminimalisasikan kesalahan pada hasil akhir karena  ada test pada setiap prosesnya. 
+	  Meminimalisasikan kesalahan pada hasil akhir karena  ada test pada setiap prosesnya.
 		
 **2.2 Struktur Organisasi**
 
@@ -89,10 +91,12 @@ Dari sistem mahasiswa menggunakan MAC address device (HP) dan Nim untuk pendafta
 	
 	
 **2.3 Batasan dan Antarmuka Organisasi**
-	  
+	  |No. | Nama 			| Jabatan 
+
 
 **2.4 Lingkup Tanggung Jawab**
-	  Setiap anggota mempunyai tanggung jawab terhadap tugasnya. Anggota mempunyai jobdesk-nya masing-masing sesuai dengan poin 2.2.
+	  
+Setiap anggota mempunyai tanggung jawab terhadap tugasnya. Anggota mempunyai jobdesk-nya masing-masing sesuai dengan poin 2.2.
 
 # Bagian Bayu :smirk_cat:
 
@@ -140,11 +144,16 @@ Proyek ini akan diimplementasikan dengan memanfaatkan metodologi V Model, dan al
 
 **4.2	Dokumentasi perangkat lunak**
 		
-Dokumentasi proyek seerti Proposal Poryek, Log Book, Surat Pengajuan, Kuisioner. --> Bagian yang dirubah
+SQAP
 
 **4.3	Fungsi-fungsi pendukung proyek**
 		
-Semua dokumen pendukung proyek akan selesai dalam tahap yang sesuai --> Bagian yang di perbaiki
+Tim Pendukung proyek ini terdiri dari :
+
+1. Teknisi Jaringan
+2. Teknisi Hardware
+3. Spesialis Web
+4. Spesialis Android
 
 
 
