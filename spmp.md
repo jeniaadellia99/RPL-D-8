@@ -28,47 +28,55 @@ Batasan pada Sistem Aplikasi :
 Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa menggunakan akun atau device dari mahasiswa lainnya. Kalaupun terdapat beberapa mahasiswa yang tidak mempunyai HP, maka dosen akan melaukukan presensi manual. Melalui pemanggilan nama mahasiswa tersebut. Mahasiswa tidak boleh menitipkan HP-nya ke mahasiswa lain untuk melakukan presensi, karena setiap dosen akan melakukan validasi presensi.
 
 **1.2 Dokumen - dokumen dalam Proyek**
-	  
-- Proposal Proyek 
+- Proposal Mitra 
+	Untuk kerja sama dengan mitra sebagai client. 
 - Logbook
-- Dokumentasi pengerjaan.
-- Modul penggunaan Android
-- Modul atau tutorial mengunakan laravel
-- Modul atau tutorial menggunakan firebase
-- Laporan
+Dokumentasi hasil pengerjaan.
+- Android Studio
+Media pendukung unutk pembuatan aplikasi.
+- Sublime
+	Media pendukung unutk pembuatan aplikasi.
+- Laravel
+	Framework yang digunakan untuk mendukung pembuatan aplikasi.
 
 **1.3 Evolusi SPMP**
-
 1.	Referensi
-- https://laravel.com/
-- https://firebase.google.com/?hl=id
-- https://getbootstrap.com/
-- Software Project Management Plan
+	- https://laravel.com/
+	- https://firebase.google.com/?hl=id
+	-	https://getbootstrap.com/
+	- Software Project Management Plan
 2.  Definisi, Akronim, dan Singkatan
-- QR-Code
-- Q-PRES
-- HP
+	 - QR-Code
+	- Q-PRES
+	- HP
 
 3. Jadwal Pengerjaan
-	
 	1. Penentuan Judul (Tema)
 	2. Analisis Kebutuhan
 		- Flowchart
-		- Use Case
-		- Mockup
-		- DFD
+		 - Use Case
+		 - Mockup
+		 - DFD
 	3. Perancangan Perangkat Lunak
-		- Mengenai perangkat/aplikasi yang dibutuhkan untuk membantu pengerjaan.
+		 - Mengenai perangkat/aplikasi yang dibutuhkan untuk membantu pengerjaan.
 	4. Construction 
 	5. Testing
 
 **1.4 Material Acuan**
 
 - https://developer.android.com/studio/index.html?hl=id
+- https://developer.android.com/studio/index.html?hl=id
 - https://developer.android.com/index.html
 - https://laravel.com/
 - https://firebase.google.com/?hl=id
 - https://getbootstrap.com/
+	
+**1.5 Definisi dan Akronim (Singkatan)**
+
+- QR-Code	: Quick Response Code
+- Q-PRES	: QR Presensi
+- HP 		: Handphone
+- presensi  : Kehadiran
 		
 **1.5 Definisi dan Akronim (Singkatan)**
 	
@@ -80,10 +88,12 @@ Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa men
 **BAB 2 ORGANISASI PROYEK**
 
 **2.1 Model Proses**
-	  Model Proses yang digunakan pada aplikasi menggunakan V-Model. Dikarenakan v-model sangat fleksibel, yang mendukung pengurangan maupun penambahan project dalam prosesnya. 
-	  Meminimalisasikan kesalahan pada hasil akhir karena  ada test pada setiap prosesnya.
+	  
+Model Proses yang digunakan pada aplikasi menggunakan V-Model. Dikarenakan v-model sangat fleksibel, yang mendukung pengurangan maupun penambahan project dalam prosesnya. Meminimalisasikan kesalahan pada hasil akhir karena  ada test pada setiap prosesnya. Model Proses yang digunakan pada aplikasi menggunakan V-Model. Dikarenakan v-model sangat fleksibel, yang mendukung pengurangan maupun penambahan project dalam prosesnya. Meminimalisasikan kesalahan pada hasil akhir karena  ada test pada setiap prosesnya.
+
+Proses yang digunakan pada proyek ini menggunakan Kode QR (Quick Respon). Dimana user mahasiswa harus mendaftar terlebih dahulu menggunakan MAC Address dari perangkat HP dan menggunakan NIM dari mahasiswa tersebut. Kemudian, jika mahasiswa tersebut ingin masuk atau melakukan presensi, ia harus memasukkan NIM-nya. NIM tersebut akan mencocokkan atau mencari MAC Address yang sudah didaftarakan pada awal pendaftaran untuk bisa masuk ke akun mahasiswa tersebut. Dosen akan didaftarkan pada Admin. Admin mempunyai kewenanangan yang lebih pada aplikasi ini.
 		
-**2.2 Struktur Organisasi**
+**2.2 truktur Organisasi**
 
 | No. | Jabatan           | Nama               | Nim     |
 |-----|-------------------|--------------------|---------|
@@ -93,6 +103,7 @@ Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa men
 	
 	
 **2.3 Batasan dan Antarmuka Organisasi**
+<<<<<<< HEAD
 	  |No. | Nama 				| Nim 		| Penanggung Jawab 	  |
 	  |-----------------------------------------------------------|
 	  |1.  | Koriah			    | 1603103	| Konsep Sistem       |
@@ -104,9 +115,21 @@ Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa men
 	  |	   | Syamsul Fahri H    | 1603115	| Lead Web Develop    |
 
 	  --> Silahkan tambah lagi bagian-bagiannya :)
+=======
+
+|No. | Nama 	| Jabatan |
+|----|----------|---------|
+
+
+Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa menggunakan akun atau device dari mahasiswa lainnya. Kalaupun terdapat beberapa mahasiswa yang tidak mempunyai HP, maka dosen akan melaukukan presensi manual. Melalui pemanggilan nama mahasiswa tersebut. Mahasiswa tidak boleh menitipkan HP-nya ke mahasiswa lain untuk melakukan presensi, karena setiap dosen akan melakukan validasi presensi.
+
+|No. | Nama 			| Jabatan   |
+|----|------------------|-----------|
+
+>>>>>>> 1ded0f5916e177a76ed46361b24aa661cc76dfbc
 
 **2.4 Lingkup Tanggung Jawab**
-	  
+
 Setiap anggota mempunyai tanggung jawab terhadap tugasnya. Anggota mempunyai jobdesk-nya masing-masing sesuai dengan poin 2.2.
 
 # Bagian Bayu :smirk_cat:
@@ -124,7 +147,7 @@ Asumsi proyek ini adalah sebagai berikut :
 -  	Ketersediaan peralatan dan perangkat lunak
 - 	Persetujuan dan Perizinan dari mitra
 	
-Proyek ini berketergantungan pada :
+	Proyek ini berketergantungan pada :
 1. Biaya
 2. Ketersediaan software dan hardware
 3. Keahlian anggota dalam penggunaan software dan bahasa pemrogramman
@@ -134,13 +157,12 @@ Batasan Masalah dalam proyek ini adalah sebagai berikut :
 1. Tidak adanya vailidasi ketika HandPhone mahasiswa dititipkan ke temanya sehingga dapat menitipkan absen
 2. Software yang digunakan adalah Android Studio, Sublmie Text 3 dan Firebase
 3.	Manajemen risiko
-
-Resiko yang ada pada proyek ini adalah :
-1. Risiko Finansial
-2. Risiko Waktu
-3. Risiko Teknologi
-4. Risiko Sumberdaya Manusia
-5. Risiko Alat dan Bahan
+			Resiko yang ada pada proyek ini adalah :
+			1. Risiko Finansial
+			2. Risiko Waktu
+			3. Risiko Teknologi
+			4. Risiko Sumberdaya Manusia
+			5. Risiko Alat dan Bahan
 			
 3.4	Makanismme monitoring dan kontroling
 - Rapat dan Pengerjaan mingguan
@@ -151,47 +173,51 @@ Resiko yang ada pada proyek ini adalah :
 
 **4.1	Metoda, tool dan teknik**
 
-Proyek ini akan diimplementasikan dengan memanfaatkan metodologi V Model, dan alat seperti Android Studio, Sublime Text 3  dan Firebase sebagai alat pembuatan Aplikasi ini. Juga Menggunakan Framework laravel dan bootstrap sebagai penunjang Aplikasi bagian WEB nya serta menggunakan teknik Object Oriented dalam pengerjaan proyek ini. --> Bagian yang dirubah
+Proyek ini akan diimplementasikan dengan memanfaatkan metodologi Water fall, dan alat seperti Android Studio, dan Sublime Text 3 sebagai alat pembuatan Aplikasi ini. Menggunakan Framework laravel sebagai penunjang Aplikasi bagian WEB nya serta menggunakan teknik Object Oriented dalam pengerjaan proyek ini. --> Bagian yang dirubah
 
 **4.2	Dokumentasi perangkat lunak**
 		
-SQAP
+Dokumentasi proyek seerti Proposal Poryek, Log Book, Surat Pengajuan, Kuisioner. --> Bagian yang dirubah
 
 **4.3	Fungsi-fungsi pendukung proyek**
 		
-Tim Pendukung proyek ini terdiri dari :
-
-1. Teknisi Jaringan
-2. Teknisi Hardware
-3. Spesialis Web
-4. Spesialis Android
+Semua dokumen pendukung proyek akan selesai dalam tahap yang sesuai --> Bagian yang di perbaiki
 
 
 
 # Bagian Syamsul :rage:
+
 **BAB 5 Paket Pekerjaan, jadwal, dan anggaran**
-	
 **5.1 Paket Pekerjaan**
-		
+
 Paket pekerjaan yang akan di lakukan :
-1. Minggu ke 1-2        : Penentuan ide dan rumusan masalah yang dibutuhkan
-2. Minggu ke 3-4		: Pembuatan rancangan sistem aplikasi yang akan di buat
-3. Minggu ke 5-10		: Pembuatan sistem aplikasi
-4. Minggu ke 11-12		: Uji coba dan revisi bila di perlukan
+1. Minggu ke 1-2         : Penentuan ide dan rumusan masalah yang dibutuhkan
+2. Minggu ke 3-4		 : Pembuatan rancangan sistem aplikasi yang akan di buat
+3. Minggu ke 5-10		 : Pembuatan sistem aplikasi
+4. Minggu ke 11-12	     : Uji coba dan revisi bila di perlukan
 
 **5.2 Ketergantungan dan ketrtarikan**
 
-Semua sumber daya saling ketergantungan satu sama lain dalam hal pembuatan aplikasi.
+kebutuhan ketertarikan :
+1. Penentuan ide dan rumusan masalah yang dibutuhkan
+2. Pembuatan rancangan sistem aplikasi yang akan di buat
+3. Pembuatan sistem aplikasi Website
+4. Pembuatan sistem aplikasi Android
+5. Uji coba dan simulasi
+6. revisi atau perbaikan
+
 
 **5.3 Kebutuhan-kebutuhan sumber daya**
 
 Sumber daya yang di perlukan untuk pembuatan aplikasi ini terdiri dari 3 orang dengan divisi yang sudah di tentukan di atas. dan adanya kebutuhan-kebutuhan yang diperlukan sebagai berikut :
 
-| No. | Kebutuhan             |
-|-----|-----------------------|
-| 1   | 3 Unit Laptop         |
-| 2   | Koneksi Internet      |
-| 3   | Pangan                |
+| No. | Perangkat Keras   | Perangkat Lunak | Other            |  
+|-----|-------------------|-----------------|------------------|
+| 1   | 3 Unit Laptop     | Sublime Text    | Koneksi Internet |
+| 2   | 4 Unit Mouse      | Android Studio  | Konsumsi		   |
+| 3   | 4 Unit Keyboard   | Photo Shop      | Hosting          |
+| 4   | 1 Unit Komputer   | 
+| 5   | 1 Unit Monitor    |
 
 
 **5.4 Alokasi Anggaran dan sumber daya**
@@ -199,14 +225,16 @@ Sumber daya yang di perlukan untuk pembuatan aplikasi ini terdiri dari 3 orang d
 	
 | No. | Keperluan           | Angaran            |
 |-----|---------------------|--------------------|
-| 1   | Laptop              | Rp. 3.500.000      |
-| 2   | Koneksi Internet    | Rp. 200.000        |
-| 2   | Pangan              | Rp. 600.000        |
+| 1   | 3 Unit  Laptop      | Rp. 30.500.000     |
+| 2   | 4 Unit Mouse        | Rp. 400.000        |
+| 3   | 4 Unit Keyboard     | Rp. 5.000.000      |
+| 4   | Koneksi Internet    | Rp. 2.000.000      |
+| 5   | Konsumsi            | Rp. 10.000.000     |
 
 **5.5 Jadwal**
 
-Jadwal dalam pengerjaan aplikasi adalaha 12 minggu atau 3 bulan, adapun rincianya sebagai berikut :
+Jadwal dalam pengerjaan aplikasi adalaha 16 minggu atau 4 bulan, adapun rincianya sebagai berikut :
 1. Minggu ke 1-2        : Penentuan ide dan rumusan masalah yang dibutuhkan
 2. Minggu ke 3-4		: Pembuatan rancangan sistem aplikasi yang akan di buat
-3. Minggu ke 5-10		: Pembuatan sistem aplikasi
-4. Minggu ke 11-12		: Uji coba dan revisi bila di perlukan
+3. Minggu ke 5-14		: Pembuatan sistem aplikasi
+4. Minggu ke 15-16		: Uji coba dan revisi bila di perlukan
