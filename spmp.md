@@ -241,7 +241,5 @@ Sumber daya yang di perlukan untuk pembuatan aplikasi ini terdiri dari 3 orang d
 **5.5 Jadwal**
 
 Jadwal dalam pengerjaan aplikasi adalaha 16 minggu atau 4 bulan, adapun rincianya sebagai berikut :
-1. Minggu ke 1-2        : Penentuan ide dan rumusan masalah yang dibutuhkan
-2. Minggu ke 3-4		: Pembuatan rancangan sistem aplikasi yang akan di buat
-3. Minggu ke 5-14		: Pembuatan sistem aplikasi
-4. Minggu ke 15-16		: Uji coba dan revisi bila di perlukan
+
+![enter image description here](https://2.bp.blogspot.com/-8aBd0r0chww/Wo0S1uPDFOI/AAAAAAAAA1U/OA7kryPHSz4e_QOk5k40BAcza43Aboc4QCLcBGAs/s1600/jadwal.PNG)
