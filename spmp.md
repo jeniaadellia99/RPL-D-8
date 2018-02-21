@@ -3,7 +3,6 @@
 
 ---
 
-<h1 id="gunakan-stackedit.io-baru-pas-submit-pake-sublmie-atau-yg-lainya">GUNAKAN <a href="http://stackedit.io">stackedit.io</a> Baru pas submit pake Sublmie atau yg lainya</h1>
 <h1 id="bagian-koriah-broken_heart">Bagian Koriah 💔</h1>
 <p><strong>BAB 1. PENDAHULUAN</strong></p>
 <p><strong>1.1	Gambaran Proyek</strong></p>
