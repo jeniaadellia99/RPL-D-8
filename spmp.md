@@ -163,7 +163,7 @@ Resiko yang ada pada proyek ini adalah :
 
 Proyek ini akan diimplementasikan dengan memanfaatkan metodologi V Model, dan alat seperti Android Studio, Sublime Text 3 dan Firebase sebagai alat pembuatan Aplikasi ini. Menggunakan Framework laravel dan Bootstrap sebagai penunjang Aplikasi bagian WEB nya serta menggunakan teknik Object Oriented dalam pengerjaan proyek ini.
 
-![enter image description here](https://2.bp.blogspot.com/-N1DINwjCQ8U/Wo0YCe0E2jI/AAAAAAAAA1o/ueT3h1Hlc2MTGMrfD2XNhiHMs2yMsqDJACLcBGAs/s1600/v+model.jpg)
+![enter image description here](https://3.bp.blogspot.com/-wl4S75otnbE/Wo5nZJ_SMfI/AAAAAAAAA14/WRo38HM26Us53suuB4msSZbvLT6Z92g1QCLcBGAs/s1600/68747470733a2f2f322e62702e626c6f6773706f742e636f6d2f2d4e3144494e776a435138552f576f305943653045326a492f414141414141414141316f2f756554336831486c63324d54474d72664432584e6869484d7332794d7371444a41434c63424741732f73313630302f76.jpg)
 
 **4.2	Dokumentasi perangkat lunak**
 		
