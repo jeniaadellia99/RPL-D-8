@@ -1,1 +1,1 @@
-<span style="color:red; font-family:Georgia; text-align:center; font-size:2em;">JHJHKHKH</span>
+<div style="color:red; font-family:Georgia; text-align:center; font-size:2em; width: 100%">JHJHKHKH</div>
