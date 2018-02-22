@@ -229,4 +229,4 @@ Sumber daya yang di perlukan untuk pembuatan aplikasi ini terdiri dari 3 orang d
 
 Jadwal dalam pengerjaan aplikasi adalaha 16 minggu atau 4 bulan, adapun rincianya sebagai berikut :
 
-![enter image description here](https://2.bp.blogspot.com/-8aBd0r0chww/Wo0S1uPDFOI/AAAAAAAAA1U/OA7kryPHSz4e_QOk5k40BAcza43Aboc4QCLcBGAs/s1600/jadwal.PNG)
+![enter image description here](https://4.bp.blogspot.com/-htw3zAK3fjU/Wo5ozfSy5jI/AAAAAAAAA2E/_tI0byI65nAuteYWROpaeYWy_x4oSAg7QCLcBGAs/s1600/68747470733a2f2f322e62702e626c6f6773706f742e636f6d2f2d38614264307230636877772f576f305331755044464f492f41414141414141414131552f4f41376b72795048537a34655f514f6b356b34304241637a61343341626f633451434c63424741732f73313630302f6a.jpg)
