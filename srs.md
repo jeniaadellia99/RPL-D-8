@@ -32,24 +32,40 @@ Bagian Koriah :curry:
 
 ## 1.1. Tujuan
 
-dpsldp
+Tujuan dari dokumen SRS ini adalah untuk mendeskripsikan dari aplikasi yang dibuat yaitu Aplikasi Presensi Menggunakan kode QR yang bisa disingkat juga menjadi Q-PRESS. 
+Pada dokumen ini akan dijelaskan bagaimana sistem dari aplikasi Q-PRESS, seperti Sistem Interface, Mockup, dan lain-lain.
+Diharapkan dokumen ini dapat menjadi acuan dalam proses maupun penggunaan aplikasi yang dibuat. 
 
 ## 1.2 Lingkup
 
-fdfhdjfhh
+Pada Sistem aplikasi ini akan menjadi sistem presensi kehadiran yang digunakan dalam dunia pendidikan. Dengan tujuan dapat mengefesiensi dan mengefektifkan dari sistem sebelumnya yang dilakukan secara manual. Dengan memaksimalkan efesiensi waktu dan penyimpanan data dengan menggunakan databse online, pada sistem aplikasi ini akan lebih mudah dipahami oleh user. 
+Pada aplikasi ini menggunakan sebuah kode yang berisikan data, yang nantinya akan dijadikan sebagai acuan kehadiran. Selain itu, perihal administrasi presensi akan lebih aman dan efisien dengan menggunakan aplikasi ini. 
+Terdapat fungsi-fungsi yang dapat memudahkan user mahasiswa, dosen dan admin. Seperti melihat jadwal, kehadiran, keterlambatan, data dosen, data mahasiswa, dan rekapitulasi presensi. 
 
 ## 1.3 Definisi, Akronim, Singkatan
 
-fdfdf
+|Istilah  |Definisi  |
+|--|--|
+|SRS|Software Requirements Spesification|
+| Q-Press |Presensi Kode QR  |
+|  Presensi|Kehadiran  |
+Mockup|Perancangan design aplikasi yang akan di implementasikan pada aplikasi yang akan dibuat |
+|  User|Pengguna aplikasi. Seperti Mahasiswa, Dosen dan Admin |
+|Sistem Interface|Menjelaskan bagaimana sistem dari aplikasi digunakan|
+|Database|Kumpulan data dan informasi yang saling berhubungan dan disimpan sebagai administrasi dan admin akan mengelola data tersebut|
 			    
 
 ## 1.4 Referensi
 
-dvfdfdgfdg
+*Fathansyah.2015.BASIS DATA Revisi Kedua.Bandung:Informatika Bandung*
+*SRSExample-webapp.pdf*
+*https://www.slideshare.net/ErwanNurArief/srs-erwan*
 
 ## 1.5 Overview
 
-cscsdcds
+Pada bab selanjutnya yaitu mendeskripsikan sistem yang terapkan pada aplikasi. Menjelaskan gambaran umum dari aplikasi, Sistem Interface aplikasi dan alur sistemnya.  
+Bab terakhir menjelaskan tentang setiap fungsi yang digunakan secara teknisnya. 
+Pada bab 2 dan 3 merupakan deskripsi dari aplikasi yang akan diterapkan pada aplikasi yang dibuat.
 				
 
 
