@@ -15,8 +15,8 @@ Kelompok 8
  - Syamsul Fahri Hadi			(1603115)
 
 
-**Jurusan Teknik Informatika
-Politeknik Negeri Indramayu**
+**Jurusan Teknik Informatika**
+**Politeknik Negeri Indramayu**
 
 
 ----------
