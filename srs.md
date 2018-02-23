@@ -21,7 +21,7 @@ Politeknik Negeri Indramayu**
 ----------
 
 
-Bagian Syamsul :scream:
+Bagian Koriah :curry:
 
 
 ----------
@@ -95,6 +95,15 @@ sffsf
 sfsf
 
 **2.1.8	Kebutuhan Adaptasi**
+
+
+----------
+
+
+Bagian Syamsul :scream:
+
+
+----------
 
 ## 2.2 Spesifikasi Kebutuhan Fungsional
 asfsff
