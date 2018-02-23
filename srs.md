@@ -2,7 +2,8 @@
 
 Version X.X
 22 Februari 2018
-*logo polindra
+
+![enter image description here](https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1600/index.png)
 
 
 **Q-PRESS (QR-Kode Presensi)
