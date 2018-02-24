@@ -1,9 +1,9 @@
 <html>
 <body>
-<p align="center"><h1> Software Requirements Spesification</h1>
+<p align="center"><h1> Software Requirements Spesification</h1></p>
 
-<p align="center">Version X.X <br>
-<p align="center">22 Februari 2018
+<p align="center"><b>Version X.X <br>
+<p align="center">22 Februari 2018</b>
 
 ![enter image description here](https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png)
 
