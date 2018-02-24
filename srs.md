@@ -131,7 +131,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 
 **2.1.1 Antarmuka Sistem**
 
-![enter image description here](https://1.bp.blogspot.com/-4qwX73sJGi0/WpEot5do5SI/AAAAAAAAAiM/1Gj8UmA_1OUnUfaXZ8QI4T09Lk_m0_NPwCLcBGAs/s10000/Drawing64.png)
+![enter image description here](https://1.bp.blogspot.com/-AFxNjOx_KUM/WpFXkR7PNtI/AAAAAAAAAic/UUo2BOQABJcpM2Dy-ev07jtMBsjYh1jYQCLcBGAs/s1600/Drawing64.png)
 
 <li> Siswa </li>
 
