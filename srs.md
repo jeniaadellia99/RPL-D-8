@@ -102,7 +102,7 @@ Pada sistem Dosen memiliki fungsi yaitu :
 <li>Dosen memilih jadwal yang akan dilaksanakan.</li>
 <li>Mempunyai hak akses untuk membuka presensi untuk mahasiswa.</li>
 <li>Melihat data kehadiran siswa. </li>
-<li>Validasi siswa</li>
+<li>Validasi siswa</ul></li>
 
 Admin adalah user yang mengelola setiap data pada sistem ini. 
 Pada sistem Admin memiliki beberapa fungsi yaitu :
@@ -110,7 +110,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 <li>Menginput data mahasiswa.</li>
 <li>Menginput dosen.</li>
 <li>Menginput jadwal Kuliah.</li>
-<li>Presentase presensi mahasiswa per hari dan per semester.</li></p>
+<li>Presentase presensi mahasiswa per hari dan per semester.</ul></li></p>
 
 ## 2.1 Perspektif Produk
 
