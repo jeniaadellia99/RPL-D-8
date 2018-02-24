@@ -130,9 +130,27 @@ Berbeda dengan sistem presensi yang digunakan oleh Universitas Teknologi Petrona
 
 ![enter image description here](https://1.bp.blogspot.com/-4qwX73sJGi0/WpEot5do5SI/AAAAAAAAAiM/1Gj8UmA_1OUnUfaXZ8QI4T09Lk_m0_NPwCLcBGAs/s10000/Drawing64.png)
 
+![enter image description here](https://1.bp.blogspot.com/-4qwX73sJGi0/WpEot5do5SI/AAAAAAAAAiM/1Gj8UmA_1OUnUfaXZ8QI4T09Lk_m0_NPwCLcBGAs/s10000/Drawing64.png)
 
+<html>
+<head>
+</head>
+<body>
 
+<li> Siswa </li>
 
+<p align="justify">Sebelum menggunakan aplikasi ini siswa diharuskan mendaftar terlebih dahulu, pendaftaran menggunakan Mac address dan Nim siswa tersebut. Setelah mendaftar, siswa dapat login dan melakukan presensi dengan men-scan kode qr, kemudian data scan tersebut akan disimpan pada sistem. Siswa dapat melihat jadwal dari sistem dan sistem akan menampilkan jadwal. 
+
+<li>Dosen</li>
+
+<p align="justify">Sebelum menggunakan aplikasi ini, dosen diharuskan untuk mendaftar terlebih dahulu menggunakan Mac Address dan Nik dari dosen tersebut. Setelah berhasil login, dosen dapat meminta lihat jadwal pada sistem dan sistem akan menampilkannya. Dosen dapat memilih jadwal mengajar di kelas dan ruang Lab apa. Dosen dapat Merubah jadwal. Dosen dapat melakukan scan presensi untuk membuka akses presensi bagi mahasiswa kemudian data presensi tersebut akan disimpan pada sistem, dan sistem akan menampilkan data siswa yang masuk. </p>
+
+<li>Admin</li>
+
+<p align="justify"> Sebelum melakukan pengelolaan data, admin diharuskan untuk login terlebih dahulu. Pada sistem admin dapat menambahkan data siswa, data dosen, data kelas, pada sistem. Setelah data ditambahkan, sistem dapat menampilkan data tersebut. Admin dapat melakukan edit data siswa, edit data siswa perkelas, edit data dosen, kemudian data tersebut akan di simpan pada sistem. Dan sistem dapat menampilkan data yang tadi edit. Untuk pengelolaan jadwal, admin dapat mendownload template jadwal yang sudah tersedia, kemudian admin dapat mengimport jadwal. Admin dapat mendownload rekapitulasi presensi dan mengubah jadwal. </p>
+
+</body>
+</html>
 
 **2.1.2	Antarmuka Pengguna**
 
