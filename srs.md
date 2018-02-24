@@ -1,6 +1,6 @@
 <html>
 <body>
-<p align="center"><h1> Software Requirements Spesification**
+<p align="center"><h1> Software Requirements Spesification</h1>
 
 <p align="center">Version X.X <br>
 <p align="center">22 Februari 2018
@@ -10,7 +10,7 @@
 
 <br><p align="center"><b> Q-PRESS (QR-Kode Presensi)<br>
 <p align="center"><b>Aplikasi Menggunakan Kode QR
-
+</b>
 <p align="center">Kelompok 8 <br>
  Koriah 				(1603103)<br>
  Bayu Rasukma Raga		(1603093)<br>
