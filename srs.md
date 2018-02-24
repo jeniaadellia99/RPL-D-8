@@ -19,6 +19,7 @@
 <p align="center"><b>Jurusan Teknik Informatika<br>
 <p align="center"><b>Politeknik Negeri Indramayu
 </p>
+</b>
 </body>
 </html>
 
