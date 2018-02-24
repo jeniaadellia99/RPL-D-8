@@ -92,13 +92,13 @@ Bagian Bayu :cat:
 <p align="justify"> Untuk itu, kelompok 8 mempunyai gagasan yang dapat meminimialisir dari tidak efesiennya sistem presensi sekarang, yaitu dengan membuat aplikas Q-PRES (QR-Code Presensi). Aplikasi menggunakan sistem scan kode QR untuk setiap presensi pada jadwal mata kuliah di setiap Lab atau Kelas. Dari sistemnya sendiri menggunakan 3 user, yaitu mahasiswa, dosen dan admin. </p>
 
 <p align="justify">Dari sistem mahasiswa menggunakan MAC address device (HP) dan Nim untuk pendaftaran. Hak akses dari mahasiswa menggunakan NIM, yang kemudian NIM tersebut akan mencari MAC device pada saat pertama pendaftaran untuk mencocokkannya. Jika NIM dan MAC addressnya sudah sinkron maka mahasiswa tersebut dapat login. Kemudian mahasiswa dapat melakukan Scan QR-Code presensi yang menyatakan bahwa dia hadir. Mahasiswa tidak akan bisa melakukan scan Kode QR jikalau dosen belum mengaktivasi atau membuka sistemnya. Pada sistem siswa, terdapat beberapa fungsi utama yaitu : 
-<li>Siswa dapat melihat jadwal perkuliahan.</li>
+<ul><li>Siswa dapat melihat jadwal perkuliahan.</li>
 <li>Sebelum siswa melakukan presensi, dia akan mendapatkan notifikasi untuk memulai scan, jika berhasil melakukan scan siswa akan mendapat notifikasi scan telah berhasil.</li>
 <li>Siswa dapat melihat jumlah kompen yang dia dapatkan karena keterlambatan maupun ketidakhadiran. </li></p>
 
 <p align="justify">Sedangkan pada sistem Dosen memiliki hak akses untuk membuka presensi. Setelah para mahasiswa telah melakukan presensi, maka dosen akan mendapat data siswa yang masuk pada mata kuliah hari itu. Jika hasilnya tidak sesuai maka untuk validasinya Dosen akan pengecekan ulang untuk memastikan. 
 Pada sistem Dosen memiliki fungsi yaitu :
-<li>Dosen bisa melihat jadwal.</li>
+<ul><li>Dosen bisa melihat jadwal.</li>
 <li>Dosen memilih jadwal yang akan dilaksanakan.</li>
 <li>Mempunyai hak akses untuk membuka presensi untuk mahasiswa.</li>
 <li>Melihat data kehadiran siswa. </li>
@@ -106,7 +106,7 @@ Pada sistem Dosen memiliki fungsi yaitu :
 
 Admin adalah user yang mengelola setiap data pada sistem ini. 
 Pada sistem Admin memiliki beberapa fungsi yaitu :
-<li>Menerima data mahasiswa yang hadir secara otomatis. </li>
+<ul><li>Menerima data mahasiswa yang hadir secara otomatis. </li>
 <li>Menginput data mahasiswa.</li>
 <li>Menginput dosen.</li>
 <li>Menginput jadwal Kuliah.</li>
@@ -143,7 +143,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 
 <li>Admin</li>
 
-<p align="justify"> Sebelum melakukan pengelolaan data, admin diharuskan untuk login terlebih dahulu. Pada sistem admin dapat menambahkan data siswa, data dosen, data kelas, pada sistem. Setelah data ditambahkan, sistem dapat menampilkan data tersebut. Admin dapat melakukan edit data siswa, edit data siswa perkelas, edit data dosen, kemudian data tersebut akan di simpan pada sistem. Dan sistem dapat menampilkan data yang tadi edit. Untuk pengelolaan jadwal, admin dapat mendownload template jadwal yang sudah tersedia, kemudian admin dapat mengimport jadwal. Admin dapat mendownload rekapitulasi presensi dan mengubah jadwal. </p>
+<p align="justify"> Sebelum melakukan pengelolaan data, admin diharuskan untuk login terlebih dahulu. Pada sistem admin dapat menambahkan data siswa, data dosen, data kelas, pada sistem. Setelah data ditambahkan, sistem dapat menampilkan data tersebut. Admin dapat melakukan edit data siswa, edit data siswa perkelas, edit data dosen, kemudian data tersebut akan di simpan pada sistem. Dan sistem dapat menampilkan data yang tadi edit. Untuk pengelolaan jadwal, admin dapat mendownload template jadwal yang sudah tersedia, kemudian admin dapat mengimport jadwal. Admin dapat mendownload rekapitulasi presensi dan mengubah jadwal. </ul></p>
 
 </body>
 </html>
