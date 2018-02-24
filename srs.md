@@ -3,7 +3,7 @@
 Version X.X
 22 Februari 2018
 
-![enter image description here](https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1600/index.png)
+![enter image description here](https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png)
 
 
 **Q-PRESS (QR-Kode Presensi)
@@ -128,7 +128,11 @@ Berbeda dengan sistem presensi yang digunakan oleh Universitas Teknologi Petrona
 
 **2.1.1 Antarmuka Sistem**
 
-sfsf
+![enter image description here](https://1.bp.blogspot.com/-4qwX73sJGi0/WpEot5do5SI/AAAAAAAAAiM/1Gj8UmA_1OUnUfaXZ8QI4T09Lk_m0_NPwCLcBGAs/s10000/Drawing64.png)
+
+
+
+
 
 **2.1.2	Antarmuka Pengguna**
 
