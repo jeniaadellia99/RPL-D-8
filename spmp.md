@@ -219,8 +219,7 @@ kebutuhan ketertarikan :
 
 **5.4 Alokasi Anggaran dan sumber daya**
 
-
-
+<br>
 		Alokasi Anggaran dalam pembuatan aplkasi ini sebagai berikut :
 	
 | No. | Keperluan           | Angaran            |
