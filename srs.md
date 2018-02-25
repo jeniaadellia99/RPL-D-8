@@ -335,7 +335,6 @@ add
 
  **3.2.1 Daftar Dosen**
 
-|--|--|
 | Nama fungsi  |Daftar Dosen  |
 |Ref|Bag 2.1.2, Daftar Dosen | 
 |Prasyarat|Tampilan Android Untuk Pendaftaran|
@@ -343,7 +342,7 @@ add
 
 **3.2.2	Daftar Mahasiswa**
 
-|--|--|
+
 | Nama fungsi  |Daftar Mahasiswa  |
 |Ref|Bag 2.1.2, Daftar Mahasiswa | 
 |Prasyarat|Tampilan Android Untuk Pendaftaran|
