@@ -315,6 +315,8 @@ add
 
 # III. Requirement Spesification
 
+ <b> 3.1 External Interface Requirements </b> <br>
+ <p align="justify"> Salah satu syarat untuk dapat mengakses aplikasi ini adalah dengan mendaftar, pendaftaran secara online melalui jaringan lokal. Login menggunakan Mac Address dari masing - masing device. Kemudian Sistem akan mencocokkan Mac Address dengan Nim atau Nik dari user untuk sinkronisasi data pada database. Setelah berhasil login masing-masing user dapat melakukan presensi.</p> 
 
 
 
