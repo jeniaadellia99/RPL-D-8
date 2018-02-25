@@ -4,9 +4,9 @@
 
 <p align="center"><b>Version X.X </b><br>
 <p align="center">22 Februari 2018</b>
-
-![enter image description here](https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png)
-
+<p align="center">
+<img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
+</p>
 
 <br><p align="center"><b> Q-PRESS (QR-Kode Presensi)</b><br>
 <p align="center"><b>Aplikasi Menggunakan Kode QR
@@ -21,16 +21,6 @@
 </p>
 </body>
 </html>
-
-
-----------
-
-
-Bagian Koriah :curry:
-
-
-----------
-
 
 # I. Pendahuluan
 
@@ -79,15 +69,6 @@ Mockup|Perancangan design aplikasi yang akan di implementasikan pada aplikasi ya
 <p align="justify"> Pada bab selanjutnya yaitu mendeskripsikan sistem yang terapkan pada aplikasi. Menjelaskan gambaran umum dari aplikasi, Sistem Interface aplikasi dan alur sistemnya.  
 Bab terakhir menjelaskan tentang setiap fungsi yang digunakan secara teknisnya. 
 Pada bab 2 dan 3 merupakan deskripsi dari aplikasi yang akan diterapkan pada aplikasi yang dibuat.</p>
-
-
-----------
-
-
-Bagian Bayu :cat:
-
-
-----------
 
 
 # **II. Gambaran Umum**
@@ -309,14 +290,6 @@ sfsf
 **2.1.8	Kebutuhan Adaptasi**
 
 
-----------
-
-
-Bagian Syamsul :scream:
-
-
-----------
-
 ## 2.2 Spesifikasi Kebutuhan Fungsional
 asfsff
 
@@ -339,16 +312,6 @@ add
 ## 2.7 Kebutuhan Penyeimbang
 
 adadadaad
-
-
-----------
-
-
-Bagian Koriah :curry:
-
-
-----------
-
 
 
 # III. Requirement Spesification
