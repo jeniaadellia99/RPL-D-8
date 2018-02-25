@@ -313,10 +313,25 @@ add
 <p style="color:red"><b>Skip</b></p>
 
 
-# III. Requirement Spesification
+# III. Persyaratan Kebutuhan
 
- ## 3.1 External Interface Requirements <br>
- <p align="justify"> Salah satu syarat untuk dapat mengakses aplikasi ini adalah dengan mendaftar, pendaftaran secara online melalui jaringan lokal. Login menggunakan Mac Address dari masing - masing device. Kemudian Sistem akan mencocokkan Mac Address dengan Nim atau Nik dari user untuk sinkronisasi data pada database. Setelah berhasil login masing-masing user dapat melakukan presensi.</p> 
+ ## 3.1 Persyaratan Antarmuka Eksterna <br>
+ <p align="justify"> Salah satu syarat untuk dapat mengakses aplikasi ini adalah dengan mendaftar, pendaftaran secara online melalui jaringan lokal. Login menggunakan Mac Address dari masing - masing device. Kemudian Sistem akan mencocokkan Mac Address dengan Nim atau Nik dari user untuk sinkronisasi data pada database. Setelah berhasil login masing-masing user dapat melakukan presensi.</p>
+
+ ## 3.2 Functional Requirement <br> 
+ <p align="justify">
+ 	Skip Dulu
+ </p>
+
+ **3.2.1	Daftar Dosen, Daftar Mahasiswa**
+
+
+ ||   |
+|--|--|
+| Nama fungsi  |Daftar Dosen, Daftar Mahasiswa  |
+|Ref|Bag 2.1.2, Welcome, Daftar Dosen, Daftar Mahasiswa | 
+|Prasyarat|Tampilan Android Untuk Pendaftaran|
+|Alur Sistem|Mahasiswa membuka aplikasi. Dan sebelum dapat mengakses aplikasi mahasoswa harus absen terlebih dahulu|
 
 
 
