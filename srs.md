@@ -140,7 +140,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 		<tr>
 			<td><b>Welcome</b></td>
 			<td><b>Daftar Dosen</b></td>
-			<td width="400"><b>Daftar Mahasaiswa</b></td>
+			<td width="300"><b>Daftar Mahasaiswa</b></td>
 		</tr>
 		<tr  valign="top">
 				<td><img src="https://4.bp.blogspot.com/-zzgWaZB2bB0/WpJgmjU089I/AAAAAAAAA2U/0KETw2usos0gSGdT0AAbNttPZQAc6cQjACLcBGAs/s1600/1.png" width="180" height="350" /><br><p>Tampilan Welcome akan muncul ketika device belum terdaftar pada sistem. pada tampilan ini terdapat keterangan bahwa harus mendaftarkan device terlebih dahulu. kemudian ada 2 tombol yakni daftar sebagai dosen atau mahasiswa.</p></td>
