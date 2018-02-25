@@ -2,13 +2,13 @@
 <body>
 <p align="center"><h1> Software Requirements Spesification</h1></p>
 
-<p align="center"><b>Version X.X <br>
+<p align="center"><b>Version X.X </b><br>
 <p align="center">22 Februari 2018</b>
 
 ![enter image description here](https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png)
 
 
-<br><p align="center"><b> Q-PRESS (QR-Kode Presensi)<br>
+<br><p align="center"><b> Q-PRESS (QR-Kode Presensi)</b><br>
 <p align="center"><b>Aplikasi Menggunakan Kode QR
 </b>
 <p align="center">Kelompok 8 <br>
@@ -16,10 +16,9 @@
  Bayu Rasukma Raga		(1603093)<br>
  Syamsul Fahri Hadi			(1603115)<br><br><br>
 
-<p align="center"><b>Jurusan Teknik Informatika<br>
-<p align="center"><b>Politeknik Negeri Indramayu
+<p align="center"><b>Jurusan Teknik Informatika</b><br>
+<p align="center"><b>Politeknik Negeri Indramayu</b>
 </p>
-</b>
 </body>
 </html>
 
