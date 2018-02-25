@@ -334,6 +334,7 @@ add
  </p>
 
  **3.2.1 Daftar Dosen**
+
 |  |  |
 |--|--|
 | Nama fungsi  |Daftar Dosen  |
@@ -342,12 +343,43 @@ add
 |Alur Sistem|Dosen membuka aplikasi. Dan sebelum dapat mengakses aplikasi dosen harus mendaftar terlebih dahulu dengan menggunakan NIK dan Mac Address dari device-nya|
 
 **3.2.2	Daftar Mahasiswa**
+
 |  |  |
 |--|--|
 | Nama fungsi  |Daftar Mahasiswa  |
 |Ref|Bag 2.1.2, Daftar Mahasiswa | 
 |Prasyarat|Tampilan Android Untuk Pendaftaran|
 |Alur Sistem|Mahasiswa membuka aplikasi. Dan sebelum dapat mengakses aplikasi mahasiswa harus mendaftar terlebih dahulu dengan menggunakan NIM dan Mac Address dari device-nya|
+
+**3.2.3 Halaman Mahasiswa**
+
+|  |  |
+|--|--|
+| Nama fungsi  |Halaman Mahasiswa  |
+|Ref|Bag 2.1.2, Halaman Mahasiswa | 
+|Prasyarat|Tampilan Android Dashboard Mahasiswa|
+|Alur Sistem|Mahasiswa membuka aplikasi, setelah login mahasiswa akan diarahkan pada sebuah menu dashboard mahasiswa. Didalamnya berisi keterangan Nama dan Nim, Keterangan Absen, Presensi, dan Kompensasi. Terdapat menu Scan dan Lihat Jadwal|
+
+**3.2.2	SCAN**
+
+|  |  |
+|--|--|
+| Nama fungsi  |SCAN  |
+|Ref|Bag 2.1.2, SCAN | 
+|Prasyarat|Tampilan Android Untuk Men-Scan Kode QR pada saat presensi di mulai|
+|Alur Sistem| Mahasiswa berada di dahboard halaman mahasiswa, dan ketika presensi dimulai mahasiswa dapat menekan tombol SCAN untuk dapat beralih halaman scan kode QR dan melakukan presensi. Ketika Presensi berhasil maka mahasiswa mendapat notifikasi bahwa Scan telah berhasil tetapi jika gagal dan ada device-nya mahasiswa melakukan validasi presensi kepada dosen|
+
+**3.2.2	Halaman dosen**
+
+|  |  |
+|--|--|
+| Nama fungsi  |Halaman Dosen  |
+|Ref|Bag 2.1.2, Halaman Dosen, Ubah Jadwal, Mulai Jadwal | 
+|Prasyarat|Tampilan Android pada Halaman Dosen|
+|Alur Sistem| Dosen membuka aplikasi dan login berhasil kemudian diarahkan ke halaman Dosen. pada halaman dosen terdapat list menu jadwal mengajar, dimana kelas mengajar. Fungsi rubah jadwal digunakan bagi dosen ketika jadwal dirubah dan fungsi Mulai digunakan dosen untuk memulai jam kuliah, fungsi Mulai juga digunakan untuk membuka hak akses presensi bagi para mahasiswa|
+
+
+
 
 
 
