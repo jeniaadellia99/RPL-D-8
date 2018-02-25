@@ -136,10 +136,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 **2.1.2	Antarmuka Pengguna**
 
  - **Mockup Android**
-
- - **Mockup Android**
-
-	<table>
+	<table width="1000">
 		<tr>
 			<td><b>Welcome</b></td>
 			<td><b>Daftar Dosen</b></td>
@@ -190,7 +187,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 			<td colspan=3><img src="https://4.bp.blogspot.com/-RxyKPxYZ9H0/WpJgoF3xbcI/AAAAAAAAA2k/5WN4HeFuFmI1IXMcJEyXmB9S9VBghTeQQCLcBGAs/s1600/13.png" width="180" height="350" /><br><p>Tampilan splash screen terdapat keterangan aplikasi dan logo aplikasi</p></td>
 		</tr>
 	</table>
-
+</div>
 
  - **Mockup Website**
 	
