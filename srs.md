@@ -211,6 +211,78 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 </div>
 
 
+ - Mockup Website
+	
+	<table align="center">
+		<tr>
+			<td>Dashboard Admin</td>
+		</tr>
+		<tr>
+			<td><img src="https://4.bp.blogspot.com/-1bDyR-xSVp4/WpJhS6HlaSI/AAAAAAAAA3g/xHucj0eSHewp2QM5E_jQu0VvHIuEHVOXgCLcBGAs/s1600/dashboard.jpg"></td>
+		</tr>
+				<tr>
+			<td>Data Dosen</td>
+		</tr>
+		<tr>
+			<td><img src="https://4.bp.blogspot.com/-oTpZC5yDDHk/WpJhS11I9YI/AAAAAAAAA3Y/RWioKmHUFooXGmOEVfnGw0bycLNehL_cACLcBGAs/s1600/data%2Bdosen.jpg"></td>
+		</tr>
+				<tr>
+			<td>Data Kelas</td>
+		</tr>
+		<tr>
+			<td><img src="https://1.bp.blogspot.com/-MzMv4SlEHy8/WpJhS6EDfpI/AAAAAAAAA3c/PnDpxT8VrvgGoclq7qhKIm_s7WPnQqK0QCLcBGAs/s1600/data%2Bkelas.jpg"></td>
+		</tr>
+				<tr>
+			<td>Data Mahasiswa</td>
+		</tr>
+		<tr>
+			<td><img src="https://3.bp.blogspot.com/-cimuoYqCJ-4/WpJhUMFTVUI/AAAAAAAAA3k/Ap9VlNdPOMcIqCMIGl68GLy2zydP6BeKgCLcBGAs/s1600/data%2Bmhs.jpg"></td>
+		</tr>
+				<tr>
+			<td>Edit Data Dosen</td>
+		</tr>
+		<tr>
+			<td><img src="https://3.bp.blogspot.com/-WEmRHs3XnjQ/WpJhUUdmV1I/AAAAAAAAA3o/jWVkN9LXP6oKvwc3ujwbUqTSWTdWheK2wCLcBGAs/s1600/edit%2Bdosen.jpg"></td>
+		</tr>
+				<tr>
+			<td>Edit Data Mahasiswa</td>
+		</tr>
+		<tr>
+			<td><img src="https://4.bp.blogspot.com/-tBb_4EXiMeU/WpJhUhDY_CI/AAAAAAAAA3s/S3WODC0i_ygfANN2Zmor3-KL0PSWNZV6QCLcBGAs/s1600/edit%2Bmahasiswa.jpg"></td>
+		</tr>
+				<tr>
+			<td>Jadwal</td>
+		</tr>
+		<tr>
+			<td><img src="https://4.bp.blogspot.com/-PAD0N1WgFUo/WpJhVPhaAzI/AAAAAAAAA3w/U1FCYgLTuC0BMPXVFO9jH96Pdl0I6uyOgCLcBGAs/s1600/jadwal.jpg"></td>
+		</tr>
+				<tr>
+			<td>Login Admin</td>
+		</tr>
+		<tr>
+			<td><img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg"></td>
+		</tr>
+				<tr>
+			<td>Rekap Absensi</td>
+		</tr>
+		<tr>
+			<td><img src="https://4.bp.blogspot.com/-Dprus_hq2cs/WpJhVpA1ZII/AAAAAAAAA34/Ca2koGenruoTfU1Tr14q9RhdqPetvDfnACLcBGAs/s1600/rekap.jpg"></td>
+		</tr>
+				<tr>
+			<td>Tambah Data Kelas</td>
+		</tr>
+		<tr>
+			<td><img src="https://2.bp.blogspot.com/-GQ3V8XLRJ_g/WpJhWTWWHzI/AAAAAAAAA38/pvQl-DbHKLc-AKPV23X06ncA50fhma6PQCLcBGAs/s1600/tambah%2Bkelas.jpg"></td>
+		</tr>
+				<tr>
+			<td>Edit Jadwal</td>
+		</tr>
+		<tr>
+			<td><img src="https://1.bp.blogspot.com/-6GUTyCOFLns/WpJhWvUHVsI/AAAAAAAAA4A/qQnHU3tJ0soWjCHxv4PJkCxRWQwXxZKiwCLcBGAs/s1600/ubah%2Bjadwal.jpg"></td>
+		</tr>
+	</table>
+
+
 **2.1.3	Antarmuka Perangkat Keras**
 
 dgddgdg
