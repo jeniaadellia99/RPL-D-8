@@ -137,7 +137,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 
  - **Mockup Android**
 
-<div align="center" style="width: 100%"> 	
+<p align="center"> 	
 	<table align="center">
 		<tr>
 			<td><b>Welcome</b></td>
@@ -189,7 +189,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 			<td colspan=3><img src="https://4.bp.blogspot.com/-RxyKPxYZ9H0/WpJgoF3xbcI/AAAAAAAAA2k/5WN4HeFuFmI1IXMcJEyXmB9S9VBghTeQQCLcBGAs/s1600/13.png" width="180" height="350" /></td>
 		</tr>
 	</table>
-</div>
+</p>
 
 
  - **Mockup Website**
