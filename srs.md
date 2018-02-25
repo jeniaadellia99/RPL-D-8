@@ -333,16 +333,21 @@ add
  	Skip Dulu
  </p>
 
- **3.2.1	Daftar Dosen, Daftar Mahasiswa**
+ **3.2.1 Daftar Dosen**
 
-
- ||   |
 |--|--|
-| Nama fungsi  |Daftar Dosen, Daftar Mahasiswa  |
-|Ref|Bag 2.1.2, Welcome, Daftar Dosen, Daftar Mahasiswa | 
+| Nama fungsi  |Daftar Dosen  |
+|Ref|Bag 2.1.2, Daftar Dosen | 
 |Prasyarat|Tampilan Android Untuk Pendaftaran|
-|Alur Sistem|Mahasiswa membuka aplikasi. Dan sebelum dapat mengakses aplikasi mahasoswa harus absen terlebih dahulu|
+|Alur Sistem|Dosen membuka aplikasi. Dan sebelum dapat mengakses aplikasi dosen harus mendaftar terlebih dahulu dengan menggunakan NIK dan Mac Address dari device-nya|
 
+**3.2.2	Daftar Mahasiswa**
+
+|--|--|
+| Nama fungsi  |Daftar Mahasiswa  |
+|Ref|Bag 2.1.2, Daftar Mahasiswa | 
+|Prasyarat|Tampilan Android Untuk Pendaftaran|
+|Alur Sistem|Mahasiswa membuka aplikasi. Dan sebelum dapat mengakses aplikasi mahasiswa harus mendaftar terlebih dahulu dengan menggunakan NIM dan Mac Address dari device-nya|
 
 
 
