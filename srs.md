@@ -154,7 +154,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 
 **2.1.2	Antarmuka Pengguna**
 
-- Mockup Android
+ - Mockup Android
 	
 	<table align="center">
 		<tr>
@@ -163,9 +163,9 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 			<td>Daftar Mahasaiswa</td>
 		</tr>
 		<tr>
-				<td><img src="https://4.bp.blogspot.com/-zzgWaZB2bB0/WpJgmjU089I/AAAAAAAAA2U/0KETw2usos0gSGdT0AAbNttPZQAc6cQjACLcBGAs/s1600/1.png"/></td>
-				<td><img src="https://2.bp.blogspot.com/-fj4ii9zpBsw/WpJgoZF7XyI/AAAAAAAAA2o/9RdQTPaJv5womKARBrt1OQU4Xj0RjZqdwCLcBGAs/s1600/2.png"/></td>
-				<td><img src="https://3.bp.blogspot.com/-DmSeKlhuck4/WpJgo8IIQhI/AAAAAAAAA2s/K8PxNOj12yQYs0EOA8KRvHOcMm3W74cbwCLcBGAs/s1600/3.png"/></td>		
+				<td><img src="https://4.bp.blogspot.com/-zzgWaZB2bB0/WpJgmjU089I/AAAAAAAAA2U/0KETw2usos0gSGdT0AAbNttPZQAc6cQjACLcBGAs/s1600/1.png" width="180" height="350" /></td>
+				<td><img src="https://2.bp.blogspot.com/-fj4ii9zpBsw/WpJgoZF7XyI/AAAAAAAAA2o/9RdQTPaJv5womKARBrt1OQU4Xj0RjZqdwCLcBGAs/s1600/2.png" width="180" height="350" /></td>
+				<td><img src="https://3.bp.blogspot.com/-DmSeKlhuck4/WpJgo8IIQhI/AAAAAAAAA2s/K8PxNOj12yQYs0EOA8KRvHOcMm3W74cbwCLcBGAs/s1600/3.png" width="180" height="350" /></td>		
 		</tr>
 			<tr>
 			<td>Halaman Mahasiswa </td>
@@ -173,9 +173,9 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 			<td>Scan Sukses</td>
 		</tr>
 		<tr>
-				<td><img src="https://4.bp.blogspot.com/-E6WsXFSeBKY/WpJgpJCujnI/AAAAAAAAA2w/oZaaTQgnRxM2RVHAlpjjXbMA9jy5Qa5XACLcBGAs/s1600/4.png"/></td>
-				<td><img src="https://4.bp.blogspot.com/-p5vpVwLNvXk/WpJgppoj0-I/AAAAAAAAA20/2mWWNUOtSBc-6vQVD31ILMDekuer3EHrQCLcBGAs/s1600/5.png"/></td>
-				<td><img src="https://2.bp.blogspot.com/-S32nItnw8Ag/WpJgqG6bWUI/AAAAAAAAA24/o68LXWmrJE8T5Lg6I6pH-LmrcwSLzFozQCLcBGAs/s1600/6.png"/></td>		
+				<td><img src="https://4.bp.blogspot.com/-E6WsXFSeBKY/WpJgpJCujnI/AAAAAAAAA2w/oZaaTQgnRxM2RVHAlpjjXbMA9jy5Qa5XACLcBGAs/s1600/4.png" width="180" height="350" /></td>
+				<td><img src="https://4.bp.blogspot.com/-p5vpVwLNvXk/WpJgppoj0-I/AAAAAAAAA20/2mWWNUOtSBc-6vQVD31ILMDekuer3EHrQCLcBGAs/s1600/5.png" width="180" height="350" /></td>
+				<td><img src="https://2.bp.blogspot.com/-S32nItnw8Ag/WpJgqG6bWUI/AAAAAAAAA24/o68LXWmrJE8T5Lg6I6pH-LmrcwSLzFozQCLcBGAs/s1600/6.png" width="180" height="350" /></td>		
 		</tr>
 			</tr>
 			<tr>
@@ -184,9 +184,9 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 			<td>Menu Jadwal</td>
 		</tr>
 		<tr>
-				<td><img src="https://1.bp.blogspot.com/-DT8fw2_Plrc/WpJgqW-5-EI/AAAAAAAAA28/osoRhzBibB4z_ubzo2seoOq1adRheklHwCLcBGAs/s1600/7.png"/></td>
-				<td><img src="https://2.bp.blogspot.com/-OrMsOpvIgqE/WpJgq_4vPdI/AAAAAAAAA3A/TdNm8CwFNJ0OKIIYxAynTsEIiTphO9mjgCLcBGAs/s1600/8.png"/></td>
-				<td><img src="https://2.bp.blogspot.com/-Cv5Yd_VGEU0/WpJgrelIltI/AAAAAAAAA3E/KPzi6wLLVYMJB0WP7kjAdLoUZhK7ZOtuACLcBGAs/s1600/9.png"/></td>		
+				<td><img src="https://1.bp.blogspot.com/-DT8fw2_Plrc/WpJgqW-5-EI/AAAAAAAAA28/osoRhzBibB4z_ubzo2seoOq1adRheklHwCLcBGAs/s1600/7.png" width="180" height="350" /></td>
+				<td><img src="https://2.bp.blogspot.com/-OrMsOpvIgqE/WpJgq_4vPdI/AAAAAAAAA3A/TdNm8CwFNJ0OKIIYxAynTsEIiTphO9mjgCLcBGAs/s1600/8.png" width="180" height="350" /></td>
+				<td><img src="https://2.bp.blogspot.com/-Cv5Yd_VGEU0/WpJgrelIltI/AAAAAAAAA3E/KPzi6wLLVYMJB0WP7kjAdLoUZhK7ZOtuACLcBGAs/s1600/9.png" width="180" height="350" /></td>		
 		</tr>
 		</tr>
 			</tr>
@@ -196,9 +196,9 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 			<td>List Scan Mahasiswa</td>
 		</tr>
 		<tr>
-				<td><img src="https://2.bp.blogspot.com/-I76d037JJTA/WpJgmncc8kI/AAAAAAAAA2c/i6ko1qfOPNcX8EcQ5xQKXxjYmNw6kMGMACLcBGAs/s1600/10.png"/></td>
-				<td><img src="https://2.bp.blogspot.com/-JoE6kve1QdY/WpJgmlckFHI/AAAAAAAAA2Y/xUM3uYnVlW0_GjEQOOSR2WPaehX1LGvngCLcBGAs/s1600/11.png"/></td>
-				<td><img src="https://3.bp.blogspot.com/-UlctF2mEaCY/WpJgn5MD00I/AAAAAAAAA2g/qvDOy_y8DTccsT65K01Ic5tzk9QSyLiuQCLcBGAs/s1600/12.png"/></td>		
+				<td><img src="https://2.bp.blogspot.com/-I76d037JJTA/WpJgmncc8kI/AAAAAAAAA2c/i6ko1qfOPNcX8EcQ5xQKXxjYmNw6kMGMACLcBGAs/s1600/10.png" width="180" height="350" /></td>
+				<td><img src="https://2.bp.blogspot.com/-JoE6kve1QdY/WpJgmlckFHI/AAAAAAAAA2Y/xUM3uYnVlW0_GjEQOOSR2WPaehX1LGvngCLcBGAs/s1600/11.png" width="180" height="350" /></td>
+				<td><img src="https://3.bp.blogspot.com/-UlctF2mEaCY/WpJgn5MD00I/AAAAAAAAA2g/qvDOy_y8DTccsT65K01Ic5tzk9QSyLiuQCLcBGAs/s1600/12.png" width="180" height="350" /></td>		
 		</tr>
 		<tr>
 			<td colspan=3> Splash Screen</td>
@@ -207,6 +207,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 			<td colspan=3><img src="https://4.bp.blogspot.com/-RxyKPxYZ9H0/WpJgoF3xbcI/AAAAAAAAA2k/5WN4HeFuFmI1IXMcJEyXmB9S9VBghTeQQCLcBGAs/s1600/13.png" width="180" height="350" /></td>
 		</tr>
 	</table>
+
 
 
 **2.1.3	Antarmuka Perangkat Keras**
