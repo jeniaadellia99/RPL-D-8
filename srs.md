@@ -155,7 +155,8 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 **2.1.2	Antarmuka Pengguna**
 
  - Mockup Android
-	
+
+<div align="center" style="width: 100%"> 	
 	<table align="center">
 		<tr>
 			<td>Welcome</td>
@@ -207,7 +208,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 			<td colspan=3><img src="https://4.bp.blogspot.com/-RxyKPxYZ9H0/WpJgoF3xbcI/AAAAAAAAA2k/5WN4HeFuFmI1IXMcJEyXmB9S9VBghTeQQCLcBGAs/s1600/13.png" width="180" height="350" /></td>
 		</tr>
 	</table>
-
+</div>
 
 
 **2.1.3	Antarmuka Perangkat Keras**
