@@ -154,14 +154,14 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 
 **2.1.2	Antarmuka Pengguna**
 
- - Mockup Android
+ - **Mockup Android**
 
 <div align="center" style="width: 100%"> 	
 	<table align="center">
 		<tr>
-			<td>Welcome</td>
-			<td>Daftar Dosen</td>
-			<td>Daftar Mahasaiswa</td>
+			<td><b>Welcome</b></td>
+			<td><b>Daftar Dosen</b></td>
+			<td><b>Daftar Mahasaiswa</b></td>
 		</tr>
 		<tr>
 				<td><img src="https://4.bp.blogspot.com/-zzgWaZB2bB0/WpJgmjU089I/AAAAAAAAA2U/0KETw2usos0gSGdT0AAbNttPZQAc6cQjACLcBGAs/s1600/1.png" width="180" height="350" /></td>
@@ -169,9 +169,9 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 				<td><img src="https://3.bp.blogspot.com/-DmSeKlhuck4/WpJgo8IIQhI/AAAAAAAAA2s/K8PxNOj12yQYs0EOA8KRvHOcMm3W74cbwCLcBGAs/s1600/3.png" width="180" height="350" /></td>		
 		</tr>
 			<tr>
-			<td>Halaman Mahasiswa </td>
-			<td>Scan QR Code</td>
-			<td>Scan Sukses</td>
+			<td><b>Halaman Mahasiswa </td>
+			<td><b>Scan QR Code</td>
+			<td><b>Scan Sukses</td>
 		</tr>
 		<tr>
 				<td><img src="https://4.bp.blogspot.com/-E6WsXFSeBKY/WpJgpJCujnI/AAAAAAAAA2w/oZaaTQgnRxM2RVHAlpjjXbMA9jy5Qa5XACLcBGAs/s1600/4.png" width="180" height="350" /></td>
@@ -180,9 +180,9 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 		</tr>
 			</tr>
 			<tr>
-			<td>Halaman Dosen</td>
-			<td>Menu Dosen</td>
-			<td>Menu Jadwal</td>
+			<td><b>Halaman Dosen</td>
+			<td><b>Menu Dosen</td>
+			<td><b>Menu Jadwal</td>
 		</tr>
 		<tr>
 				<td><img src="https://1.bp.blogspot.com/-DT8fw2_Plrc/WpJgqW-5-EI/AAAAAAAAA28/osoRhzBibB4z_ubzo2seoOq1adRheklHwCLcBGAs/s1600/7.png" width="180" height="350" /></td>
@@ -192,9 +192,9 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 		</tr>
 			</tr>
 			<tr>
-			<td>Menu Absen</td>
-			<td>Rubah Jadwal</td>
-			<td>List Scan Mahasiswa</td>
+			<td><b>Menu Absen</td>
+			<td><b>Rubah Jadwal</td>
+			<td><b>List Scan Mahasiswa</td>
 		</tr>
 		<tr>
 				<td><img src="https://2.bp.blogspot.com/-I76d037JJTA/WpJgmncc8kI/AAAAAAAAA2c/i6ko1qfOPNcX8EcQ5xQKXxjYmNw6kMGMACLcBGAs/s1600/10.png" width="180" height="350" /></td>
@@ -202,7 +202,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 				<td><img src="https://3.bp.blogspot.com/-UlctF2mEaCY/WpJgn5MD00I/AAAAAAAAA2g/qvDOy_y8DTccsT65K01Ic5tzk9QSyLiuQCLcBGAs/s1600/12.png" width="180" height="350" /></td>		
 		</tr>
 		<tr>
-			<td colspan=3> Splash Screen</td>
+			<td colspan=3> <b>Splash Screen</td>
 		</tr>
 		<tr>
 			<td colspan=3><img src="https://4.bp.blogspot.com/-RxyKPxYZ9H0/WpJgoF3xbcI/AAAAAAAAA2k/5WN4HeFuFmI1IXMcJEyXmB9S9VBghTeQQCLcBGAs/s1600/13.png" width="180" height="350" /></td>
@@ -211,76 +211,78 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 </div>
 
 
- - Mockup Website
+ - **Mockup Website**
 	
 	<table align="center">
 		<tr>
-			<td>Dashboard Admin</td>
+			<td><b>Dashboard Admin</td>
 		</tr>
 		<tr>
 			<td><img src="https://4.bp.blogspot.com/-1bDyR-xSVp4/WpJhS6HlaSI/AAAAAAAAA3g/xHucj0eSHewp2QM5E_jQu0VvHIuEHVOXgCLcBGAs/s1600/dashboard.jpg"></td>
 		</tr>
 				<tr>
-			<td>Data Dosen</td>
+			<td><b>Data Dosen</td>
 		</tr>
 		<tr>
 			<td><img src="https://4.bp.blogspot.com/-oTpZC5yDDHk/WpJhS11I9YI/AAAAAAAAA3Y/RWioKmHUFooXGmOEVfnGw0bycLNehL_cACLcBGAs/s1600/data%2Bdosen.jpg"></td>
 		</tr>
 				<tr>
-			<td>Data Kelas</td>
+			<td><b>Data Kelas</td>
 		</tr>
 		<tr>
 			<td><img src="https://1.bp.blogspot.com/-MzMv4SlEHy8/WpJhS6EDfpI/AAAAAAAAA3c/PnDpxT8VrvgGoclq7qhKIm_s7WPnQqK0QCLcBGAs/s1600/data%2Bkelas.jpg"></td>
 		</tr>
 				<tr>
-			<td>Data Mahasiswa</td>
+			<td><b>Data Mahasiswa</td>
 		</tr>
 		<tr>
 			<td><img src="https://3.bp.blogspot.com/-cimuoYqCJ-4/WpJhUMFTVUI/AAAAAAAAA3k/Ap9VlNdPOMcIqCMIGl68GLy2zydP6BeKgCLcBGAs/s1600/data%2Bmhs.jpg"></td>
 		</tr>
 				<tr>
-			<td>Edit Data Dosen</td>
+			<td><b>Edit Data Dosen</td>
 		</tr>
 		<tr>
 			<td><img src="https://3.bp.blogspot.com/-WEmRHs3XnjQ/WpJhUUdmV1I/AAAAAAAAA3o/jWVkN9LXP6oKvwc3ujwbUqTSWTdWheK2wCLcBGAs/s1600/edit%2Bdosen.jpg"></td>
 		</tr>
 				<tr>
-			<td>Edit Data Mahasiswa</td>
+			<td><b>Edit Data Mahasiswa</td>
 		</tr>
 		<tr>
 			<td><img src="https://4.bp.blogspot.com/-tBb_4EXiMeU/WpJhUhDY_CI/AAAAAAAAA3s/S3WODC0i_ygfANN2Zmor3-KL0PSWNZV6QCLcBGAs/s1600/edit%2Bmahasiswa.jpg"></td>
 		</tr>
 				<tr>
-			<td>Jadwal</td>
+			<td><b>Jadwal</td>
 		</tr>
 		<tr>
 			<td><img src="https://4.bp.blogspot.com/-PAD0N1WgFUo/WpJhVPhaAzI/AAAAAAAAA3w/U1FCYgLTuC0BMPXVFO9jH96Pdl0I6uyOgCLcBGAs/s1600/jadwal.jpg"></td>
 		</tr>
 				<tr>
-			<td>Login Admin</td>
+			<td><b>Login Admin</td>
 		</tr>
 		<tr>
 			<td><img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg"></td>
 		</tr>
 				<tr>
-			<td>Rekap Absensi</td>
+			<td><b>Rekap Absensi</td>
 		</tr>
 		<tr>
 			<td><img src="https://4.bp.blogspot.com/-Dprus_hq2cs/WpJhVpA1ZII/AAAAAAAAA34/Ca2koGenruoTfU1Tr14q9RhdqPetvDfnACLcBGAs/s1600/rekap.jpg"></td>
 		</tr>
 				<tr>
-			<td>Tambah Data Kelas</td>
+			<td><b>Tambah Data Kelas</td>
 		</tr>
 		<tr>
 			<td><img src="https://2.bp.blogspot.com/-GQ3V8XLRJ_g/WpJhWTWWHzI/AAAAAAAAA38/pvQl-DbHKLc-AKPV23X06ncA50fhma6PQCLcBGAs/s1600/tambah%2Bkelas.jpg"></td>
 		</tr>
 				<tr>
-			<td>Edit Jadwal</td>
+			<td><b>Edit Jadwal</td>
 		</tr>
 		<tr>
 			<td><img src="https://1.bp.blogspot.com/-6GUTyCOFLns/WpJhWvUHVsI/AAAAAAAAA4A/qQnHU3tJ0soWjCHxv4PJkCxRWQwXxZKiwCLcBGAs/s1600/ubah%2Bjadwal.jpg"></td>
 		</tr>
 	</table>
+
+
 
 
 **2.1.3	Antarmuka Perangkat Keras**
