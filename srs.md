@@ -276,12 +276,12 @@ dgddgdg
 
 **2.1.4	Antarmuka Perangkat Lunak**
 
-sfsf
+<p style="color:red"><b>Skip</b></p>
 
 
 **2.1.5	Antarmuka Komunikasi**
 
-sfsfs
+<p style="color:red"><b>Skip</b></p>
 
 **2.1.6	Batasan Memori**
 
@@ -315,7 +315,7 @@ add
 
 ## 2.7 Kebutuhan Penyeimbang
 
-adadadaad
+<p style="color:red"><b>Skip</b></p>
 
 
 # III. Requirement Spesification
