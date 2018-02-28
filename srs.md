@@ -313,7 +313,7 @@ dgddgdg
 <b>Skip</b>
 
 ## 2.2 Spesifikasi Kebutuhan Fungsional
-![Gambar](img/usecase.JPG)
+![usecase2.7](https://1.bp.blogspot.com/-YcbAS0uK5KU/WpYGxjwaccI/AAAAAAAAAqQ/QHQAIanYEe8tONcgqGEFdVRCXlafqOQVgCLcBGAs/s1000/usecase.JPG)
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
 
