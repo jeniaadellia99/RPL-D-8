@@ -280,7 +280,7 @@ dgddgdg
 
 **2.1.6	Batasan Memori**
 
-sffsf
+<b>Skip</b>
 
 **2.1.7	Operasi - Operasi**
 
@@ -310,10 +310,10 @@ sffsf
 |Ubah Jadwal| Digunakan untuk merubah jadwal|
 
 **2.1.8	Kebutuhan Adaptasi**
-
+<b>Skip</b>
 
 ## 2.2 Spesifikasi Kebutuhan Fungsional
-asfsff
+![Gambar](img/usecase.JPG)
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
 
