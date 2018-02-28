@@ -335,7 +335,10 @@ dadad
 
 ## 2.5 Batasan - batasan
 
-add
+<p align="justify">
+	Pada aplikasi Q-PRESS atau presensi menggunakan kode QR harus menggunakan Hp atau Smartphone masing-masing user. Satu user hanya boleh menggunakan sat device. Karena pendaftaran menggunakan Mac Address dari device yang sedang digunakan oleh user. Kalau user tersebut ganti device maka harus mendaftar lagi. 
+	Pada saat presensi user tidak boleh menitipkan device untuk login dan melakukan presensi. Dan untuk mengatasi hasl yang tidak diinginkan atau kecurangan pada saat presensi, Dosen akan melakukan presensi kelvalidan kehadiran. 
+</p>
 
 ## 2.6 Asumsi - asumsi ketertarikan
 
