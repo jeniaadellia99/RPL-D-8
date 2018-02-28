@@ -353,7 +353,7 @@ dgddgdg
 
 ## 2.6 Asumsi - asumsi ketertarikan
 
-add
+<b>Skip</b>
 
 ## 2.7 Kebutuhan Penyeimbang
 
