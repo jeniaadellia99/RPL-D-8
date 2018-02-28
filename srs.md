@@ -331,7 +331,20 @@ dgddgdg
 
 ## 2.4 Karakteristik Pengguna
 
-dadad
+|  |  |  |
+|--|--|--|
+|Katagori Pengguna| Tugas|Hak Akses ke Aplikasi
+|Administrator|Rekapitulasi Presensi|Administrator
+|			  |Menginput data mahasiswa|
+|			  |Menginput data dosen|
+|			  |Menginput Jadwal Kuliah|
+|			  |Presentase presensi mahasiswa per hari dan per 			 semester|
+|			  |Menerima data kehadiran mahasiswa|
+|Dosen		  |Melihat dan memilih jadwal kuliah yang akan di laksanakan|Aplikasi Qpress sebagai user dosen
+|			  |Validasi mahasiswa|
+|			  |Melihat presensi mahasiswa|
+|Mahasiswa	  |Melihat Jadwal Perkuliahan|Aplikasi Qpress sebagai user mahasiswa
+|			  |Melihat jumlah kompensasi |
 
 ## 2.5 Batasan - batasan
 
