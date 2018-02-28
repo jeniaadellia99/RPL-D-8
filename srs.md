@@ -284,7 +284,30 @@ sffsf
 
 **2.1.7	Operasi - Operasi**
 
-sfsf
+
+|Operasi|Fungsi  |
+|--|--|
+| Tambah Mahasiswa |Digunakan untuk menambhakan mahasiswa  |
+|Tambah Dosen|Digunakan untuk menambahkan dosen|
+|Tambah Kelas| Digunakan untuk menambahkan kelas|
+|Tombol Cari| Digunakan untuk memulai pencarian|
+|Kolom Cari Dosen| Digunakan untuk mencari Dosen|
+|Kolom Cari Mahasiswa| Digunakan untuk mencari mahasiswa |
+|Detail|Digunakan untuk memberikan informasi tentang Detail data kelas|
+|Kembali|Digunakan untuk kemabli ke halaman sebelumnya|
+|Hapus|digunakan untuk menghapus data yang ingin dihapus|
+|Edit| Digunakan untuk mengedit data yang ingin di edit|
+|Simpan| Digunakan untuk menyimpan data yang sudah diedit |
+|Tombol Download|Digunakan untuk mendownload file|
+|Tombol Import Jadwal|Digunakan untuk memasukkan Jadwal|
+|Tombol Ubah Jadwal|Digunakan untuk mengubah jadwal|
+|Login|Digunakan untuk masuk akses aplikasi|
+|Daftar Dosen|Digunakan untuk mendaftar bagi dosen|
+|Daftar Mahasiswa|Digunakan untuk mendaftar bagi mahasiswa|
+|Lihat Jadwal|Digunakan untuk melihat jadwal|
+|Tutup|Digunakan untuk menutup aktivitas|
+|Mulai|Digunakan untuk memulai presensi|
+|Ubah Jadwal| Digunakan untuk merubah jadwal|
 
 **2.1.8	Kebutuhan Adaptasi**
 
