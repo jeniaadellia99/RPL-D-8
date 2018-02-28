@@ -1,4 +1,4 @@
-# Bagian Koriah :broken_heart: 
+ 
 **BAB 1. PENDAHULUAN** 
 
 **1.1	Gambaran Proyek**
@@ -122,7 +122,6 @@ Media pendukung unutk pembuatan aplikasi.
 
 Setiap anggota mempunyai tanggung jawab terhadap tugasnya. Anggota mempunyai jobdesk-nya masing-masing sesuai dengan poin 2.2.
 
-# Bagian Bayu :smirk_cat:
 
 **BAB 3 Proses Manajerial**
 	
@@ -180,9 +179,6 @@ Fungsi Pendukung dalam protek ini adalah :
 - Spesialis WEB
 - Spesialis Androud
 
-
-
-# Bagian Syamsul :rage:
 
 **BAB 5 Paket Pekerjaan, jadwal, dan anggaran**
 **5.1 Paket Pekerjaan**
