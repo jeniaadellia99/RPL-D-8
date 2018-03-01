@@ -58,6 +58,9 @@ Mockup|Perancangan design aplikasi yang akan di implementasikan pada aplikasi ya
 
 ## 1.4 Referensi
 
+IEEE. <i>IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements 
+Specifications.</i>IEEE Computer Society, 1998.
+
 *Fathansyah.2015.BASIS DATA Revisi Kedua.Bandung:Informatika Bandung*
 
 *SRSExample-webapp.pdf*
@@ -116,15 +119,10 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 
 **2.1.1 Antarmuka Sistem**
 
-![enter image description here](https://1.bp.blogspot.com/-AFxNjOx_KUM/WpFXkR7PNtI/AAAAAAAAAic/UUo2BOQABJcpM2Dy-ev07jtMBsjYh1jYQCLcBGAs/s1600/Drawing64.png)
+![system environment 2.1.1](https://3.bp.blogspot.com/-V27QtTh-8ko/WpiBTVhXy9I/AAAAAAAAAq4/7vhCHXreEDkLPBIPkztsoA1bX6tl1l_aACLcBGAs/s500/systen+environment.JPG)
 
-<li> Siswa </li>
+<p align="justify">Sistem Aplikasi Presensi Menggunakan Kode QR terdapat 3 User atau Aktor yaitu Dosen dan Mahasiswa yang mempunyai kewenangan untuk melakukan presensi. Tetapi memiliki fungsi yang berbeda, Mahasiswa  men-scan presensi untuk mengirimkan data enkripsi yang menyatakan bahwa siswa tersebut hadir. Dosen melakukan presensi untuk menyatakan bahwa jadwal mata kuliah dimulai dan membuka hak akses bagi siswa yang ingin melakukan presensi. Admin adalah aktor yang mengelola data, seperti data dosen, data siswa, data kelas, jadwal. Pada admin menggunakan Web Administrator sedangkan pada dosen dan siswa menggunakan Android App.</p>
 
-<p align="justify">Sebelum menggunakan aplikasi ini siswa diharuskan mendaftar terlebih dahulu, pendaftaran menggunakan Mac address dan Nim siswa tersebut. Setelah mendaftar, siswa dapat login dan melakukan presensi dengan men-scan kode qr, kemudian data scan tersebut akan disimpan pada sistem. Siswa dapat melihat jadwal dari sistem dan sistem akan menampilkan jadwal. 
-
-<li>Dosen</li>
-
-<p align="justify">Sebelum menggunakan aplikasi ini, dosen diharuskan untuk mendaftar terlebih dahulu menggunakan Mac Address dan Nik dari dosen tersebut. Setelah berhasil login, dosen dapat meminta lihat jadwal pada sistem dan sistem akan menampilkannya. Dosen dapat memilih jadwal mengajar di kelas dan ruang Lab apa. Dosen dapat Merubah jadwal. Dosen dapat melakukan scan presensi untuk membuka akses presensi bagi mahasiswa kemudian data presensi tersebut akan disimpan pada sistem, dan sistem akan menampilkan data siswa yang masuk. </p>
 
 <li>Admin</li>
 
@@ -308,7 +306,8 @@ dgddgdg
 <b>Skip</b>
 
 ## 2.2 Spesifikasi Kebutuhan Fungsional
-![use case 2.2](https://1.bp.blogspot.com/-itqdFOCPl04/Wpfi1V7hmpI/AAAAAAAAAqg/CjCbwoClmzUNxOvo_omnrcFf126xVQNjQCLcBGAs/s1000/Use+case+srs-+fix.png)
+![use case 2.2](https://1.bp.blogspot.com/-itqdFOCPl04/Wpfi1V7hmpI/AAAAAAAAAqg/CjCbwoClmzUNxOvo_omnrcFf126xVQNjQCLcBGAs/s500/Use+case+srs-+fix.png)
+
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
 
