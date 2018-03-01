@@ -244,7 +244,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 			<td><b>Rekap Absensi</td>
 		</tr>
 		<tr>
-			<td><img src="https://4.bp.blogspot.com/-Dprus_hq2cs/WpJhVpA1ZII/AAAAAAAAA34/Ca2koGenruoTfU1Tr14q9RhdqPetvDfnACLcBGAs/s1600/rekap.jpg"><br><p align="justify">DI halamman rekap abesnsi admin bisa langsung mendownload hasilnya dengan menekan tombol Download</p></td>
+			<td><img src="https://3.bp.blogspot.com/-7lixgM4oNEY/WpenRt_q7xI/AAAAAAAAA4g/CZlq-Q39w9wxeXfRHZKBdUHHqsBgT7aGgCLcBGAs/s1600/rekap.jpg"><br><p align="justify">DI halamman rekap abesnsi admin bisa langsung mendownload hasilnya dengan menekan tombol Download</p></td>
 		</tr>
 				<tr>
 			<td><b>Tambah Data Kelas</td>
