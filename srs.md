@@ -590,15 +590,15 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 |Nim|Integer|Nomor Absen Mahasiswa|
 |Id_kelas|Integer|Nomor auto increment kelas|
 
-<br>
+
 <b>Dosen</b>
 
-|Data Item| Type | Deskripsi|
-|------|-----|-------|-----------|
-|Nama |Text  |Nama Dosen|
-|Id_dosen|Integer|nomor auto increment Dosen |
-|Nip|Integer|Nomor pengenal dosen|
-|Id_kelas|Integer|Nomor auto increment kelas|
+| Data Item  | Type   |Deskripsi |
+|------------|--------|----------|
+| Id_dosen   |Integer |primary key|
+| Nama       |Varchar |Nama Dosen|
+| NIP 		 |Integer |Nomor pengenal dosen|
+|Id_kelas	 |Integer |forigen key|
 
 <br>
 <b>Mata Kuliah</b>
