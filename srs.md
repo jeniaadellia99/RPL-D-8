@@ -333,17 +333,12 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
 
-**2.3.1 Spesifikasi User Interface**
-<p align="justify">User Interface pada aplikasi harus user-friendly, intuitif dan mudah digunakan, menerapkan standar ergonomi</p>
-
-**2.3.2 Spesifikasi Kinerja**
-<p align="justify">Sistem pada aplikasi harus berfungsi secara real-time, operasi apapun pada informasi yang tersimpan. Sistem ini dapat di gunakan dalam jangka panjang setidaknya dapat disimulasikan fungsinya dapat bekerja optimal dengan puluhan simultan</p>
-
-**2.3.3 Ketersediaan dan Keandalan**
-<p align="justify">Sistem perangkat lunak dapat menyediakan backup yang dihasilkan secara otomatis ( pada database yang digunakan) yang berisi informasi yang telah tersimpan.</p>
-
-**2.3.4 Spesifikasi Keamanan**
-<p align="justify">Untuk menggunakan fitur tertentu dari sistem, pengguna harus terlebih dahulu mengotentikasi dirinya dengan Username dan Password yang sudah terdaftar pada sistem. Sistem tidak mengizinkan akses jika pengguna gagal memberikan informasi log yang benar. Sistem harus secara otomatis melakukan log out jika pengguna telah menganggur untuk jangka waktu tertentu (misalnya 30 menit).</p>
+<li>Usability</li>
+kebutuhan yang digunakan dalam aplikasi agar mudah dipakai oleh user. Seperti penggunaan Bootsrap yang digunakan untuk mebuat tampilan aplikasi yang lebih menarik, Material Design seperti warna dan  moockup.
+<li>Security</li>
+untuk keamanan user dosen dan mahasiswa harus mendaftar terlebih dahulu dengan menggunakan NIK,NIP,Mac Address. Sedangkan user admin harus login dengan akun.
+<li>reability</li>
+Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 
 ## 2.4 Karakteristik Pengguna
 
