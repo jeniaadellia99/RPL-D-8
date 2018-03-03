@@ -615,7 +615,7 @@ dgddgdg
 <b>Admin</b>
 <br>
 |Data Item| Type | Deskripsi|
-|--|--|--|
+|------|------|------|
 |Id_admin|Integer|Nomor urut admin|
 |nama_admin|Text|Nama admin |
   
