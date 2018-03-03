@@ -594,6 +594,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 <b>Dosen</b>
 <br>
 
+
 |Data Item| Type | Deskripsi|
 |------|-----|-------|-----------|
 |Nama |Text  |Nama Dosen|
