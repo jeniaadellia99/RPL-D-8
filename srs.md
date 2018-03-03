@@ -1,6 +1,6 @@
 <html>
 <body>
-<p align="center"><h1> Software Requirements Spesification</h1></p>
+<div align="center"><h1> Software Requirements Spesification</h1></div>
 
 <p align="center"><b>Version X.X </b><br>
 <p align="center">22 Februari 2018</b>
@@ -21,6 +21,13 @@
 </p>
 </body>
 </html>
+
+
+----------
+
+
+----------
+
 
 # I. Pendahuluan
 
@@ -257,7 +264,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 
 **2.1.3	Antarmuka Perangkat Keras**
 
-dgddgdg
+![enter image description here](https://3.bp.blogspot.com/-OYtTom8jkTw/Wpq-9UjA0vI/AAAAAAAAA4w/-UDCsVuAqnAxRGPagRoq4Skzv4FQpvmpgCLcBGAs/s1600/antarmuka+sistem.png)
 
 **2.1.4	Antarmuka Perangkat Lunak**
 
@@ -567,8 +574,9 @@ dgddgdg
 <br>
 <b>Dosen</b>
 <br>
+
 |Data Item| Type | Deskripsi|
-|--|--|--|
+|------|-----|-------|-----------|
 |Nama |Text  |Nama Dosen|
 |Id_dosen|Integer|nomor auto increment Dosen |
 |Nip|Integer|Nomor pengenal dosen|
@@ -577,6 +585,7 @@ dgddgdg
 <br>
 <b>Mata Kuliah</b>
 <br>
+
 |Data Item| Type | Deskripsi|
 |--|--|--|
 |Nama_matkul |Text  |Nama Mata kuliah|
@@ -586,6 +595,7 @@ dgddgdg
 <br>
 <b>Kelas</b>
 <br>
+
 |Data Item| Type | Deskripsi|
 |--|--|--|
 |Id_kelas|Integer|nomor urut Kelas |
@@ -594,6 +604,7 @@ dgddgdg
 <br>
 <b>Detail Kelas</b>
 <br>
+
 |Data Item| Type | Deskripsi|
 |--|--|--|
 |Id_detail_kelas|Integer|nomor urut Detail Kelas |
@@ -604,6 +615,7 @@ dgddgdg
 <br>
 <b>Jadwal</b>
 <br>
+
 |Data Item| Type | Deskripsi|
 |--|--|--|
 |Thn_angkatan|Integer|Tahun ajaran |
@@ -614,6 +626,7 @@ dgddgdg
 <br>
 <b>Admin</b>
 <br>
+
 |Data Item| Type | Deskripsi|
 |-------------------|---------------------|---------------------|
 |Id_admin	|Integer|Nomor urut admin|
