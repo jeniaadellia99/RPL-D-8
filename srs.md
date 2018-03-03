@@ -264,11 +264,13 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 
 **2.1.3	Antarmuka Perangkat Keras**
 
-Antarmuka Perangkat Kerasng di butuhkan pada  aplikasi ini meliputi :
+Antarmuka Perangkat Keras yang di butuhkan pada  aplikasi ini meliputi :
 
  1. SmartPhone Android
+	 
 	 Untuk menggunakan Aplikasi ini smartphone harus minimal memiliki OS Android versi Jelly Beans dan memiliki Camera.
  2. Personal Computer
+	
 	 Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser yang support laravel 
 
 ![enter image description here](https://3.bp.blogspot.com/-OYtTom8jkTw/Wpq-9UjA0vI/AAAAAAAAA4w/-UDCsVuAqnAxRGPagRoq4Skzv4FQpvmpgCLcBGAs/s1600/antarmuka+sistem.png)
