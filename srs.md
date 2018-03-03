@@ -123,11 +123,6 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 
 <p align="justify">Sistem Aplikasi Presensi Menggunakan Kode QR terdapat 3 User atau Aktor yaitu Dosen dan Mahasiswa yang mempunyai kewenangan untuk melakukan presensi. Tetapi memiliki fungsi yang berbeda, Mahasiswa  men-scan presensi untuk mengirimkan data enkripsi yang menyatakan bahwa siswa tersebut hadir. Dosen melakukan presensi untuk menyatakan bahwa jadwal mata kuliah dimulai dan membuka hak akses bagi siswa yang ingin melakukan presensi. Admin adalah aktor yang mengelola data, seperti data dosen, data siswa, data kelas, jadwal. Pada admin menggunakan Web Administrator sedangkan pada dosen dan siswa menggunakan Android App.</p>
 
-
-<li>Admin</li>
-
-<p align="justify"> Sebelum melakukan pengelolaan data, admin diharuskan untuk login terlebih dahulu. Pada sistem admin dapat menambahkan data siswa, data dosen, data kelas, pada sistem. Setelah data ditambahkan, sistem dapat menampilkan data tersebut. Admin dapat melakukan edit data siswa, edit data siswa perkelas, edit data dosen, kemudian data tersebut akan di simpan pada sistem. Dan sistem dapat menampilkan data yang tadi edit. Untuk pengelolaan jadwal, admin dapat mendownload template jadwal yang sudah tersedia, kemudian admin dapat mengimport jadwal. Admin dapat mendownload rekapitulasi presensi dan mengubah jadwal. </ul></p>
-
 </body>
 </html>
 
@@ -549,7 +544,18 @@ dgddgdg
 |Post Condition|Admin dapat melihat dan mengedit data Presensi Tiap angkatan dan tiap kelas|
 |Exception Push	|1. Tidak ada Koneksi|
 
-*Note : Lihat Modul Bapa, Browsing nambah referensi*
+ ## 3.3 Struktur Detail Kebutuhan Non-Fungsional <br>
+
+**3.3.1	Logika Struktur Data**
+
+<p align="justify">
+	Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
+</p>
+
+![bag 3.3.1 ERD](https://2.bp.blogspot.com/-yX2txfpbPRE/WppnhL43FFI/AAAAAAAAArI/oc8bqp4jO-EiKw1prMIN5sOEYI6a2T8ZgCLcBGAs/s500/erd.png)
+
+
+
       
 	
 
