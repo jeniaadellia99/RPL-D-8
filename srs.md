@@ -579,9 +579,9 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 </p>
 
 ![bag 3.3.1 ERD](https://2.bp.blogspot.com/-yX2txfpbPRE/WppnhL43FFI/AAAAAAAAArI/oc8bqp4jO-EiKw1prMIN5sOEYI6a2T8ZgCLcBGAs/s1000/erd.png)
-<br>
+
 <b>Mahasiswa</b>
-<br>
+
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
@@ -592,8 +592,6 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 <br>
 <b>Dosen</b>
-<br>
-
 
 |Data Item| Type | Deskripsi|
 |------|-----|-------|-----------|
