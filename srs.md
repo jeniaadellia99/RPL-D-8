@@ -224,7 +224,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 			<td><b>Edit Data Mahasiswa</td>
 		</tr>
 		<tr>
-			<td><img src="https://4.bp.blogspot.com/-tBb_4EXiMeU/WpJhUhDY_CI/AAAAAAAAA3s/S3WODC0i_ygfANN2Zmor3-KL0PSWNZV6QCLcBGAs/s1600/edit%2Bmahasiswa.jpg"><br><p align="justify">Pada Edit Data Mahasiswa sama seperti Edit Data Dosen yakni terdapat tombol untuk upload dan download untuk mengedit data mahasiswa</p></td>
+			<td><img src="https://4.bp.blogspot.com/-tBb_4EXiMeU/WpJhUhDY_CI/AAAAAAAAA3s/S3WODC0i_ygfANN2Zmor3-KL0PSWNZV6QCLcBGAs/s1600/edit%2Bmsahasiswa.jpg"><br><p align="justify">Pada Edit Data Mahasiswa sama seperti Edit Data Dosen yakni terdapat tombol untuk upload dan download untuk mengedit data mahasiswa</p></td>
 		</tr>
 				<tr>
 			<td><b>Jadwal</td>
@@ -274,6 +274,7 @@ dgddgdg
 <p style="color:red"><b>Skip</b></p>
 
 **2.1.6	Batasan Memori**
+
 
 <b>Skip</b>
 
@@ -361,17 +362,22 @@ dgddgdg
 
  ## 3.2 Functional Requirement <br> 
  <p align="justify">
- 	Skip Dulu
+ 	Logika Struktur terdapat pada bagian 3.3.1
  </p>
 
  **3.2.1 Daftar Dosen**
 
+ 
 |  |  |
 |--|--|
 | Nama fungsi  |Daftar Dosen  |
 |Ref|Bag 2.1.2, Daftar Dosen | 
-|Prasyarat|Tampilan Android Untuk Pendaftaran|
-|Alur Sistem|Dosen membuka aplikasi. Dan sebelum dapat mengakses aplikasi dosen harus mendaftar terlebih dahulu dengan menggunakan NIK dan Mac Address dari device-nya|
+|Trigger|Membuka aplikasi Q-PRESS|
+|Precondition|Halaman utama Aplikasi untuk Pendaftaran|
+|Basic Path|1. Dosen mengklik fungsi Daftar Dosen <br>2. Dosen Memasukkan NIP dan Mac Address|
+|Alternative|Tidak Ada|
+|Post Condition|User dapat Daftar dan dapat mengakses aplikasi presensi|
+|Exception Push	|Tidak ada Koneksi|
 
 **3.2.2	Daftar Mahasiswa**
 
@@ -379,17 +385,26 @@ dgddgdg
 |--|--|
 | Nama fungsi  |Daftar Mahasiswa  |
 |Ref|Bag 2.1.2, Daftar Mahasiswa | 
-|Prasyarat|Tampilan Android Untuk Pendaftaran|
-|Alur Sistem|Mahasiswa membuka aplikasi. Dan sebelum dapat mengakses aplikasi mahasiswa harus mendaftar terlebih dahulu dengan menggunakan NIM dan Mac Address dari device-nya|
+|Trigger|Membuka aplikasi Q-PRESS|
+|Precondition|Halaman utama Aplikasi untuk Pendaftaran|
+|Basic Path|1. Mahasiswa mengklik fungsi Daftar Mahasiswa <br>2. Mahasiswa Memasukkan NIP dan Mac Address|
+|Alternative|Tidak Ada|
+|Post Condition|Mahasiswa dapat Daftar dan dapat mengakses aplikasi presensi|
+|Exception Push	|Tidak ada Koneksi|
+
 
 **3.2.3 Halaman Mahasiswa**
 
 |  |  |
 |--|--|
-| Nama fungsi  |Halaman Mahasiswa  |
+| Nama fungsi  |Halaman utama Mahasiswa  |
 |Ref|Bag 2.1.2, Halaman Mahasiswa | 
-|Prasyarat|Tampilan Android Dashboard Mahasiswa|
-|Alur Sistem|Mahasiswa membuka aplikasi, setelah login mahasiswa akan diarahkan pada sebuah menu dashboard mahasiswa. Didalamnya berisi keterangan Nama dan Nim, Keterangan Absen, Presensi, dan Kompensasi. Terdapat menu Scan dan Lihat Jadwal|
+|Trigger|Membuka aplikasi Q-PRESS, sudah mendaftarkan NIM dan Mac|
+|Precondition|Pendaftaran untuk Mahasiswa|
+|Basic Path|1. Mahasiswa sudah terdaftar dan jika sudah terdaftar maka bisa langsung menggunakan aplikasi yang menampilkan Halaman mahasiswa sebagai halaman utamanya|
+|Alternative|Tidak Ada|
+|Post Condition|Mahasiswa dapat melihat Halaman utama mahasiswa dan dapat mengakses fungsi lainnya |
+|Exception Push	|1. Tidak ada Koneksi <br> 2. Mahasiswa belum mendaftar|
 
 **3.2.4	SCAN**
 
@@ -397,71 +412,142 @@ dgddgdg
 |--|--|
 | Nama fungsi  |SCAN  |
 |Ref|Bag 2.1.2, SCAN | 
-|Prasyarat|Tampilan Android Untuk Men-Scan Kode QR pada saat presensi di mulai|
-|Alur Sistem| Mahasiswa berada di dahboard halaman mahasiswa, dan ketika presensi dimulai mahasiswa dapat menekan tombol SCAN untuk dapat beralih halaman scan kode QR dan melakukan presensi. Ketika Presensi berhasil maka mahasiswa mendapat notifikasi bahwa Scan telah berhasil tetapi jika gagal dan ada device-nya mahasiswa melakukan validasi presensi kepada dosen|
+|Trigger|Membuka aplikasi Q-PRESS, sudah mendaftarkan NIM dan Mac|
+|Precondition|Halaman Utama|
+|Basic Path|1. User menekan tombol SCAN. <br> 2. Sistem mulai mode scan|
+|Alternative|Tidak Ada|
+|Post Condition|User dapat men-scan kode yang telah disediakan |
+|Exception Push	|1. Tidak ada Koneksi <br> 2. Mahasiswa belum mendaftar <br> 3. Smartphone tidak mendukung scan kode|
 
 **3.2.5	Halaman dosen**
 
 |  |  |
 |--|--|
-| Nama fungsi  |Halaman Dosen  |
-|Ref|Bag 2.1.2, Halaman Dosen, Ubah Jadwal, Mulai Jadwal | 
-|Prasyarat|Tampilan Android pada Halaman Dosen|
-|Alur Sistem| Dosen membuka aplikasi dan login berhasil kemudian diarahkan ke halaman Dosen. pada halaman dosen terdapat list menu jadwal mengajar, dimana kelas mengajar. Fungsi rubah jadwal digunakan bagi dosen ketika jadwal dirubah dan fungsi Mulai digunakan dosen untuk memulai jam kuliah, fungsi Mulai juga digunakan untuk membuka hak akses presensi bagi para mahasiswa|
+| Nama fungsi  |Halaman utama Dosen  |
+|Ref|Bag 2.1.2, Halaman Dosen | 
+|Trigger|Membuka aplikasi Q-PRESS, sudah mendaftarkan NIK dan Mac|
+|Precondition|Pendaftaran untuk Dosen|
+|Basic Path|1. Dosen sudah terdaftar dan jika sudah terdaftar maka bisa langsung menggunakan aplikasi yang menampilkan Halaman Dosen sebagai halaman utamanya|
+|Alternative|Tidak Ada|
+|Post Condition|Dosen dapat melihat Halaman utama mahasiswa dan dapat mengakses fungsi lainnya |
+|Exception Push	|1. Tidak ada Koneksi <br> 2. Dosen belum mendaftar|
 
-
-**3.2.6	Halaman Menu**
-
-|  |  |
-|--|--|
-| Nama fungsi  |Halaman Menu  |
-|Ref|Bag 2.1.2, Halaman menu, Lihat Jadwal, Rekap Absen | 
-|Prasyarat|Tampilan Android pada Halaman Menu Dosen|
-|Alur Sistem| Dosen berada di dashboard, terdapat menu yang berisi nama dosen dan nik dosen, fungsi Lihat jadwal dan Rekap Presensi|
-
-
-**3.2.7	Menu Jadwal**
+**3.2.6	Halaman Menu Jadwal**
 
 |  |  |
 |--|--|
 | Nama fungsi  |Menu Jadwal  |
-|Ref|Bag 2.1.2, Halaman menu, Lihat Jadwal, Rekap Absen | 
-|Prasyarat|Tampilan Android pada Halaman Menu Jadwal pada dosen|
-|Alur Sistem| Dosen berada di dashboard, terdapat menu yang berisi nama dosen dan nik dosen, fungsi Lihat jadwal dan Rekap Presensi. Ketika menekan tombol Lihat jadwal Dosen dapat mendownload jadwal untuk disimpan dan dilihat|
+|Ref|Bag 2.1.2, Menu Jadwal | 
+|Trigger|Membuka Aplikasi QR-Kode|
+|Precondition|Halaman Menu Dosen|
+|Basic Path|1. Dosen sudah berada di halaman utama. <br> 2. Dosen mengklik halaman menu dosen. <br> 3. Dosen mengklik Menu Lihat Jadwal.|
+|Alternative|Tidak Ada|
+|Post Condition|Dosen dapat mendownload jadwal dan menampilkan jadwal|
+|Exception Push	|1. Tidak ada Koneksi <br> 2. Dosen belum mendaftar|
 
-**3.2.8	Menu Rekap Presensi**
-
-|  |  |
-|--|--|
-| Nama fungsi  |Menu Rekap Presensi  |
-|Ref|Bag 2.1.2, Halaman menu, Lihat Jadwal, Rekap Absen | 
-|Prasyarat|Tampilan Android pada Halaman Menu Rekap Presensi pada dosen|
-|Alur Sistem| Dosen berada di dashboard, terdapat menu yang berisi nama dosen dan nik dosen, fungsi Lihat jadwal dan Rekap Presensi. Ketika menekan tombol Rekap Absen Dosen dapat mendownload data rekap absen untuk disimpan dan dilihat|
-
-**3.2.9	Menu Rubah Jadwal**
+**3.2.7	Menu Rekap Absensi**
 
 |  |  |
 |--|--|
-| Nama fungsi  |Menu Jadwal  |
-|Ref|Bag 2.1.2, Halaman Dosen, Ubah Jadwal, Mulai Jadwal | 
-|Prasyarat|Tampilan Android pada Halaman Dosen|
-|Alur Sistem| Dosen berada di dashboard, terdapat fungsi tombol ubah jadwal, ketika menekan tombol tersebut dosen akan dilaihkan ke halaman ubah jadwal dan harus menginputkan tanggal jadwal, jam, dan diruangan mana yang akan digunakan untuk melaksanakan kegiatan mengajar |
+| Nama fungsi  |Menu Rekap Absensi |
+|Ref|Bag 2.1.2, Menu Rekap Absensi | 
+|Trigger|Membuka Aplikasi QR-Kode|
+|Precondition|Halaman Menu Dosen|
+|Basic Path|1. Dosen sudah berada di halaman utama. <br> 2. Dosen mengklik halaman menu dosen. <br> 3. Dosen mengklik Menu Lihat Rekap Absensi.|
+|Alternative|Tidak Ada|
+|Post Condition|Dosen dapat mendownload Rekap Absensi dan melihat rekap absen|
+|Exception Push	|1. Tidak ada Koneksi <br> 2. Dosen belum mendaftar|
 
-
-**3.2.10 List Scan Mahasiswa**
+**3.2.8	Menu Rubah Jadwa**
 
 |  |  |
 |--|--|
-| Nama fungsi  |List Scan Mahasiswa  |
-|Ref|Bag 2.1.2, Halaman Dosen, List Scan Mahasiswa | 
-|Prasyarat|Tampilan Android pada Halaman Dosen|
-|Alur Sistem| Menu List Scan Mahasiswa digunakan untuk validasi bagi mahasiswa yang mempunyai kendala dalam melakukan presensi |
+| Nama fungsi  |Menu Rubah Jadwal|
+|Ref|Bag 2.1.2, Menu Rekap Absensi | 
+|Trigger|Membuka Aplikasi QR-Kode|
+|Precondition|Halaman Menu Dosen|
+|Basic Path|1. Dosen sudah berada di halaman utama. <br> 2. Dosen mengklik Ubah Jadwal. <br> 3. Dosen mengedit jadwal yang ingin di rubah|
+|Alternative|Tidak Ada|
+|Post Condition|Dosen dapat mengubah jadwal mata kuliah dan meyimpannya|
+|Exception Push	|1. Tidak ada Koneksi <br> 2. Dosen belum mendaftar|
 
+**3.2.9	List Scan Mahasiswa**
 
+|  |  |
+|--|--|
+| Nama fungsi  |List Scan Mahasiswa|
+|Ref|Bag 2.1.2, List Scan Mahasiswa | 
+|Trigger|Membuka Aplikasi QR-Kode|
+|Precondition|Halaman Menu Dosen|
+|Basic Path|1. Dosen sudah membuka akses presensi bagi mahasiswa.|
+|Alternative|Tidak Ada|
+|Post Condition|Dosen dapat melihat dan mengedit mahasiswa yang telah men-scan kode sebagai bukti kehadiran|
+|Exception Push	|1. Tidak ada Koneksi <br> 2. Dosen belum mendaftar|
 
+**3.2.10	Data Kelas pada Admin**
 
+|  |  |
+|--|--|
+| Nama fungsi  |Data Kelas|
+|Ref|Bag 2.1.2, Data Kelas | 
+|Trigger|Login sebagai admin|
+|Precondition|Halaman Dashboard|
+|Basic Path|1. Admin masuk ke dashboard admin. <br> 2. Admin Mengklik menu Data Kelas|
+|Alternative|Admin mengklik Data Kelas pada Dashboard|
+|Post Condition|Admin dapat melihat dan mengedit data kelas|
+|Exception Push	|1. Tidak ada Koneksi|
 
+**3.2.11	Data Mahasiswa pada Admin**
 
+|  |  |
+|--|--|
+| Nama fungsi  |Data Mahasiswa|
+|Ref|Bag 2.1.2, Data Mahasiswa | 
+|Trigger|Login sebagai admin|
+|Precondition|Halaman Dashboard|
+|Basic Path|1. Admin masuk ke dashboard admin. <br> 2. Admin Mengklik menu Data Mahasiswa|
+|Alternative|Admin mengklik Data Mahasiswa pada Dashboard|
+|Post Condition|Admin dapat melihat dan mengedit data Mahasiswa|
+|Exception Push	|1. Tidak ada Koneksi|
+
+**3.2.12	Data Dosen pada Admin**
+
+|  |  |
+|--|--|
+| Nama fungsi  |Data Dosen|
+|Ref|Bag 2.1.2, Data Dosen | 
+|Trigger|Login sebagai admin|
+|Precondition|Halaman Dashboard|
+|Basic Path|1. Admin masuk ke dashboard admin. <br> 2. Admin Mengklik menu Data Dosen|
+|Alternative|Admin mengklik Data Dosen pada Dashboard|
+|Post Condition|Admin dapat melihat dan mengedit data Dosen|
+|Exception Push	|1. Tidak ada Koneksi|
+
+**3.2.13	Jadwal pada Admin**
+
+|  |  |
+|--|--|
+| Nama fungsi  |Menu Jadwal|
+|Ref|Bag 2.1.2, Jadwal | 
+|Trigger|Login sebagai admin|
+|Precondition|Halaman Dashboard|
+|Basic Path|1. Admin masuk ke dashboard admin. <br> 2. Admin Mengklik menu Jadwal|
+|Alternative|Tidak Ada|
+|Post Condition|Admin dapat melihat dan mengubah Jadwal |
+|Exception Push	|1. Tidak ada Koneksi|
+
+**3.2.14	Rekap Presensi pada Admin**
+
+|  |  |
+|--|--|
+| Nama fungsi  |Rekap Presensi|
+|Ref|Bag 2.1.2, Rekap Presensi | 
+|Trigger|Login sebagai admin|
+|Precondition|Halaman Dashboard|
+|Basic Path|1. Admin masuk ke dashboard admin. <br> 2. Admin Mengklik menu Rekap Presensi|
+|Alternative|Tidak Ada|
+|Post Condition|Admin dapat melihat dan mengedit data Presensi Tiap angkatan dan tiap kelas|
+|Exception Push	|1. Tidak ada Koneksi|
 
 *Note : Lihat Modul Bapa, Browsing nambah referensi*
       
