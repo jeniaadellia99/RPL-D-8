@@ -5,7 +5,7 @@
 <p align="center"><b>Version X.X </b><br>
 <p align="center">22 Februari 2018</b>
 <p align="center">
-<img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
+<img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
 </p>
 
 <br><p align="center"><b> Q-PRESS (QR-Kode Presensi)</b><br>
@@ -126,7 +126,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 
 **2.1.1 Antarmuka Sistem**
 
-![system environment 2.1.1](https://3.bp.blogspot.com/-V27QtTh-8ko/WpiBTVhXy9I/AAAAAAAAAq4/7vhCHXreEDkLPBIPkztsoA1bX6tl1l_aACLcBGAs/s500/systen+environment.JPG)
+![system environment 2.1.1](https://3.bp.blogspot.com/-V27QtTh-8ko/WpiBTVhXy9I/AAAAAAAAAq4/7vhCHXreEDkLPBIPkztsoA1bX6tl1laACLcBGAs/s500/systen+environment.JPG)
 
 <p align="justify">Sistem Aplikasi Presensi Menggunakan Kode QR terdapat 3 User atau Aktor yaitu Dosen dan Mahasiswa yang mempunyai kewenangan untuk melakukan presensi. Tetapi memiliki fungsi yang berbeda, Mahasiswa  men-scan presensi untuk mengirimkan data enkripsi yang menyatakan bahwa siswa tersebut hadir. Dosen melakukan presensi untuk menyatakan bahwa jadwal mata kuliah dimulai dan membuka hak akses bagi siswa yang ingin melakukan presensi. Admin adalah aktor yang mengelola data, seperti data dosen, data siswa, data kelas, jadwal. Pada admin menggunakan Web Administrator sedangkan pada dosen dan siswa menggunakan Android App.</p>
 
@@ -164,9 +164,9 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 			<td><b>Menu Jadwal</td>
 		</tr>
 		<tr valign="top" align="center">
-				<td><img src="https://1.bp.blogspot.com/-DT8fw2_Plrc/WpJgqW-5-EI/AAAAAAAAA28/osoRhzBibB4z_ubzo2seoOq1adRheklHwCLcBGAs/s1600/7.png" width="180" height="350" /><br><p align="justify">Di tampilan halaman dosen, mengunakan cardview yang ditunjang dengan 2 tombol pada tiap kontentnya yakni tombl mulai pada tiap mata kuliah dan tombol ubah jadwal mata kuliah tersebut. Ada juga tombol menu yang akan bisa digunakan untuk membuka menu</p></td>
-				<td><img src="https://2.bp.blogspot.com/-OrMsOpvIgqE/WpJgq_4vPdI/AAAAAAAAA3A/TdNm8CwFNJ0OKIIYxAynTsEIiTphO9mjgCLcBGAs/s1600/8.png" width="180" height="350" /><br><p align="justify">Di menu terdapat keterangan nama dan NIP dosen dan ada 2 pilihan menu yakni lihat jadwal dan lihat rekap absensi</p></td>
-				<td><img src="https://2.bp.blogspot.com/-Cv5Yd_VGEU0/WpJgrelIltI/AAAAAAAAA3E/KPzi6wLLVYMJB0WP7kjAdLoUZhK7ZOtuACLcBGAs/s1600/9.png" width="180" height="350" /><br><p align="justify">Menu jadwal akan menampilan tombol download yang akan mengunduh file jadwal yang berupa .pdf</p></td>		
+				<td><img src="https://1.bp.blogspot.com/-DT8fw2Plrc/WpJgqW-5-EI/AAAAAAAAA28/osoRhzBibB4zubzo2seoOq1adRheklHwCLcBGAs/s1600/7.png" width="180" height="350" /><br><p align="justify">Di tampilan halaman dosen, mengunakan cardview yang ditunjang dengan 2 tombol pada tiap kontentnya yakni tombl mulai pada tiap mata kuliah dan tombol ubah jadwal mata kuliah tersebut. Ada juga tombol menu yang akan bisa digunakan untuk membuka menu</p></td>
+				<td><img src="https://2.bp.blogspot.com/-OrMsOpvIgqE/WpJgq4vPdI/AAAAAAAAA3A/TdNm8CwFNJ0OKIIYxAynTsEIiTphO9mjgCLcBGAs/s1600/8.png" width="180" height="350" /><br><p align="justify">Di menu terdapat keterangan nama dan NIP dosen dan ada 2 pilihan menu yakni lihat jadwal dan lihat rekap absensi</p></td>
+				<td><img src="https://2.bp.blogspot.com/-Cv5YdVGEU0/WpJgrelIltI/AAAAAAAAA3E/KPzi6wLLVYMJB0WP7kjAdLoUZhK7ZOtuACLcBGAs/s1600/9.png" width="180" height="350" /><br><p align="justify">Menu jadwal akan menampilan tombol download yang akan mengunduh file jadwal yang berupa .pdf</p></td>		
 		</tr>
 		</tr>
 			</tr>
@@ -177,8 +177,8 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 		</tr>
 		<tr valign="top" align="center">
 				<td><img src="https://2.bp.blogspot.com/-I76d037JJTA/WpJgmncc8kI/AAAAAAAAA2c/i6ko1qfOPNcX8EcQ5xQKXxjYmNw6kMGMACLcBGAs/s1600/10.png" width="180" height="350" /><br><p align="justify">Di menu rekap absen pada dosen juga sama seperti pada menu jadwal, yakni akan mendownload sebuah file yang berupa .pdf</p></td>
-				<td><img src="https://2.bp.blogspot.com/-JoE6kve1QdY/WpJgmlckFHI/AAAAAAAAA2Y/xUM3uYnVlW0_GjEQOOSR2WPaehX1LGvngCLcBGAs/s1600/11.png" width="180" height="350" /><br><p align="justify">Pada menu ubah jadwal terdapat keterangan default jadwal yang sudah ditentukan, dan ada beberapa inputan yang bisa di pilih yakni masukan tanggal baru, jam baru, dan ruangan yang baru kemudian juga ada 2 tombol untuk simpan dan batal</p></td>
-				<td><img src="https://3.bp.blogspot.com/-UlctF2mEaCY/WpJgn5MD00I/AAAAAAAAA2g/qvDOy_y8DTccsT65K01Ic5tzk9QSyLiuQCLcBGAs/s1600/12.png" width="180" height="350" /><br><p align="justify">List scan Mahasiswa terdapat list yang akan menampilkan daftar mahasiswa yang berhasil scan absen.</p></td>		
+				<td><img src="https://2.bp.blogspot.com/-JoE6kve1QdY/WpJgmlckFHI/AAAAAAAAA2Y/xUM3uYnVlW0GjEQOOSR2WPaehX1LGvngCLcBGAs/s1600/11.png" width="180" height="350" /><br><p align="justify">Pada menu ubah jadwal terdapat keterangan default jadwal yang sudah ditentukan, dan ada beberapa inputan yang bisa di pilih yakni masukan tanggal baru, jam baru, dan ruangan yang baru kemudian juga ada 2 tombol untuk simpan dan batal</p></td>
+				<td><img src="https://3.bp.blogspot.com/-UlctF2mEaCY/WpJgn5MD00I/AAAAAAAAA2g/qvDOyy8DTccsT65K01Ic5tzk9QSyLiuQCLcBGAs/s1600/12.png" width="180" height="350" /><br><p align="justify">List scan Mahasiswa terdapat list yang akan menampilkan daftar mahasiswa yang berhasil scan absen.</p></td>		
 		</tr>
 		<tr align="center">
 			<td colspan="3"> <b>Splash Screen</td>
@@ -196,19 +196,19 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 			<td><b>Dashboard Admin</td>
 		</tr>
 		<tr>
-			<td><img src="https://4.bp.blogspot.com/-1bDyR-xSVp4/WpJhS6HlaSI/AAAAAAAAA3g/xHucj0eSHewp2QM5E_jQu0VvHIuEHVOXgCLcBGAs/s1600/dashboard.jpg"> <br><p align="justify">Pada Dashboard admin terdapat panel-panel yang berisi beberapa informasi seperti jumlah mahasiswa, jumlah dosen, jumlah kelas, kalender dan ucapan selamat datang.</p></td>
+			<td><img src="https://4.bp.blogspot.com/-1bDyR-xSVp4/WpJhS6HlaSI/AAAAAAAAA3g/xHucj0eSHewp2QM5EjQu0VvHIuEHVOXgCLcBGAs/s1600/dashboard.jpg"> <br><p align="justify">Pada Dashboard admin terdapat panel-panel yang berisi beberapa informasi seperti jumlah mahasiswa, jumlah dosen, jumlah kelas, kalender dan ucapan selamat datang.</p></td>
 		</tr>
 				<tr>
 			<td><b>Data Dosen</td>
 		</tr>
 		<tr>
-			<td><img src="https://4.bp.blogspot.com/-oTpZC5yDDHk/WpJhS11I9YI/AAAAAAAAA3Y/RWioKmHUFooXGmOEVfnGw0bycLNehL_cACLcBGAs/s1600/data%2Bdosen.jpg"><br><p align="justify">Menu Dosen terdapat tabel list nama-nama dosen dan tombol untuk edit dosen</p></td>
+			<td><img src="https://4.bp.blogspot.com/-oTpZC5yDDHk/WpJhS11I9YI/AAAAAAAAA3Y/RWioKmHUFooXGmOEVfnGw0bycLNehLcACLcBGAs/s1600/data%2Bdosen.jpg"><br><p align="justify">Menu Dosen terdapat tabel list nama-nama dosen dan tombol untuk edit dosen</p></td>
 		</tr>
 				<tr>
 			<td><b>Data Kelas</td>
 		</tr>
 		<tr>
-			<td><img src="https://1.bp.blogspot.com/-MzMv4SlEHy8/WpJhS6EDfpI/AAAAAAAAA3c/PnDpxT8VrvgGoclq7qhKIm_s7WPnQqK0QCLcBGAs/s1600/data%2Bkelas.jpg"><br><p align="justify">Di dalam menu kelas terdapat data kelas berupa table. Di dalam table tersebut juga ada tombol untuk melihat detail kelasnya</p></td>
+			<td><img src="https://1.bp.blogspot.com/-MzMv4SlEHy8/WpJhS6EDfpI/AAAAAAAAA3c/PnDpxT8VrvgGoclq7qhKIms7WPnQqK0QCLcBGAs/s1600/data%2Bkelas.jpg"><br><p align="justify">Di dalam menu kelas terdapat data kelas berupa table. Di dalam table tersebut juga ada tombol untuk melihat detail kelasnya</p></td>
 		</tr>
 				<tr>
 			<td><b>Data Mahasiswa</td>
@@ -226,7 +226,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 			<td><b>Edit Data Mahasiswa</td>
 		</tr>
 		<tr>
-			<td><img src="https://4.bp.blogspot.com/-tBb_4EXiMeU/WpJhUhDY_CI/AAAAAAAAA3s/S3WODC0i_ygfANN2Zmor3-KL0PSWNZV6QCLcBGAs/s1600/edit%2Bmsahasiswa.jpg"><br><p align="justify">Pada Edit Data Mahasiswa sama seperti Edit Data Dosen yakni terdapat tombol untuk upload dan download untuk mengedit data mahasiswa</p></td>
+			<td><img src="https://4.bp.blogspot.com/-tBb4EXiMeU/WpJhUhDYCI/AAAAAAAAA3s/S3WODC0iygfANN2Zmor3-KL0PSWNZV6QCLcBGAs/s1600/edit%2Bmsahasiswa.jpg"><br><p align="justify">Pada Edit Data Mahasiswa sama seperti Edit Data Dosen yakni terdapat tombol untuk upload dan download untuk mengedit data mahasiswa</p></td>
 		</tr>
 				<tr>
 			<td><b>Jadwal</td>
@@ -244,13 +244,13 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 			<td><b>Rekap Absensi</td>
 		</tr>
 		<tr>
-			<td><img src="https://3.bp.blogspot.com/-7lixgM4oNEY/WpenRt_q7xI/AAAAAAAAA4g/CZlq-Q39w9wxeXfRHZKBdUHHqsBgT7aGgCLcBGAs/s1600/rekap.jpg"><br><p align="justify">DI halamman rekap abesnsi admin bisa langsung mendownload hasilnya dengan menekan tombol Download</p></td>
+			<td><img src="https://3.bp.blogspot.com/-7lixgM4oNEY/WpenRtq7xI/AAAAAAAAA4g/CZlq-Q39w9wxeXfRHZKBdUHHqsBgT7aGgCLcBGAs/s1600/rekap.jpg"><br><p align="justify">DI halamman rekap abesnsi admin bisa langsung mendownload hasilnya dengan menekan tombol Download</p></td>
 		</tr>
 				<tr>
 			<td><b>Tambah Data Kelas</td>
 		</tr>
 		<tr>
-			<td><img src="https://2.bp.blogspot.com/-GQ3V8XLRJ_g/WpJhWTWWHzI/AAAAAAAAA38/pvQl-DbHKLc-AKPV23X06ncA50fhma6PQCLcBGAs/s1600/tambah%2Bkelas.jpg"><br><p align="justify">Pada tambah kelas Admin  harus memasukan nama kelas terlebih dahulu</p></td>
+			<td><img src="https://2.bp.blogspot.com/-GQ3V8XLRJg/WpJhWTWWHzI/AAAAAAAAA38/pvQl-DbHKLc-AKPV23X06ncA50fhma6PQCLcBGAs/s1600/tambah%2Bkelas.jpg"><br><p align="justify">Pada tambah kelas Admin  harus memasukan nama kelas terlebih dahulu</p></td>
 		</tr>
 				<tr>
 			<td><b>Edit Jadwal</td>
@@ -285,13 +285,13 @@ Tidak ada antarmuka perangkat lain yang dibutuhkan dalam pengembangan Aplikasi Q
 
 Antarmuka komunikasi yang dibutuhkan dalam perangkat lunak ini merupakan antarmuka untuk melakukan koneksi dalam jaringan internet meliputi:
 
-1. Antarmuka komunikasi pada sisi _Server_
+1. Antarmuka komunikasi pada sisi Server
 
-Aplikasi pada sisi s_erver_ merupakan aplikasi yang melayani semua _request_ yang dikirimkan oleh _client_ yang meminta layanan dengan protocol _http_. Oleh karena itu pada sisi s_erver_ dibutuhkan adanya sebuah _web server_ yang terhubung dalam jaringan internet.  _Web server_ tersebut harus mempunyai alamat IP dan _domain_ yang dapat dikenali dalam jaringan internet.
+Aplikasi pada sisi server merupakan aplikasi yang melayani semua request yang dikirimkan oleh client yang meminta layanan dengan protocol http. Oleh karena itu pada sisi server dibutuhkan adanya sebuah web server yang terhubung dalam jaringan internet.  Web server tersebut harus mempunyai alamat IP dan domain yang dapat dikenali dalam jaringan internet.
 
-2. Antarmuka komunikasi pada sisi _Client_
+2. Antarmuka komunikasi pada sisi Client
 
-Pada sisi client_ proses yang dilakukan adalah melakukan _request_ kepada _server_ untuk meminta layanan http.  Oleh karena itu antarmuka yang dibutuhkan pada sisi _client_ adalah perangkat komunikasi yang memungkinkan komputer _client_ terhubung dengan jaringan internet.
+Pada sisi client proses yang dilakukan adalah melakukan request kepada server untuk meminta layanan http.  Oleh karena itu antarmuka yang dibutuhkan pada sisi client adalah perangkat komunikasi yang memungkinkan komputer client terhubung dengan jaringan internet.
 
 **2.1.6	Batasan Memori**
 
@@ -327,7 +327,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 <b>Skip</b>
 
 ## 2.2 Spesifikasi Kebutuhan Fungsional
-![use case 2.2](https://1.bp.blogspot.com/-itqdFOCPl04/Wpfi1V7hmpI/AAAAAAAAAqg/CjCbwoClmzUNxOvo_omnrcFf126xVQNjQCLcBGAs/s500/Use+case+srs-+fix.png)
+![use case 2.2](https://1.bp.blogspot.com/-itqdFOCPl04/Wpfi1V7hmpI/AAAAAAAAAqg/CjCbwoClmzUNxOvoomnrcFf126xVQNjQCLcBGAs/s500/Use+case+srs-+fix.png)
 
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
@@ -584,9 +584,9 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 |Data Item| Type | Deskripsi|
 |--|--|--|
 |Nama |Text  |Nama mahasiswa|
-|Id_mhs|Integer|nomor auto increment mahasiswa |
+|Idmhs|Integer|nomor auto increment mahasiswa |
 |Nim|Integer|Nomor Absen Mahasiswa|
-|Id_kelas|Integer|Nomor auto increment kelas|
+|Idkelas|Integer|Nomor auto increment kelas|
 
 <br>
 <b>Dosen</b>
@@ -595,9 +595,9 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 |Data Item| Type | Deskripsi|
 |------|-----|-------|-----------|
 |Nama |Text  |Nama Dosen|
-|Id_dosen|Integer|nomor auto increment Dosen |
+|Iddosen|Integer|nomor auto increment Dosen |
 |Nip|Integer|Nomor pengenal dosen|
-|Id_kelas|Integer|Nomor auto increment kelas|
+|Idkelas|Integer|Nomor auto increment kelas|
 
 <br>
 <b>Mata Kuliah</b>
@@ -605,9 +605,9 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
-|Nama_matkul |Text  |Nama Mata kuliah|
-|id_matkul|Integer|nomor urut mata kuliah|
-|kode_matkul|Integer|Kode Mata kuliah|
+|Namamatkul |Text  |Nama Mata kuliah|
+|idmatkul|Integer|nomor urut mata kuliah|
+|kodematkul|Integer|Kode Mata kuliah|
 
 <br>
 <b>Kelas</b>
@@ -615,8 +615,8 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
-|Id_kelas|Integer|nomor urut Kelas |
-|Nama_kelas|Text|Nama Kelas|
+|Idkelas|Integer|nomor urut Kelas |
+|Namakelas|Text|Nama Kelas|
 
 <br>
 <b>Detail Kelas</b>
@@ -624,9 +624,9 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
-|Id_detail_kelas|Integer|nomor urut Detail Kelas |
-|Id_kelas|Integer|nomor urut Kelas |
-|id_matkul|Integer|nomor urut mata kuliah|
+|Iddetailkelas|Integer|nomor urut Detail Kelas |
+|Idkelas|Integer|nomor urut Kelas |
+|idmatkul|Integer|nomor urut mata kuliah|
 |Nip|Integer|Nomor pengenal dosen|
 
 <br>
@@ -635,10 +635,10 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
-|Thn_angkatan|Integer|Tahun ajaran |
-|Id_jadwal|Integer|nomor urut jadwal |
-|Id_kelas|Integer|nomor urut Kelas |
-|id_matkul|Integer|nomor urut mata kuliah|
+|Thnangkatan|Integer|Tahun ajaran |
+|Idjadwal|Integer|nomor urut jadwal |
+|Idkelas|Integer|nomor urut Kelas |
+|idmatkul|Integer|nomor urut mata kuliah|
 
 <br>
 <b>Admin</b>
@@ -646,7 +646,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 |Data Item| Type | Deskripsi|
 |-------------------|---------------------|---------------------|
-|Id_admin	|Integer|Nomor urut admin|
-|nama_admin |Text|Nama admin |
+|Idadmin	|Integer|Nomor urut admin|
+|namaadmin |Text|Nama admin |
   
 	
