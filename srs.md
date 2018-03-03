@@ -554,10 +554,64 @@ dgddgdg
 </p>
 
 ![bag 3.3.1 ERD](https://2.bp.blogspot.com/-yX2txfpbPRE/WppnhL43FFI/AAAAAAAAArI/oc8bqp4jO-EiKw1prMIN5sOEYI6a2T8ZgCLcBGAs/s1000/erd.png)
+<br>
+<b>Mahasiswa</b>
+|Data Item| Type | Deskripsi|
+|--|--|
+|Nama |Text  |Nama mahasiswa|
+|Id_mhs|Integer|nomor auto increment mahasiswa |
+|Nim|Integer|Nomor Absen Mahasiswa|
+|Id_kelas|Integer|Nomor auto increment kelas|
 
+<br>
+<b>Dosen</b>
+|Data Item| Type | Deskripsi|
+|--|--|
+|Nama |Text  |Nama Dosen|
+|Id_dosen|Integer|nomor auto increment Dosen |
+|Nip|Integer|Nomor pengenal dosen|
+|Id_kelas|Integer|Nomor auto increment kelas|
 
+<br>
+<b>Mata Kuliah</b>
+|Data Item| Type | Deskripsi|
+|--|--|
+|Nama_matkul |Text  |Nama Mata kuliah|
+|id_matkul|Integer|nomor urut mata kuliah|
+|kode_matkul|Integer|Kode Mata kuliah|
 
-      
+<br>
+<b>Kelas</b>
+|Data Item| Type | Deskripsi|
+|--|--|
+|Id_kelas|Integer|nomor urut Kelas |
+|Nama_kelas|Text|Nama Kelas|
+
+<br>
+<b>Detail Kelas</b>
+|Data Item| Type | Deskripsi|
+|--|--|
+|Id_detail_kelas|Integer|nomor urut Detail Kelas |
+|Id_kelas|Integer|nomor urut Kelas |
+|id_matkul|Integer|nomor urut mata kuliah|
+|Nip|Integer|Nomor pengenal dosen|
+
+<br>
+<b>Jadwal</b>
+|Data Item| Type | Deskripsi|
+|--|--|
+|Thn_angkatan|Integer|Tahun ajaran |
+|Id_jadwal|Integer|nomor urut jadwal |
+|Id_kelas|Integer|nomor urut Kelas |
+|id_matkul|Integer|nomor urut mata kuliah|
+
+<br>
+<b>Admin</b>
+|Data Item| Type | Deskripsi|
+|--|--|
+|Id_admin|Integer|Nomor urut admin|
+|nama_admin|Text|Nama admin |
+  
 	
 
 
