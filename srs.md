@@ -299,6 +299,7 @@ dgddgdg
 |Mulai|Digunakan untuk memulai presensi|
 
 **2.1.8	Kebutuhan Adaptasi**
+<br>
 <b>Skip</b>
 
 ## 2.2 Spesifikasi Kebutuhan Fungsional
@@ -552,7 +553,7 @@ dgddgdg
 	Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
 </p>
 
-![bag 3.3.1 ERD](https://2.bp.blogspot.com/-yX2txfpbPRE/WppnhL43FFI/AAAAAAAAArI/oc8bqp4jO-EiKw1prMIN5sOEYI6a2T8ZgCLcBGAs/s500/erd.png)
+![bag 3.3.1 ERD](https://2.bp.blogspot.com/-yX2txfpbPRE/WppnhL43FFI/AAAAAAAAArI/oc8bqp4jO-EiKw1prMIN5sOEYI6a2T8ZgCLcBGAs/s1000/erd.png)
 
 
 
