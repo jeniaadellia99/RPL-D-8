@@ -264,21 +264,36 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 
 **2.1.3	Antarmuka Perangkat Keras**
 
+Antarmuka Perangkat Kerasng di butuhkan pada  aplikasi ini meliputi :
+
+ 1. SmartPhone Android
+	 Untuk menggunakan Aplikasi ini smartphone harus minimal memiliki OS Android versi Jelly Beans dan memiliki Camera.
+ 2. Personal Computer
+	 Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser yang support laravel 
+
 ![enter image description here](https://3.bp.blogspot.com/-OYtTom8jkTw/Wpq-9UjA0vI/AAAAAAAAA4w/-UDCsVuAqnAxRGPagRoq4Skzv4FQpvmpgCLcBGAs/s1600/antarmuka+sistem.png)
 
 **2.1.4	Antarmuka Perangkat Lunak**
 
-<p style="color:red"><b>Skip</b></p>
+Tidak ada antarmuka perangkat lain yang dibutuhkan dalam pengembangan Aplikasi Q-Press ini.
 
 
 **2.1.5	Antarmuka Komunikasi**
 
-<p style="color:red"><b>Skip</b></p>
+
+Antarmuka komunikasi yang dibutuhkan dalam perangkat lunak ini merupakan antarmuka untuk melakukan koneksi dalam jaringan internet meliputi:
+
+1. Antarmuka komunikasi pada sisi _Server_
+
+Aplikasi pada sisi s_erver_ merupakan aplikasi yang melayani semua _request_ yang dikirimkan oleh _client_ yang meminta layanan dengan protocol _http_. Oleh karena itu pada sisi s_erver_ dibutuhkan adanya sebuah _web server_ yang terhubung dalam jaringan internet.  _Web server_ tersebut harus mempunyai alamat IP dan _domain_ yang dapat dikenali dalam jaringan internet.
+
+2. Antarmuka komunikasi pada sisi _Client_
+
+Pada sisi client_ proses yang dilakukan adalah melakukan _request_ kepada _server_ untuk meminta layanan http.  Oleh karena itu antarmuka yang dibutuhkan pada sisi _client_ adalah perangkat komunikasi yang memungkinkan komputer _client_ terhubung dengan jaringan internet.
 
 **2.1.6	Batasan Memori**
 
-
-<b>Skip</b>
+Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebihi dari 100MB
 
 **2.1.7	Operasi - Operasi**
 
@@ -633,5 +648,3 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 |nama_admin |Text|Nama admin |
   
 	
-
-
