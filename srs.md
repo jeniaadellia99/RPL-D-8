@@ -582,6 +582,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 <br>
 <b>Mahasiswa</b>
 <br>
+
 |Data Item| Type | Deskripsi|
 |--|--|--|
 |Nama |Text  |Nama mahasiswa|
