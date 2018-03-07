@@ -343,8 +343,8 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 |7|Sistem dapat menampilkan rekap presensi mahasiswa yang diminta oleh dosen dan admin melalui perangkat android dan web |
 |8|Sistem dapat melakukan permintaan admin untuk mengupload jadwal dan melakukan validasi dokumen melalui website|
 |9|Sistem dapat menampilkan dan melakukan operasi - operasi pada Data kelas melalui web admin|
-|9|Sistem dapat menampilkan dan melakukan operasi - operasi pada Data mahasiswa melalui web admin|
-|10|Sistem dapat menampilkan dan melakukan operasi - operasi pada Data Dosen melalui web admin|
+|10|Sistem dapat menampilkan dan melakukan operasi - operasi pada Data mahasiswa melalui web admin|
+|11|Sistem dapat menampilkan dan melakukan operasi - operasi pada Data Dosen melalui web admin|
 
 
 <b>2.2.1	Data Kelas</b>
