@@ -347,7 +347,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 |11|Sistem dapat menampilkan dan melakukan operasi - operasi pada Data Dosen melalui web admin|
 
 
-2.2.1	Data Kelas
+<b>2.2.1 Data Kelas</b>
 
 ![enter image description here](https://1.bp.blogspot.com/-sJm5euw-tUc/Wp_cP0rFzOI/AAAAAAAAA5U/rPftPNVQdwoDIScYcSeolV38AHr3zCWHgCEwYBhgL/s1600/Data+kelas.png)
 
@@ -423,6 +423,7 @@ Admin bisa Mengolah data dosen  dengan cara :
 3. Sistem Menampilkan Data Dosen
 Xref : bagian 3.2.10
 
+<<<<<<< HEAD
 <b>2.2.8 Lihat Jadwal Mahasiswa</b>
 
 ![lihatjadwalmatkulmahasiswa](https://4.bp.blogspot.com/-xKNILhWjjvw/Wp_mChs8ikI/AAAAAAAAAss/dBn8eYsjmjE0l1HN65zPbrOMLmjvyBKQgCLcBGAs/s1600/Lihat+jadwal+mahasiswa.png)
@@ -492,6 +493,8 @@ Admin dapat melakukan Upload Jadwal dengan cara :
 5. Sistem menyimpan hasil data yang diupload oleh admin.
 Xref : 3.2.11
 
+=======
+>>>>>>> 05ca820bf5cb4548cc22fabbf24e8e845d99f09b
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
 
@@ -685,6 +688,31 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Basic Path|1. Admin masuk ke dashboard admin. <br> 2. Admin Mengklik menu Rekap Presensi|
 |Alternative|Tidak Ada|
 |Post Condition|Admin dapat melihat dan mengedit data Presensi Tiap angkatan dan tiap kelas|
+|Exception Push	|1. Tidak ada Koneksi|
+
+
+**3.2.13	Login Admin**
+
+| Nama fungsi  |Login Admin|
+|--|--|
+|Ref|Bag 2.1.2, Rekap Presensi | 
+|Trigger|Admin Mengakses URL|
+|Precondition|Halaman Dashboard|
+|Basic Path|1. Admin Masuk Halaman Login. <br> 2. Admin Mengisi username dan password lalu tekan enter atau klik login <br> 3. Sistem Memvailadsi username dan password. <br>5. Admin masuk ke halaman dashboard atau kembali mengisi username dan password|
+|Alternative|Tidak Ada|
+|Post Condition|Session admin telah habis atau belum ada|
+|Exception Push	|1. Tidak ada Koneksi|
+
+**3.2.14 Scan Dosen**
+
+| Nama fungsi  |Scan Dosen|
+|--|--|
+|Ref|Bag 2.1.2, Rekap Presensi | 
+|Trigger|Dosen Membuka Aplikasi|
+|Precondition|Halaman Dosen|
+|Basic Path|1. Dosen Memilih mata kuliah dengan mengklik tombol mulai. <br> 2.Dosen Mengklik  scan t <br> 3. Sistem menampilkan mode scan. <br>5. Sistem memvailidasi hasil scan|
+|Alternative|Tidak Ada|
+|Post Condition|Masuk ke hasil list scan mahasiswa|
 |Exception Push	|1. Tidak ada Koneksi|
 
  ## 3.3 Struktur Detail Kebutuhan Non-Fungsional <br>
