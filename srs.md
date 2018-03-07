@@ -325,7 +325,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 ## 2.2 Spesifikasi Kebutuhan Fungsional
 
-<div align="center"><img src="https://2.bp.blogspot.com/-AG-BE4RxLf8/Wp_ZBu8yEbI/AAAAAAAAAsc/7sYp3ktpFXEQ8OV2ag52fmZ8W3_GvTDrQCLcBGAs/s1600/Kebutuhan+spesifikasi+fungsional.png" width="70%" height="70%" /></div>
+<div align="center"><img src="https://2.bp.blogspot.com/-pMcaWdoAxqg/Wp_v5nkOh4I/AAAAAAAAAt0/8mtc3l0hQw4Sp5xNrbdH4sWMztF7sP60wCLcBGAs/s1600/Kebutuhan%2Bspesifikasi%2Bfungsional.png" width="70%" height="70%" /></div>
 
 <b>2.2.1	Data Kelas</b>
 
@@ -423,6 +423,77 @@ Admin bisa Mengolah data dosen  dengan cara :
 3. Sistem Menampilkan Data Dosen
 Xref : bagian 3.2.10
 
+<b>2.2.8 Lihat Jadwal Mahasiswa</b>
+
+![lihatjadwalmatkulmahasiswa](https://4.bp.blogspot.com/-xKNILhWjjvw/Wp_mChs8ikI/AAAAAAAAAss/dBn8eYsjmjE0l1HN65zPbrOMLmjvyBKQgCLcBGAs/s1600/Lihat+jadwal+mahasiswa.png)
+
+Mahasiswa dapat melihat jadwal mata kuliah dengan cara :
+1. Mahasiswa masuk ke halaman beranda mahasiswa.
+2. Mahasiswa mengklik menu lihat jadwal.
+3. Mahasiswa mendownload jadwal mata kuliah.
+4. Mahasiswa dapat melihat jadwal yang sudah didownload.
+Xref : 3.2.11
+
+<b>2.2.9 Login Admin</b>
+
+![login admin](https://1.bp.blogspot.com/-c9dzV1VjTXc/Wp_nFAmqCCI/AAAAAAAAAs0/XhPliNl4qq4eVLpdql0FQVDjWMo3MGtGwCLcBGAs/s1600/Login.png)
+
+Admin melakukan Login pada web dengan cara :
+1. Admin Masuk ke Web Apps.
+2. Admin memasukkan User name dan Password.
+3. User akan melakukan validasi.
+4. Jika tidak sesuai, maka login akan gagal.
+5. Jika berhasil login, admin akan masuk ke dashboard admin.
+Xref : 3.2.13
+
+<b>2.2.10 Scan Presensi pada Dosen</b>
+
+![scanpresensidosen](https://3.bp.blogspot.com/-vGKGxoDTXIY/Wp_oVFVxqTI/AAAAAAAAAtA/M3lKKx5GUaIbm9nDJX9eD3r48Meiuk2IQCLcBGAs/s1600/Scan+dosen.png)
+
+Dosen melakukan presensi untuk membuka hak akses presensi pada dosen :
+1. Dosen berada di dashboard dosen pada android app.
+2. Dosen memilih mata kuliah dan jadwal.
+3. Dosen mengklik button scan.
+4. Sistem melakukan scan.
+Xref : 3.2.14
+
+<b>2.2.11 Scan presensi pada Mahasiswa </b>
+
+![scanpresensipadamhs](https://2.bp.blogspot.com/-y_msYCBxAp4/Wp_qxQFmJNI/AAAAAAAAAtM/YyisdhF7BrYHtPplYK_GtygN1jLh1ntFwCLcBGAs/s1600/Scan+Mahasiswa.png)
+
+Mahasiswa dapat melakukan scan preseni dengan cara :
+1. Mahasiswa berada di dashboard Mahasiswa.
+2. Mahasiswa dapat melakukan scan presensi.
+3. Sistem melakukan scan.
+4. Sistem mengirim data hasil scan ke admin dan dosen.
+Xref : 3.2.3
+
+<b>2.2.12 Ubah Jadwal Pada Dosen</b>
+
+![ubahjadwalmengajar](https://2.bp.blogspot.com/-mz51Bsg_3xI/Wp_rnrKdVXI/AAAAAAAAAtU/2kS4ClUPEOYQIImS52DFc50Ncdck6iiIgCLcBGAs/s1600/Ubah+Jadwal.png)
+
+Dosen dapat mengubah jadwal dengan cara :
+1. Dosen berada di dashboard dosen melalui android app.
+2. Dosen mengklik menu ubah jadwal.
+3. Sistem menampilkan halaman ubah jadwal.
+4. Dosen dapat mengubah jadwal mata kuliah.
+5. Dosen dapat menyimpan jadwal hasil perubahan.
+Xref : 3.2.6
+
+<b>2.2.13 Upload Jadwal pada Admin </b>
+
+![uploadjadwaladmin](https://1.bp.blogspot.com/-UhzTnPC4POY/Wp_s6_6eXqI/AAAAAAAAAtg/LWapsn3divs0qw0kl678gntv0n0PNyGMwCLcBGAs/s1600/Upload+Jadwal.png)
+
+Admin dapat melakukan Upload Jadwal dengan cara :
+1. Admin berada pada dashboard admin.
+2. Admin mengklik menu jadwal.
+3. Admin mengupload jadwal.
+4. Sistem memvalidasi format dokumen yang diupload oleh admin.
+5. Sistem menyimpan hasil data yang diupload oleh admin.
+Xref : 3.2.11
+
+=======
+>>>>>>> 05ca820bf5cb4548cc22fabbf24e8e845d99f09b
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
 
