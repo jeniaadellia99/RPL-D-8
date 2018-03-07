@@ -23,8 +23,6 @@
 </html>
 
 
-----------
-
 
 # I. Pendahuluan
 
@@ -492,8 +490,6 @@ Admin dapat melakukan Upload Jadwal dengan cara :
 5. Sistem menyimpan hasil data yang diupload oleh admin.
 Xref : 3.2.11
 
-=======
->>>>>>> 05ca820bf5cb4548cc22fabbf24e8e845d99f09b
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
 
@@ -519,6 +515,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |			  |Melihat presensi mahasiswa|
 |Mahasiswa	  |Melihat Jadwal Perkuliahan|Aplikasi Qpress sebagai user mahasiswa
 |			  |Melihat jumlah kompensasi |
+
 ## 2.5 Batasan - batasan
 
 <p align="justify">
@@ -794,4 +791,3 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Id_admin	|Integer|Nomor urut admin|
 |nama_admin |Varchar|Nama admin |
   
-	
