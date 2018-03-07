@@ -325,7 +325,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 ## 2.2 Spesifikasi Kebutuhan Fungsional
 
-<div align="center"><img src="https://2.bp.blogspot.com/-AG-BE4RxLf8/Wp_ZBu8yEbI/AAAAAAAAAsc/7sYp3ktpFXEQ8OV2ag52fmZ8W3_GvTDrQCLcBGAs/s1600/Kebutuhan+spesifikasi+fungsional.png" width="70%" height="70%" /></div>
+<div align="center"><img src="https://2.bp.blogspot.com/-pMcaWdoAxqg/Wp_v5nkOh4I/AAAAAAAAAt0/8mtc3l0hQw4Sp5xNrbdH4sWMztF7sP60wCLcBGAs/s1600/Kebutuhan%2Bspesifikasi%2Bfungsional.png" width="70%" height="70%" /></div>
 
 <b>2.2.1	Data Kelas</b>
 
