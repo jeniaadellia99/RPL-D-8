@@ -347,7 +347,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 |10|Sistem dapat menampilkan dan melakukan operasi - operasi pada Data Dosen melalui web admin|
 
 
-2.2.1	Data Kelas
+<b>2.2.1	Data Kelas</b>
 
 ![enter image description here](https://1.bp.blogspot.com/-sJm5euw-tUc/Wp_cP0rFzOI/AAAAAAAAA5U/rPftPNVQdwoDIScYcSeolV38AHr3zCWHgCEwYBhgL/s1600/Data+kelas.png)
 
@@ -423,7 +423,6 @@ Admin bisa Mengolah data dosen  dengan cara :
 3. Sistem Menampilkan Data Dosen
 Xref : bagian 3.2.10
 
-2.2.1
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
 
