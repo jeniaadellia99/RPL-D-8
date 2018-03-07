@@ -324,7 +324,8 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 <br>
 
 ## 2.2 Spesifikasi Kebutuhan Fungsional
-![use case 2.2](https://1.bp.blogspot.com/-itqdFOCPl04/Wpfi1V7hmpI/AAAAAAAAAqg/CjCbwoClmzUNxOvo_omnrcFf126xVQNjQCLcBGAs/s500/Use+case+srs-+fix.png)
+
+![enter image description here](https://2.bp.blogspot.com/-AG-BE4RxLf8/Wp_ZBu8yEbI/AAAAAAAAAsc/7sYp3ktpFXEQ8OV2ag52fmZ8W3_GvTDrQCLcBGAs/s1600/Kebutuhan+spesifikasi+fungsional.png)
 
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
