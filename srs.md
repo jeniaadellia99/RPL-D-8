@@ -327,7 +327,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 <div align="center"><img src="https://2.bp.blogspot.com/-AG-BE4RxLf8/Wp_ZBu8yEbI/AAAAAAAAAsc/7sYp3ktpFXEQ8OV2ag52fmZ8W3_GvTDrQCLcBGAs/s1600/Kebutuhan+spesifikasi+fungsional.png" width="70%" height="70%" /></div>
 
-2.2.1	Data Kelas
+<b>2.2.1	Data Kelas</b>
 
 ![enter image description here](https://1.bp.blogspot.com/-sJm5euw-tUc/Wp_cP0rFzOI/AAAAAAAAA5U/rPftPNVQdwoDIScYcSeolV38AHr3zCWHgCEwYBhgL/s1600/Data+kelas.png)
 
@@ -336,7 +336,7 @@ Admin bisa Memilih menu data kelas untuk melihat dan mengolah data kelas dengan 
 2. Admin Mengklik menu Data Kelas
 Xref : bagian 3.2.8
 
-2.2.2 Daftar Mahasiswa
+<b>2.2.2 Daftar Mahasiswa</b>
 
 ![enter image description here](https://1.bp.blogspot.com/-Sf8a8e1iANY/Wp_cerC8DJI/AAAAAAAAA5s/o7XA9YgGjwIkaPVuqZamNffkMEFj4yYwACLcBGAs/s1600/Daftar+Mahasiswa.png)
 
@@ -347,7 +347,7 @@ Mahasiswa harus mendaftar untuk bisa mengakses ke dalam aplikasi dengan cara :
 4. Sistem menyimpan Nim dan Mac dari mahasiswa.
 Xref : bagian 3.2.2
 
-2.2.3 Daftar Dosen
+<b>2.2.3 Daftar Dosen</b>
 
 ![enter image description here](https://2.bp.blogspot.com/-vuzil8qTePo/Wp_ceVsRiWI/AAAAAAAAA5k/FbSEiPqPZc0JBbmXgJvPBywrJF-O_um1wCLcBGAs/s1600/Daftar+Dosen.png)
 
@@ -358,7 +358,7 @@ Dosen harus mendaftar untuk bisa mengakses ke dalam aplikasi dengan cara :
 4. Sistem menyimpan Nip dan Mac Address dari Dosen.
 Xref : bagian 3.2.1
 
-2.2.4 Rekap Presensi Admin
+<b>2.2.4 Rekap Presensi Admin</b>
 
 ![enter image description here](https://3.bp.blogspot.com/-Nt8seRDIjGU/Wp_cQOUoG4I/AAAAAAAAA5Y/JtgsGsHGFQoI5ijcB70Sp8THagl2m58HwCEwYBhgL/s1600/Download+Rekap+Admin.png)
 
@@ -369,7 +369,7 @@ Admin bisa mendownload rekap hasil presensi dengan cara :
 2. Admin Mengklik menu Rekap Presensi
 Xref : bagian 3.2.12
 
-2.2.5 Rekap Presensi Dosen
+<b>2.2.5 Rekap Presensi Dosen</b>
 
 ![enter image description here](https://4.bp.blogspot.com/-QKxF7qEMO1s/Wp_cQYmlMiI/AAAAAAAAA5c/4XNAb6ZC70Ei4CaNqZ4gPpUHK9LkpwFfwCEwYBhgL/s1600/Download+Rekap+dosen.png)
 
@@ -382,7 +382,7 @@ Dosen bisa mendownload rekap hasil presensi dengan cara :
 5. Sistem memberikan akses kepada dosen untuk dapat mendownload file.
 Xref : bagian 3.2.5
 
-2.2.6 Lihat Jadwal Dosen
+<b>2.2.6 Lihat Jadwal Dosen</b>
 
 ![enter image description here](https://1.bp.blogspot.com/-vqZBRG6KJIU/Wp_cRJNFX_I/AAAAAAAAA5g/uK_qgIOKw_cTvqXTr5FSqIKcv-ISc9zDQCEwYBhgL/s1600/Lihat+jadwal+dosen.png)
 
@@ -393,7 +393,7 @@ Dosen bisa Melihat jadwal mata kuliah yang dia ajar  dengan cara :
 4. Sistem menampilkan Jadwal sesuai permintaan Dosen
 Xref : bagian 3.2.4
 
-2.2.7 Data Dosen pada Admin
+<b>2.2.7 Data Dosen pada Admin</b>
 
 ![enter image description here](https://4.bp.blogspot.com/-ay2CiVbgCLQ/Wp_ceco_LJI/AAAAAAAAA5o/XJFjT4FSbsYx8ziyn3eytudg6OyQ0utwQCLcBGAs/s1600/Data+dosen.png)
 
@@ -403,7 +403,6 @@ Admin bisa Mengolah data dosen  dengan cara :
 3. Sistem Menampilkan Data Dosen
 Xref : bagian 3.2.10
 
-2.2.1
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
 
