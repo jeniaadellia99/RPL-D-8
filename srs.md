@@ -383,7 +383,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Ref|Bag 2.1.2, Daftar Dosen | 
 |Trigger|Membuka aplikasi Q-PRESS|
 |Precondition|Halaman utama Aplikasi untuk Pendaftaran|
-|Basic Path|1. Dosen mengklik fungsi Daftar Dosen <br>2. Sistem menampilkan halaman pendaftaran yang terdiri dari kolom Nip dan Mac <br>3. Dosen Memasukkan NIP dan Mac Address<br> 4. Sistem menyimpan Nip dan Mac Address dari Dosen|
+|Basic Path|1. Dosen mengklik fungsi Daftar Dosen. <br>2. Sistem menampilkan halaman pendaftaran yang terdiri dari kolom Nip dan Mac. <br>3. Dosen Memasukkan NIP dan Mac Address.<br> 4. Sistem menyimpan Nip dan Mac Address dari Dosen.|
 |Alternative|Tidak Ada|
 |Post Condition|User dapat Daftar dan dapat mengakses aplikasi presensi|
 |Exception Push	|Tidak ada Koneksi|
@@ -396,40 +396,40 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Ref|Bag 2.1.2, Daftar Mahasiswa | 
 |Trigger|Membuka aplikasi Q-PRESS|
 |Precondition|Halaman utama Aplikasi untuk Pendaftaran|
-|Basic Path|1. Mahasiswa mengklik fungsi Daftar Mahasiswa <br>2. Sistem menampilkan halaman pendaftaran yang terdiri dari kolom Nim dan Mac <br>3. Mahasiswa Memasukkan Nim dan Mac Address <br> 4. Sistem menyimpan Nim dan Mac dari mahasiswa|
+|Basic Path|1. Mahasiswa mengklik fungsi Daftar Mahasiswa. <br>2. Sistem menampilkan halaman pendaftaran yang terdiri dari kolom Nim dan Mac. <br>3. Mahasiswa Memasukkan Nim dan Mac Address. <br> 4. Sistem menyimpan Nim dan Mac dari mahasiswa.|
 |Alternative|Tidak Ada|
 |Post Condition|Mahasiswa dapat Daftar dan dapat mengakses aplikasi presensi|
 |Exception Push	|Tidak ada Koneksi|
 
 
-**3.2.3	SCAN**
+**3.2.3	Scan Presensi bagi Mahasiswa**
 
 |  |  |
 |--|--|
-| Nama fungsi  |SCAN  |
-|Ref|Bag 2.1.2, SCAN | 
+| Nama fungsi  |Scan Presensi bagi Mahasiswa  |
+|Ref|Bag 2.1.2, Scan | 
 |Trigger|Membuka aplikasi Q-PRESS, sudah mendaftarkan NIM dan Mac|
 |Precondition|Halaman Utama|
-|Basic Path|1. User menekan tombol SCAN. <br> 2. Sistem mulai mode scan|
+|Basic Path|1. Mahasiswa menekan tombol SCAN. <br> 2. Sistem mulai mode scan. <br> 3. Sistem menyimpan data Nim dan Mac address dari mahasiswa tersebut. <br> 4. Sistem menyimpan data hasil scan untuk dikirim ke dosen dan admin|
 |Alternative|Tidak Ada|
-|Post Condition|User dapat men-scan kode yang telah disediakan |
+|Post Condition|Mahasiswa dapat men-scan kode yang telah disediakan |
 |Exception Push	|1. Tidak ada Koneksi <br> 2. Mahasiswa belum mendaftar <br> 3. Smartphone tidak mendukung scan kode|
 
 
-**3.2.4	Halaman Menu Jadwal**
+**3.2.4	Halaman Menu Lihat Jadwal pada Dosen**
 
 |  |  |
 |--|--|
-| Nama fungsi  |Menu Jadwal  |
-|Ref|Bag 2.1.2, Menu Jadwal | 
+| Nama fungsi  |Menu Lihat Jadwal  |
+|Ref|Bag 2.1.2, Menu Lihat Jadwal | 
 |Trigger|Membuka Aplikasi QR-Kode|
 |Precondition|Halaman Menu Dosen|
-|Basic Path|1. Dosen sudah berada di halaman utama. <br> 2. Dosen mengklik halaman menu dosen. <br> 3. Dosen mengklik Menu Lihat Jadwal.|
+|Basic Path|1. Dosen sudah berada di halaman utama. <br> 2. Dosen mengklik menu dosen. <br> 3. Dosen mengklik Menu Lihat Jadwal <br> 4. Sistem menampilkan Jadwal sesuai permintaan Dosen|
 |Alternative|Tidak Ada|
 |Post Condition|Dosen dapat mendownload jadwal dan menampilkan jadwal|
 |Exception Push	|1. Tidak ada Koneksi <br> 2. Dosen belum mendaftar|
 
-**3.2.5	Menu Rekap Absensi**
+**3.2.5	Menu Rekap Absensi pada Dosen**
 
 |  |  |
 |--|--|
@@ -437,20 +437,20 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Ref|Bag 2.1.2, Menu Rekap Absensi | 
 |Trigger|Membuka Aplikasi QR-Kode|
 |Precondition|Halaman Menu Dosen|
-|Basic Path|1. Dosen sudah berada di halaman utama. <br> 2. Dosen mengklik halaman menu dosen. <br> 3. Dosen mengklik Menu Lihat Rekap Absensi.|
+|Basic Path|1. Dosen sudah berada di halaman utama<br> 2. Dosen mengklik menu dosen <br> 3. Dosen mengklik Menu Lihat Rekap Absensi <br> 4. Dosen mendownload file rekap Absen. <br> 5. Sistem memberikan akses kepada dosen untuk dapat mendownload file.|
 |Alternative|Tidak Ada|
-|Post Condition|Dosen dapat mendownload Rekap Absensi dan melihat rekap absen|
+|Post Condition|Dosen dapat melihat rekap absen yang sudah di download|
 |Exception Push	|1. Tidak ada Koneksi <br> 2. Dosen belum mendaftar|
 
-**3.2.6	Menu Rubah Jadwa**
+**3.2.6	Menu Rubah Jadwal pada Dosen**
 
 |  |  |
 |--|--|
 | Nama fungsi  |Menu Rubah Jadwal|
-|Ref|Bag 2.1.2, Menu Rekap Absensi | 
+|Ref|Bag 2.1.2, Menu Rubah Absensi | 
 |Trigger|Membuka Aplikasi QR-Kode|
 |Precondition|Halaman Menu Dosen|
-|Basic Path|1. Dosen sudah berada di halaman utama. <br> 2. Dosen mengklik Ubah Jadwal. <br> 3. Dosen mengedit jadwal yang ingin di rubah|
+|Basic Path|1. Dosen sudah berada di halaman utama. <br> 2. Dosen mengklik Rubah Jadwal. <br> 3. Sistem menampilkan halaman Rubah jadwal yang terdiri dari rubah tanggal, jam dan ruangan. <br> 4. Dosen mengedit jadwal yang ingin di rubah. <br> 5. Dosen menyimpan jadwal perubahan. <br> 6. Sistem menyimpan hasil perubahan jadwal.|
 |Alternative|Tidak Ada|
 |Post Condition|Dosen dapat mengubah jadwal mata kuliah dan meyimpannya|
 |Exception Push	|1. Tidak ada Koneksi <br> 2. Dosen belum mendaftar|
