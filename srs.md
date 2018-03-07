@@ -26,9 +26,6 @@
 ----------
 
 
-----------
-
-
 # I. Pendahuluan
 
 ## 1.1. Tujuan
@@ -325,7 +322,6 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 **2.1.8	Kebutuhan Adaptasi**
 <br>
-<b>Skip</b>
 
 ## 2.2 Spesifikasi Kebutuhan Fungsional
 ![use case 2.2](https://1.bp.blogspot.com/-itqdFOCPl04/Wpfi1V7hmpI/AAAAAAAAAqg/CjCbwoClmzUNxOvo_omnrcFf126xVQNjQCLcBGAs/s500/Use+case+srs-+fix.png)
@@ -364,11 +360,8 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 
 ## 2.6 Asumsi - asumsi ketertarikan
 
-<b>Skip</b>
 
 ## 2.7 Kebutuhan Penyeimbang
-
-<p style="color:red"><b>Skip</b></p>
 
 
 # III. Persyaratan Kebutuhan
@@ -409,20 +402,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Exception Push	|Tidak ada Koneksi|
 
 
-**3.2.3 Halaman Mahasiswa**
-
-|  |  |
-|--|--|
-| Nama fungsi  |Halaman utama Mahasiswa  |
-|Ref|Bag 2.1.2, Halaman Mahasiswa | 
-|Trigger|Membuka aplikasi Q-PRESS, sudah mendaftarkan NIM dan Mac|
-|Precondition|Pendaftaran untuk Mahasiswa|
-|Basic Path|1. Mahasiswa sudah terdaftar dan jika sudah terdaftar maka bisa langsung menggunakan aplikasi yang menampilkan Halaman mahasiswa sebagai halaman utamanya|
-|Alternative|Tidak Ada|
-|Post Condition|Mahasiswa dapat melihat Halaman utama mahasiswa dan dapat mengakses fungsi lainnya |
-|Exception Push	|1. Tidak ada Koneksi <br> 2. Mahasiswa belum mendaftar|
-
-**3.2.4	SCAN**
+**3.2.3	SCAN**
 
 |  |  |
 |--|--|
@@ -435,20 +415,8 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Post Condition|User dapat men-scan kode yang telah disediakan |
 |Exception Push	|1. Tidak ada Koneksi <br> 2. Mahasiswa belum mendaftar <br> 3. Smartphone tidak mendukung scan kode|
 
-**3.2.5	Halaman dosen**
 
-|  |  |
-|--|--|
-| Nama fungsi  |Halaman utama Dosen  |
-|Ref|Bag 2.1.2, Halaman Dosen | 
-|Trigger|Membuka aplikasi Q-PRESS, sudah mendaftarkan NIK dan Mac|
-|Precondition|Pendaftaran untuk Dosen|
-|Basic Path|1. Dosen sudah terdaftar dan jika sudah terdaftar maka bisa langsung menggunakan aplikasi yang menampilkan Halaman Dosen sebagai halaman utamanya|
-|Alternative|Tidak Ada|
-|Post Condition|Dosen dapat melihat Halaman utama mahasiswa dan dapat mengakses fungsi lainnya |
-|Exception Push	|1. Tidak ada Koneksi <br> 2. Dosen belum mendaftar|
-
-**3.2.6	Halaman Menu Jadwal**
+**3.2.4	Halaman Menu Jadwal**
 
 |  |  |
 |--|--|
@@ -461,7 +429,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Post Condition|Dosen dapat mendownload jadwal dan menampilkan jadwal|
 |Exception Push	|1. Tidak ada Koneksi <br> 2. Dosen belum mendaftar|
 
-**3.2.7	Menu Rekap Absensi**
+**3.2.5	Menu Rekap Absensi**
 
 |  |  |
 |--|--|
@@ -474,7 +442,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Post Condition|Dosen dapat mendownload Rekap Absensi dan melihat rekap absen|
 |Exception Push	|1. Tidak ada Koneksi <br> 2. Dosen belum mendaftar|
 
-**3.2.8	Menu Rubah Jadwa**
+**3.2.6	Menu Rubah Jadwa**
 
 |  |  |
 |--|--|
@@ -487,7 +455,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Post Condition|Dosen dapat mengubah jadwal mata kuliah dan meyimpannya|
 |Exception Push	|1. Tidak ada Koneksi <br> 2. Dosen belum mendaftar|
 
-**3.2.9	List Scan Mahasiswa**
+**3.2.7	List Scan Mahasiswa**
 
 |  |  |
 |--|--|
@@ -500,7 +468,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Post Condition|Dosen dapat melihat dan mengedit mahasiswa yang telah men-scan kode sebagai bukti kehadiran|
 |Exception Push	|1. Tidak ada Koneksi <br> 2. Dosen belum mendaftar|
 
-**3.2.10	Data Kelas pada Admin**
+**3.2.8	Data Kelas pada Admin**
 
 |  |  |
 |--|--|
@@ -513,7 +481,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Post Condition|Admin dapat melihat dan mengedit data kelas|
 |Exception Push	|1. Tidak ada Koneksi|
 
-**3.2.11	Data Mahasiswa pada Admin**
+**3.2.9	Data Mahasiswa pada Admin**
 
 |  |  |
 |--|--|
@@ -526,7 +494,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Post Condition|Admin dapat melihat dan mengedit data Mahasiswa|
 |Exception Push	|1. Tidak ada Koneksi|
 
-**3.2.12	Data Dosen pada Admin**
+**3.2.10	Data Dosen pada Admin**
 
 |  |  |
 |--|--|
@@ -539,7 +507,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Post Condition|Admin dapat melihat dan mengedit data Dosen|
 |Exception Push	|1. Tidak ada Koneksi|
 
-**3.2.13	Jadwal pada Admin**
+**3.2.11	Jadwal pada Admin**
 
 |  |  |
 |--|--|
@@ -552,7 +520,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Post Condition|Admin dapat melihat dan mengubah Jadwal |
 |Exception Push	|1. Tidak ada Koneksi|
 
-**3.2.14	Rekap Presensi pada Admin**
+**3.2.12	Rekap Presensi pada Admin**
 
 |  |  |
 |--|--|
