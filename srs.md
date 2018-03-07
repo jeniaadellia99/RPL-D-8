@@ -325,8 +325,9 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 ## 2.2 Spesifikasi Kebutuhan Fungsional
 
-![enter image description here](https://2.bp.blogspot.com/-AG-BE4RxLf8/Wp_ZBu8yEbI/AAAAAAAAAsc/7sYp3ktpFXEQ8OV2ag52fmZ8W3_GvTDrQCLcBGAs/s1600/Kebutuhan+spesifikasi+fungsional.png)
+<img src="https://2.bp.blogspot.com/-AG-BE4RxLf8/Wp_ZBu8yEbI/AAAAAAAAAsc/7sYp3ktpFXEQ8OV2ag52fmZ8W3_GvTDrQCLcBGAs/s1600/Kebutuhan+spesifikasi+fungsional.png" width="50%" height="50%" />
 
+2.2.1
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
 
@@ -487,6 +488,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Exception Push	|1. Tidak ada Koneksi|
 
 **3.2.10	Data Dosen pada Admin**
+
 | Nama fungsi  |Data Dosen|
 |--|--|
 |Ref|Bag 2.1.2, Data Dosen | 
