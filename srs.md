@@ -327,9 +327,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 <div align="center"><img src="https://2.bp.blogspot.com/-AG-BE4RxLf8/Wp_ZBu8yEbI/AAAAAAAAAsc/7sYp3ktpFXEQ8OV2ag52fmZ8W3_GvTDrQCLcBGAs/s1600/Kebutuhan+spesifikasi+fungsional.png" width="70%" height="70%" /></div>
 
-<<<<<<< HEAD
 <b>2.2.1	Data Kelas</b>
-=======
 
 <b> <li>Tabel Kebutuhan Fungsional </b>
 	<br>
@@ -349,10 +347,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 |10|Sistem dapat menampilkan dan melakukan operasi - operasi pada Data Dosen melalui web admin|
 
 
-
-=======
 2.2.1	Data Kelas
->>>>>>> d8ce748a38563d622993f6bd8449ddc7c9f3ec5b
 
 ![enter image description here](https://1.bp.blogspot.com/-sJm5euw-tUc/Wp_cP0rFzOI/AAAAAAAAA5U/rPftPNVQdwoDIScYcSeolV38AHr3zCWHgCEwYBhgL/s1600/Data+kelas.png)
 
@@ -428,11 +423,7 @@ Admin bisa Mengolah data dosen  dengan cara :
 3. Sistem Menampilkan Data Dosen
 Xref : bagian 3.2.10
 
-<<<<<<< HEAD
-=======
 2.2.1
->>>>>>> 5941a7dbc1a81de691acfa37faaf77f37bb46265
->>>>>>> d8ce748a38563d622993f6bd8449ddc7c9f3ec5b
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
 
