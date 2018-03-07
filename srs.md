@@ -327,10 +327,12 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 <div align="center"><img src="https://2.bp.blogspot.com/-AG-BE4RxLf8/Wp_ZBu8yEbI/AAAAAAAAAsc/7sYp3ktpFXEQ8OV2ag52fmZ8W3_GvTDrQCLcBGAs/s1600/Kebutuhan+spesifikasi+fungsional.png" width="70%" height="70%" /></div>
 
-<<<<<<< HEAD
+
 <b> <li>Tabel Kebutuhan Fungsional </b>
+	<br>
+
 |  No| Deskripsi  |
-|--|--|
+|------------------|------------------------------|
 | 1 |Sistem dapat menampilkan halaman pendaftaran bagi user dosen maupun mahasiswa melalui perangkat android |
 |2|Sistem dapat menampilkan halaman web login pada user admin|
 |3|Sistem dapat menampilkan jadwal mata kuliah mahasiswa dan dosen pada perangkat android|
