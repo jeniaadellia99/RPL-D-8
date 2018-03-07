@@ -337,7 +337,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 kebutuhan yang digunakan dalam aplikasi agar mudah dipakai oleh user. Seperti penggunaan Bootsrap yang digunakan untuk mebuat tampilan aplikasi yang lebih menarik, Material Design seperti warna dan  moockup.
 <li>Security</li>
 untuk keamanan user dosen dan mahasiswa harus mendaftar terlebih dahulu dengan menggunakan NIK,NIP,Mac Address. Sedangkan user admin harus login dengan akun.
-<li>reability</li>
+<li>Reability</li>
 Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 
 ## 2.4 Karakteristik Pengguna
@@ -362,7 +362,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 	Pada saat presensi user tidak boleh menitipkan device untuk login dan melakukan presensi. Dan untuk mengatasi hasl yang tidak diinginkan atau kecurangan pada saat presensi, Dosen akan melakukan presensi kelvalidan kehadiran. 
 </p>
 
-## 2.6 Asumsi - asumsi ketertarikan
+## 2.6 Asumsi - asumsi keterkaitan
 
 <b>Skip</b>
 
@@ -373,7 +373,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 
 # III. Persyaratan Kebutuhan
 
- ## 3.1 Persyaratan Antarmuka Eksterna <br>
+ ## 3.1 Persyaratan Antarmuka Eksternal <br>
  <p align="justify"> Salah satu syarat untuk dapat mengakses aplikasi ini adalah dengan mendaftar, pendaftaran secara online melalui jaringan lokal. Login menggunakan Mac Address dari masing - masing device. Kemudian Sistem akan mencocokkan Mac Address dengan Nim atau Nik dari user untuk sinkronisasi data pada database. Setelah berhasil login masing-masing user dapat melakukan presensi.</p>
 
  ## 3.2 Functional Requirement <br> 
@@ -390,7 +390,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Ref|Bag 2.1.2, Daftar Dosen | 
 |Trigger|Membuka aplikasi Q-PRESS|
 |Precondition|Halaman utama Aplikasi untuk Pendaftaran|
-|Basic Path|1. Dosen mengklik fungsi Daftar Dosen <br>2. Dosen Memasukkan NIP dan Mac Address|
+|Basic Path|1. Dosen mengklik fungsi Daftar Dosen <br>2. Sistem menampilkan halaman pendaftaran yang terdiri dari kolom Nip dan Mac <br>3. Dosen Memasukkan NIP dan Mac Address<br> 4. Sistem menyimpan Nip dan Mac Address dari Dosen|
 |Alternative|Tidak Ada|
 |Post Condition|User dapat Daftar dan dapat mengakses aplikasi presensi|
 |Exception Push	|Tidak ada Koneksi|
@@ -403,7 +403,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Ref|Bag 2.1.2, Daftar Mahasiswa | 
 |Trigger|Membuka aplikasi Q-PRESS|
 |Precondition|Halaman utama Aplikasi untuk Pendaftaran|
-|Basic Path|1. Mahasiswa mengklik fungsi Daftar Mahasiswa <br>2. Mahasiswa Memasukkan NIP dan Mac Address|
+|Basic Path|1. Mahasiswa mengklik fungsi Daftar Mahasiswa <br>2. Sistem menampilkan halaman pendaftaran yang terdiri dari kolom Nim dan Mac <br>3. Mahasiswa Memasukkan Nim dan Mac Address <br> 4. Sistem menyimpan Nim dan Mac dari mahasiswa|
 |Alternative|Tidak Ada|
 |Post Condition|Mahasiswa dapat Daftar dan dapat mengakses aplikasi presensi|
 |Exception Push	|Tidak ada Koneksi|
@@ -573,14 +573,14 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 	Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
 </p>
 
-![bag 3.3.1 ERD](https://2.bp.blogspot.com/-yX2txfpbPRE/WppnhL43FFI/AAAAAAAAArI/oc8bqp4jO-EiKw1prMIN5sOEYI6a2T8ZgCLcBGAs/s1000/erd.png)
+![ierde3.3](https://1.bp.blogspot.com/-pAF1X3PAQOA/Wp-cUyqu-MI/AAAAAAAAArc/KFkVUVREbVYJQCPH70IfXd6aFplE_25ywCLcBGAs/s1600/erd.png)
 
 <b>Mahasiswa</b>
 
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
-|Nama |Text  |Nama mahasiswa|
+|Nama |Varchar  |Nama mahasiswa|
 |Id_mhs|Integer|nomor auto increment mahasiswa |
 |Nim|Integer|Nomor Absen Mahasiswa|
 |Id_kelas|Integer|Nomor auto increment kelas|
@@ -601,7 +601,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 
 |Data Item| Type | Deskripsi|
 |--|--|--|
-|Nama_matkul |Text  |Nama Mata kuliah|
+|Nama_matkul |Varchar  |Nama Mata kuliah|
 |id_matkul|Integer|nomor urut mata kuliah|
 |kode_matkul|Integer|Kode Mata kuliah|
 
@@ -612,7 +612,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Data Item| Type | Deskripsi|
 |--|--|--|
 |Id_kelas|Integer|nomor urut Kelas |
-|Nama_kelas|Text|Nama Kelas|
+|Nama_kelas|Varchar|Nama Kelas|
 
 <br>
 <b>Detail Kelas</b>
@@ -643,6 +643,6 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Data Item| Type | Deskripsi|
 |-------------------|---------------------|---------------------|
 |Id_admin	|Integer|Nomor urut admin|
-|nama_admin |Text|Nama admin |
+|nama_admin |Varchar|Nama admin |
   
 	
