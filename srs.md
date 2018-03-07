@@ -423,7 +423,6 @@ Admin bisa Mengolah data dosen  dengan cara :
 3. Sistem Menampilkan Data Dosen
 Xref : bagian 3.2.10
 
-<<<<<<< HEAD
 <b>2.2.8 Lihat Jadwal Mahasiswa</b>
 
 ![lihatjadwalmatkulmahasiswa](https://4.bp.blogspot.com/-xKNILhWjjvw/Wp_mChs8ikI/AAAAAAAAAss/dBn8eYsjmjE0l1HN65zPbrOMLmjvyBKQgCLcBGAs/s1600/Lihat+jadwal+mahasiswa.png)
