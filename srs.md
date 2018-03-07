@@ -1,4 +1,4 @@
-<html>
+	<html>
 <body>
 <div align="center"><h1> Software Requirements Spesification</h1></div>
 
@@ -377,9 +377,8 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
  **3.2.1 Daftar Dosen**
 
  
-|  |  |
-|--|--|
 | Nama fungsi  |Daftar Dosen  |
+|--|--|
 |Ref|Bag 2.1.2, Daftar Dosen | 
 |Trigger|Membuka aplikasi Q-PRESS|
 |Precondition|Halaman utama Aplikasi untuk Pendaftaran|
@@ -390,9 +389,8 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 
 **3.2.2	Daftar Mahasiswa**
 
-|  |  |
-|--|--|
 | Nama fungsi  |Daftar Mahasiswa  |
+|--|--|
 |Ref|Bag 2.1.2, Daftar Mahasiswa | 
 |Trigger|Membuka aplikasi Q-PRESS|
 |Precondition|Halaman utama Aplikasi untuk Pendaftaran|
@@ -404,9 +402,8 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 
 **3.2.3	Scan Presensi bagi Mahasiswa**
 
-|  |  |
-|--|--|
 | Nama fungsi  |Scan Presensi bagi Mahasiswa  |
+|--|--|
 |Ref|Bag 2.1.2, Scan | 
 |Trigger|Membuka aplikasi Q-PRESS, sudah mendaftarkan NIM dan Mac|
 |Precondition|Halaman Utama|
@@ -418,9 +415,8 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 
 **3.2.4	Halaman Menu Lihat Jadwal pada Dosen**
 
-|  |  |
-|--|--|
 | Nama fungsi  |Menu Lihat Jadwal  |
+|--|--|
 |Ref|Bag 2.1.2, Menu Lihat Jadwal | 
 |Trigger|Membuka Aplikasi QR-Kode|
 |Precondition|Halaman Menu Dosen|
@@ -431,9 +427,8 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 
 **3.2.5	Menu Rekap Absensi pada Dosen**
 
-|  |  |
-|--|--|
 | Nama fungsi  |Menu Rekap Absensi |
+|--|--|
 |Ref|Bag 2.1.2, Menu Rekap Absensi | 
 |Trigger|Membuka Aplikasi QR-Kode|
 |Precondition|Halaman Menu Dosen|
@@ -444,9 +439,8 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 
 **3.2.6	Menu Rubah Jadwal pada Dosen**
 
-|  |  |
-|--|--|
 | Nama fungsi  |Menu Rubah Jadwal|
+|--|--|
 |Ref|Bag 2.1.2, Menu Rubah Absensi | 
 |Trigger|Membuka Aplikasi QR-Kode|
 |Precondition|Halaman Menu Dosen|
@@ -457,9 +451,8 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 
 **3.2.7	List Scan Mahasiswa**
 
-|  |  |
-|--|--|
 | Nama fungsi  |List Scan Mahasiswa|
+|--|--|
 |Ref|Bag 2.1.2, List Scan Mahasiswa | 
 |Trigger|Membuka Aplikasi QR-Kode|
 |Precondition|Halaman Menu Dosen|
@@ -483,9 +476,8 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 
 **3.2.9	Data Mahasiswa pada Admin**
 
-|  |  |
-|--|--|
 | Nama fungsi  |Data Mahasiswa|
+|--|--|
 |Ref|Bag 2.1.2, Data Mahasiswa | 
 |Trigger|Login sebagai admin|
 |Precondition|Halaman Dashboard|
@@ -495,10 +487,8 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Exception Push	|1. Tidak ada Koneksi|
 
 **3.2.10	Data Dosen pada Admin**
-
-|  |  |
-|--|--|
 | Nama fungsi  |Data Dosen|
+|--|--|
 |Ref|Bag 2.1.2, Data Dosen | 
 |Trigger|Login sebagai admin|
 |Precondition|Halaman Dashboard|
@@ -509,9 +499,8 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 
 **3.2.11	Jadwal pada Admin**
 
-|  |  |
-|--|--|
 | Nama fungsi  |Menu Jadwal|
+|--|--|
 |Ref|Bag 2.1.2, Jadwal | 
 |Trigger|Login sebagai admin|
 |Precondition|Halaman Dashboard|
@@ -522,9 +511,8 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 
 **3.2.12	Rekap Presensi pada Admin**
 
-|  |  |
-|--|--|
 | Nama fungsi  |Rekap Presensi|
+|--|--|
 |Ref|Bag 2.1.2, Rekap Presensi | 
 |Trigger|Login sebagai admin|
 |Precondition|Halaman Dashboard|
