@@ -1,4 +1,4 @@
-	<html>
+<html>
 <body>
 <div align="center"><h1> Software Requirements Spesification</h1></div>
 
