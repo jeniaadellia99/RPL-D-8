@@ -463,9 +463,8 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 
 **3.2.8	Data Kelas pada Admin**
 
-|  |  |
-|--|--|
 | Nama fungsi  |Data Kelas|
+|--|--|
 |Ref|Bag 2.1.2, Data Kelas | 
 |Trigger|Login sebagai admin|
 |Precondition|Halaman Dashboard|
