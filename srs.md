@@ -528,7 +528,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 	Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
 </p>
 
-![ierde3.3](https://1.bp.blogspot.com/-pAF1X3PAQOA/Wp-cUyqu-MI/AAAAAAAAArc/KFkVUVREbVYJQCPH70IfXd6aFplE_25ywCLcBGAs/s1600/erd.png)
+![ierde3.3fix](https://1.bp.blogspot.com/-VRPvFCUh2jA/Wp_K5SmgtoI/AAAAAAAAArs/mZ0mwPYae4MhEJwsdZw8p39eJeaQC_uygCLcBGAs/s1600/erd.png)
 
 <b>Mahasiswa</b>
 
