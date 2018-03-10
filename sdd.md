@@ -55,6 +55,18 @@ Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 # 3. Penjelasan Dekomposisi
 
 ### 3.1 Dekomposisi Modul
+
+![enter image description here](https://1.bp.blogspot.com/-XLJ_uW2zNKs/WqO9dCJjdtI/AAAAAAAAA68/aSRtQsPRkS4pWh7KE5dz38w7d-tMwKBDwCLcBGAs/s1600/dfd+level+0.jpg)
+
+![enter image description here](https://3.bp.blogspot.com/-1IZvxZysJ80/WqO9ehZ_cQI/AAAAAAAAA7E/KgngDu2HioAdZ03l-VC68Hvw74b0jM5cgCLcBGAs/s1600/diagram+konteks.jpg)
+
+![enter image description here](https://4.bp.blogspot.com/-YygLIn-0SCM/WqO9dHZ0VUI/AAAAAAAAA60/V8wdqykbIV0R57rqzNY2eES-E5hPFbGogCLcBGAs/s1600/dfd+level+1++Proses+1.jpg)
+
+
+![enter image description here](https://3.bp.blogspot.com/-knvvADDrpnA/WqO9dDdiaKI/AAAAAAAAA64/3fUCnuOp15AZiaOpkSbs5Jvo_lq72sXmACLcBGAs/s1600/dfd+level+1+proses+2.jpg)
+
+![enter image description here](https://2.bp.blogspot.com/-5zEGPb69OvE/WqO9eHQwwhI/AAAAAAAAA7A/MXoRub7UMmM1y20-53VhTTRD_CM6C52qwCLcBGAs/s1600/dfd+level+1+proses+3.jpg)
+
 #### 3.1.1 Deskripsi Modul 1
 #### 3.1.2 Deskripsi Modul 2
 ### 3.2 Dekomposisi Proses Konkuren
