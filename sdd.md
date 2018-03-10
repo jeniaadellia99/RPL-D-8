@@ -28,6 +28,13 @@
 
 ### 1.1.  Tujuan
 
+
+Dokumen SDD (Software Design Document) ini dibuat untuk tujuan sebagai berikut :
+1.	Mendefinisikan dan menjelaskan hal-hal yang dilakukan dalam pengembangan aplikasi Q-Press sesuai informasi yang terdapat dalam SRS (Software Requirements Spesification).
+2.	Menggambarkan  perancangan sistem yang akan dikembangkan dalam Q-Press, baik perancangan secara global maupun perancangan rinci, berdasarkan spesifikasi yang terdapat pada dokumen SRS  (Software Design Document) yang telah dibuat sebelumnya.
+3.	Mendefinisikan dan mendeskripsikan secara terstruktur arsitektur sistem Q-Press yang dikembangkan meliputi perancangan deskrip proses, deskripsi antarmuka, dan lainya.
+4.	Mempermudah proses pengembangan perangkat lunak pada tahap-tahap berikutnya.
+
 ### 1.2.  Lingkup
 
 ### 1.2.  Definisi, akronim, dan singkatan
