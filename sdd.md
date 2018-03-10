@@ -48,6 +48,9 @@ Proses presensi yang dilakukan dengan cara dosen harus membuka akses scan kode b
 
 # 2. Referensi
 
+IEEE, IEEE Draft Standard for Software Design Descriptions. IEEE P1 01 6/D5.0; 1 2 December 2005
+
+Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 
 # 3. Penjelasan Dekomposisi
 
