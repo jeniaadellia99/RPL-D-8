@@ -2,7 +2,7 @@
 <body>
 <div align="center"><h1>Software Design Document</h1></div>
 
-<p align="center"><b>Version X.X </b><br>
+<p align="center"><b>Version 1.0 </b><br>
 <p align="center">22 Februari 2018</b>
 <p align="center">
 <img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
@@ -82,7 +82,7 @@ Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 
 <p align="justify">Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur.  Berikut DFD Level 0 Aplikasi Q-Press.</p>
 
-![enter image description here](https://1.bp.blogspot.com/-XLJ_uW2zNKs/WqO9dCJjdtI/AAAAAAAAA68/aSRtQsPRkS4pWh7KE5dz38w7d-tMwKBDwCLcBGAs/s1600/dfd+level+0.jpg)
+![enter image description here](https://4.bp.blogspot.com/-7dEp8rrt-fM/WqT0u01R_3I/AAAAAAAAA7o/Z0xXkWTjBr0e5aryHp4r01FKc9P3ln7cwCLcBGAs/s1600/dfd%2Blevel%2B0.jpg)
 
 ### 3.2 Dekomposisi Proses Konkuren
 
