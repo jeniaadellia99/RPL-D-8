@@ -104,6 +104,13 @@ Pada DFD Level 1 ini menjelaskan Proses 3 yang ada di DFD Level 0. Mahasiswa bar
 
 ![enter image description here](https://2.bp.blogspot.com/-5zEGPb69OvE/WqO9eHQwwhI/AAAAAAAAA7A/MXoRub7UMmM1y20-53VhTTRD_CM6C52qwCLcBGAs/s1600/dfd+level+1+proses+3.jpg)
 
+#### 3.2.4 DFD Level 1 : Proses 4
+
+DFD Level menjelaskan proses 4 yang tersapat pada DFD level 0. Dimana Admin dapat memanagement Data Kelas seperti Mengerdit, Menghapus dan Menambahkan Kelas.
+
+![dfd4datakelas](https://2.bp.blogspot.com/-3gg_8m71oug/WqUxAyMeuiI/AAAAAAAAAuE/4cz07FG6NaIkYwLIV0coPfNZvsQlsTc5ACLcBGAs/s1600/dfd+data+kelas.JPG)
+
+
 ### 3.3 Dekomposisi Data
 
 - Data User Mahasiswa dan Dosen
