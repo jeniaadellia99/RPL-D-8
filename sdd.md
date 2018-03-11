@@ -94,96 +94,118 @@ Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 
 |Data  |Keterangan  |
 |--|--|
-| NIP | sfsfsf |
-| NIM | sfffsf|
-|MAC  | sfsfsf||
+| NIP | NIP Dosen digunakan untuk login |
+| NIM | NIM Mahasiswa digunakan untuk login|
+|MAC  | MAC Address Mahasiswa dan dosen digunakan untuk vailidasi login|
 
 
  - Data Mahasiswa
 
 | Data| Keterangan|
 |--|--|
-|id_mhs|dada|
-| NIM| sfsf|
-| Nama|fhfh|
-|id_kelas|fsfsf|
-| MAC Adress|fhfh|
-|status|dgdg|
+|id_mhs|Primary key|
+| NIM| Nomor Induk Mahasiswa |
+| Nama|Nama mahasiswa|
+|id_kelas|kelas |
+| MAC Adress|Vailidasi Device yang digunakan oleh mahasiswa|
+|status|Status mahasiswa (Aktif/Tidak Aktif)|
 
 - Data Dosen
 
 | Data | Keterangan |
 |--|--|
-|id_dosen  | adadda |
-|NIP  | adadda |
-| Nama | adaddad |
-| MAC Address | sfsfsfsf |
-|status| sfsfffs|
+|id_dosen  | primary key|
+|NIP  | Nomor Induk Pegawai|
+| Nama | Nama Dosen|
+| MAC Address | Vailidasi Device yang digunakan oleh dosen|
+|status| Status dosen (Aktiv/Tidak Aktif)|
 
 - Data Matkul 
 
 |Data  | Keterangan |
 |--|--|
-| id_matkul | sffs  |
-| kd_matkul | sffsf|
-| Nama Matkul | sffsf|
-| sks_teori | sffsf|
-| sks_praktik | sffsf|
+| id_matkul | primary key|
+| kd_matkul | forigen key|
+| Nama Matkul | Nama matakuliah|
+| sks_teori | jumlah sks teori|
+| sks_praktik |jumlah sks praktik|
 
 - Data Kelas
 
 | Data| Keterangan|
 |--|--|
-| id_kelas |aadadd  
-| nama_kelas|fsfsf|
+| id_kelas |primary key
+| nama_kelas|nama kelas|
 
 - Jadwal Kuliah
 
 |Data| Keterangan |
 |--|--|
-| id_jadwal | adaad |
-|semsester| sffsffsf|
-| tahun_ajaran | adaad |
+| id_jadwal | primary key |
+|semsester| semester ganjil/genap|
+| tahun_ajaran | tahun ajaran|
 
 - Detail Jadwal 
 
 | Data |Keterangan  |
 |--|--|
-|id_jadwal  | adada |
-| kd_matkul | adaad |
-|id_dosen |dadad |
-|id_kelas|adada|
-|id_ruangan|aadd|
-| jam | adaad |
-| hari | sfsf|
+|id_jadwal  | forigen key |
+| kd_matkul | forigen key|
+|id_dosen |forigen key|
+|id_kelas|forigen key|
+|id_ruangan|forigen key|
+| jam | jam mengajar|
+| hari | hari mengajar|
 
 - Data Ruangan 
 
 |Data  | Keterangan |
 |--|--|
-| Id_ruangan | adddad |
-|nama_ruangan|adaddd|
+| Id_ruangan | primary key|
+|nama_ruangan|nama ruangan|
 
 - Absen 
 
 | Data |Keterangan  |
 |--|--|
-|id_absen|adad|
-|id_matkul  |  fsff|
-|id_kelas|fsfsfs|
-|id_dosen|sfsfff|
-|id_ruangan|adadad|
-|waktu|adadadd|
-|keterlambatan|dadad|
+|id_absen|primary key|
+|id_matkul  |  forigen key|
+|id_kelas|forigen key|
+|id_dosen|forigen key|
+|id_ruangan|forigen key|
+|waktu|waktu disaat matkul dimulai|
+|keterlambatan|waktu yang di berikan untuk toleransi keterlambatan|
 
 - Detail Absen
 
 | Data | Keterangan |
 |--|--|
-| id_absen | adad |
-|id_mhs|add|
-|status|adaad|
-|waktu_scan| dadadd|
+| id_absen | forigen key|
+|id_mhs|forigen key|
+|status|status kehadiran mahasiswa|
+|waktu_scan| waktu scan yang dilakukan mahasiswa|
+
+- Rekap 
+
+|Data|Keterangan  |
+|--|--|
+| id_rekap| primary key|
+|kd_matkul|forigen key|
+|id_kelas|forigen key|
+|id_dosen|forigen key|
+|semester|semester ganjil/genap|
+|tahun_ajaran|tahun ajaran|
+
+- Detail Rekap
+
+| Data | Keterangan  |
+|--|--|
+|id_rekap | forigen key|
+|id_mhs|forigen key|
+|hadir|jumlah kehadiran mahasiswa|
+|absen|jumlah absen mahasiswa|
+|keterlambatan|jumlah menit keterlambatan mahasiswa|
+|kompensasi|jumlah menit kompensasi yang didapatkan oleh mahasiswa|
 
 
 
