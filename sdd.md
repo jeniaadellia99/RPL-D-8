@@ -222,29 +222,3 @@ Pada DFD Level 1 ini menjelaskan Proses 3 yang ada di DFD Level 0. Mahasiswa bar
 |absen|jumlah absen mahasiswa|
 |keterlambatan|jumlah menit keterlambatan mahasiswa|
 |kompensasi|jumlah menit kompensasi yang didapatkan oleh mahasiswa|
-
-
-
-# 4. Deskripsi Ketergantungan dan Keterkaitan
-
-### 4.1 Keterkaitan Interen Modul
-###  4.2 Keterkaintan Interen Proses
-###  4.3 Keterkaitan Data
-
-# 5. Deskripsi Antarmuka
-
-### 5.1 Keterkaitan interen Modul
-#### 5.1.1 Deskripsi Modul 1
-#### 5.1.2 Deskripsi Modul 2
-### 5.2 Antarmuka Proses
-#### 5.2.1 Deskripsi Proses 1
-#### 5.2.2 Deskripsi Proses 2
-
-# 6. Desain Detil/Rinci
-
-### 6.1 Rinci Modul
-#### 6.1.1 Rinci Modul 1
-#### 6.1.2 Rinci Modul 2
-### 6.2 Desain Data secara rinci 
-#### 6.1.1 Rinci Entiti Data 1
-#### 6.2.2 Rinci Entiti Data 2
