@@ -89,6 +89,104 @@ Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 ![enter image description here](https://2.bp.blogspot.com/-5zEGPb69OvE/WqO9eHQwwhI/AAAAAAAAA7A/MXoRub7UMmM1y20-53VhTTRD_CM6C52qwCLcBGAs/s1600/dfd+level+1+proses+3.jpg)
 
 ### 3.3 Dekomposisi Data
+
+- Data User Mahasiswa dan Dosen
+
+|Data  |Keterangan  |
+|--|--|
+| NIP | sfsfsf |
+| NIM | sfffsf|
+|MAC  | sfsfsf||
+
+
+ - Data Mahasiswa
+
+| Data| Keterangan|
+|--|--|
+|id_mhs|dada|
+| NIM| sfsf|
+| Nama|fhfh|
+|id_kelas|fsfsf|
+| MAC Adress|fhfh|
+|status|dgdg|
+
+- Data Dosen
+
+| Data | Keterangan |
+|--|--|
+|id_dosen  | adadda |
+|NIP  | adadda |
+| Nama | adaddad |
+| MAC Address | sfsfsfsf |
+|status| sfsfffs|
+
+- Data Matkul 
+
+|Data  | Keterangan |
+|--|--|
+| id_matkul | sffs  |
+| kd_matkul | sffsf|
+| Nama Matkul | sffsf|
+| sks_teori | sffsf|
+| sks_praktik | sffsf|
+
+- Data Kelas
+
+| Data| Keterangan|
+|--|--|
+| id_kelas |aadadd  
+| nama_kelas|fsfsf|
+
+- Jadwal Kuliah
+
+|Data| Keterangan |
+|--|--|
+| id_jadwal | adaad |
+|semsester| sffsffsf|
+| tahun_ajaran | adaad |
+
+- Detail Jadwal 
+
+| Data |Keterangan  |
+|--|--|
+|id_jadwal  | adada |
+| kd_matkul | adaad |
+|id_dosen |dadad |
+|id_kelas|adada|
+|id_ruangan|aadd|
+| jam | adaad |
+| hari | sfsf|
+
+- Data Ruangan 
+
+|Data  | Keterangan |
+|--|--|
+| Id_ruangan | adddad |
+|nama_ruangan|adaddd|
+
+- Absen 
+
+| Data |Keterangan  |
+|--|--|
+|id_absen|adad|
+|id_matkul  |  fsff|
+|id_kelas|fsfsfs|
+|id_dosen|sfsfff|
+|id_ruangan|adadad|
+|waktu|adadadd|
+|keterlambatan|dadad|
+
+- Detail Absen
+
+| Data | Keterangan |
+|--|--|
+| id_absen | adad |
+|id_mhs|add|
+|status|adaad|
+|waktu_scan| dadadd|
+
+
+
 # 4. Deskripsi Ketergantungan dan Keterkaitan
 
 ### 4.1 Keterkaitan Interen Modul
