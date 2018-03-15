@@ -323,7 +323,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 ## 2.2 Spesifikasi Kebutuhan Fungsional
 
-<div align="center"><img src="https://2.bp.blogspot.com/-pMcaWdoAxqg/Wp_v5nkOh4I/AAAAAAAAAt0/8mtc3l0hQw4Sp5xNrbdH4sWMztF7sP60wCLcBGAs/s1600/Kebutuhan%2Bspesifikasi%2Bfungsional.png" width="70%" height="70%" /></div>
+<div align="center">![usecase](https://2.bp.blogspot.com/-1RWfzwOsFeU/WqoZ_u0kQYI/AAAAAAAAAu8/uVhwB1_bNHAqkxyMtyxXhv4E-d_BbRrRwCLcBGAs/s1600/usecasefix.jpg)</div>
 
 <b>2.2.1	Data Kelas</b>
 
@@ -719,7 +719,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 	Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
 </p>
 
-![ierde3.3fix](https://1.bp.blogspot.com/-VRPvFCUh2jA/Wp_K5SmgtoI/AAAAAAAAArs/mZ0mwPYae4MhEJwsdZw8p39eJeaQC_uygCLcBGAs/s1600/erd.png)
+![enter image description here](https://1.bp.blogspot.com/-RGwaDVBy2CE/WqoZemkw_FI/AAAAAAAAAu4/8Qdy4v7wvk8UN7RCgYT7IxwpBlAaAXcyQCLcBGAs/s1600/erd.JPG)
 
 <b>Mahasiswa</b>
 
