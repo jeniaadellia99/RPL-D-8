@@ -76,13 +76,13 @@ Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 
 <p align="justify">Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan ruang lingkup suatu sistem. Diagram konteks merupakan level tertinggi dari DFD yang menggambarkan seluruh input ke dalam sistem atau output dari sistem yang memberi gambaran tentang keseluruhan sistem. Sistem dibatasi oleh boundary (Digambarkan dengan garis putus - putus). Dalam diagram konteks hanya ada satu proses, tidak boleh ada store dalam diagram konteks. Berikut ini adalah gambar diagram konteks dari sistem Aplikasi Q-Press.</p>
 
-![enter image description here](https://1.bp.blogspot.com/-UF4a6rNEWzE/WqT27DjIFAI/AAAAAAAAA74/lLYUFXBDYUoHBbEtR5G8yO9GGUTMS00HgCLcBGAs/s1600/diagram%2Bkonteks.jpg)
+![enter image description here](https://4.bp.blogspot.com/-ryglZ2Z6quA/WqoUoke0ITI/AAAAAAAAA8M/y5qzYs-CwMwnnReNo_klMpJ5sGQnwy43wCLcBGAs/s1600/diagram%2Bkonteks.jpg)
 
 #### 3.1.2 DFD Level 0
 
 <p align="justify">Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur.  Berikut DFD Level 0 Aplikasi Q-Press.</p>
 
-![enter image description here](https://4.bp.blogspot.com/-7dEp8rrt-fM/WqT0u01R_3I/AAAAAAAAA7o/Z0xXkWTjBr0e5aryHp4r01FKc9P3ln7cwCLcBGAs/s1600/dfd%2Blevel%2B0.jpg)
+![enter image description here](https://1.bp.blogspot.com/-_O_TRqrW5NI/WqoW2yEQOOI/AAAAAAAAA8o/ajfqm0EQYCk-Ohw-SZOUFgSm4ACi9LEJQCLcBGAs/s1600/dfd%2Blevel%2B0.jpg)
 
 ### 3.2 Dekomposisi Proses Konkuren
 
