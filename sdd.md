@@ -104,6 +104,31 @@ Pada DFD Level 1 ini menjelaskan Proses 3 yang ada di DFD Level 0. Mahasiswa bar
 
 ![enter image description here](https://2.bp.blogspot.com/-5zEGPb69OvE/WqO9eHQwwhI/AAAAAAAAA7A/MXoRub7UMmM1y20-53VhTTRD_CM6C52qwCLcBGAs/s1600/dfd+level+1+proses+3.jpg)
 
+#### 3.2.4 DFD Level 1 : Proses 4
+
+DFD Level 1 menjelaskan proses 4 yang tersapat pada DFD level 0. Dimana Admin dapat memanagement Data Kelas seperti Mengerdit, Menghapus dan Menambahkan Kelas.
+
+![dfd4datakelas](https://2.bp.blogspot.com/-3gg_8m71oug/WqUxAyMeuiI/AAAAAAAAAuE/4cz07FG6NaIkYwLIV0coPfNZvsQlsTc5ACLcBGAs/s1600/dfd+data+kelas.JPG)
+
+#### 3.2.5 DFD Level 1 : Proses 5
+
+DFD Level 1 menjelaskan proses 5 yang terdapat pada DFD level 0. Admin dapat mengelola atau memanagement Data Mahasiswa seperti menghapus, mengedit dan menambahkan Data Mahasiswa. 
+
+![dfdmhs](https://1.bp.blogspot.com/-vxcmFP-msAQ/WqUywuuFZOI/AAAAAAAAAuQ/V_PkOcC95toual3f7rIxm-jAj0xb3S7xwCLcBGAs/s1600/dfd+data+mhs.JPG)
+
+#### 3.2.6 DFD Level 1 : Proses 6
+
+DFD Level 1 menjelaskan proses 6 yang terdapat pada DFD level 0. Admin dapat mengelola atau memanagement Data Dosen seperti menghapus, mengedit dan menambahkan Data Dosen.
+
+![dfddatadosen](https://3.bp.blogspot.com/-wYcbP3bMLCI/WqUz3qAhsbI/AAAAAAAAAuY/TLjr8zLgsJAd_FacmGzjkYVHACiBlsHeQCLcBGAs/s1600/dfd+data+dosen.JPG)
+
+#### 3.2.7 DFD Level 1 : Proses 7
+
+DFD Level 1 menjelaskan proses 7 yang terdapat pada DFD level 0. Dimana admin dan dosen dapat mendownload data Rekap Kehadiran Mahasiswa.
+
+![dfdrekap](https://2.bp.blogspot.com/-wI-1Wwn2Apo/WqU6kLZIgqI/AAAAAAAAAuo/4cqL1f3YvcEL_0O1Jvr0NhTKSSVvbu97ACLcBGAs/s1600/dfd+rekap.JPG)
+
+
 ### 3.3 Dekomposisi Data
 
 - Data User Mahasiswa dan Dosen
