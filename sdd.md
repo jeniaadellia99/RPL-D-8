@@ -79,23 +79,26 @@ Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 ##### 2. 		Deskripsi perancangan Global
 ##### 2.1		Rancangan Lingkungan Implementasi
 ##### 2.2
-###### 2.2.1	Definisi Domain/Type
-###### 2.2.2	Conceptual
-###### 2.2.3	Physical Data Model
-###### 2.2.4	Daftar Tabel Aplikasi
+##### 2.2.1	Definisi Domain/Type
+##### 2.2.2	Conceptual
+##### 2.2.3	Physical Data Model
+##### 2.2.4	Daftar Tabel Aplikasi
 
-3.		Deskripsi Perancangan Tabel
-3.1		Deskripsi Rinci Tabel
-3.1.1	Tabel Nama
-3.1.2	Tabel Detail	
-3.2		Deskripsi Rinci Modul
-3.2.1	Modul
-3.2.1.1	Fungsi Modul
-3.2.1.2	Spesifikasi Layar Utama
-3.2.1.3	Spesifikasi Query (jka ada)
-3.2.1.4	Spesifikasi Field Data Layar
-3.2.1.5	Spesifikasi Objek-Objek pada Layar
-3.2.1.5	Spesifikasi Proses/Algoitma
+##### 3.		Deskripsi Perancangan Tabel
+##### 3.1		Deskripsi Rinci Tabel
+##### 3.1.1	Tabel Nama
+##### 3.1.2	Tabel Detail	
+##### 3.2		Deskripsi Rinci Modul
+##### 3.2.1	Modul
+##### 3.2.1.1	Fungsi Modul
+##### 3.2.1.2	Spesifikasi Layar Utama
+##### 3.2.1.3	Spesifikasi Query (jka ada)
+##### 3.2.1.4	Spesifikasi Field Data Layar
+##### 3.2.1.5	Spesifikasi Objek-Objek pada Layar
+##### 3.2.1.5	Spesifikasi Proses/Algoitma
+
+##### 3.3	Matriks keturunan
+
 
 # Deskripsi Perancangan Global
 
