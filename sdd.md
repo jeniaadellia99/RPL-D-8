@@ -68,21 +68,21 @@ Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 
 ### 1.6 Ikhtisar Dokumen
 
-1. 		Pendahulan
-1.1 	Tujuan Penulisan Dokumen
-1.2 	Lingkup Masalah
-1.3 	Definisi dan Istilah
-1.4		Aturan Penamaan dan Penomoran
-1.5		Referensi
-1.6		Ikhtisar Dokumen
+##### 1. 		Pendahulan
+##### 1.1 	Tujuan Penulisan Dokumen
+##### 1.2 	Lingkup Masalah
+##### 1.3 	Definisi dan Istilah
+##### 1.4		Aturan Penamaan dan Penomoran
+##### 1.5		Referensi
+##### 1.6		Ikhtisar Dokumen
 
-2. 		Deskripsi perancangan Global
-2.1		Rancangan Lingkungan Implementasi
-2.2
-2.2.1	Definisi Domain/Type
-2.2.2	Conceptual
-2.2.3	Physical Data Model
-2.2.4	Daftar Tabel Aplikasi
+##### 2. 		Deskripsi perancangan Global
+##### 2.1		Rancangan Lingkungan Implementasi
+##### 2.2
+###### 2.2.1	Definisi Domain/Type
+###### 2.2.2	Conceptual
+###### 2.2.3	Physical Data Model
+###### 2.2.4	Daftar Tabel Aplikasi
 
 3.		Deskripsi Perancangan Tabel
 3.1		Deskripsi Rinci Tabel
