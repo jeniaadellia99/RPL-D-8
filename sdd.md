@@ -126,7 +126,7 @@ DFD Level 1 menjelaskan proses 6 yang terdapat pada DFD level 0. Admin dapat men
 
 DFD Level 1 menjelaskan proses 7 yang terdapat pada DFD level 0. Dimana admin dan dosen dapat mendownload data Rekap Kehadiran Mahasiswa.
 
-![dfdrekap](https://2.bp.blogspot.com/-wI-1Wwn2Apo/WqU6kLZIgqI/AAAAAAAAAuo/4cqL1f3YvcEL_0O1Jvr0NhTKSSVvbu97ACLcBGAs/s1600/dfd+rekap.JPG)
+![enter image description here](https://2.bp.blogspot.com/-wI-1Wwn2Apo/WqU6kLZIgqI/AAAAAAAAAuo/4cqL1f3YvcEL_0O1Jvr0NhTKSSVvbu97ACLcBGAs/s1600/dfd+rekap.JPG)
 
 
 ### 3.3 Dekomposisi Data
