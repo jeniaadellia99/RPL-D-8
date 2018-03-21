@@ -1,0 +1,1 @@
+@include('admin.patisi.footer_edit')
