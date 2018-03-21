@@ -22,12 +22,9 @@
 </body>
 </html>
 
-
-
 # 1. Pendahuluan
 
 ### 1.1.  Tujuan
-
 
 Dokumen SDD (Software Design Document) ini dibuat untuk tujuan sebagai berikut :
 1.	Mendefinisikan dan menjelaskan hal-hal yang dilakukan dalam pengembangan aplikasi Q-Press sesuai informasi yang terdapat dalam SRS (Software Requirements Spesification).
@@ -70,6 +67,35 @@ IEEE, IEEE Draft Standard for Software Design Descriptions. IEEE P1 01 6/D5.0; 1
 Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 
 ### 1.6 Ikhtisar Dokumen
+
+1. 		Pendahulan
+1.1 	Tujuan Penulisan Dokumen
+1.2 	Lingkup Masalah
+1.3 	Definisi dan Istilah
+1.4		Aturan Penamaan dan Penomoran
+1.5		Referensi
+1.6		Ikhtisar Dokumen
+
+2. 		Deskripsi perancangan Global
+2.1		Rancangan Lingkungan Implementasi
+2.2
+2.2.1	Definisi Domain/Type
+2.2.2	Conceptual
+2.2.3	Physical Data Model
+2.2.4	Daftar Tabel Aplikasi
+
+3.		Deskripsi Perancangan Tabel
+3.1		Deskripsi Rinci Tabel
+3.1.1	Tabel Nama
+3.1.2	Tabel Detail	
+3.2		Deskripsi Rinci Modul
+3.2.1	Modul
+3.2.1.1	Fungsi Modul
+3.2.1.2	Spesifikasi Layar Utama
+3.2.1.3	Spesifikasi Query (jka ada)
+3.2.1.4	Spesifikasi Field Data Layar
+3.2.1.5	Spesifikasi Objek-Objek pada Layar
+3.2.1.5	Spesifikasi Proses/Algoitma
 
 # Deskripsi Perancangan Global
 
