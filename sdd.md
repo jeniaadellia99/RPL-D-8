@@ -122,10 +122,70 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 **Tabel Mahasiswa**
 
-|Nama Tabel | Jenis |Volume| Laju| Primary key| contraint integrity| Deskripsi|
+|Nama Tabel | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
-| id_mhs| Integer| 10 | primary key| Iya |Auto_increment| id mhs auto increment |
-| nim| varchar| 7 | Tidak | Tidak | nim mahasiswa| |id mhs auto increment |
+| id_mhs| Integer| 10 | Primary Key| Iya |Auto_increment| id mhs auto increment |
+| id_kelas| Integer| 10 | Tidak | Foreign Key | id_kelas pada kelas| relasi untuk menampilkan kelas |
+| nim| varchar| 7 | Tidak | Tidak | - |nim mahasiswa |
+| nama_mhs| varchar| 50 | Tidak | Tidak | -|nama mahasiswa |
+| satus| varchar| 25 | Tidak | Tidak | -| status mahasiswa |
+
+**Tabel Dosen**
+
+|Nama Tabel | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
+|------------|----------|----------|-------------|-----------|-----------|---------------------|
+| id_dosen| Integer| 10 | Primary Key| Iya |Auto_increment| id dosen auto increment |
+| id_kelas| Integer| 10 | Tidak | Foreign Key | id_kelas pada kelas| relasi untuk menampilkan kelas |
+| nip | int| 10 | Tidak | Tidak | - |nip dosen |
+| nidn| int | 10 | Tidak | Tidak | -| nidn dosen |
+| nama_dosen | varchar| 50 | Tidak | Tidak | -| nama dosen |
+
+**Tabel Kelas**
+
+|Nama Tabel | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
+|------------|----------|----------|-------------|-----------|-----------|---------------------|
+| id_kelas| Integer| 10 | Primary Key| Iya |Auto_increment| id kelas auto increment |
+| id_dosen| Integer| 10 | Foreign Key| Iya |id_dosen pada dosen| relasi untuk menampilkan wali dosen |
+| nama_kelas| varchar| 7 | Tidak | tidak | -| nama kelas |
+
+**Tabel Detail Kelas**
+
+|Nama Tabel | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
+|------------|----------|----------|-------------|-----------|-----------|---------------------|
+| id_kelas| Integer| 10 | Primary Key| Iya |Auto_increment| id kelas auto increment |
+| id_kelas| Integer| 10 | Foreign Key| Iya |id_dosen pada dosen| relasi untuk menampilkan wali dosen |
+| id_matkul| Integer| 10 | Foreign Key | Iya |id_matkul pada mata_kuliah | relasi untuk menampilkan mata kuliah |
+
+**Tabel Mata Kuliah**
+
+|Nama Tabel | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
+|------------|----------|----------|-------------|-----------|-----------|---------------------|
+| id_matkul| Integer| 10 | Primary Key| Iya |Auto_increment| id mata kuliah auto increment |
+| kode_matkul| Integer| 15 | Foreign Key| Iya |- | kode mata kuliah |
+| nama_matkul | Varchar| 25 | Tidak | Tidak | - | untuk menampilkan mata kuliah |
+| jumlah_sks | Integer| 3 | Tidak | Tidak | - | jumlah sks |
+| sks_teori | Integer| 3 | Tidak | Tidak | - | sks teori |
+| nama_praktek | Integer | 3 | Tidak | Tidak | - | sks praktek |
+| semester | Integer| 2 | Tidak | Tidak | - | untuk menampilkan semester |
+
+**Tabel Jadwal**
+
+|Nama Tabel | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
+|------------|----------|----------|-------------|-----------|-----------|---------------------|
+| id_jadwal| Integer| 10 | Primary Key| Iya |Auto_increment| id mata kuliah auto increment |
+| thn_ajaran| Integer| 15 | Foreign Key| Iya |- | Tahun Ajaran |
+| id_detail_kelas | Integer| 10 |  | Foreign Key | - | untuk menampilkan kelas |
+| id_ruangan | Integer| 10 | Iya | Foreign Key | id_ruangan pada ruangan | relasi menapilkan ruangan |
+| waktu_mulai | Varchar| 10 | Tidak | Tidak | - | waktu mulai mata kuliah |
+| waktu_selesai | Varchar | 3 | Tidak | Tidak | - | waktu berakhir mata kuliah |
+| hari | Integer| Varchar | Tidak | Tidak | - | untuk menampilkan hari |
+
+**Tabel Ruangan**
+
+|Nama Tabel | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
+|------------|----------|----------|-------------|-----------|-----------|---------------------|
+| id_ruangan| Integer| 10 | Primary Key| Iya |Auto_increment| id ruangan auto increment |
+| ruangan| Varchar| 20 | Tidak | Tidak |- | Keterangan Ruangan |
 
 #### 2.2.1 Definisi Domain/Type
 
@@ -133,80 +193,80 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 | Domain Name| Keterangan|
 |--|--|
-|id_admin|primary key|
-|username|string|
-|password|string|
+|id_admin|Primary Key|
+|username|String|
+|password|String|
 
 #### Data Mahasiswa
 
 | Domain Name| Keterangan|
 |--|--|
-|id_mhs|Primary key|
-| nim| string |
-| nama_mhs |string|
-|id_kelas|integer|
-|status|string |
+|id_mhs|Primary Key|
+| nim| String |
+| nama_mhs |String|
+|id_kelas|Integer|
+|status|String |
 
 #### Data Dosen
 
 | Domain Name | Keterangan |
 |--|--|
-|id_dosen  | primary key|
-|id_kelas  | integer |
-| nip | integer|
-| nidn | integer|
-| nama_dosen | string|
+|id_dosen  | Primary Key|
+|id_kelas  | Integer |
+| nip | Integer|
+| nidn | Integer|
+| nama_dosen | String|
 
 #### Data Matkul 
 
 |Domain Name  | Keterangan |
 |--|--|
-| id_matkul | primary key|
+| id_matkul | Primary Key|
 | kd_matkul | forigen key|
-| nama_matkul | string|
+| nama_matkul | String|
 | sks_teori | strimg |
-| sks_praktik |string|
-| jumlah_sks| string |
+| sks_praktik |String|
+| jumlah_sks| String |
 
 #### Data Kelas
 
 | Domain Name| Keterangan|
 |--|--|
-| id_kelas |primary key|
-| nama_kelas|string|
-| id_dosen  | integer|
+| id_kelas |Primary Key|
+| nama_kelas|String|
+| id_dosen  | Integer|
 
 #### Data Detail Kelas
 
 | Domain Name| Keterangan|
 |--|--|
-| id_detail_kelas |primary key|
-| id_kelas |integer|
-| id_matkul  | integer|
+| id_detail_kelas |Primary Key|
+| id_kelas |Integer|
+| id_matkul  | Integer|
 
 ####  Jadwal Kuliah
 
 | Domain Name| Keterangan |
 |--|--|
-| id_jadwal | primary key |
-| id_detail_kelas| integer|
-| id_ruangan | integer|
-| waktu_mulai| string|
-| waktu_selesai| string|
-| string|hari|
+| id_jadwal | Primary Key |
+| id_detail_kelas| Integer|
+| id_ruangan | Integer|
+| waktu_mulai| String|
+| waktu_selesai| String|
+| String|hari|
 
 #### Data Ruangan 
 
 |Domain Name  | Keterangan |
 |--|--|
-| id_ruangan | primary key|
-|nama_ruangan|string|
+| id_ruangan | Primary Key|
+|nama_ruangan|String|
 
 ####  Absen 
 
 | Domain Name |Keterangan  |
 |--|--|
-|id_absen|primary key|
+|id_absen|Primary Key|
 |id_matkul  |  forigen key|
 |id_kelas|forigen key|
 |id_dosen|forigen key|
@@ -227,7 +287,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 |Domain Name|Keterangan  |
 |--|--|
-| id_rekap| primary key|
+| id_rekap| Primary Key|
 |kd_matkul|forigen key|
 |id_kelas|forigen key|
 |id_dosen|forigen key|
