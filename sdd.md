@@ -22,7 +22,7 @@
 </body>
 </html>
 
-# 1. Pendahuluan
+# BAB 1. PENDAHULUAN
 
 ### 1.1.  Tujuan
 
@@ -100,7 +100,7 @@ Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 ##### BAB 3.3	Matriks keturunan
 
 
-# Deskripsi Perancangan Global
+# BAB II DESKRIPSI PERANCANGAN GLOBAL
 
 ### 2.1 Rancangan Lingkungan Implementasi
 
@@ -124,13 +124,129 @@ Tabel, Field, semua yang terdapat pada database mysql
 
 #### 2.2.1 Definisi Domain/Type
 
-tabel, filed, dan type data 
+#### Admin
+
+| Domain Name| Keterangan|
+|--|--|
+|id_admin|primary key|
+|username|string|
+|password|string|
+
+#### Data Mahasiswa
+
+| Domain Name| Keterangan|
+|--|--|
+|id_mhs|Primary key|
+| nim| string |
+| nama_mhs |string|
+|id_kelas|integer|
+|status|string |
+
+#### Data Dosen
+
+| Domain Name | Keterangan |
+|--|--|
+|id_dosen  | primary key|
+|id_kelas  | integer |
+| nip | integer|
+| nidn | integer|
+| nama_dosen | string|
+
+#### Data Matkul 
+
+|Domain Name  | Keterangan |
+|--|--|
+| id_matkul | primary key|
+| kd_matkul | forigen key|
+| nama_matkul | string|
+| sks_teori | strimg |
+| sks_praktik |string|
+| jumlah_sks| string |
+
+#### Data Kelas
+
+| Domain Name| Keterangan|
+|--|--|
+| id_kelas |primary key|
+| nama_kelas|string|
+| id_dosen  | integer|
+
+#### Data Detail Kelas
+
+| Domain Name| Keterangan|
+|--|--|
+| id_detail_kelas |primary key|
+| id_kelas |integer|
+| id_matkul  | integer|
+
+####  Jadwal Kuliah
+
+| Domain Name| Keterangan |
+|--|--|
+| id_jadwal | primary key |
+| id_detail_kelas| integer|
+| id_ruangan | integer|
+| waktu_mulai| string|
+| waktu_selesai| string|
+| string|hari|
+
+#### Data Ruangan 
+
+|Domain Name  | Keterangan |
+|--|--|
+| id_ruangan | primary key|
+|nama_ruangan|string|
+
+####  Absen 
+
+| Domain Name |Keterangan  |
+|--|--|
+|id_absen|primary key|
+|id_matkul  |  forigen key|
+|id_kelas|forigen key|
+|id_dosen|forigen key|
+|id_ruangan|forigen key|
+|waktu|waktu disaat matkul dimulai|
+|keterlambatan|waktu yang di berikan untuk toleransi keterlambatan|
+
+####  Detail Absen
+
+| Domain Name | Keterangan |
+|--|--|
+| id_absen | forigen key|
+|id_mhs|forigen key|
+|status|status kehadiran mahasiswa|
+|waktu_scan| waktu scan yang dilakukan mahasiswa|
+
+####  Rekap 
+
+|Domain Name|Keterangan  |
+|--|--|
+| id_rekap| primary key|
+|kd_matkul|forigen key|
+|id_kelas|forigen key|
+|id_dosen|forigen key|
+|semester|semester ganjil/genap|
+|tahun_ajaran|tahun ajaran|
+
+#### Detail Rekap
+
+| Domain Name | Keterangan  |
+|--|--|
+|id_rekap | forigen key|
+|id_mhs|forigen key|
+|hadir|jumlah kehadiran mahasiswa|
+|absen|jumlah absen mahasiswa|
+|keterlambatan|jumlah menit keterlambatan mahasiswa|
+|kompensasi|jumlah menit kompensasi yang didapatkan oleh mahasiswa|
 
 #### 2.2.2 Conceptual Data Model
 
 #### 2.2.3 Physical Data Model
 
 #### 2.2.4 Daftar Tabel Aplikasi
+
+
 
 ### 2.3 Deskripsi Modul
 
@@ -202,113 +318,6 @@ DFD Level 1 menjelaskan proses 7 yang terdapat pada DFD level 0. Dimana admin da
 |MAC  | MAC Address Mahasiswa dan dosen digunakan untuk vailidasi login|
 
 
-#### 3.2.2 Data Mahasiswa
-
-| Data| Keterangan|
-|--|--|
-|id_mhs|Primary key|
-| NIM| Nomor Induk Mahasiswa |
-| Nama|Nama mahasiswa|
-|id_kelas|kelas |
-| MAC Adress|Vailidasi Device yang digunakan oleh mahasiswa|
-|status|Status mahasiswa (Aktif/Tidak Aktif)|
-
-#### 3.2.3 Data Dosen
-
-| Data | Keterangan |
-|--|--|
-|id_dosen  | primary key|
-|NIP  | Nomor Induk Pegawai|
-| Nama | Nama Dosen|
-| MAC Address | Vailidasi Device yang digunakan oleh dosen|
-|status| Status dosen (Aktiv/Tidak Aktif)|
-
-#### 3.2.4 Data Matkul 
-
-|Data  | Keterangan |
-|--|--|
-| id_matkul | primary key|
-| kd_matkul | forigen key|
-| Nama Matkul | Nama matakuliah|
-| sks_teori | jumlah sks teori|
-| sks_praktik |jumlah sks praktik|
-
-#### 3.2.5 Data Kelas
-
-| Data| Keterangan|
-|--|--|
-| id_kelas |primary key
-| nama_kelas|nama kelas|
-
-#### 3.2.6 Jadwal Kuliah
-
-|Data| Keterangan |
-|--|--|
-| id_jadwal | primary key |
-|semsester| semester ganjil/genap|
-| tahun_ajaran | tahun ajaran|
-
-#### 3.2.7 Detail Jadwal 
-
-| Data |Keterangan  |
-|--|--|
-|id_jadwal  | forigen key |
-| kd_matkul | forigen key|
-|id_dosen |forigen key|
-|id_kelas|forigen key|
-|id_ruangan|forigen key|
-| jam | jam mengajar|
-| hari | hari mengajar|
-
-#### 3.2.8 Data Ruangan 
-
-|Data  | Keterangan |
-|--|--|
-| Id_ruangan | primary key|
-|nama_ruangan|nama ruangan|
-
-#### 3.2.9 Absen 
-
-| Data |Keterangan  |
-|--|--|
-|id_absen|primary key|
-|id_matkul  |  forigen key|
-|id_kelas|forigen key|
-|id_dosen|forigen key|
-|id_ruangan|forigen key|
-|waktu|waktu disaat matkul dimulai|
-|keterlambatan|waktu yang di berikan untuk toleransi keterlambatan|
-
-#### 3.2.10 Detail Absen
-
-| Data | Keterangan |
-|--|--|
-| id_absen | forigen key|
-|id_mhs|forigen key|
-|status|status kehadiran mahasiswa|
-|waktu_scan| waktu scan yang dilakukan mahasiswa|
-
-#### 3.2.11 Rekap 
-
-|Data|Keterangan  |
-|--|--|
-| id_rekap| primary key|
-|kd_matkul|forigen key|
-|id_kelas|forigen key|
-|id_dosen|forigen key|
-|semester|semester ganjil/genap|
-|tahun_ajaran|tahun ajaran|
-
-#### 3.2.12 Detail Rekap
-
-| Data | Keterangan  |
-|--|--|
-|id_rekap | forigen key|
-|id_mhs|forigen key|
-|hadir|jumlah kehadiran mahasiswa|
-|absen|jumlah absen mahasiswa|
-|keterlambatan|jumlah menit keterlambatan mahasiswa|
-|kompensasi|jumlah menit kompensasi yang didapatkan oleh mahasiswa|
 
 ### 3.3 Deskripsi Rinci Modul
 
