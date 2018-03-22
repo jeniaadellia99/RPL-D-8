@@ -68,28 +68,28 @@ Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 
 ### 1.6 Ikhtisar Dokumen
 
-##### 1. 		Pendahulan
-##### 1.1 	Tujuan Penulisan Dokumen
-##### 1.2 	Lingkup Masalah
-##### 1.3 	Definisi dan Istilah
+##### BAB 1. Pendahulan
+##### 1.1 		Tujuan Penulisan Dokumen
+##### 1.2 		Lingkup Masalah
+##### 1.3 		Definisi dan Istilah
 ##### 1.4		Aturan Penamaan dan Penomoran
 ##### 1.5		Referensi
 ##### 1.6		Ikhtisar Dokumen
 
-##### 2. 		Deskripsi perancangan Global
+##### BAB 2. 	Deskripsi perancangan Global
 ##### 2.1		Rancangan Lingkungan Implementasi
-##### 2.2
-##### 2.2.1	Definisi Domain/Type
-##### 2.2.2	Conceptual
-##### 2.2.3	Physical Data Model
-##### 2.2.4	Daftar Tabel Aplikasi
+##### 2.2		Deskripsi Data
+##### 2.2.1		Definisi Domain/Type
+##### 2.2.2		Conceptual
+##### 2.2.3		Physical Data Model
+##### 2.2.4		Daftar Tabel Aplikasi
 
-##### 3.		Deskripsi Perancangan Tabel
+##### BAB 3.	Deskripsi Perancangan Tabel
 ##### 3.1		Deskripsi Rinci Tabel
-##### 3.1.1	Tabel Nama
-##### 3.1.2	Tabel Detail	
+##### 3.1.1		Tabel Nama
+##### 3.1.2		Tabel Detail	
 ##### 3.2		Deskripsi Rinci Modul
-##### 3.2.1	Modul
+##### 3.2.1		Modul
 ##### 3.2.1.1	Fungsi Modul
 ##### 3.2.1.2	Spesifikasi Layar Utama
 ##### 3.2.1.3	Spesifikasi Query (jka ada)
@@ -97,20 +97,40 @@ Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 ##### 3.2.1.5	Spesifikasi Objek-Objek pada Layar
 ##### 3.2.1.5	Spesifikasi Proses/Algoitma
 
-##### 3.3	Matriks keturunan
+##### BAB 3.3	Matriks keturunan
 
 
 # Deskripsi Perancangan Global
 
 ### 2.1 Rancangan Lingkungan Implementasi
 
+Pada Proses Pembuatan Aplikasi, hal-hal yang mendukung dalam pemrosesan pembuatan aplikasi seperti 
+a. Siste Operasi
+Sistem operasi yang digunakan untuk pembuatan aplikasi QPRESS adalah :
+- Pada Admin Web menggunakan PHP, HTML, Framework Laravel, Bootstrap dan CSS sebagai pendukung pembuatan design  
+- Pada Dosen dan Mahasiswa dalam pembuatannya menggunakan Android Studio
+b. DBMS 
+DBMS yang digunakan adalah Mysql dan Laravel
+c. Development Tools
+- menggunakan Android Studio
+- Sublime
+- Bahasa Pemrograman
+
 ### 2.2 Deskripsi Data
+
+Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Menggunakan QR-CODE adalah sebagai berikut :
+
+Tabel, Field, semua yang terdapat pada database mysql
 
 #### 2.2.1 Definisi Domain/Type
 
+tabel, filed, dan type data 
+
 #### 2.2.2 Conceptual Data Model
 
-#### 2.2.3 Daftar Tabel Aplikasi
+#### 2.2.3 Physical Data Model
+
+#### 2.2.4 Daftar Tabel Aplikasi
 
 ### 2.3 Deskripsi Modul
 
