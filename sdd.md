@@ -120,7 +120,12 @@ c. Development Tools
 
 Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Menggunakan QR-CODE adalah sebagai berikut :
 
-Tabel, Field, semua yang terdapat pada database mysql
+**Tabel Mahasiswa**
+
+|Nama Tabel | Jenis |Volume| Laju| Primary key| contraint integrity| Deskripsi|
+|--------------|----------|----------|-------------|-----------|-----------------|
+| id_mhs| Integer| 10 | primary key| Iya |Auto_increment| id mhs auto increment |
+| nim| varchar| 7 | Tidak | Tidak | nim mahasiswa| |id mhs auto increment |
 
 #### 2.2.1 Definisi Domain/Type
 
