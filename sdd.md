@@ -104,17 +104,20 @@ Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 
 ### 2.1 Rancangan Lingkungan Implementasi
 
-Pada Proses Pembuatan Aplikasi, hal-hal yang mendukung dalam pemrosesan pembuatan aplikasi seperti 
-a. Siste Operasi
+Pada Proses Pembuatan Aplikasi, hal-hal yang mendukung dalam pemrosesan pembuatan aplikasi seperti :
+##### a. Sistem Operasi
 Sistem operasi yang digunakan untuk pembuatan aplikasi QPRESS adalah :
-- Pada Admin Web menggunakan PHP, HTML, Framework Laravel, Bootstrap dan CSS sebagai pendukung pembuatan design  
-- Pada Dosen dan Mahasiswa dalam pembuatannya menggunakan Android Studio
-b. DBMS 
-DBMS yang digunakan adalah Mysql dan Laravel
-c. Development Tools
-- menggunakan Android Studio
-- Sublime
-- Bahasa Pemrograman
+
+ - Pada Admin Web menggunakan PHP, HTML, Framework Laravel, Bootstrap dan CSS sebagai pendukung pembuatan design  
+ - Pada Dosen dan Mahasiswa dalam pembuatannya menggunakan Android Studio
+
+##### b. DBMS 
+ - DBMS yang digunakan adalah Mysql dan Laravel
+ 
+##### c. Development Tools
+ - menggunakan Android Studio
+ - Sublime
+ - Bahasa Pemrograman
 
 ### 2.2 Deskripsi Data
 
