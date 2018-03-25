@@ -113,7 +113,7 @@ Sistem operasi yang digunakan untuk pembuatan aplikasi QPRESS adalah :
 
 ##### b. DBMS 
  - DBMS yang digunakan adalah Mysql dan Laravel
- 
+
 ##### c. Development Tools
  - menggunakan Android Studio
  - Sublime
@@ -314,6 +314,11 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 #### 2.2.4 Daftar Tabel Aplikasi
 
+#### Tabel Mahasiswa
+
+| Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
+| ------ | ------ | ------ | ------ | ------ | 
+| Id_masyarakat| Primary key | D7 | Auto increment | Nomer auto increment Id_masyarakat|
 
 
 ### 2.3 Deskripsi Modul
