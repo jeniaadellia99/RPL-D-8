@@ -106,18 +106,21 @@ Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 
 Pada Proses Pembuatan Aplikasi, hal-hal yang mendukung dalam pemrosesan pembuatan aplikasi seperti :
 ##### a. Sistem Operasi
-Sistem operasi yang digunakan untuk pembuatan aplikasi QPRESS adalah :
-
- - Pada Admin Web menggunakan PHP, HTML, Framework Laravel, Bootstrap dan CSS sebagai pendukung pembuatan design  
- - Pada Dosen dan Mahasiswa dalam pembuatannya menggunakan Android Studio
+Sistem Operasi yang digunakan adalah :
+ - Microsoft Windows 7
+ - Microsoft Windows 10
 
 ##### b. DBMS 
  - DBMS yang digunakan adalah Mysql dan Laravel
 
 ##### c. Development Tools
- - menggunakan Android Studio
- - Sublime
- - Bahasa Pemrograman
+ - Android Studio
+ - Sublime text 3
+
+##### d. Bahasa Pemrograman
+ - Pada Admin (Web)  menggunakan bahasa pemrograman PHP, HTML, Framework Laravel, Bootstrap dan CSS.
+ - Pada Dosen dan Mahasiswa (Mobile) dalam pembuatannya menggunakan bahasa pemrograman android (java).
+
 
 ### 2.2 Deskripsi Data
 
@@ -125,7 +128,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 **Tabel Mahasiswa**
 
-|Nama Tabel | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
+|Nama Tabel  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
 | id_mhs| Integer| 10 | Primary Key| Iya |Auto_increment| id mhs auto increment |
 | id_kelas| Integer| 10 | Tidak | Foreign Key | id_kelas pada kelas| relasi untuk menampilkan kelas |
@@ -336,7 +339,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 <p align="justify">Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur.  Berikut DFD Level 0 Aplikasi Q-Press.</p>
 
-![enter image description here](https://1.bp.blogspot.com/-_O_TRqrW5NI/WqoW2yEQOOI/AAAAAAAAA8o/ajfqm0EQYCk-Ohw-SZOUFgSm4ACi9LEJQCLcBGAs/s1600/dfd%2Blevel%2B0.jpg)
+![enter image description here](https://4.bp.blogspot.com/-N0GXfhsMyZ4/Wrf0wSkKLJI/AAAAAAAAAvc/P7QC6DdyNZAP8OoRqHADbVone2KQ8k_HQCLcBGAs/s1600/2-level+0.JPG)
 
 #### 3.1.2 DFD Level 1 : Proses 1
 
@@ -380,15 +383,41 @@ DFD Level 1 menjelaskan proses 7 yang terdapat pada DFD level 0. Dimana admin da
 
 ![enter image description here](https://2.bp.blogspot.com/-wI-1Wwn2Apo/WqU6kLZIgqI/AAAAAAAAAuo/4cqL1f3YvcEL_0O1Jvr0NhTKSSVvbu97ACLcBGAs/s1600/dfd+rekap.JPG)
 
+#### 3.1.9 DFD Level 1 : Proses 8
+
+DFD Level 1 Proses 9 menjelaskan tentang mata kuliah
+
+![enter image description here](https://2.bp.blogspot.com/-fhVEsMZ2vvA/Wrf2T2duVcI/AAAAAAAAAvs/5w6e27EL9dQR9bstOabvFbVVxwbKgt5xACLcBGAs/s1600/9-Level+1-proses+8.JPG)
+
+#### 3.1.10 DFD Level 1 : Proses 9
+
+DFD Level 1 Proses 8 menjelaskan tenang alur data ruangan
+
+![enter image description here](https://2.bp.blogspot.com/-8jYs6vOu_JY/Wrf150s97II/AAAAAAAAAvo/X7-eqRiYDQ0OrhCLM3FMMu4vTHjcp28cwCLcBGAs/s1600/10-Level+1-proses+9.JPG)
+
+#### 3.1.10 DFD Level 1 : Proses 10
+
+DFD Level 1 Proses 10 tentang alur data kompensasi
+
+![enter image description here](https://3.bp.blogspot.com/-5fvyyf5l6RA/Wrf29lz-ltI/AAAAAAAAAv4/o2ANKz73_BMA7f1_rWDWCtwuMdWHP01DACLcBGAs/s1600/12-Level+1-proses+10.JPG)
+
+
+
+![enter image description here](https://3.bp.blogspot.com/-5fvyyf5l6RA/Wrf29lz-ltI/AAAAAAAAAv4/o2ANKz73_BMA7f1_rWDWCtwuMdWHP01DACLcBGAs/s1600/12-Level+1-proses+10.JPG)
+
+
+
+
+
 ### 3.2 Deskripsi Rinci Tabel
 
 #### 3.2.1 Data User Mahasiswa dan Dosen
 
-|Data  |Keterangan  |
-|--|--|
+|Data |Keterangan  |
+|-----|------|
 | NIP | NIP Dosen digunakan untuk login |
 | NIM | NIM Mahasiswa digunakan untuk login|
-|MAC  | MAC Address Mahasiswa dan dosen digunakan untuk vailidasi login|
+| MAC | MAC Address Mahasiswa dan dosen digunakan untuk vailidasi login|
 
 
 
