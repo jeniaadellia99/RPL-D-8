@@ -106,18 +106,21 @@ Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 
 Pada Proses Pembuatan Aplikasi, hal-hal yang mendukung dalam pemrosesan pembuatan aplikasi seperti :
 ##### a. Sistem Operasi
-Sistem operasi yang digunakan untuk pembuatan aplikasi QPRESS adalah :
-
- - Pada Admin Web menggunakan PHP, HTML, Framework Laravel, Bootstrap dan CSS sebagai pendukung pembuatan design  
- - Pada Dosen dan Mahasiswa dalam pembuatannya menggunakan Android Studio
+Sistem Operasi yang digunakan adalah :
+ - Microsoft Windows 7
+ - Microsoft Windows 10
 
 ##### b. DBMS 
  - DBMS yang digunakan adalah Mysql dan Laravel
  
 ##### c. Development Tools
- - menggunakan Android Studio
- - Sublime
- - Bahasa Pemrograman
+ - Android Studio
+ - Sublime text 3
+
+##### d. Bahasa Pemrograman
+ - Pada Admin (Web)  menggunakan bahasa pemrograman PHP, HTML, Framework Laravel, Bootstrap dan CSS.
+ - Pada Dosen dan Mahasiswa (Mobile) dalam pembuatannya menggunakan bahasa pemrograman android (java).
+
 
 ### 2.2 Deskripsi Data
 
@@ -125,7 +128,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 **Tabel Mahasiswa**
 
-|Nama Tabel | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
+|Nama Tabel  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
 | id_mhs| Integer| 10 | Primary Key| Iya |Auto_increment| id mhs auto increment |
 | id_kelas| Integer| 10 | Tidak | Foreign Key | id_kelas pada kelas| relasi untuk menampilkan kelas |
@@ -379,11 +382,11 @@ DFD Level 1 menjelaskan proses 7 yang terdapat pada DFD level 0. Dimana admin da
 
 #### 3.2.1 Data User Mahasiswa dan Dosen
 
-|Data  |Keterangan  |
-|--|--|
+|Data |Keterangan  |
+|-----|------|
 | NIP | NIP Dosen digunakan untuk login |
 | NIM | NIM Mahasiswa digunakan untuk login|
-|MAC  | MAC Address Mahasiswa dan dosen digunakan untuk vailidasi login|
+| MAC | MAC Address Mahasiswa dan dosen digunakan untuk vailidasi login|
 
 
 
