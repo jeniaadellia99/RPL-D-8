@@ -195,7 +195,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 #### 2.2.1 Definisi Domain/Type
 
-#### Admin
+##### Admin
 
 | Domain Name| Keterangan|
 |--|--|
@@ -203,7 +203,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 |username|String|
 |password|String|
 
-#### Data Mahasiswa
+##### Data Mahasiswa
 
 | Domain Name| Keterangan|
 |--|--|
@@ -213,7 +213,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 |id_kelas|Integer|
 |status|String |
 
-#### Data Dosen
+##### Data Dosen
 
 | Domain Name | Keterangan |
 |--|--|
@@ -223,7 +223,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 | nidn | Integer|
 | nama_dosen | String|
 
-#### Data Matkul 
+##### Data Matkul 
 
 |Domain Name  | Keterangan |
 |--|--|
@@ -234,7 +234,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 | sks_praktik |String|
 | jumlah_sks| String |
 
-#### Data Kelas
+##### Data Kelas
 
 | Domain Name| Keterangan|
 |--|--|
@@ -242,7 +242,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 | nama_kelas|String|
 | id_dosen  | Integer|
 
-#### Data Detail Kelas
+##### Data Detail Kelas
 
 | Domain Name| Keterangan|
 |--|--|
@@ -250,7 +250,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 | id_kelas |Integer|
 | id_matkul  | Integer|
 
-####  Jadwal Kuliah
+##### Jadwal Kuliah
 
 | Domain Name| Keterangan |
 |--|--|
@@ -261,14 +261,14 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 | waktu_selesai| String|
 | String|hari|
 
-#### Data Ruangan 
+##### Data Ruangan 
 
 |Domain Name  | Keterangan |
 |--|--|
 | id_ruangan | Primary Key|
 |nama_ruangan|String|
 
-####  Absen 
+#####  Absen 
 
 | Domain Name |Keterangan  |
 |--|--|
@@ -280,7 +280,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 |waktu|waktu disaat matkul dimulai|
 |keterlambatan|waktu yang di berikan untuk toleransi keterlambatan|
 
-####  Detail Absen
+#####  Detail Absen
 
 | Domain Name | Keterangan |
 |--|--|
@@ -289,7 +289,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 |status|status kehadiran mahasiswa|
 |waktu_scan| waktu scan yang dilakukan mahasiswa|
 
-####  Rekap 
+#####  Rekap 
 
 |Domain Name|Keterangan  |
 |--|--|
@@ -300,7 +300,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 |semester|semester ganjil/genap|
 |tahun_ajaran|tahun ajaran|
 
-#### Detail Rekap
+##### Detail Rekap
 
 | Domain Name | Keterangan  |
 |--|--|
@@ -317,7 +317,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 #### 2.2.4 Daftar Tabel Aplikasi
 
-#### Tabel Mahasiswa
+##### Tabel Mahasiswa
 
 | Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
 | ------ | ------ | ------ | ------ | ------ | 
@@ -327,7 +327,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 | nama_mhs| - | D5 | - | Nama Mahasiswa|
 | status| -| D5 | - | menyatakan status keaktifan mahasiswa|
 
-### Tabel Dosen
+##### Tabel Dosen
 
 | Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
 | ------ | ------ | ------ | ------ | ------ | 
@@ -336,7 +336,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 | nidn | - | D6 | - | nomor dosen|
 | nama_dosen| - | D6 | - | Nama Dosen|
 
-### Tabel Kelas
+##### Tabel Kelas
 
 | Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
 | ------ | ------ | ------ | ------ | ------ | 
@@ -344,7 +344,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 | nama_kelas| - | D5 | - | keterangan setiap kelas|
 | id_dosen | Foreign key| D4 | - | relasi dengan id_dosen pada tabel dosen untuk menampilkan wali kelas|
 
-### Tabel Detail Kelas
+##### Tabel Detail Kelas
 
 | Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
 | ------ | ------ | ------ | ------ | ------ | 
@@ -352,7 +352,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 | Id_kelas| Foreign key | D4 | - | Nomer auto increment Id_kelas|
 | id_matkul| - | D4 | - | keterangan mata kuliah|
 
-### Tabel Mata Kuliah
+##### Tabel Mata Kuliah
 
 | Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
 | ------ | ------ | ------ | ------ | ------ | 
@@ -360,7 +360,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 | Id_kelas| Foreign key | D7 | - | Nomer auto increment Id_kelas|
 | id_matkul| - | D7 | - | keterangan mata kuliah|
 
-### Tabel Jadwal
+##### Tabel Jadwal
 
 | Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
 | ------ | ------ | ------ | ------ | ------ | 
@@ -372,14 +372,14 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 | waktu_selesai| - | D2 | - | waktu berakhirnya jam jadwal|
 | hari| - | D2 | - | hari jadwal|
 
-### Tabel Ruangan
+##### Tabel Ruangan
 
 | Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
 | ------ | ------ | ------ | ------ | ------ | 
 | Id_ruangan| Primary key | D8 | Auto increment | Nomer auto increment Id_ruangan|
 | ruangan| - | D8 | - | Nama ruangan pembelajaran|
 
-### Tabel User
+##### Tabel User
 
 | Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
 | ------ | ------ | ------ | ------ | ------ | 
