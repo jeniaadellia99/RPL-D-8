@@ -321,8 +321,72 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 | Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
 | ------ | ------ | ------ | ------ | ------ | 
-| Id_masyarakat| Primary key | D7 | Auto increment | Nomer auto increment Id_masyarakat|
+| Id_mhs| Primary key | D5 | Auto increment | Nomer auto increment Id_mahasiswa|
+| Id_kelas| Foreign key | D5 | - | referensi key pada tabel kelas, id_kelas|
+| nim| unique | D5 | - | nim mahasiswa nomer harus unik |
+| nama_mhs| - | D5 | - | Nama Mahasiswa|
+| status| -| D5 | - | menyatakan status keaktifan mahasiswa|
 
+### Tabel Dosen
+
+| Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
+| ------ | ------ | ------ | ------ | ------ | 
+| Id_dosen| Primary key | D6 | Auto increment | Nomer auto increment Id_dosen|
+| nik| - | D6 | - | nomor induk karyawan|
+| nidn | - | D6 | - | nomor dosen|
+| nama_dosen| - | D6 | - | Nama Dosen|
+
+### Tabel Kelas
+
+| Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
+| ------ | ------ | ------ | ------ | ------ | 
+| Id_kelas| Primary key | D4 | Auto increment | Nomer auto increment Id_kelas|
+| nama_kelas| - | D5 | - | keterangan setiap kelas|
+| id_dosen | Foreign key| D4 | - | relasi dengan id_dosen pada tabel dosen untuk menampilkan wali kelas|
+
+### Tabel Detail Kelas
+
+| Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
+| ------ | ------ | ------ | ------ | ------ | 
+| Id_detail_kelas| Primary key | D4 | Auto increment | Nomer auto increment Id_kelas|
+| Id_kelas| Foreign key | D4 | - | Nomer auto increment Id_kelas|
+| id_matkul| - | D4 | - | keterangan mata kuliah|
+
+### Tabel Mata Kuliah
+
+| Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
+| ------ | ------ | ------ | ------ | ------ | 
+| Id_detail_kelas| Primary key | D7 | Auto increment | Nomer auto increment Id_kelas|
+| Id_kelas| Foreign key | D7 | - | Nomer auto increment Id_kelas|
+| id_matkul| - | D7 | - | keterangan mata kuliah|
+
+### Tabel Jadwal
+
+| Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
+| ------ | ------ | ------ | ------ | ------ | 
+| Id_jadwal| Primary key | D2 | Auto increment | Nomer auto increment Id_jadwal|
+| Id_detail_kelas| Foreign key | D2 | - | berelasi dengan tabel detail_kelas, Id_detail_kelas|
+| id_ruangan| Foreign Key | D2 | - | berelasi dengan tabel ruangan, id_ruangan|
+| thn_ajaran| - | D2 | - | tahun ajaran jadwal kuliah|
+| waktu_mulai| - | D2 | - | waktu muliai jam jadwal|
+| waktu_selesai| - | D2 | - | waktu berakhirnya jam jadwal|
+| hari| - | D2 | - | hari jadwal|
+
+### Tabel Ruangan
+
+| Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
+| ------ | ------ | ------ | ------ | ------ | 
+| Id_ruangan| Primary key | D8 | Auto increment | Nomer auto increment Id_ruangan|
+| ruangan| - | D8 | - | Nama ruangan pembelajaran|
+
+### Tabel User
+
+| Nama Tabel  | Primary Key | Data Store | E/R | Deskripsi isi |
+| ------ | ------ | ------ | ------ | ------ | 
+| Id_user| Primary key | D1 | Auto increment | Nomer auto increment Id_user|
+| mac| - | D1 | - | digunakan untuk username pengguna|
+| nip| - | D1 | - | digunakan sebagai username dosen|
+| nim| - | D1 | - | digunakan sebagai username mahasiswa|
 
 ### 2.3 Deskripsi Modul
 
@@ -400,13 +464,6 @@ DFD Level 1 Proses 8 menjelaskan tenang alur data ruangan
 DFD Level 1 Proses 10 tentang alur data kompensasi
 
 ![enter image description here](https://3.bp.blogspot.com/-5fvyyf5l6RA/Wrf29lz-ltI/AAAAAAAAAv4/o2ANKz73_BMA7f1_rWDWCtwuMdWHP01DACLcBGAs/s1600/12-Level+1-proses+10.JPG)
-
-
-
-![enter image description here](https://3.bp.blogspot.com/-5fvyyf5l6RA/Wrf29lz-ltI/AAAAAAAAAv4/o2ANKz73_BMA7f1_rWDWCtwuMdWHP01DACLcBGAs/s1600/12-Level+1-proses+10.JPG)
-
-
-
 
 
 ### 3.2 Deskripsi Rinci Tabel
