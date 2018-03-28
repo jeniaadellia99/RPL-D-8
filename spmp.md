@@ -22,7 +22,7 @@
 </body>
 </html>
  
-**BAB 1. PENDAHULUAN** 
+# BAB 1. PENDAHULUAN
 
 **1.1	Gambaran Proyek**
 
@@ -53,25 +53,29 @@ Pada sistem Admin yaitu : <br>
 Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa menggunakan akun atau device dari mahasiswa lainnya. Kalaupun terdapat beberapa mahasiswa yang tidak mempunyai HP, maka dosen akan melaukukan presensi manual. Melalui pemanggilan nama mahasiswa tersebut. Mahasiswa tidak boleh menitipkan HP-nya ke mahasiswa lain untuk melakukan presensi, karena setiap dosen akan melakukan validasi presensi.</p>
 
 **1.2 Dokumen - dokumen dalam Proyek**
-- Proposal Mitra 
-	Untuk kerja sama dengan mitra sebagai client. 
+
 - Logbook
 Dokumentasi hasil pengerjaan.
 - Android Studio
-Media pendukung unutk pembuatan aplikasi.
+Media pendukung untuk pembuatan aplikasi.
 - Sublime
 	Media pendukung unutk pembuatan aplikasi.
 - Laravel
 	Framework yang digunakan untuk mendukung pembuatan aplikasi.
+- Mysql
+	Digunakan sebagai Database penyimpanan data.
+- Firebas
+	Sebagai Database Realtime.
 
 **1.3 Evolusi SPMP**
+
 1.	Referensi
 	- https://laravel.com/
 	- https://firebase.google.com/?hl=id
 	- https://getbootstrap.com/
 	- Software Project Management Plan
 2.  Definisi, Akronim, dan Singkatan
-	 - QR-Code
+	- QR-Code
 	- Q-PRES
 	- HP
 
@@ -79,11 +83,11 @@ Media pendukung unutk pembuatan aplikasi.
 	1. Penentuan Judul (Tema)
 	2. Analisis Kebutuhan
 		- Flowchart
-		 - Use Case
-		 - Mockup
-		 - DFD
+		- Use Case
+		- Mockup
+		- DFD
 	3. Perancangan Perangkat Lunak
-		 - Mengenai perangkat/aplikasi yang dibutuhkan untuk membantu pengerjaan.
+		- Mengenai perangkat/aplikasi yang dibutuhkan untuk membantu pengerjaan.
 	4. Construction 
 	5. Testing
 
@@ -103,14 +107,8 @@ Media pendukung unutk pembuatan aplikasi.
 - HP 		: Handphone
 - presensi  : Kehadiran
 		
-**1.5 Definisi dan Akronim (Singkatan)**
-	
-- QR-Code	: Quick Response Code
-- Q-PRES	: QR Presensi
-- HP 		: Handphone
-- Presensi  : Kehadiran
 
-**BAB 2 ORGANISASI PROYEK**
+# BAB 2 ORGANISASI PROYEK
 
 **2.1 Model Proses**
 	  
@@ -118,7 +116,7 @@ Media pendukung unutk pembuatan aplikasi.
 
 <p align="justify">Proses yang digunakan pada proyek ini menggunakan Kode QR (Quick Respon). Dimana user mahasiswa harus mendaftar terlebih dahulu menggunakan MAC Address dari perangkat HP dan menggunakan NIM dari mahasiswa tersebut. Kemudian, jika mahasiswa tersebut ingin masuk atau melakukan presensi, ia harus memasukkan NIM-nya. NIM tersebut akan mencocokkan atau mencari MAC Address yang sudah didaftarakan pada awal pendaftaran untuk bisa masuk ke akun mahasiswa tersebut. Dosen akan didaftarkan pada Admin. Admin mempunyai kewenanangan yang lebih pada aplikasi ini.</p>
 		
-**2.2 truktur Organisasi**
+**2.2 Struktur Organisasi**
 
 | No. | Jabatan           | Nama               | Nim     |
 |-----|-------------------|--------------------|---------|
@@ -134,8 +132,8 @@ Media pendukung unutk pembuatan aplikasi.
 
 |No. | Nama 			| Nim 		| Penanggung Jawab 	  |
 |----|------------------|-----------|---------------------|
-| 1  | Koriah			| 1603103	| Konsep Sistem       |
-|	 |					|			| Use Case		      |
+| 1  | Koriah			| 1603103	| Dokumen 			  |
+|	 |					|			| Database		      |
 |    | 					|			| Design 			  |
 | 2	 | Bayu Rasukma	    | 1603093	| Lead Android Develop|
 | 3	 | Syamsul Fahri H  | 1603115	| Lead Web Develop    |
@@ -146,7 +144,7 @@ Media pendukung unutk pembuatan aplikasi.
 Setiap anggota mempunyai tanggung jawab terhadap tugasnya. Anggota mempunyai jobdesk-nya masing-masing sesuai dengan poin 2.2.
 
 
-**BAB 3 Proses Manajerial**
+# BAB 3 Proses Manajerial
 	
 **3.1	Tujuan dan prioritas manajemen**
 
@@ -182,7 +180,7 @@ Resiko yang ada pada proyek ini adalah :
 - Pembuatan Dokumentasi Proyek
 -  Testing dan evaluasi kinerja Aplikasi
 
-**BAB 4 Prosess Teknis**
+# BAB 4 Prosess Teknis
 
 **4.1	Metoda, tool dan teknik**
 
@@ -203,7 +201,8 @@ Fungsi Pendukung dalam protek ini adalah :
 - Spesialis Androud
 
 
-**BAB 5 Paket Pekerjaan, jadwal, dan anggaran**
+# BAB 5 Paket Pekerjaan, Jadwal dan Anggaran
+
 **5.1 Paket Pekerjaan**
 
 Paket pekerjaan yang akan di lakukan :
@@ -214,7 +213,8 @@ Paket pekerjaan yang akan di lakukan :
 
 **5.2 Ketergantungan dan ketrtarikan**
 
-kebutuhan ketertarikan :
+kebutuhan keterkaitan :
+
 1. Penentuan ide dan rumusan masalah yang dibutuhkan
 2. Pembuatan rancangan sistem aplikasi yang akan di buat
 3. Pembuatan sistem aplikasi Website
