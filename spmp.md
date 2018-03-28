@@ -30,7 +30,10 @@
 
 <p align="justify">Untuk itu, kelompok 8 mempunyai gagasan yang dapat meminimialisir dari tidak efesiennya sistem presensi sekarang, yaitu dengan membuat aplikas Q-PRES (QR-Code Presensi). Aplikasi menggunakan sistem scan kode QR untuk setiap presensi pada jadwal mata kuliah di setiap Lab atau Kelas. Dari sistemnya sendiri menggunakan 3 user, yaitu mahasiswa, dosen dan admin. </p>
 
-<p align="justify">Dari sistem mahasiswa menggunakan MAC address device (HP) dan Nim untuk pendaftaran. Hak akses dari mahasiswa menggunakan NIM, yang kemudian NIM tersebut akan mencari MAC device pada saat pertama pendaftaran untuk mencocokkannya. Jika NIM dan MAC addressnya sudah sinkron maka mahasiswa tersebut dapat login. Kemudian mahasiswa dapat melakukan Scan QR-Code presensi yang menyatakan bahwa dia hadir. Mahasiswa tidak akan bisa melakukan scan Kode QR jikalau dosen belum mengaktivasi atau membuka sistemnya. Pada sistem siswa, terdapat beberapa fungsi utama yaitu : </p><br>
+<p align="justify">Dari sistem mahasiswa menggunakan MAC address device (HP) dan Nim untuk pendaftaran. Hak akses dari mahasiswa menggunakan NIM, yang kemudian NIM tersebut akan mencari MAC device pada saat pertama pendaftaran untuk mencocokkannya. Jika NIM dan MAC addressnya sudah sinkron maka mahasiswa tersebut dapat login. Kemudian mahasiswa dapat melakukan Scan QR-Code presensi yang menyatakan bahwa dia hadir. Mahasiswa tidak akan bisa melakukan scan Kode QR jikalau dosen belum mengaktivasi atau membuka sistemnya. </p>
+
+Pada sistem siswa, terdapat beberapa fungsi utama yaitu : <br>
+
 - Siswa dapat melihat jadwal perkuliahan.<br>
 - Sebelum siswa melakukan presensi, dia akan mendapatkan notifikasi untuk memulai scan, jika berhasil melakukan scan siswa akan mendapat notifikasi scan telah berhasil.<br>
 - Siswa dapat melihat jumlah kompen yang dia dapatkan karena keterlambatan maupun ketidakhadiran. <br>
@@ -112,7 +115,7 @@ Media pendukung untuk pembuatan aplikasi.
 - presensi  : Kehadiran
 		
 
-# BAB 2 ORGANISASI PROYEK
+### BAB 2 ORGANISASI PROYEK
 
 **2.1 Model Proses**
 	  
@@ -148,7 +151,7 @@ Media pendukung untuk pembuatan aplikasi.
 Setiap anggota mempunyai tanggung jawab terhadap tugasnya. Anggota mempunyai jobdesk-nya masing-masing sesuai dengan poin 2.2.
 
 
-# BAB 3 Proses Manajerial
+### BAB 3 Proses Manajerial
 	
 **3.1	Tujuan dan prioritas manajemen**
 
@@ -184,7 +187,7 @@ Resiko yang ada pada proyek ini adalah :
 - Pembuatan Dokumentasi Proyek
 -  Testing dan evaluasi kinerja Aplikasi
 
-# BAB 4 Prosess Teknis
+### BAB 4 Prosess Teknis
 
 **4.1	Metoda, tool dan teknik**
 
@@ -205,7 +208,7 @@ Fungsi Pendukung dalam protek ini adalah :
 - Spesialis Androud
 
 
-# BAB 5 Paket Pekerjaan, Jadwal dan Anggaran
+### BAB 5 Paket Pekerjaan, Jadwal dan Anggaran
 
 **5.1 Paket Pekerjaan**
 
