@@ -22,7 +22,7 @@
 </body>
 </html>
  
-# BAB 1. PENDAHULUAN
+### BAB 1. PENDAHULUAN
 
 **1.1	Gambaran Proyek**
 
@@ -36,7 +36,9 @@
 - Siswa dapat melihat jumlah kompen yang dia dapatkan karena keterlambatan maupun ketidakhadiran. <br>
 
 <p align="justify">Sedangkan pada sistem Dosen memiliki hak akses untuk membuka presensi. Setelah para mahasiswa telah melakukan presensi, maka dosen akan mendapat data siswa yang masuk pada mata kuliah hari itu. Jika hasilnya tidak sesuai maka untuk validasinya Dosen akan pengecekan ulang untuk memastikan. </p>
+
 Pada sistem Dosen memiliki fungsi yaitu :<br>
+
 - Dosen bisa melihat jadwal. <br>
 - Dosen memilih jadwal yang akan dilaksanakan. <br>
 - Mempunyai hak akses untuk membuka presensi untuk mahasiswa. <br>
@@ -44,6 +46,7 @@ Pada sistem Dosen memiliki fungsi yaitu :<br>
 - Validasi siswa <br>
 
 Pada sistem Admin yaitu : <br>
+
 - Menerima data mahasiswa yang hadir secara otomatis. <br>
 - Menginput data mahasiswa. <br>
 - Menginput dosen. <br>
