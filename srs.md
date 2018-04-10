@@ -32,7 +32,7 @@
 <head></head>
 <body>
 <p align="justify">
-Tujuan dari dokumen SRS ini adalah untuk mendeskripsikan dari aplikasi yang dibuat yaitu Aplikasi Presensi Menggunakan kode QR yang bisa disingkat juga menjadi Q-PRESS. 
+Tujuan dari dokumen SRS ini adalah untuk mendeskripsikan spesifikasi kebutuhan dari aplikasi yang dibuat yaitu Aplikasi Presensi Menggunakan kode QR yang bisa disingkat juga menjadi Q-PRESS. 
 Pada dokumen ini akan dijelaskan bagaimana sistem dari aplikasi Q-PRESS, seperti Sistem Interface, Mockup, dan lain-lain.
 
 Diharapkan dokumen ini dapat menjadi acuan dalam proses maupun penggunaan aplikasi yang dibuat. </p>
@@ -121,7 +121,7 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 
 **2.1.1 Antarmuka Sistem**
 
-![system environment 2.1.1](https://3.bp.blogspot.com/-V27QtTh-8ko/WpiBTVhXy9I/AAAAAAAAAq4/7vhCHXreEDkLPBIPkztsoA1bX6tl1l_aACLcBGAs/s500/systen+environment.JPG)
+![system environment - modul](https://2.bp.blogspot.com/-Hq1A87_7yig/WsywEtxkBmI/AAAAAAAAAwo/t8DN1L0Vq8Mw7m8pQHa8K-JiEQgk1MlPwCLcBGAs/s1600/systen+environment.JPG)
 
 <p align="justify">Sistem Aplikasi Presensi Menggunakan Kode QR terdapat 3 User atau Aktor yaitu Dosen dan Mahasiswa yang mempunyai kewenangan untuk melakukan presensi. Tetapi memiliki fungsi yang berbeda, Mahasiswa  men-scan presensi untuk mengirimkan data enkripsi yang menyatakan bahwa siswa tersebut hadir. Dosen melakukan presensi untuk menyatakan bahwa jadwal mata kuliah dimulai dan membuka hak akses bagi siswa yang ingin melakukan presensi. Admin adalah aktor yang mengelola data, seperti data dosen, data siswa, data kelas, jadwal. Pada admin menggunakan Web Administrator sedangkan pada dosen dan siswa menggunakan Android App.</p>
 
@@ -323,9 +323,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 ## 2.2 Spesifikasi Kebutuhan Fungsional
 
-
-![enter image description here](https://4.bp.blogspot.com/-1RWfzwOsFeU/WqoZ_u0kQYI/AAAAAAAAAvE/dcWVeARSHMAAQAXzN1a4oWi5viQ3WKWyQCEwYBhgL/s1000/usecasefix.jpg)
-
+![usecaserevisi](https://2.bp.blogspot.com/-GGIlVuLUMKk/Wssc_IK3L5I/AAAAAAAAAwU/Oi8bsiUcSgoNOPcmGrfwIRG0r-7UuJrWQCLcBGAs/s900/usecaserevisi.jpg)
 
 <b>2.2.1	Data Kelas</b>
 
