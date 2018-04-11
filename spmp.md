@@ -193,20 +193,19 @@ Fungsi Pendukung dalam protek ini adalah :
 **5.1 Paket Pekerjaan**
 
 Paket pekerjaan yang akan di lakukan :
-|Nama|Modul yang dikerjakan  |
 
-|--|--|
-
-| Koriah | Modul Data Dosen  |
-||Modul Mata Kuliah|
-||Modul Data Kelas|
-|Bayu Rasukma Raga| Modul Rekap|
-||Modul Scan Presensi|
-||Modul Jadwal|
-||Authentikasi|
-||Data Mahasiswa|
-|Syamsul Fahri Hadi| Modul Dashboard|
-||Modul Ruangan|
+|Nama  			   |Modul yang dikerjakan  |
+|------------------|-----------------------|
+| Koriah 		   |Modul Data Dosen  	   |
+|		 		   |Modul Mata Kuliah      |
+|		 		   |Modul Data Kelas	   |
+|Bayu Rasukma Raga |Modul Rekap			   |
+|		 		   |Modul Scan Presensi    |
+|		 		   |Modul Jadwal    	   |
+|		 		   |Authentikasi           |
+|		 		   |Data Mahasiswa         |
+|Syamsul Fahri Hadi|Modul Dashboard		   |
+|		 		   |Modul Ruangan		   |
 
 **5.2 Ketergantungan dan ketrtarikan**
 
