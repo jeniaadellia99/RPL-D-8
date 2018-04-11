@@ -390,6 +390,18 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 ### 2.3 Deskripsi Modul
 
+| No | Nama Modul  | Keterangan |
+|----|-------------|------------|
+| 1  | Mahasiswa   |            |
+| 2  | Dosen       |            |
+| 3  | Mata Kuliah |            |
+| 4  | Jadwal      |            |
+| 5  | Ruangan     |            |
+| 6  | Rekap       |            |
+| 7  | Otentikasi  |            |
+| 8  | Kelas       |            |
+| 9  | Scan        |            |
+
 
 # 3. Deskripsi Perancangan Rinci
 
