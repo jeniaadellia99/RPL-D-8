@@ -2,7 +2,7 @@
 <body>
 <div align="center"><h1> Software Project Management Plan</h1></div>
 
-<p align="center"><b>Version 1.0 </b><br>
+<p align="center"><b>Version 1.1 </b><br>
 <p align="center">22 Februari 2018</b>
 <p align="center">
 <img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
@@ -76,36 +76,14 @@ Media pendukung untuk pembuatan aplikasi.
 
 **1.3 Evolusi SPMP**
 
-1.	Referensi
-	- https://laravel.com/
-	- https://firebase.google.com/?hl=id
-	- https://getbootstrap.com/
-	- Software Project Management Plan
-2.  Definisi, Akronim, dan Singkatan
-	- QR-Code
-	- Q-PRES
-	- HP
-
-3. Jadwal Pengerjaan
-	1. Penentuan Judul (Tema)
-	2. Analisis Kebutuhan
-		- Flowchart
-		- Use Case
-		- Mockup
-		- DFD
-	3. Perancangan Perangkat Lunak
-		- Mengenai perangkat/aplikasi yang dibutuhkan untuk membantu pengerjaan.
-	4. Construction 
-	5. Testing
+Selama proyek, dokumen ini akan diperbarui karena menggunakan model konsep V Model.
+Setiap Anggota mempunyai tanggung jawab dan tugas sesuai jobdesk masing-masing.
+Personal yang bertanggung jawab unutk merawat aplikasi ini adalah Admin, Mahasiswa dan Dosen yang ditunjuk sebagai pengguna dari aplikasi ini.
 
 **1.4 Material Acuan**
 
-- https://developer.android.com/studio/index.html?hl=id
-- https://developer.android.com/studio/index.html?hl=id
-- https://developer.android.com/index.html
-- https://laravel.com/
-- https://firebase.google.com/?hl=id
-- https://getbootstrap.com/
+- IEEE
+- unimap IEEE SPMP
 	
 **1.5 Definisi dan Akronim (Singkatan)**
 
@@ -175,7 +153,8 @@ Batasan Masalah dalam proyek ini adalah sebagai berikut :
 2. Software yang digunakan adalah Android Studio, Sublmie Text 3 dan Firebase
 3.	Manajemen risiko
 
-Resiko yang ada pada proyek ini adalah :
+3.3 Resiko yang ada pada proyek ini adalah :
+
 1. Risiko Finansial
 2. Risiko Waktu
 3. Risiko Teknologi
@@ -183,6 +162,7 @@ Resiko yang ada pada proyek ini adalah :
 5. Risiko Alat dan Bahan
 			
 3.4	Makanismme monitoring dan kontroling
+
 - Rapat dan Pengerjaan mingguan
 - Pembuatan Dokumentasi Proyek
 -  Testing dan evaluasi kinerja Aplikasi
@@ -213,10 +193,20 @@ Fungsi Pendukung dalam protek ini adalah :
 **5.1 Paket Pekerjaan**
 
 Paket pekerjaan yang akan di lakukan :
-1. Minggu ke 1-2         : Penentuan ide dan rumusan masalah yang dibutuhkan
-2. Minggu ke 3-4		 : Pembuatan rancangan sistem aplikasi yang akan di buat
-3. Minggu ke 5-10		 : Pembuatan sistem aplikasi
-4. Minggu ke 11-12	     : Uji coba dan revisi bila di perlukan
+|Nama|Modul yang dikerjakan  |
+
+|--|--|
+
+| Koriah | Modul Data Dosen  |
+||Modul Mata Kuliah|
+||Modul Data Kelas|
+|Bayu Rasukma Raga| Modul Rekap|
+||Modul Scan Presensi|
+||Modul Jadwal|
+||Authentikasi|
+||Data Mahasiswa|
+|Syamsul Fahri Hadi| Modul Dashboard|
+||Modul Ruangan|
 
 **5.2 Ketergantungan dan ketrtarikan**
 

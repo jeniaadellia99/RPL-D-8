@@ -2,7 +2,7 @@
 <body>
 <div align="center"><h1> Software Requirements Spesification</h1></div>
 
-<p align="center"><b>Version 1.0 </b><br>
+<p align="center"><b>Version 1.1 </b><br>
 <p align="center">22 Februari 2018</b>
 <p align="center">
 <img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
@@ -165,16 +165,6 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 		</tr>
 		</tr>
 			</tr>
-		<tr align="center">
-			<td><b>Menu Absen</td>
-			<td><b>Rubah Jadwal</td>
-			<td><b>List Scan Mahasiswa</td>
-		</tr>
-		<tr valign="top" align="center">
-				<td><img src="https://2.bp.blogspot.com/-I76d037JJTA/WpJgmncc8kI/AAAAAAAAA2c/i6ko1qfOPNcX8EcQ5xQKXxjYmNw6kMGMACLcBGAs/s1600/10.png" width="180" height="350" /><br><p align="justify">Di menu rekap absen pada dosen juga sama seperti pada menu jadwal, yakni akan mendownload sebuah file yang berupa .pdf</p></td>
-				<td><img src="https://2.bp.blogspot.com/-JoE6kve1QdY/WpJgmlckFHI/AAAAAAAAA2Y/xUM3uYnVlW0_GjEQOOSR2WPaehX1LGvngCLcBGAs/s1600/11.png" width="180" height="350" /><br><p align="justify">Pada menu ubah jadwal terdapat keterangan default jadwal yang sudah ditentukan, dan ada beberapa inputan yang bisa di pilih yakni masukan tanggal baru, jam baru, dan ruangan yang baru kemudian juga ada 2 tombol untuk simpan dan batal</p></td>
-				<td><img src="https://3.bp.blogspot.com/-UlctF2mEaCY/WpJgn5MD00I/AAAAAAAAA2g/qvDOy_y8DTccsT65K01Ic5tzk9QSyLiuQCLcBGAs/s1600/12.png" width="180" height="350" /><br><p align="justify">List scan Mahasiswa terdapat list yang akan menampilkan Registrasi mahasiswa yang berhasil scan absen.</p></td>		
-		</tr>
 		<tr align="center">
 			<td colspan="3"> <b>Splash Screen</td>
 		</tr>

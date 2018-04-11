@@ -2,7 +2,7 @@
 <body>
 <div align="center"><h1>Software Design Document</h1></div>
 
-<p align="center"><b>Version 1.0 </b><br>
+<p align="center"><b>Version 1.1 </b><br>
 <p align="center">22 Februari 2018</b>
 <p align="center">
 <img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
@@ -111,7 +111,7 @@ Sistem Operasi yang digunakan adalah :
  - Microsoft Windows 10
 
 ##### b. DBMS 
- - DBMS yang digunakan adalah Mysql dan Laravel
+ - DBMS yang digunakan adalah Mysql dan Firebase
 
 ##### c. Development Tools
  - Android Studio
@@ -128,7 +128,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 **Tabel Mahasiswa**
 
-|Nama Tabel  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
+|Nama Field  | Jenis    |  Volume  | Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
 | id_mhs| Integer| 10 | Primary Key| Iya |Auto_increment| id mhs auto increment |
 | id_kelas| Integer| 10 | Tidak | Foreign Key | id_kelas pada kelas| relasi untuk menampilkan kelas |
@@ -138,7 +138,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 **Tabel Dosen**
 
-|Nama Tabel | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
+|Nama Field | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
 | id_dosen| Integer| 10 | Primary Key| Iya |Auto_increment| id dosen auto increment |
 | id_kelas| Integer| 10 | Tidak | Foreign Key | id_kelas pada kelas| relasi untuk menampilkan kelas |
@@ -148,7 +148,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 **Tabel Kelas**
 
-|Nama Tabel | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
+|Nama Field | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
 | id_kelas| Integer| 10 | Primary Key| Iya |Auto_increment| id kelas auto increment |
 | id_dosen| Integer| 10 | Foreign Key| Iya |id_dosen pada dosen| relasi untuk menampilkan wali dosen |
@@ -156,7 +156,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 **Tabel Detail Kelas**
 
-|Nama Tabel | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
+|Nama Field | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
 | id_kelas| Integer| 10 | Primary Key| Iya |Auto_increment| id kelas auto increment |
 | id_kelas| Integer| 10 | Foreign Key| Iya |id_dosen pada dosen| relasi untuk menampilkan wali dosen |
@@ -164,7 +164,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 **Tabel Mata Kuliah**
 
-|Nama Tabel | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
+|Nama Field | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
 | id_matkul| Integer| 10 | Primary Key| Iya |Auto_increment| id mata kuliah auto increment |
 | kode_matkul| Integer| 15 | Foreign Key| Iya |- | kode mata kuliah |
@@ -176,7 +176,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 **Tabel Jadwal**
 
-|Nama Tabel | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
+|Nama Field | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
 | id_jadwal| Integer| 10 | Primary Key| Iya |Auto_increment| id mata kuliah auto increment |
 | thn_ajaran| Integer| 15 | Foreign Key| Iya |- | Tahun Ajaran |
@@ -188,7 +188,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 **Tabel Ruangan**
 
-|Nama Tabel | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
+|Nama Field | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
 | id_ruangan| Integer| 10 | Primary Key| Iya |Auto_increment| id ruangan auto increment |
 | ruangan| Varchar| 20 | Tidak | Tidak |- | Keterangan Ruangan |
