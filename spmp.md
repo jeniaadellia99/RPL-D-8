@@ -61,18 +61,10 @@ Pada sistem ini, satu device milik satu mahasiswa. Jadi mahasiswa tidak bisa men
 
 **1.2 Dokumen - dokumen dalam Proyek**
 
-- Logbook
-Dokumentasi hasil pengerjaan.
-- Android Studio
-Media pendukung untuk pembuatan aplikasi.
-- Sublime
-	Media pendukung unutk pembuatan aplikasi.
-- Laravel
-	Framework yang digunakan untuk mendukung pembuatan aplikasi.
-- Mysql
-	Digunakan sebagai Database penyimpanan data.
-- Firebas
-	Sebagai Database Realtime.
+- SPMP (Software Project Management Plan)
+- SRS (Software Design Document)
+- SDD (Software Design Document)
+
 
 **1.3 Evolusi SPMP**
 
