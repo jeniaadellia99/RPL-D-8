@@ -392,15 +392,15 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 | No | Nama Modul  | Keterangan |
 |----|-------------|------------|
-| 1  | Mahasiswa   |            |
-| 2  | Dosen       |            |
-| 3  | Mata Kuliah |            |
-| 4  | Jadwal      |            |
-| 5  | Ruangan     |            |
-| 6  | Rekap       |            |
-| 7  | Otentikasi  |            |
-| 8  | Kelas       |            |
-| 9  | Scan        |            |
+| 1  | Mahasiswa   | Modul yang mencakup input, edit, delete dan update  semua data mahasiswa  |
+| 2  | Dosen       | Modul yang mencakup input, edit, delete, dan update semua data dosen  |
+| 3  | Mata Kuliah | Modul yang mencakup input, edit, dekete, dan update semua data Mata Kuliah |
+| 4  | Jadwal      | Modul yang digunakan untuk membuat jadwal, mendownload jadwal, dan menampilkan jadwal |
+| 5  | Ruangan     | Modul yang mencakup input, edit, dekete, dan update semua data Mata Kuliah           |
+| 6  | Rekap       | Modul yang digunakan untuk mendata semua hasil presensi, absensi, dan kompensasi            |
+| 7  | Otentikasi  | Modul yang di gunakan untuk vailidasi akses masuk ke sistem Q-Press baik di web maupun di android |
+| 8  | Kelas       | Modul yang mencakup input, edit, dekete, dan update semua data kelas           |
+| 9  | Scan        | Modul yang digunakan untuk mendata presensi yang di ambil pada saat mata kuliah di mulai           |
 
 
 # 3. Deskripsi Perancangan Rinci
