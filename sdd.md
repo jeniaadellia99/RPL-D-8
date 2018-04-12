@@ -400,7 +400,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 | 6  | Rekap       | Modul yang digunakan untuk mendata semua hasil presensi, absensi, dan kompensasi            |
 | 7  | Otentikasi  | Modul yang di gunakan untuk vailidasi akses masuk ke sistem Q-Press baik di web maupun di android |
 | 8  | Kelas       | Modul yang mencakup input, edit, dekete, dan update semua data kelas           |
-| 9  | Scan        | Modul yang digunakan untuk mendata presensi yang di ambil pada saat mata kuliah di mulai           |
+| 9  | Scan        | Modul yang digunakan untuk mendata presensi yang di ambil pada saat mata kuliah di mulai   |
 
 
 # 3. Deskripsi Perancangan Rinci
@@ -498,15 +498,11 @@ DFD Level 1 Proses 10 tentang alur data kompensasi
 
 | No | Fungsi | Jenis | Tabel Terkait |
 |----|--------|-------|---------------|
-| 1  |        |       |               |
-| 2  |        |       |               |
-| 3  |        |       |               |
-| 4  |        |       |               |
-| 5  |        |       |               |
-| 6  |        |       |               |
-| 7  |        |       |               |
-| 8  |        |       |               |
-| 9  |        |       |               |
+| 1  | Input Data Mahasiswa | Form Modal   | mahasiswa    |
+| 2  | Update Data Mahasiswa  | Form Modal      |  mahasiswa  |
+| 3  | Delete Data Mahasiswa       | Button Warning      |  mahasiswa    |
+| 4  | Menampilkan Data Mahasiswa       | Tabel  | mahasiswa  |
+
 
 ##### 3.3.1.2 Spesifikasi Layar Utama
 
