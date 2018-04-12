@@ -75,7 +75,8 @@ Personal yang bertanggung jawab unutk merawat aplikasi ini adalah Admin, Mahasis
 **1.4 Material Acuan**
 
 - IEEE
-- unimap IEEE SPMP
+- Uimap IEEE SPMP
+- Spmp sample
 	
 **1.5 Definisi dan Akronim (Singkatan)**
 
@@ -135,29 +136,29 @@ Asumsi proyek ini adalah sebagai berikut :
 - Persetujuan dan Perizinan dari mitra
 	
 Proyek ini berketergantungan pada :
-1. Biaya
-2. Ketersediaan software dan hardware
-3. Keahlian anggota dalam penggunaan software dan bahasa pemrogramman
-4. Data-data yang diberikan oleh mitra
+- Biaya
+- Ketersediaan software dan hardware
+- Keahlian anggota dalam penggunaan software dan bahasa pemrogramman
+- Data-data yang diberikan oleh mitra
 
 Batasan Masalah dalam proyek ini adalah sebagai berikut :
-1. Tidak adanya vailidasi ketika HandPhone mahasiswa dititipkan ke temanya sehingga dapat menitipkan absen
-2. Software yang digunakan adalah Android Studio, Sublmie Text 3 dan Firebase
-3.	Manajemen risiko
+- Tidak adanya vailidasi ketika HandPhone mahasiswa dititipkan ke temanya sehingga dapat menitipkan absen
+- Software yang digunakan adalah Android Studio, Sublmie Text 3 dan Firebase
+-	Manajemen risiko
 
 3.3 Resiko yang ada pada proyek ini adalah :
 
-1. Risiko Finansial
-2. Risiko Waktu
-3. Risiko Teknologi
-4. Risiko Sumberdaya Manusia
-5. Risiko Alat dan Bahan
+- Risiko Finansial
+- Risiko Waktu
+- Risiko Teknologi
+- Risiko Sumberdaya Manusia
+- Risiko Alat dan Bahan
 			
 3.4	Makanismme monitoring dan kontroling
 
 - Rapat dan Pengerjaan mingguan
 - Pembuatan Dokumentasi Proyek
--  Testing dan evaluasi kinerja Aplikasi
+- Testing dan evaluasi kinerja Aplikasi
 
 ### BAB 4 Prosess Teknis
 
@@ -173,12 +174,9 @@ SQAP
 
 **4.3	Fungsi-fungsi pendukung proyek**
 		
-Fungsi Pendukung dalam protek ini adalah :
+Fungsi Pendukung dalam proyek ini adalah :
 - Teknisi Jaringan
 - Teknisi Hardware
-- Spesialis WEB
-- Spesialis Androud
-
 
 ### BAB 5 Paket Pekerjaan, Jadwal dan Anggaran
 
@@ -186,29 +184,22 @@ Fungsi Pendukung dalam protek ini adalah :
 
 Paket pekerjaan yang akan di lakukan :
 
-|Nama  			   |Modul yang dikerjakan  |
-|------------------|-----------------------|
-| Koriah 		   |Modul Data Dosen  	   |
-|		 		   |Modul Mata Kuliah      |
-|		 		   |Modul Data Kelas	   |
-|Bayu Rasukma Raga |Modul Rekap			   |
-|		 		   |Modul Scan Presensi    |
-|		 		   |Modul Jadwal    	   |
-|		 		   |Authentikasi           |
-|		 		   |Data Mahasiswa         |
-|Syamsul Fahri Hadi|Modul Dashboard		   |
-|		 		   |Modul Ruangan		   |
+|No|Nama  			    |Modul yang dikerjakan  |
+|1|---------------------|-----------------------|
+|| Koriah 		   		|Modul Data Dosen  	    |
+||		 		   		|Modul Mata Kuliah      |
+||		 		   		|Modul Data Kelas	    |
+|2|Bayu Rasukma Raga 	|Modul Rekap		    |
+||		 		   		|Modul Scan Presensi    |
+||		 		   		|Modul Jadwal    	    |
+||		 		   		|Authentikasi           |
+||		 		   		|Data Mahasiswa         |
+|3|Syamsul Fahri Hadi 	|Modul Ruangan		    |
 
-**5.2 Ketergantungan dan ketrtarikan**
 
-kebutuhan keterkaitan :
+**5.2 Ketergantungan dan keterkaitan**
 
-1. Penentuan ide dan rumusan masalah yang dibutuhkan
-2. Pembuatan rancangan sistem aplikasi yang akan di buat
-3. Pembuatan sistem aplikasi Website
-4. Pembuatan sistem aplikasi Android
-5. Uji coba dan simulasi
-6. revisi atau perbaikan
+![spmp-modul](https://4.bp.blogspot.com/-e5ncz6QBMx0/Ws8Sv398rqI/AAAAAAAAAxU/q7IW96sSBx0jfCKCMkx8sAkUYwG_SjiqACLcBGAs/s500/modul-spmp.png)
 
 
 **5.3 Kebutuhan-kebutuhan sumber daya**
