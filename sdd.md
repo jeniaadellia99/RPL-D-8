@@ -515,6 +515,7 @@ DFD Level 1 Proses 10 tentang alur data kompensasi
 | QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
 | QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
 | QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+| QRY-04   | Lihat Data Mahasiswa  | SELECT * FROM mahasiswa;      										   |
 
 ##### 3.3.1.4 Spesifikasi Field Data Layar
 
@@ -528,9 +529,9 @@ DFD Level 1 Proses 10 tentang alur data kompensasi
 
 | id_objek     | Jenis           | keterangan |
 |--------------|-----------------|------------|
-| nm_mahasiswa | Input type Text |            |
-| nim          | Input type Text |            |
-| kelas        | Select          |            |
+| nm_mahasiswa | Input type Text | Nama Mahasiswa        |
+| nim          | Input type Text | NIM Mahasiswa         |
+| kelas        | Select          | Kelas yang di ikuti |
 
 ##### 3.3.1.6 Spesifikasi Proses/Algoritma
 
