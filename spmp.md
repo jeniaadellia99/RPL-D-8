@@ -185,8 +185,8 @@ Fungsi Pendukung dalam proyek ini adalah :
 Paket pekerjaan yang akan di lakukan :
 
 |No|Nama  			    |Modul yang dikerjakan  |
-|1|---------------------|-----------------------|
-|| Koriah 		   		|Modul Data Dosen  	    |
+|---|---------------------|-----------------------|
+|1| Koriah 		   		|Modul Data Dosen  	    |
 ||		 		   		|Modul Mata Kuliah      |
 ||		 		   		|Modul Data Kelas	    |
 |2|Bayu Rasukma Raga 	|Modul Rekap		    |
