@@ -286,27 +286,27 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 **2.1.7	Operasi - Operasi**
 
 
-|Operasi|Fungsi  |
-|--|--|
-|Registrasi Dosen|Digunakan untuk menRegistrasi bagi dosen|
-|Registrasi Mahasiswa|Digunakan untuk menRegistrasi bagi mahasiswa|
-|Login|Digunakan untuk masuk akses aplikasi|
-|Tambah Mahasiswa |Digunakan untuk menambhakan mahasiswa  |
-|Tambah Dosen|Digunakan untuk menambahkan dosen|
-|Tambah Kelas| Digunakan untuk menambahkan kelas|
-|Cari Dosen| Digunakan untuk mencari Dosen|
-|Cari Mahasiswa| Digunakan untuk mencari mahasiswa |
-|Detail|Digunakan untuk memberikan informasi Detail tentang data kelas|
-|Kembali|Digunakan untuk kemabli ke halaman sebelumnya|
-|Hapus|digunakan untuk menghapus data yang ingin dihapus|
-|Edit| Digunakan untuk mengedit data yang ingin di edit|
-|Simpan| Digunakan untuk menyimpan data yang sudah diedit |
-|Download|Digunakan untuk mendownload file|
-|Import Jadwal|Digunakan untuk memasukkan Jadwal yang berupa .xls atau .xlsx|
-|Ubah Jadwal|Digunakan untuk mengubah jadwal|
-|Lihat Jadwal|Digunakan untuk melihat jadwal|
-|Tutup|Digunakan untuk menutup aktivitas|
-|Mulai|Digunakan untuk memulai presensi|
+| ID_Operasi | Operasi              | Fungsi                                                         |
+|------------|----------------------|----------------------------------------------------------------|
+| OP01       | Registrasi Dosen     | Digunakan untuk menRegistrasi bagi dosen                       |
+| OP02       | Registrasi Mahasiswa | Digunakan untuk menRegistrasi bagi mahasiswa                   |
+| OP03       | Login                | Digunakan untuk masuk akses aplikasi                           |
+| OP04       | Tambah Mahasiswa     | Digunakan untuk menambhakan mahasiswa                          |
+| OP05       | Tambah Dosen         | Digunakan untuk menambahkan dosen                              |
+| OP06       | Tambah Kelas         | Digunakan untuk menambahkan kelas                              |
+| OP07       | Cari Dosen           | Digunakan untuk mencari Dosen                                  |
+| OP08       | Cari Mahasiswa       | Digunakan untuk mencari mahasiswa                              |
+| OP09       | Detail               | Digunakan untuk memberikan informasi Detail tentang data kelas |
+| OP010      | Kembali              | Digunakan untuk kemabli ke halaman sebelumnya                  |
+| OP011      | Hapus                | digunakan untuk menghapus data yang ingin dihapus              |
+| OP012      | Edit                 | Digunakan untuk mengedit data yang ingin di edit               |
+| OP013      | Simpan               | Digunakan untuk menyimpan data yang sudah diedit               |
+| OP014      | Download             | Digunakan untuk mendownload file                               |
+| OP015      | Import Jadwal        | Digunakan untuk memasukkan Jadwal yang berupa .xls atau .xlsx  |
+| OP016      | Ubah Jadwal          | Digunakan untuk mengubah jadwal                                |
+| OP017      | Lihat Jadwal         | Digunakan untuk melihat jadwal                                 |
+| OP018      | Tutup                | Digunakan untuk menutup aktivitas                              |
+| OP019      | Mulai                | Digunakan untuk memulai presensi                               |
 
 **2.1.8	Kebutuhan Adaptasi**
 <br>
