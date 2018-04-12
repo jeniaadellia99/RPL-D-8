@@ -546,12 +546,13 @@ Event :
 
 | Final State (FS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Tabel mahasiswa di update dengan data yang baru |
 
 | Spesifikasi Proses/Algoritma |
 |-----------------------|
-| Form mahasiswa kosong |
-
+| IF data mahasiswa sudah ada|
+| THEN data tidak di masukan dan ulang input|
+| ELSE masukan data ke database dan update data mahasiswa yang lama|
 
 #### 3.3.2 Modul Dosen
 
