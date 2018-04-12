@@ -504,7 +504,7 @@ DFD Level 1 Proses 10 tentang alur data kompensasi
 
 ##### 3.3.1.6 Spesifikasi Proses/Algoritma
 
-<OP04> : Tambah Mahasiswa <br>
+OP04 : Tambah Mahasiswa <br>
 Objek Terkait : nm_mahasiswa, nim, kelas <br>
 Event : Tambah mahasiswa
 
