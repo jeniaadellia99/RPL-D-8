@@ -537,7 +537,7 @@ DFD Level 1 Proses 10 tentang alur data kompensasi
 
 <id_proses> :..... <br>
 Objek Terkait : nm_mahasiswa, nim, kelas <br>
-Event :
+Event : Tambah mahasiswa
 
 | Inisial State (IS)    |
 |-----------------------|
