@@ -467,8 +467,8 @@ DFD Level 1 Proses 10 tentang alur data kompensasi
 
 | No | Fungsi | Jenis | Tabel Terkait |
 |----|--------|-------|---------------|
-| 1  | Input Data Mahasiswa | Form Modal   | mahasiswa    |
-| 2  | Update Data Mahasiswa  | Form Modal      |  mahasiswa  |
+| 1  | Input Data Mahasiswa | Import File   | mahasiswa    |
+| 2  | Update Data Mahasiswa  | Import File atau Form Modal      |  mahasiswa  |
 | 3  | Delete Data Mahasiswa       | Button Warning      |  mahasiswa    |
 | 4  | Menampilkan Data Mahasiswa       | Tabel  | mahasiswa  |
 
