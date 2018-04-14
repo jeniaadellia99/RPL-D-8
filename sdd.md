@@ -385,55 +385,56 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 <p align="justify">Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur.  Berikut DFD Level 0 Aplikasi Q-Press.</p>
 
 ![level 0](https://1.bp.blogspot.com/-vcaDv1shpM4/WtHMIL0-zdI/AAAAAAAAAyI/bXa2eP9orWAvL-FPYW68tLhFZ1i5S_lOwCLcBGAs/s1600/2-level+0.JPG)
-#### 3.1.2 DFD Level 1 : Proses 1
+
+#### 3.1.2 DFD Level 1 : Proses 1 - Otentikasi
 
 DFD Level 1 ini penjelasan dari DFD Level 0 yang sebelumnya, berikut DFD level 1 yang menjelaskan Proses 1 Daftar akun. Data yang dikirim oleh mahasiswa dan dosen akan di vailidasi terlebih darhulu
 
 ![level 1 proses1](https://1.bp.blogspot.com/-sBpCjLbLDro/WtHLOwHeYKI/AAAAAAAAAyA/1j0un0s7eR4xkDl2Z-Q76rYUSuMgxjVOACLcBGAs/s600/3-Level+1-proses+1.JPG)
 
-#### 3.1.3 DFD Level 1 : Proses 2
+#### 3.1.3 DFD Level 1 : Proses 2 - Data Jadwal
 
 Pada DFD Level 1 ini menjelaskan proses 2 dari DFD Level 0. Admin sebelumnya mengolah jadwal lalu akan di tampilkan ke dosen dan mahasiswa, dosen bisa mengubah jadwal dan melihat jadwal, dan mahasiswa  hanya bisa melihat jadwal.
 
 ![enter image description here](https://3.bp.blogspot.com/-knvvADDrpnA/WqO9dDdiaKI/AAAAAAAAA64/3fUCnuOp15AZiaOpkSbs5Jvo_lq72sXmACLcBGAs/s600/dfd+level+1+proses+2.jpg)
 
-#### 3.1.4 DFD Level 1 : Proses 3
+#### 3.1.4 DFD Level 1 : Proses 3 - Data Scan
 
 Pada DFD Level 1 ini menjelaskan Proses 3 yang ada di DFD Level 0. Mahasiswa baru bisa scan setelah dosen mengaktifkan sistem scan kemudian mahasiswa yang berhasil scan akan terlihat di list scan yang ada di dosen
 
 ![enter image description here](https://2.bp.blogspot.com/-5zEGPb69OvE/WqO9eHQwwhI/AAAAAAAAA7A/MXoRub7UMmM1y20-53VhTTRD_CM6C52qwCLcBGAs/s600/dfd+level+1+proses+3.jpg)
 
-#### 3.1.5 DFD Level 1 : Proses 4
+#### 3.1.5 DFD Level 1 : Proses 4 - Data Kelas
 
 DFD Level 1 menjelaskan proses 4 yang tersapat pada DFD level 0. Dimana Admin dapat memanagement Data Kelas seperti Mengerdit, Menghapus dan Menambahkan Kelas.
 
 ![dfd4datakelas](https://2.bp.blogspot.com/-3gg_8m71oug/WqUxAyMeuiI/AAAAAAAAAuE/4cz07FG6NaIkYwLIV0coPfNZvsQlsTc5ACLcBGAs/s600/dfd+data+kelas.JPG)
 
-#### 3.1.6 DFD Level 1 : Proses 5
+#### 3.1.6 DFD Level 1 : Proses 5 - Data Mahasiswa
 
 DFD Level 1 menjelaskan proses 5 yang terdapat pada DFD level 0. Admin dapat mengelola atau memanagement Data Mahasiswa seperti menghapus, mengedit dan menambahkan Data Mahasiswa. 
 
 ![dfdmhs](https://1.bp.blogspot.com/-vxcmFP-msAQ/WqUywuuFZOI/AAAAAAAAAuQ/V_PkOcC95toual3f7rIxm-jAj0xb3S7xwCLcBGAs/s600/dfd+data+mhs.JPG)
 
-#### 3.1.7 DFD Level 1 : Proses 6
+#### 3.1.7 DFD Level 1 : Proses 6 - Data Dosen
 
 DFD Level 1 menjelaskan proses 6 yang terdapat pada DFD level 0. Admin dapat mengelola atau memanagement Data Dosen seperti menghapus, mengedit dan menambahkan Data Dosen.
 
 ![dfddatadosen](https://3.bp.blogspot.com/-wYcbP3bMLCI/WqUz3qAhsbI/AAAAAAAAAuY/TLjr8zLgsJAd_FacmGzjkYVHACiBlsHeQCLcBGAs/s600/dfd+data+dosen.JPG)
 
-#### 3.1.8 DFD Level 1 : Proses 7
+#### 3.1.8 DFD Level 1 : Proses 7 - Rekap
 
 DFD Level 1 menjelaskan proses 7 yang terdapat pada DFD level 0. Dimana admin dan dosen dapat mendownload data Rekap Kehadiran Mahasiswa.
 
 ![enter image description here](https://2.bp.blogspot.com/-wI-1Wwn2Apo/WqU6kLZIgqI/AAAAAAAAAuo/4cqL1f3YvcEL_0O1Jvr0NhTKSSVvbu97ACLcBGAs/s600/dfd+rekap.JPG)
 
-#### 3.1.9 DFD Level 1 : Proses 8
+#### 3.1.9 DFD Level 1 : Proses 8 - Data Mata Kuliah
 
 DFD Level 1 Proses 9 menjelaskan tentang mata kuliah
 
 ![enter image description here](https://2.bp.blogspot.com/-fhVEsMZ2vvA/Wrf2T2duVcI/AAAAAAAAAvs/5w6e27EL9dQR9bstOabvFbVVxwbKgt5xACLcBGAs/s600/9-Level+1-proses+8.JPG)
 
-#### 3.1.10 DFD Level 1 : Proses 9
+#### 3.1.10 DFD Level 1 : Proses 9 - Data Ruangan
 
 DFD Level 1 Proses 8 menjelaskan tentang alur data ruangan
 
