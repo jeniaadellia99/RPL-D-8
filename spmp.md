@@ -75,7 +75,7 @@ Personal yang bertanggung jawab unutk merawat aplikasi ini adalah Admin, Mahasis
 **1.4 Material Acuan**
 
 - IEEE
-- Uimap IEEE SPMP
+- Unimap IEEE SPMP
 - Spmp sample
 	
 **1.5 Definisi dan Akronim (Singkatan)**
@@ -146,7 +146,7 @@ Batasan Masalah dalam proyek ini adalah sebagai berikut :
 - Software yang digunakan adalah Android Studio, Sublmie Text 3 dan Firebase
 -	Manajemen risiko
 
-3.3 Resiko yang ada pada proyek ini adalah :
+**3.3 Resiko Pada Proyek**
 
 - Risiko Finansial
 - Risiko Waktu
@@ -154,7 +154,7 @@ Batasan Masalah dalam proyek ini adalah sebagai berikut :
 - Risiko Sumberdaya Manusia
 - Risiko Alat dan Bahan
 			
-3.4	Makanismme monitoring dan kontroling
+**3.4	Makanismme monitoring dan kontroling**
 
 - Rapat dan Pengerjaan mingguan
 - Pembuatan Dokumentasi Proyek
