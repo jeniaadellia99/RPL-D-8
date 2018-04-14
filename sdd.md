@@ -598,7 +598,7 @@ Event :
 
 ##### 3.3.3.2 Spesifikasi Layar Utama
 
-![modul-kelas](https://3.bp.blogspot.com/-g_SmjMa4Zzk/WtHUL4V4IrI/AAAAAAAAAzM/UXOmS5Gz50U3ghnSgRUXbPqww_113H2GgCLcBGAs/s1000/modul-kelas.JPG)
+![modul-kelas](https://2.bp.blogspot.com/-YPzMIICMKuw/WtHVDCPExyI/AAAAAAAAAzU/6nnDNxPTVesLOAb1saLCjrNDiB70JuThQCLcBGAs/s1000/modul-kelas.JPG)
 
 ##### 3.3.3.3 Spesifikasi Query
 
