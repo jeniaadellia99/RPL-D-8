@@ -468,7 +468,7 @@ DFD Level 1 Proses 8 menjelaskan tentang alur data ruangan
 
 ##### 3.3.1.2 Spesifikasi Layar Utama
 
-<img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg">
+![modul-mhs](https://1.bp.blogspot.com/-EpXHD527vTA/WtHQrwMk1tI/AAAAAAAAAyU/8R0t9aq9_Jcf8xoQRKhtur7W6cZPP9cGgCLcBGAs/s500/modul-mhs.JPG)
 
 ##### 3.3.1.3 Spesifikasi Query
 
