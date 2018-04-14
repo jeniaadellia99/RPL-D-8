@@ -468,7 +468,7 @@ DFD Level 1 Proses 8 menjelaskan tentang alur data ruangan
 
 ##### 3.3.1.2 Spesifikasi Layar Utama
 
-![modul-mhs](https://1.bp.blogspot.com/-EpXHD527vTA/WtHQrwMk1tI/AAAAAAAAAyU/8R0t9aq9_Jcf8xoQRKhtur7W6cZPP9cGgCLcBGAs/s500/modul-mhs.JPG)
+![modul-mhs](https://1.bp.blogspot.com/-EpXHD527vTA/WtHQrwMk1tI/AAAAAAAAAyU/8R0t9aq9_Jcf8xoQRKhtur7W6cZPP9cGgCLcBGAs/s1000/modul-mhs.JPG)
 
 ##### 3.3.1.3 Spesifikasi Query
 
@@ -534,7 +534,7 @@ Event : Tambah mahasiswa
 
 ##### 3.3.2.2 Spesifikasi Layar Utama
 
-<img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg">
+![moduldosen](https://2.bp.blogspot.com/-5rg2Mufruw8/WtHR3Slj_bI/AAAAAAAAAyg/CkEuJfaLaWcgzkB4wEkOamnkO364zl_4QCLcBGAs/s1000/modul-dosen.JPG)
 
 ##### 3.3.2.3 Spesifikasi Query
 
@@ -598,7 +598,7 @@ Event :
 
 ##### 3.3.3.2 Spesifikasi Layar Utama
 
-<img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg">
+![modul-kelas](https://4.bp.blogspot.com/-IVZr_vldGb0/WtHSlihpmpI/AAAAAAAAAys/BZyiVh1Of0QU1yD3kbsjBRNaxt27DPm0QCLcBGAs/s1000/modul-kelas.JPG)
 
 ##### 3.3.3.3 Spesifikasi Query
 
@@ -662,7 +662,7 @@ Event :
 
 ##### 3.3.4.2 Spesifikasi Layar Utama
 
-<img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg">
+![modul-ruangan](https://2.bp.blogspot.com/-3TDWDJEdsjU/WtHTZlf-_bI/AAAAAAAAAy8/yMR_scn0YI0XJFlI53owsPJKhyi7SFLtgCLcBGAs/s1000/modul-ruangan.JPG)
 
 ##### 3.3.4.3 Spesifikasi Query
 
@@ -726,7 +726,7 @@ Event :
 
 ##### 3.3.5.2 Spesifikasi Layar Utama
 
-<img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg">
+![modul-jadwal](https://3.bp.blogspot.com/-74_-R4AGrTQ/WtHSS3foC-I/AAAAAAAAAyk/dkRmwlLXQzAL-19AO2Sm9aeeofKCU4rzgCLcBGAs/s1000/modul-jadwal.JPG)
 
 ##### 3.3.5.3 Spesifikasi Query
 
@@ -853,7 +853,7 @@ Event :
 
 ##### 3.3.7.2 Spesifikasi Layar Utama
 
-<img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg">
+![modul-matkul](https://2.bp.blogspot.com/-3xgj2PkT2sU/WtHSzk_eHQI/AAAAAAAAAyw/XDANIU60xWs65t67832XgvGzeLDOaec9gCLcBGAs/s1000/modul-matkul.JPG)
 
 ##### 3.3.7.3 Spesifikasi Query
 
