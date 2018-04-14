@@ -378,73 +378,73 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 <p align="justify">Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan ruang lingkup suatu sistem. Diagram konteks merupakan level tertinggi dari DFD yang menggambarkan seluruh input ke dalam sistem atau output dari sistem yang memberi gambaran tentang keseluruhan sistem. Sistem dibatasi oleh boundary (Digambarkan dengan garis putus - putus). Dalam diagram konteks hanya ada satu proses, tidak boleh ada store dalam diagram konteks. Berikut ini adalah gambar diagram konteks dari sistem Aplikasi Q-Press.</p>
 
-![enter image description here](https://4.bp.blogspot.com/-ryglZ2Z6quA/WqoUoke0ITI/AAAAAAAAA8M/y5qzYs-CwMwnnReNo_klMpJ5sGQnwy43wCLcBGAs/s1600/diagram%2Bkonteks.jpg)
+![diagram-konteks](https://3.bp.blogspot.com/-ENgHjQKp8IE/WtHJM6mzcYI/AAAAAAAAAx0/2sP3lzvUyCgOZlfgJ7nxGOokuGfGEd9hQCLcBGAs/s600/1-konteks.JPG)
 
 #### 3.1.1 DFD Level 0
 
 <p align="justify">Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur.  Berikut DFD Level 0 Aplikasi Q-Press.</p>
 
-![enter image description here](https://4.bp.blogspot.com/-N0GXfhsMyZ4/Wrf0wSkKLJI/AAAAAAAAAvc/P7QC6DdyNZAP8OoRqHADbVone2KQ8k_HQCLcBGAs/s1600/2-level+0.JPG)
+![enter image description here](https://4.bp.blogspot.com/-N0GXfhsMyZ4/Wrf0wSkKLJI/AAAAAAAAAvc/P7QC6DdyNZAP8OoRqHADbVone2KQ8k_HQCLcBGAs/s600/2-level+0.JPG)
 
 #### 3.1.2 DFD Level 1 : Proses 1
 
 DFD Level 1 ini penjelasan dari DFD Level 0 yang sebelumnya, berikut DFD level 1 yang menjelaskan Proses 1 Daftar akun. Data yang dikirim oleh mahasiswa dan dosen akan di vailidasi terlebih darhulu
 
-![enter image description here](https://4.bp.blogspot.com/-YygLIn-0SCM/WqO9dHZ0VUI/AAAAAAAAA60/V8wdqykbIV0R57rqzNY2eES-E5hPFbGogCLcBGAs/s1600/dfd+level+1++Proses+1.jpg)
+![enter image description here](https://4.bp.blogspot.com/-YygLIn-0SCM/WqO9dHZ0VUI/AAAAAAAAA60/V8wdqykbIV0R57rqzNY2eES-E5hPFbGogCLcBGAs/s600/dfd+level+1++Proses+1.jpg)
 
 #### 3.1.3 DFD Level 1 : Proses 2
 
 Pada DFD Level 1 ini menjelaskan proses 2 dari DFD Level 0. Admin sebelumnya mengolah jadwal lalu akan di tampilkan ke dosen dan mahasiswa, dosen bisa mengubah jadwal dan melihat jadwal, dan mahasiswa  hanya bisa melihat jadwal.
 
-![enter image description here](https://3.bp.blogspot.com/-knvvADDrpnA/WqO9dDdiaKI/AAAAAAAAA64/3fUCnuOp15AZiaOpkSbs5Jvo_lq72sXmACLcBGAs/s1600/dfd+level+1+proses+2.jpg)
+![enter image description here](https://3.bp.blogspot.com/-knvvADDrpnA/WqO9dDdiaKI/AAAAAAAAA64/3fUCnuOp15AZiaOpkSbs5Jvo_lq72sXmACLcBGAs/s600/dfd+level+1+proses+2.jpg)
 
 #### 3.1.4 DFD Level 1 : Proses 3
 
 Pada DFD Level 1 ini menjelaskan Proses 3 yang ada di DFD Level 0. Mahasiswa baru bisa scan setelah dosen mengaktifkan sistem scan kemudian mahasiswa yang berhasil scan akan terlihat di list scan yang ada di dosen
 
-![enter image description here](https://2.bp.blogspot.com/-5zEGPb69OvE/WqO9eHQwwhI/AAAAAAAAA7A/MXoRub7UMmM1y20-53VhTTRD_CM6C52qwCLcBGAs/s1600/dfd+level+1+proses+3.jpg)
+![enter image description here](https://2.bp.blogspot.com/-5zEGPb69OvE/WqO9eHQwwhI/AAAAAAAAA7A/MXoRub7UMmM1y20-53VhTTRD_CM6C52qwCLcBGAs/s600/dfd+level+1+proses+3.jpg)
 
 #### 3.1.5 DFD Level 1 : Proses 4
 
 DFD Level 1 menjelaskan proses 4 yang tersapat pada DFD level 0. Dimana Admin dapat memanagement Data Kelas seperti Mengerdit, Menghapus dan Menambahkan Kelas.
 
-![dfd4datakelas](https://2.bp.blogspot.com/-3gg_8m71oug/WqUxAyMeuiI/AAAAAAAAAuE/4cz07FG6NaIkYwLIV0coPfNZvsQlsTc5ACLcBGAs/s1600/dfd+data+kelas.JPG)
+![dfd4datakelas](https://2.bp.blogspot.com/-3gg_8m71oug/WqUxAyMeuiI/AAAAAAAAAuE/4cz07FG6NaIkYwLIV0coPfNZvsQlsTc5ACLcBGAs/s600/dfd+data+kelas.JPG)
 
 #### 3.1.6 DFD Level 1 : Proses 5
 
 DFD Level 1 menjelaskan proses 5 yang terdapat pada DFD level 0. Admin dapat mengelola atau memanagement Data Mahasiswa seperti menghapus, mengedit dan menambahkan Data Mahasiswa. 
 
-![dfdmhs](https://1.bp.blogspot.com/-vxcmFP-msAQ/WqUywuuFZOI/AAAAAAAAAuQ/V_PkOcC95toual3f7rIxm-jAj0xb3S7xwCLcBGAs/s1600/dfd+data+mhs.JPG)
+![dfdmhs](https://1.bp.blogspot.com/-vxcmFP-msAQ/WqUywuuFZOI/AAAAAAAAAuQ/V_PkOcC95toual3f7rIxm-jAj0xb3S7xwCLcBGAs/s600/dfd+data+mhs.JPG)
 
 #### 3.1.7 DFD Level 1 : Proses 6
 
 DFD Level 1 menjelaskan proses 6 yang terdapat pada DFD level 0. Admin dapat mengelola atau memanagement Data Dosen seperti menghapus, mengedit dan menambahkan Data Dosen.
 
-![dfddatadosen](https://3.bp.blogspot.com/-wYcbP3bMLCI/WqUz3qAhsbI/AAAAAAAAAuY/TLjr8zLgsJAd_FacmGzjkYVHACiBlsHeQCLcBGAs/s1600/dfd+data+dosen.JPG)
+![dfddatadosen](https://3.bp.blogspot.com/-wYcbP3bMLCI/WqUz3qAhsbI/AAAAAAAAAuY/TLjr8zLgsJAd_FacmGzjkYVHACiBlsHeQCLcBGAs/s600/dfd+data+dosen.JPG)
 
 #### 3.1.8 DFD Level 1 : Proses 7
 
 DFD Level 1 menjelaskan proses 7 yang terdapat pada DFD level 0. Dimana admin dan dosen dapat mendownload data Rekap Kehadiran Mahasiswa.
 
-![enter image description here](https://2.bp.blogspot.com/-wI-1Wwn2Apo/WqU6kLZIgqI/AAAAAAAAAuo/4cqL1f3YvcEL_0O1Jvr0NhTKSSVvbu97ACLcBGAs/s1600/dfd+rekap.JPG)
+![enter image description here](https://2.bp.blogspot.com/-wI-1Wwn2Apo/WqU6kLZIgqI/AAAAAAAAAuo/4cqL1f3YvcEL_0O1Jvr0NhTKSSVvbu97ACLcBGAs/s600/dfd+rekap.JPG)
 
 #### 3.1.9 DFD Level 1 : Proses 8
 
 DFD Level 1 Proses 9 menjelaskan tentang mata kuliah
 
-![enter image description here](https://2.bp.blogspot.com/-fhVEsMZ2vvA/Wrf2T2duVcI/AAAAAAAAAvs/5w6e27EL9dQR9bstOabvFbVVxwbKgt5xACLcBGAs/s1600/9-Level+1-proses+8.JPG)
+![enter image description here](https://2.bp.blogspot.com/-fhVEsMZ2vvA/Wrf2T2duVcI/AAAAAAAAAvs/5w6e27EL9dQR9bstOabvFbVVxwbKgt5xACLcBGAs/s600/9-Level+1-proses+8.JPG)
 
 #### 3.1.10 DFD Level 1 : Proses 9
 
 DFD Level 1 Proses 8 menjelaskan tenang alur data ruangan
 
-![enter image description here](https://2.bp.blogspot.com/-8jYs6vOu_JY/Wrf150s97II/AAAAAAAAAvo/X7-eqRiYDQ0OrhCLM3FMMu4vTHjcp28cwCLcBGAs/s1600/10-Level+1-proses+9.JPG)
+![enter image description here](https://2.bp.blogspot.com/-8jYs6vOu_JY/Wrf150s97II/AAAAAAAAAvo/X7-eqRiYDQ0OrhCLM3FMMu4vTHjcp28cwCLcBGAs/s600/10-Level+1-proses+9.JPG)
 
 #### 3.1.10 DFD Level 1 : Proses 10
 
 DFD Level 1 Proses 10 tentang alur data kompensasi
 
-![enter image description here](https://3.bp.blogspot.com/-5fvyyf5l6RA/Wrf29lz-ltI/AAAAAAAAAv4/o2ANKz73_BMA7f1_rWDWCtwuMdWHP01DACLcBGAs/s1600/12-Level+1-proses+10.JPG)
+![enter image description here](https://3.bp.blogspot.com/-5fvyyf5l6RA/Wrf29lz-ltI/AAAAAAAAAv4/o2ANKz73_BMA7f1_rWDWCtwuMdWHP01DACLcBGAs/s600/12-Level+1-proses+10.JPG)
 
 
 ### 3.2 Deskripsi Rinci Tabel
