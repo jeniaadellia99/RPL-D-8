@@ -380,17 +380,16 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 ![diagram-konteks](https://3.bp.blogspot.com/-ENgHjQKp8IE/WtHJM6mzcYI/AAAAAAAAAx0/2sP3lzvUyCgOZlfgJ7nxGOokuGfGEd9hQCLcBGAs/s600/1-konteks.JPG)
 
-#### 3.1.1 DFD Level 0
+#### 3.1.1 DFD Level 0 
 
 <p align="justify">Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur.  Berikut DFD Level 0 Aplikasi Q-Press.</p>
 
-![enter image description here](https://4.bp.blogspot.com/-N0GXfhsMyZ4/Wrf0wSkKLJI/AAAAAAAAAvc/P7QC6DdyNZAP8OoRqHADbVone2KQ8k_HQCLcBGAs/s600/2-level+0.JPG)
-
+![level 0](https://1.bp.blogspot.com/-vcaDv1shpM4/WtHMIL0-zdI/AAAAAAAAAyI/bXa2eP9orWAvL-FPYW68tLhFZ1i5S_lOwCLcBGAs/s1600/2-level+0.JPG)
 #### 3.1.2 DFD Level 1 : Proses 1
 
 DFD Level 1 ini penjelasan dari DFD Level 0 yang sebelumnya, berikut DFD level 1 yang menjelaskan Proses 1 Daftar akun. Data yang dikirim oleh mahasiswa dan dosen akan di vailidasi terlebih darhulu
 
-![enter image description here](https://4.bp.blogspot.com/-YygLIn-0SCM/WqO9dHZ0VUI/AAAAAAAAA60/V8wdqykbIV0R57rqzNY2eES-E5hPFbGogCLcBGAs/s600/dfd+level+1++Proses+1.jpg)
+![level 1 proses1](https://1.bp.blogspot.com/-sBpCjLbLDro/WtHLOwHeYKI/AAAAAAAAAyA/1j0un0s7eR4xkDl2Z-Q76rYUSuMgxjVOACLcBGAs/s600/3-Level+1-proses+1.JPG)
 
 #### 3.1.3 DFD Level 1 : Proses 2
 
@@ -436,16 +435,9 @@ DFD Level 1 Proses 9 menjelaskan tentang mata kuliah
 
 #### 3.1.10 DFD Level 1 : Proses 9
 
-DFD Level 1 Proses 8 menjelaskan tenang alur data ruangan
+DFD Level 1 Proses 8 menjelaskan tentang alur data ruangan
 
 ![enter image description here](https://2.bp.blogspot.com/-8jYs6vOu_JY/Wrf150s97II/AAAAAAAAAvo/X7-eqRiYDQ0OrhCLM3FMMu4vTHjcp28cwCLcBGAs/s600/10-Level+1-proses+9.JPG)
-
-#### 3.1.10 DFD Level 1 : Proses 10
-
-DFD Level 1 Proses 10 tentang alur data kompensasi
-
-![enter image description here](https://3.bp.blogspot.com/-5fvyyf5l6RA/Wrf29lz-ltI/AAAAAAAAAv4/o2ANKz73_BMA7f1_rWDWCtwuMdWHP01DACLcBGAs/s600/12-Level+1-proses+10.JPG)
-
 
 ### 3.2 Deskripsi Rinci Tabel
 
