@@ -59,12 +59,15 @@ Proses presensi yang dilakukan dengan cara dosen harus membuka akses scan kode b
 
 ### 1.4 Aturan Penamaan dan Penomoran
 
-
 ### 1.5 Referensi
 
 IEEE, <i>IEEE Draft Standard for Software Design Descriptions. </i> IEEE P1 01 6/D5.0; 1 2 December 2005
 
 Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
+
+https://www.visual-paradigm.com/support/documents/vpuserguide/3563/3564/85378_conceptual,l.html
+
+https://www.1keydata.com/datawarehousing/physical-data-model.html
 
 ### 1.6 Ikhtisar Dokumen
 
