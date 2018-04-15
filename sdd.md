@@ -501,7 +501,7 @@ DFD Level 1 Proses 8 menjelaskan tentang alur data ruangan
 | nm_mahasiswa | Input type Text | Nama Mahasiswa                                        | WEB      |
 | nim          | Input type Text | NIM Mahasiswa                                         | WEB      |
 | kelas        | Select          | Kelas yang di ikuti                                   | WEB      |
-| btnSimpan    | Button|Submit   | Tombol untuk menyimpan data mahasiswa yang di masukan | WEB      |
+| btnSimpan    | Button Submit   | Tombol untuk menyimpan data mahasiswa yang di masukan | WEB      |
 | btnEdit      | Button Primary  | Tombol untuk memunculkan Modal edit mahasiswa         | WEB      |
 | btnUpload    | Input type File | Untuk mengupload file .csv atau .xlsx                 | WEB      |
 | btnDownload  | Button Info     | Untuk mendownload tamplate file excel mahasiswa       | WEB      |
