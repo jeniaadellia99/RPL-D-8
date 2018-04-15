@@ -487,19 +487,31 @@ DFD Level 1 Proses 8 menjelaskan tentang alur data ruangan
 
 ##### 3.3.1.4 Spesifikasi Field Data Layar
 
-| Label    | Field          | Tabel/Query | Validasi | Keterangan |
-|----------|----------------|-------------|----------|------------|
-| nama_mhs | nama_mahasiswa |             |          |            |
-| nim      | nim            |             |          |            |
-| kelas    | id_kelas       |             |          |            |
+| Label    | Field          | Tabel/Query | Validasi                                     | Keterangan                                                                                                                     |
+|----------|----------------|-------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| id_mhs   | id_mhs         | mahasiswa   | -                                            | primary key dan diinputkan otomatis oleh sistem                                                                                |
+| nama_mhs | nama_mahasiswa | mahasiswa   | required|regex:/^[a-zA-Z]+$/u|string|max:255 | nama mahasiswa diinputkan manual oleh admin                                                                                    |
+| nim      | nim            | mahasiswa   | required|string|max:7|min:7                  | nim mahasiswa diinputkan manual oleh admin, inputkan harus angka namun disimpan dalam string maksimal 7 dan minimal 7 karakter |
+| kelas    | id_kelas       | kelas       | -                                            | forigen key yang di ambil dari kelas menandakan mahasiswa ini memiliki kelas tersebut dan ini dipilih oleh admin               |
 
 ##### 3.3.1.5 Spesifikasi Objek-objek pada Layar
 
-| id_objek     | Jenis           | keterangan |
-|--------------|-----------------|------------|
-| nm_mahasiswa | Input type Text | Nama Mahasiswa        |
-| nim          | Input type Text | NIM Mahasiswa         |
-| kelas        | Select          | Kelas yang di ikuti |
+| id_objek     | Jenis           | keterangan                                            | Kategori |
+|--------------|-----------------|-------------------------------------------------------|----------|
+| nm_mahasiswa | Input type Text | Nama Mahasiswa                                        | WEB      |
+| nim          | Input type Text | NIM Mahasiswa                                         | WEB      |
+| kelas        | Select          | Kelas yang di ikuti                                   | WEB      |
+| btnSimpan    | Button|Submit   | Tombol untuk menyimpan data mahasiswa yang di masukan | WEB      |
+| btnEdit      | Button Primary  | Tombol untuk memunculkan Modal edit mahasiswa         | WEB      |
+| btnUpload    | Input type File | Untuk mengupload file .csv atau .xlsx                 | WEB      |
+| btnDownload  | Button Info     | Untuk mendownload tamplate file excel mahasiswa       | WEB      |
+| btnBatal     | Button          | Tombol untuk membatalkan input                        | WEB      |
+| tvNmMhs      | TextView        | Nama Mahasiswa                                        | Android  |
+| tvAbsen      | TextView        | Absen yang diperoleh                                  | Android  |
+| tvKompensasi | TextView        | Kompensasi yang diperoleh                             | Android  |
+| tvPresensi   | TextView        | Presensi yang diperoleh                               | Android  |
+| btnScan      | ButtonView      | Tombol untuk menscan ruangan                          | Android  |
+| btnLihatJdwl | ButtonView      | Tobol untuk melihat jadwal                            | Android  |
 
 ##### 3.3.1.6 Spesifikasi Proses/Algoritma
 
@@ -526,17 +538,16 @@ Event : Tambah mahasiswa
 
 ##### 3.3.2.1 Fungsi Modul
 
-| No | Fungsi | Jenis | Tabel Terkait |
-|----|--------|-------|---------------|
-| 1  |        |       |               |
-| 2  |        |       |               |
-| 3  |        |       |               |
-| 4  |        |       |               |
-| 5  |        |       |               |
-| 6  |        |       |               |
-| 7  |        |       |               |
-| 8  |        |       |               |
-| 9  |        |       |               |
+| No | Fungsi            | Jenis          | Tabel Terkait | Kategori |
+|----|-------------------|----------------|---------------|----------|
+| 1  | Input Data Dosen  | Form Modal     | dosen         | WEB      |
+| 2  | Delete Data Dosen | Button Warning | dosen         | WEB      |
+| 3  | Update Data Dosen | Form Modal     | dosen         | WEB      |
+| 4  | Lihat Data Dosen  | Tabel          | dosen         | WEB      |
+| 5  | Mulai Scan        | ButtonView     | rekap         | Android  |
+| 6  | Lihat detail SKS  | RecyclerView   | mata_kuliah   | Android  |
+| 7  | Lihat Jadwal      | ButtonView     | jadwal        | Android  |
+| 8  | Lihat Rekap       | ButtonView     | rekap         | Android  |
 
 ##### 3.3.2.2 Spesifikasi Layar Utama
 
@@ -544,19 +555,22 @@ Event : Tambah mahasiswa
 
 ##### 3.3.2.3 Spesifikasi Query
 
-| ID Query | Deskripsi             | Ekspresi Query                                                        |
-|----------|-----------------------|-----------------------------------------------------------------------|
-| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
-| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
-| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+| ID Query | Deskripsi         | Ekspresi Query                                                                          |
+|----------|-------------------|-----------------------------------------------------------------------------------------|
+| QRY-01   | Input Data Dosen  | INSERT INTO dosen SET nama_dosen="$nm_dosen", nip="$nip", nidn="$nidn", gelar="$gelar"; |
+| QRY-06   | Delete Data Dosen | DELETE FROM dosen WHERE id_dosen="$id";                                                 |
+| QRY-07   | Update Data Dosen | UPDATE dosen SET SET nama_dosen="$nm_dosen", nip="$nip", nidn="$nidn", gelar="$gelar";  |
+| QRY-08   | Lihat Data Dosen  | SELECT * FROM dosen                                                                     |
+
 
 ##### 3.3.2.4 Spesifikasi Field Data Layar
 
 | Label    | Field          | Tabel/Query | Validasi | Keterangan |
 |----------|----------------|-------------|----------|------------|
-| nama_mhs | nama_mahasiswa |             |          |            |
-| nim      | nim            |             |          |            |
-| kelas    | id_kelas       |             |          |            |
+| id_dosen | id_dosen       |             |          |            |
+| nm_dosen | nama_mahasiswa |             |          |            |
+| nidn     | nidn           |             |          |            |
+| nip      | nip            |             |          |            |
 
 ##### 3.3.2.5 Spesifikasi Objek-objek pada Layar
 
