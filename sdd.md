@@ -303,6 +303,8 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 #### 2.2.3 Physical Data Model
 
+![pdm](https://4.bp.blogspot.com/-jkK6R63vmjY/WtM3HhPlOiI/AAAAAAAAAzw/pqrNF1zFNlYLYPNx5MCFnkdCl0TrGMblQCLcBGAs/s500/pdm.JPG)
+
 #### 2.2.4 Daftar Tabel Aplikasi
 
 ##### Tabel Mahasiswa
