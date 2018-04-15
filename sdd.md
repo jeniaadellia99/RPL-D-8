@@ -299,11 +299,11 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 #### 2.2.2 Conceptual Data Model
 
-![cdm](https://2.bp.blogspot.com/-Du45OdYDQJ4/WtM1pQu-ylI/AAAAAAAAAzk/WOOTN_LxE1U69sAbqKU2I5cNVaFY-ojPACLcBGAs/s500/cdm.JPG)
+![cdm](https://2.bp.blogspot.com/-Du45OdYDQJ4/WtM1pQu-ylI/AAAAAAAAAzk/WOOTN_LxE1U69sAbqKU2I5cNVaFY-ojPACLcBGAs/s900/cdm.JPG)
 
 #### 2.2.3 Physical Data Model
 
-![pdm](https://4.bp.blogspot.com/-jkK6R63vmjY/WtM3HhPlOiI/AAAAAAAAAzw/pqrNF1zFNlYLYPNx5MCFnkdCl0TrGMblQCLcBGAs/s500/pdm.JPG)
+![pdm](https://4.bp.blogspot.com/-jkK6R63vmjY/WtM3HhPlOiI/AAAAAAAAAzw/pqrNF1zFNlYLYPNx5MCFnkdCl0TrGMblQCLcBGAs/s900/pdm.JPG)
 
 #### 2.2.4 Daftar Tabel Aplikasi
 
