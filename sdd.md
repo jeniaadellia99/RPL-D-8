@@ -600,9 +600,9 @@ Event : Tambah mahasiswa
 
 ##### 3.3.2.6 Spesifikasi Proses/Algoritma
 
-<id_proses> :..... <br>
-Objek Terkait : nm_mahasiswa, nim, kelas <br>
-Event :
+OP05 :Tambah Dosen <br>
+Objek Terkait : nm_dosen, nidn, nip, gelar <br>
+Event : Tambah Dosen
 
 | Inisial State (IS)    |
 |-----------------------|
@@ -663,9 +663,9 @@ Event :
 
 ##### 3.3.3.6 Spesifikasi Proses/Algoritma
 
-<id_proses> :..... <br>
-Objek Terkait : nm_mahasiswa, nim, kelas <br>
-Event :
+OP06 :Tambah Kelas <br>
+Objek Terkait : nm_kelas, jenjang, dosen_wali <br>
+Event : Tambah Kelas
 
 | Inisial State (IS)    |
 |-----------------------|

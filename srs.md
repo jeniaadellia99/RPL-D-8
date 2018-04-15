@@ -297,16 +297,16 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 | OP07       | Cari Dosen           | Digunakan untuk mencari Dosen                                  |
 | OP08       | Cari Mahasiswa       | Digunakan untuk mencari mahasiswa                              |
 | OP09       | Detail               | Digunakan untuk memberikan informasi Detail tentang data kelas |
-| OP010      | Kembali              | Digunakan untuk kemabli ke halaman sebelumnya                  |
-| OP011      | Hapus                | digunakan untuk menghapus data yang ingin dihapus              |
-| OP012      | Edit                 | Digunakan untuk mengedit data yang ingin di edit               |
-| OP013      | Simpan               | Digunakan untuk menyimpan data yang sudah diedit               |
-| OP014      | Download             | Digunakan untuk mendownload file                               |
-| OP015      | Import Jadwal        | Digunakan untuk memasukkan Jadwal yang berupa .xls atau .xlsx  |
-| OP016      | Ubah Jadwal          | Digunakan untuk mengubah jadwal                                |
-| OP017      | Lihat Jadwal         | Digunakan untuk melihat jadwal                                 |
-| OP018      | Tutup                | Digunakan untuk menutup aktivitas                              |
-| OP019      | Mulai                | Digunakan untuk memulai presensi                               |
+| OP10      | Kembali              | Digunakan untuk kemabli ke halaman sebelumnya                  |
+| OP11      | Hapus                | digunakan untuk menghapus data yang ingin dihapus              |
+| OP12      | Edit                 | Digunakan untuk mengedit data yang ingin di edit               |
+| OP13      | Simpan               | Digunakan untuk menyimpan data yang sudah diedit               |
+| OP14      | Download             | Digunakan untuk mendownload file                               |
+| OP15      | Import Jadwal        | Digunakan untuk memasukkan Jadwal yang berupa .xls atau .xlsx  |
+| OP16      | Ubah Jadwal          | Digunakan untuk mengubah jadwal                                |
+| OP17      | Lihat Jadwal         | Digunakan untuk melihat jadwal                                 |
+| OP18      | Tutup                | Digunakan untuk menutup aktivitas                              |
+| OP19      | Mulai                | Digunakan untuk memulai presensi                               |
 
 **2.1.8	Kebutuhan Adaptasi**
 <br>
