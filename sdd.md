@@ -917,7 +917,7 @@ Event :
 
 ##### 3.3.8.2 Spesifikasi Layar Utama
 
-<img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg">
+<img src="https://1.bp.blogspot.com/-l2UGqvzc3Io/WtLP1K8iNjI/AAAAAAAAA9A/s7FoCPDuE-8-Ek98TmV1AOwjg-uhzebTgCLcBGAs/s1600/login.PNG">
 
 ##### 3.3.8.3 Spesifikasi Query
 
