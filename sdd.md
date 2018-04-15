@@ -910,17 +910,12 @@ Event : Tambah Mata Kuliah
 
 ##### 3.3.7.1 Fungsi Modul
 
-| No | Fungsi | Jenis | Tabel Terkait |
-|----|--------|-------|---------------|
-| 1  |        |       |               |
-| 2  |        |       |               |
-| 3  |        |       |               |
-| 4  |        |       |               |
-| 5  |        |       |               |
-| 6  |        |       |               |
-| 7  |        |       |               |
-| 8  |        |       |               |
-| 9  |        |       |               |
+| No | Fungsi            | Jenis | Tabel Terkait | Kategori |
+|----|-------------------|-------|---------------|----------|
+| 1  | Hitung Presensi   | -     | Rekap         | WEB      |
+| 2  | Hitung Kompensasi | -     | Rekap         | WEB      |
+| 3  | Hitung Absensi    | -     | Rekap         | WEB      |
+| 4  | Tampil Rekap      | Tabel | Rekap         | WEB      |
 
 
 ##### 3.3.7.2 Spesifikasi Layar Utama
@@ -930,46 +925,49 @@ Event : Tambah Mata Kuliah
 
 ##### 3.3.7.3 Spesifikasi Query
 
-| ID Query | Deskripsi             | Ekspresi Query                                                        |
-|----------|-----------------------|-----------------------------------------------------------------------|
-| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
-| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
-| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+| ID Query | Deskripsi   | Ekspresi Query      |
+|----------|-------------|---------------------|
+| QRY-01   | Lihat Rekap | SELECT * FROM Rekap |
 
 ##### 3.3.7.4 Spesifikasi Field Data Layar
 
-| Label    | Field          | Tabel/Query | Validasi | Keterangan |
-|----------|----------------|-------------|----------|------------|
-| nama_mhs | nama_mahasiswa |             |          |            |
-| nim      | nim            |             |          |            |
-| kelas    | id_kelas       |             |          |            |
+| Label         | Field    | Tabel/Query | Validasi | Keterangan                            | Kategori |
+|---------------|----------|-------------|----------|---------------------------------------|----------|
+| btnDownload   | -        | -           | -        | tombol untuk mendownload rekap        | WEB      |
+| semester      | semester | rekap       | -        | untuk memilih semster                 | WEB      |
+| btnRekapDosen | -        | -           | -        | tombol untuk download rekap dosen     | Android  |
+| btnRekapMhs   | -        | -           | -        | tombol untuk download rekap mahasiswa | Android  |
 
 ##### 3.3.7.5 Spesifikasi Objek-objek pada Layar
 
-| id_objek     | Jenis           | keterangan |
-|--------------|-----------------|------------|
-| nm_mahasiswa | Input type Text |            |
-| nim          | Input type Text |            |
-| kelas        | Select          |            |
+| id_objek      | Jenis       | keterangan                       | kategori |
+|---------------|-------------|----------------------------------|----------|
+| btnDownload   | Button Info | tombol download rekap pada admin | WEB      |
+| tahun_ajaran  | List        | untuk menampilkan tahun ajaran   | WEB      |
+| semester      | Text        | melihat semester                 | WEB      |
+| btnRekapDosen | ButtonView  | tombol download rekap dosen      | Android  |
+| btnRekapMhs   | ButtonView  | tombol download rekap mahasiswa  | Android  |
 
 ##### 3.3.7.6 Spesifikasi Proses/Algoritma
 
-<id_proses> :..... <br>
-Objek Terkait : nm_mahasiswa, nim, kelas <br>
+OP22 :Download Rekap <br>
+Objek Terkait : tahun_ajaran, semeester, btnDownload <br>
 Event :
 
 | Inisial State (IS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Tabel Rekap Kosong |
 
 
 | Final State (FS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Sistem Mendownload Rekap |
 
 | Spesifikasi Proses/Algoritma |
 |-----------------------|
-| Form mahasiswa kosong |
+| IF rekap ada pada database |
+| THEN tampilkan rekap yang ingin di download |
+| ELSE tabel kosong |
 
 
 #### 3.3.8 Modul Otentikasi
@@ -1051,11 +1049,7 @@ Event : Register Dosen, Register Mahasiswa
 
 ##### 3.3.9.3 Spesifikasi Query
 
-| ID Query | Deskripsi             | Ekspresi Query                                                        |
-|----------|-----------------------|-----------------------------------------------------------------------|
-| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
-| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
-| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+Tidak Menggunakan Query
 
 ##### 3.3.9.4 Spesifikasi Field Data Layar
 

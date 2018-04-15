@@ -309,6 +309,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 | OP19      | Mulai Scan               | Digunakan untuk memulai presensi                               |
 | OP20      | Tambah Ruangan       | Digunakan untuk menambah ruangan                               |
 | OP21      | Tambah Mata Kuliah       | Digunakan untuk menambah mata Kuliah                               |
+| OP22      | Download Rekap       | Digunakan untuk mendownload Rekap                               |
 
 **2.1.8	Kebutuhan Adaptasi**
 <br>
