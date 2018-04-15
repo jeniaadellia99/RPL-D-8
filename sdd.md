@@ -466,15 +466,144 @@ DFD Level 1 Proses 8 menjelaskan tentang alur data ruangan
 
 ### 3.2 Deskripsi Rinci Tabel
 
-#### 3.2.1 Data User Mahasiswa dan Dosen
+#### 3.2.1 Mata Kuliah
 
-|Data |Keterangan  |
-|-----|------|
-| NIP | NIP Dosen digunakan untuk login |
-| NIM | NIM Mahasiswa digunakan untuk login|
-| MAC | MAC Address Mahasiswa dan dosen digunakan untuk vailidasi login|
+Identifikasi/Nama 	: mata_kuliah
+Deskripsi Isi 		: data mata kuliah 
+Jenis 				: tabel data induk
+Volume 				: 7 field
+Laju 				: -
+Primary Key 		: id_matkul
+
+|Id Field | Deskripsi | Tipe & Length | Boleh Null | Keterangan |
+|--------------|----------------|--------------------|------------------------|---------------------------|
+|id_matkul | id mata kuliah | int (10) | No | AUto Increment |
+|kode_matkul | kode mata kuliah | int (15) | No | Untuk kode mata kuliah|
+|nama_matkul| nama mata kuliah | varchar (25)| No | Nama mata kuliah|
+|jumlah_sks| jumlah sks | int (3)| No | Jumlah SKS|
+|sks_teori| sks praktek | int (3)| No | sks praktek|
+|semester| semester | int (2)| No | semester|
+
+#### 3.2.2 Mahasiswa
+
+Identifikasi/Nama 	: mahasiswa
+Deskripsi Isi 		: data mahasiswa
+Jenis 				: tabel data induk
+Volume 				: 5 field
+Laju 				: -
+Primary Key 		: id_mhs
+
+|Id Field | Deskripsi | Tipe & Length | Boleh Null | Keterangan |
+|--------------|----------------|--------------------|------------------------|---------------------------|
+|id_mhs | id mahasiswa | int (10) | No | AUto Increment |
+|id_kelas | id_kelas| int (10) | No | relasi untuk menampilkan kelas|
+|nim | nim mahasiswa| varchar (7)| No | nim mahasiswa|
+|nama_mhs| nama mahasiswa | varchar (50)| No | nama mahasiswa|
+|status| status | varchar (25)| No | status aktif atau tidak aktif|
+
+#### 3.2.3 Dosen
+
+Identifikasi/Nama 	: dosen
+Deskripsi Isi 		: data dosen
+Jenis 				: tabel data induk
+Volume 				: 5 field
+Laju 				: -
+Primary Key 		: id_dosen
+
+|Id Field | Deskripsi | Tipe & Length | Boleh Null | Keterangan |
+|--------------|----------------|--------------------|------------------------|---------------------------|
+|id_dosen| id dosen | int (10) | No | Auto Increment |
+|nip | nip dosen| varchar  (10) | No | nip dosen|
+|nidn | nim mahasiswa| varchar (7)| No | nidn dosen|
+|nama_dosen| nama mahasiswa | varchar (50)| No | nama dosen|
+|gelar| status | varchar (20)| No | status gelar dosen|
 
 
+#### 3.2.4 Kelas
+
+Identifikasi/Nama 	: kelas
+Deskripsi Isi 		: data kelas
+Jenis 				: tabel data induk
+Volume 				: 3 field
+Laju 				: -
+Primary Key 		: id_kelas
+
+|Id Field | Deskripsi | Tipe & Length | Boleh Null | Keterangan |
+|--------------|----------------|--------------------|------------------------|---------------------------|
+|id_kelas| id dosen | int (10) | No | Auto Increment |
+|id_dosen | id dosen | int (10)  | No | nama dosen relasi dengan tabel dosen|
+|nama_kelas| nama kelas | varchar (7)| No | nama kelas|
+
+#### 3.2.4 Detail Kelas
+
+Identifikasi/Nama 	: detail kelas
+Deskripsi Isi 		: data detail kelas
+Jenis 				: tabel data induk
+Volume 				: 4 field
+Laju 				: -
+Primary Key 		: id_detail_kelas
+
+|Id Field | Deskripsi | Tipe & Length | Boleh Null | Keterangan |
+|--------------|----------------|--------------------|------------------------|---------------------------|
+|id_detail_kelas| id dosen | int (10) | No | Auto Increment |
+|id_kelas | id kelas| int (10)  | No | nama kelas relasi dengan tabel kelas|
+|id_matkul| id matkul | int (10)| No | nama matkul relasi dengan tabel matkul|
+|id_dosen| id dosen | int (10)| No | nama dosen |
+
+#### 3.2.5 Jadwal
+
+Identifikasi/Nama 	: jadwal
+Deskripsi Isi 		: data jadwal
+Jenis 				: tabel data induk
+Volume 				: 7 field
+Laju 				: -
+Primary Key 		: id_jadwal
+
+|Id Field | Deskripsi | Tipe & Length | Boleh Null | Keterangan |
+|--------------|----------------|--------------------|------------------------|---------------------------|
+|id_jadwal| id jadwal | int (10) | No | Auto Increment |
+|thn_ajaran | tahun ajaran| varchar (10)  | No | foreign key|
+|id_detail_kelas| id detail kelas | int (10)| No | foreign key|
+|id_ruangan| id ruangan | int (10)| No | foreign key|
+|hari| hari | varchar (7)| No | hari |
+|waktu_mulai| waktu mulai | varchar (10)| No | waktu mulai |
+|waktu_selesai| waktu_selesai | int (10)| No | waktu selesai |
+
+#### 3.2.6 Ruangan
+
+Identifikasi/Nama 	: ruangan
+Deskripsi Isi 		: data ruangan
+Jenis 				: tabel data induk
+Volume 				: 2 field
+Laju 				: -
+Primary Key 		: id_ruangan
+
+|Id Field | Deskripsi | Tipe & Length | Boleh Null | Keterangan |
+|--------------|----------------|--------------------|------------------------|---------------------------|
+|id_ruangan| id ruangan | int (10) | No | Auto Increment |
+|ruangan| ruangan | varchar (20)  | No | keterangan ruangan|
+
+#### 3.2.7 Rekap
+
+Identifikasi/Nama 	: rekap
+Deskripsi Isi 		: data rekap
+Jenis 				: tabel data induk
+Volume 				: 9 field
+Laju 				: -
+Primary Key 		: id_rekap
+
+|Id Field | Deskripsi | Tipe & Length | Boleh Null | Keterangan |
+|--------------|----------------|--------------------|------------------------|---------------------------|
+|id_rekap| id rekap | int (10) | No | Auto Increment |
+|semester| semester | int (2)  | No | keterangan semester|
+|thn_ajaran| tahun ajaran | varchar (10)  | No | keterangan tahun ajaran|
+|id_kelas| id kelas | int (20)  | No | keterangan nama kelas|
+|id_mhs| id mahasiswa | int (20)  | No | keterangan nama mahasiswa|
+|id_matkul| id mata kuliah | int (20)  | No | keterangan nama mata kuliah|
+|id_dosen| id dosen | int (20)  | No | keterangan nama dosen|
+|absen| absensi | varchar (10)  | No | keterangan tidak hadir|
+|presensi| presensi | varchar (10)  | No | keterangan kehadiran|
+|keterlambatan| keterlambatan | varchar (10)  | No | keterangan terlambat|
 
 ### 3.3 Deskripsi Rinci Modul
 
