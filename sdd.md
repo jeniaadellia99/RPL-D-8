@@ -491,7 +491,7 @@ DFD Level 1 Proses 8 menjelaskan tentang alur data ruangan
 |----------|----------------|-------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | id_mhs   | id_mhs         | mahasiswa   | -                                            | primary key dan diinputkan otomatis oleh sistem                                                                                |
 | nama_mhs | nama_mahasiswa | mahasiswa   | required, regex:/^[a-zA-Z]+$/u, string, max:255 | nama mahasiswa diinputkan manual oleh admin                                                                                    |
-| nim      | nim            | mahasiswa   | required, string, max:7, min:7                  | nim mahasiswa diinputkan manual oleh admin, inputkan harus angka namun disimpan dalam string maksimal 7 dan minimal 7 karakter |
+| nim      | nim            | mahasiswa   | required, string, max:7, min:7, number                  | nim mahasiswa diinputkan manual oleh admin, inputkan harus angka namun disimpan dalam string maksimal 7 dan minimal 7 karakter |
 | kelas    | id_kelas       | kelas       | -                                            | forigen key yang di ambil dari kelas menandakan mahasiswa ini memiliki kelas tersebut dan ini dipilih oleh admin               |
 
 ##### 3.3.1.5 Spesifikasi Objek-objek pada Layar
@@ -551,7 +551,12 @@ Event : Tambah mahasiswa
 
 ##### 3.3.2.2 Spesifikasi Layar Utama
 
-![moduldosen](https://2.bp.blogspot.com/-5rg2Mufruw8/WtHR3Slj_bI/AAAAAAAAAyg/CkEuJfaLaWcgzkB4wEkOamnkO364zl_4QCLcBGAs/s1000/modul-dosen.JPG)
+| WEB                                                                                                                                       |
+|:-------------------------------------------------------------------------------------------------------------------------------------------:|
+| ![moduldosen](https://2.bp.blogspot.com/-5rg2Mufruw8/WtHR3Slj_bI/AAAAAAAAAyg/CkEuJfaLaWcgzkB4wEkOamnkO364zl_4QCLcBGAs/s1000/modul-dosen.JPG) |
+| Android                                                                                                                                   |
+| <img src="https://2.bp.blogspot.com/-QBLa7tZDHzk/WtMGIhxkkLI/AAAAAAAAA-U/UOQLH6PxCoAn3oBl54TZYvkMnyFpfTkGwCLcBGAs/s1600/Screenshot_2018-04-15-11-18-44-199_ga.reang.www.materialdesign.png" width="50%" height="50%" />   
+
 
 ##### 3.3.2.3 Spesifikasi Query
 
@@ -565,20 +570,30 @@ Event : Tambah mahasiswa
 
 ##### 3.3.2.4 Spesifikasi Field Data Layar
 
-| Label    | Field          | Tabel/Query | Validasi | Keterangan |
-|----------|----------------|-------------|----------|------------|
-| id_dosen | id_dosen       |             |          |            |
-| nm_dosen | nama_mahasiswa |             |          |            |
-| nidn     | nidn           |             |          |            |
-| nip      | nip            |             |          |            |
+| Label    | Tabel/Query | Validasi                                           | Keterangan                                                                          |
+|----------|-------------|----------------------------------------------------|-------------------------------------------------------------------------------------|
+| id_dosen | dosen       | -                                                  | Primary key diinputkan otomatis oleh sistem                                         |
+| nm_dosen | dosen       | required, regex:/^[A-Za-z\s-_]+$/, string, max:255 | nama dosen diinputkan manual oleh admin                                             |
+| nidn     | dosen       | required, string, max:8, min:8, number             | nidn diinputkan manual oleh admin, inputan berupa angka namun disimpan dalam string |
+| nip      | dosen       | required, string, min:10, max:10, number           | nip diinputkan manual oleh admin, inputan berupa angka namun disimpan dalam string  |
+| gelar    | dosen       | required, string, regex:/^[A-Za-z\s-_]+$/          | gelar diinputkan manual oleh admin                                                  |
+|          |             |                                                    |                                                                                     |
 
 ##### 3.3.2.5 Spesifikasi Objek-objek pada Layar
 
-| id_objek     | Jenis           | keterangan |
-|--------------|-----------------|------------|
-| nm_mahasiswa | Input type Text |            |
-| nim          | Input type Text |            |
-| kelas        | Select          |            |
+| id_objek     | Jenis           | keterangan                                                                       |
+|--------------|-----------------|----------------------------------------------------------------------------------|
+| nm_mahasiswa | Input type Text | Nama Mahasiswa                                                                   |
+| nim          | Input type Text | NIM Mahasiswa                                                                    |
+| kelas        | Select          | Wali Kelas                                                                       |
+| btnMulai     | ButtonView      | Tombol untuk memulai scan                                                        |
+| btnDetail    | ButtonView      | Tombol untuk melihat detail SKS                                                  |
+| tvMatKul     | TextView        | Nama matkul                                                                      |
+| tvJam        | TextView        | Menampilkan jam mulai dan berakhir mata kuliah                                   |
+| tvRuangan    | TextView        | Menampilkan Ruangan yang digunakan                                               |
+| cardMatkul   | CardView        | ViewGroup untuk mata kuliah (tvMatkul, tvJam, tvRuangan, btnMulai, dan btnDetail |
+| btnRekap     | ButtonView      | Tombol untuk mendownload Rekap                                                   |
+| btnJadwal    | ButtonView      | Tombol untuk mendownload Jadwal                                                  |
 
 ##### 3.3.2.6 Spesifikasi Proses/Algoritma
 
@@ -588,16 +603,18 @@ Event :
 
 | Inisial State (IS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Form dosen kosong |
 
 
 | Final State (FS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Form dosen diupdate dengan data yang baru |
 
 | Spesifikasi Proses/Algoritma |
 |-----------------------|
-| Form mahasiswa kosong |
+| IF data dosen sudah ada|
+| THEN data tidak di masukan dan ulang input|
+| ELSE masukan data ke database dan update data dosen yang lama|
 
 
 #### 3.3.3 Modul Data Kelas
