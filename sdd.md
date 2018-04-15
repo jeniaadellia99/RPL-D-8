@@ -471,7 +471,7 @@ DFD Level 1 Proses 8 menjelaskan tentang alur data ruangan
 ##### 3.3.1.2 Spesifikasi Layar Utama
 
 | WEB                                                                                                                                       |
-|-------------------------------------------------------------------------------------------------------------------------------------------|
+|:-------------------------------------------------------------------------------------------------------------------------------------------:|
 | ![modul-mhs](https://1.bp.blogspot.com/-EpXHD527vTA/WtHQrwMk1tI/AAAAAAAAAyU/8R0t9aq9_Jcf8xoQRKhtur7W6cZPP9cGgCLcBGAs/s1000/modul-mhs.JPG) |
 | Android                                                                                                                                   |
 | <img src="https://4.bp.blogspot.com/-DyFF8Nq7184/WtL7quRjZYI/AAAAAAAAA-E/D3ZRk-kRx4UbTrjiqApAP4yY3e-bb1hPgCLcBGAs/s1600/Screenshot_2018-04-15-11-26-46-300_ga.reang.www.materialdesign.png" width="50%" height="50%" />                                                                                                                                          |
