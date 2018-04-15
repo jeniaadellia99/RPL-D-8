@@ -499,7 +499,7 @@ DFD Level 1 Proses 8 menjelaskan tentang alur data ruangan
 | id_objek     | Jenis           | keterangan                                            | Kategori |
 |--------------|-----------------|-------------------------------------------------------|----------|
 | nm_mahasiswa | Input type Text | Nama Mahasiswa                                        | WEB      |
-| nim          | Input type Text | NIM Mahasiswa                                         | WEB      |
+| nim          | Input type number | NIM Mahasiswa                                         | WEB      |
 | kelas        | Select          | Kelas yang di ikuti                                   | WEB      |
 | btnSimpan    | Button Submit   | Tombol untuk menyimpan data mahasiswa yang di masukan | WEB      |
 | btnEdit      | Button Primary  | Tombol untuk memunculkan Modal edit mahasiswa         | WEB      |
@@ -584,7 +584,8 @@ Event : Tambah mahasiswa
 | id_objek     | Jenis           | keterangan                                                                       | Kategori |
 |--------------|-----------------|----------------------------------------------------------------------------------|----------|
 | nm_mahasiswa | Input type Text | Nama Mahasiswa                                                                   | WEB      |
-| nim          | Input type Text | NIM Mahasiswa                                                                    | WEB      |
+| nidn          | Input type number | NIDN dosen                                                                  | WEB      |
+| nip          | Input type number | nip dosen                                                                  | WEB      |
 | kelas        | Select          | Wali Kelas                                                                       | WEB      |
 | btnSimpan    | Button Primary  | Timbol untuk menyimpan data mahasiswa yang sudah di inputkan                     | WEB      |
 | btnBatal     | Button Default  | Tombol untuk membatalkan input                                                   | WEB      |
@@ -766,8 +767,8 @@ Event : Tambah Ruangan
 
 | ID Query | Deskripsi             | Ekspresi Query                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |----------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| QRY-01   | Input Jadwal          | INSERT INTO jadwal SET thn_ajaran      = "$thn_ajrn",                                                id_kelas          =" $id_kelas",                                               id_ruangan     ="$id_ruangan",                                              waktu_mulai  ="$wkt_mulai",                                               waktu_selesai = "$wkt_selesai",                                              hari                 = "$hari"; |
-| QRY-03   | Update Data Mahasiswa | UPDATE jadwal SET thn_ajaran      = "$thn_ajrn",                                     id_kelas          = " $id_kelas",                                     id_ruangan     ="$id_ruangan",                                     waktu_mulai  ="$wkt_mulai",                                     waktu_selesai = "$wkt_selesai",                                     hari                 = "$hari";                                                      |
+| QRY-17   | Input Jadwal          | INSERT INTO jadwal SET thn_ajaran      = "$thn_ajrn",                                                id_kelas          =" $id_kelas",                                               id_ruangan     ="$id_ruangan",                                              waktu_mulai  ="$wkt_mulai",                                               waktu_selesai = "$wkt_selesai",                                              hari                 = "$hari"; |
+| QRY-18   | Update Data Mahasiswa | UPDATE jadwal SET thn_ajaran      = "$thn_ajrn",                                     id_kelas          = " $id_kelas",                                     id_ruangan     ="$id_ruangan",                                     waktu_mulai  ="$wkt_mulai",                                     waktu_selesai = "$wkt_selesai",                                     hari                 = "$hari";                                                      |
 
 ##### 3.3.5.4 Spesifikasi Field Data Layar
 
@@ -794,7 +795,7 @@ Event : Tambah Ruangan
 
 OP15, OP16 : Import Jadwal, Ubah Jadwal <br>
 Objek Terkait : btnUbah, btnImport, btnUpload <br>
-Event :
+Event : Import Jadwal, Ubah Jadwal
 
 | Inisial State (IS)    |
 |-----------------------|
@@ -811,71 +812,77 @@ Event :
 | THEN ulangi input data dan munculkan peringatan |
 | ELSE masukan data dalam database |
 
-#### 3.3.6 Modul Rekap
+#### 3.3.6 Modul MataKuliah
 
 ##### 3.3.6.1 Fungsi Modul
 
-| No | Fungsi | Jenis | Tabel Terkait |
-|----|--------|-------|---------------|
-| 1  |        |       |               |
-| 2  |        |       |               |
-| 3  |        |       |               |
-| 4  |        |       |               |
-| 5  |        |       |               |
-| 6  |        |       |               |
-| 7  |        |       |               |
-| 8  |        |       |               |
-| 9  |        |       |               |
+| No | Fungsi              | Jenis           | Tabel Terkait |
+|----|---------------------|-----------------|---------------|
+| 1  | Input mata kuliah   | Form modal      | mata_kuliah   |
+| 2  | Update mata kuliaah | Form modal      | mata_kuliah   |
+| 3  | Delete Mata kuliah  |  Button warning | mata_kuliah   |
+| 4  | Lihat mata kuliah   | Tabel           | mata_kuliah   |
 
 ##### 3.3.5.2 Spesifikasi Layar Utama
 
-<img src="https://1.bp.blogspot.com/-UpvYoRIguPA/WtLv0J20nzI/AAAAAAAAA9o/L35d_5rINUQdIATHWTIhCSLhIp6ZczwSQCLcBGAs/s1600/rekap.PNG">
+![modul-matkul](https://2.bp.blogspot.com/-3xgj2PkT2sU/WtHSzk_eHQI/AAAAAAAAAyw/XDANIU60xWs65t67832XgvGzeLDOaec9gCLcBGAs/s1000/modul-matkul.JPG)
 
 ##### 3.3.6.3 Spesifikasi Query
 
-| ID Query | Deskripsi             | Ekspresi Query                                                        |
-|----------|-----------------------|-----------------------------------------------------------------------|
-| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
-| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
-| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+| ID Query | Deskripsi          | Ekspresi Query                                                                                                                                                                                       |
+|----------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| QRY-21   | Input Mata Kuliah  | INSERT INTO mata_kuliah SET kode_matkul="$kd_matkul", nama_matkul="$nm_matkul", jumlah_sks="$jml_sks", sks_teori="$sks_teori", sks_praktek="$sks_praktek", jenjang="$jenjang", semester="$semester"; |
+| QRY-22   | Delete Mata Kuliah | DELETE FROM matkulWHERE id_mahasiswa="$id";                                                                                                                                                          |
+| QRY-23   | Update Mata Kuliah | UPDATE mahasiswa SET kode_matkul="$kd_matkul", nama_matkul="$nm_matkul", jumlah_sks="$jml_sks", sks_teori="$sks_teori", sks_praktek="$sks_praktek", jenjang="$jenjang", semester="$semester";        |
+| QRT-24   | Lihat Mata Kuliah  | SELECT * FROM mata_kuliah                                                                                                                                                                            |
 
 ##### 3.3.6.4 Spesifikasi Field Data Layar
 
-| Label    | Field          | Tabel/Query | Validasi | Keterangan |
-|----------|----------------|-------------|----------|------------|
-| nama_mhs | nama_mahasiswa |             |          |            |
-| nim      | nim            |             |          |            |
-| kelas    | id_kelas       |             |          |            |
+| Label       | Field       | Tabel/Query | Validasi         | Keterangan                                           |
+|-------------|-------------|-------------|------------------|------------------------------------------------------|
+| id_matkul   | id_matkul   | mata_kuliah | -                | Primary key otomatis diinputkan oleh sistem          |
+| kd_matkul   | kode_matkul | mata_kuliah | required, string | kode matkul di inputkan manual oleh admin            |
+| nm_matakul  | nama_matkul | mata_kuliah | required, string | nama matkul diinputkan manual oleh admin             |
+| sks_teori   | sks_teori   | mata_kuliah | required, number | diinpuktan manual oleh admin                         |
+| sks_praktek | sks_praktek | mata_kuliah | required, number | diinpuktan manual oleh admin                         |
+| jenjang     | jenjang     | mata_kuliah | -                | admin memilih jenjang yang sudah ada didalam sistem  |
+| semseter    | semester    | mata_kuliah | -                | admin memilih semester yang sudah ada didalam sistem |
 
 ##### 3.3.6.5 Spesifikasi Objek-objek pada Layar
 
-| id_objek     | Jenis           | keterangan |
-|--------------|-----------------|------------|
-| nm_mahasiswa | Input type Text |            |
-| nim          | Input type Text |            |
-| kelas        | Select          |            |
+| id_objek    | Jenis             | keterangan           | kategori |
+|-------------|-------------------|----------------------|----------|
+| kd_matkul   | Input type Text   | kode mata kuliah     | WEB      |
+| nm_matkul   | Input type Text   | nama mata kuliah     | WEB      |
+| sks_teori   | Input type number | sks teori            | WEB      |
+| sks_praktek | Input type number | sks praktek          | WEB      |
+| jenjang     | Select            | jenjang mata kuliah  | WEB      |
+| semester    | Select            | semester mata kuliah | WEB      |
 
 ##### 3.3.6.6 Spesifikasi Proses/Algoritma
 
-<id_proses> :..... <br>
-Objek Terkait : nm_mahasiswa, nim, kelas <br>
-Event :
+OP21 : Tambah Mata Kuliah <br>
+Objek Terkait : kd_matkul, nm_matkul, sks_teori, sks_praktek, jenjang, semester <br>
+Event : Tambah Mata Kuliah
 
 | Inisial State (IS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Form mata kuliah kosong |
 
 
 | Final State (FS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Data mata kuliah tersimpan dalam database |
 
 | Spesifikasi Proses/Algoritma |
 |-----------------------|
-| Form mahasiswa kosong |
+| IF data yang salah dan atau sudah ada |
+| THEN ulangi input data dan munculkan peringatan |
+| ELSE masukan data dalam database |
 
 
-#### 3.3.7 Modul Mata Kuliah
+
+#### 3.3.7 Modul Rekap
 
 ##### 3.3.7.1 Fungsi Modul
 
@@ -891,9 +898,11 @@ Event :
 | 8  |        |       |               |
 | 9  |        |       |               |
 
+
 ##### 3.3.7.2 Spesifikasi Layar Utama
 
-![modul-matkul](https://2.bp.blogspot.com/-3xgj2PkT2sU/WtHSzk_eHQI/AAAAAAAAAyw/XDANIU60xWs65t67832XgvGzeLDOaec9gCLcBGAs/s1000/modul-matkul.JPG)
+<img src="https://1.bp.blogspot.com/-UpvYoRIguPA/WtLv0J20nzI/AAAAAAAAA9o/L35d_5rINUQdIATHWTIhCSLhIp6ZczwSQCLcBGAs/s1600/rekap.PNG">
+
 
 ##### 3.3.7.3 Spesifikasi Query
 
