@@ -555,4 +555,69 @@ Event :
 |-----------------------|
 | Form mahasiswa kosong |
 
+
+#### 3.3.2 Modul Dosen
+
+##### 3.3.2.1 Fungsi Modul
+
+| No | Fungsi | Jenis | Tabel Terkait |
+|----|--------|-------|---------------|
+| 1  |        |       |               |
+| 2  |        |       |               |
+| 3  |        |       |               |
+| 4  |        |       |               |
+| 5  |        |       |               |
+| 6  |        |       |               |
+| 7  |        |       |               |
+| 8  |        |       |               |
+| 9  |        |       |               |
+
+##### 3.3.2.2 Spesifikasi Layar Utama
+
+<img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg">
+
+##### 3.3.2.3 Spesifikasi Query
+
+| ID Query | Deskripsi             | Ekspresi Query                                                        |
+|----------|-----------------------|-----------------------------------------------------------------------|
+| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
+| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
+| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+
+##### 3.3.2.4 Spesifikasi Field Data Layar
+
+| Label    | Field          | Tabel/Query | Validasi | Keterangan |
+|----------|----------------|-------------|----------|------------|
+| nama_mhs | nama_mahasiswa |             |          |            |
+| nim      | nim            |             |          |            |
+| kelas    | id_kelas       |             |          |            |
+
+##### 3.3.2.5 Spesifikasi Objek-objek pada Layar
+
+| id_objek     | Jenis           | keterangan |
+|--------------|-----------------|------------|
+| nm_mahasiswa | Input type Text |            |
+| nim          | Input type Text |            |
+| kelas        | Select          |            |
+
+##### 3.3.2.6 Spesifikasi Proses/Algoritma
+
+<id_proses> :..... <br>
+Objek Terkait : nm_mahasiswa, nim, kelas <br>
+Event :
+
+| Inisial State (IS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
+| Final State (FS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+| Spesifikasi Proses/Algoritma |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
 ### 3.4 Matriks Keturunan
