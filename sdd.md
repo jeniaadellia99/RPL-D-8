@@ -752,17 +752,11 @@ Event : Tambah Ruangan
 
 ##### 3.3.5.1 Fungsi Modul
 
-| No | Fungsi | Jenis | Tabel Terkait |
-|----|--------|-------|---------------|
-| 1  |        |       |               |
-| 2  |        |       |               |
-| 3  |        |       |               |
-| 4  |        |       |               |
-| 5  |        |       |               |
-| 6  |        |       |               |
-| 7  |        |       |               |
-| 8  |        |       |               |
-| 9  |        |       |               |
+| No | Fungsi        | Jenis           | Tabel Terkait | Kategori |
+|----|---------------|-----------------|---------------|----------|
+| 1  | Input Jadwal  | Input type file | jadwal        | WEB      |
+| 2  | Update Jadwal | Input type file | jadwal        | WEB      |
+| 3  | Lihat Jadwal  | Button Info     | jadwal        | WEB      |
 
 ##### 3.3.5.2 Spesifikasi Layar Utama
 
@@ -770,11 +764,10 @@ Event : Tambah Ruangan
 
 ##### 3.3.5.3 Spesifikasi Query
 
-| ID Query | Deskripsi             | Ekspresi Query                                                        |
-|----------|-----------------------|-----------------------------------------------------------------------|
-| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
-| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
-| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+| ID Query | Deskripsi             | Ekspresi Query                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|----------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| QRY-01   | Input Jadwal          | INSERT INTO jadwal SET thn_ajaran      = "$thn_ajrn",                                                id_kelas          =" $id_kelas",                                               id_ruangan     ="$id_ruangan",                                              waktu_mulai  ="$wkt_mulai",                                               waktu_selesai = "$wkt_selesai",                                              hari                 = "$hari"; |
+| QRY-03   | Update Data Mahasiswa | UPDATE jadwal SET thn_ajaran      = "$thn_ajrn",                                     id_kelas          = " $id_kelas",                                     id_ruangan     ="$id_ruangan",                                     waktu_mulai  ="$wkt_mulai",                                     waktu_selesai = "$wkt_selesai",                                     hari                 = "$hari";                                                      |
 
 ##### 3.3.5.4 Spesifikasi Field Data Layar
 
