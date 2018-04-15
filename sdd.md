@@ -458,12 +458,14 @@ DFD Level 1 Proses 8 menjelaskan tentang alur data ruangan
 
 ##### 3.3.1.1 Fungsi Modul
 
-| No | Fungsi | Jenis | Tabel Terkait |
-|----|--------|-------|---------------|
-| 1  | Input Data Mahasiswa | Import File   | mahasiswa    |
-| 2  | Update Data Mahasiswa  | Import File atau Form Modal      |  mahasiswa  |
-| 3  | Delete Data Mahasiswa       | Button Warning      |  mahasiswa    |
-| 4  | Menampilkan Data Mahasiswa       | Tabel  | mahasiswa  |
+| No | Fungsi                     | Jenis                       | Tabel Terkait | Kategori |
+|----|----------------------------|-----------------------------|---------------|----------|
+| 1  | Input Data Mahasiswa       | Import File                 | mahasiswa     | WEB      |
+| 2  | Update Data Mahasiswa      | Import File atau Form Modal | mahasiswa     | WEB      |
+| 3  | Delete Data Mahasiswa      | Button Warning              | mahasiswa     | WEB      |
+| 4  | Menampilkan Data Mahasiswa | Tabel                       | mahasiswa     | WEB      |
+| 5  | Scan                       | ButtonView                  | rekap         | Android  |
+| 6  | Lihat Jadwal               | ButtonView                  | jadwal        | Android  |
 
 
 ##### 3.3.1.2 Spesifikasi Layar Utama
