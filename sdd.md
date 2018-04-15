@@ -624,17 +624,12 @@ Event :
 
 ##### 3.3.3.1 Fungsi Modul
 
-| No | Fungsi | Jenis | Tabel Terkait |
-|----|--------|-------|---------------|
-| 1  |        |       |               |
-| 2  |        |       |               |
-| 3  |        |       |               |
-| 4  |        |       |               |
-| 5  |        |       |               |
-| 6  |        |       |               |
-| 7  |        |       |               |
-| 8  |        |       |               |
-| 9  |        |       |               |
+| No | Fungsi            | Jenis          | Tabel Terkait | Kategori |
+|----|-------------------|----------------|---------------|----------|
+| 1  | Input Data Kelas  | Form Modal     | kelas         | WEB      |
+| 2  | Update Data Kelas | Form Modal     | kelas         | WEB      |
+| 3  | Delete Data Kelas | Button Warning | kelas         | WEB      |
+| 4  | Lihat Data Kelas  | Tabel          | kelas         | WEB      |
 
 ##### 3.3.3.2 Spesifikasi Layar Utama
 
@@ -642,27 +637,29 @@ Event :
 
 ##### 3.3.3.3 Spesifikasi Query
 
-| ID Query | Deskripsi             | Ekspresi Query                                                        |
-|----------|-----------------------|-----------------------------------------------------------------------|
-| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
-| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
-| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+| ID Query | Deskripsi         | Ekspresi Query                                                    |
+|----------|-------------------|-------------------------------------------------------------------|
+| QRY-09   | Input Data Kelas  | INSERT INTO kelas SET nama_kelas="$nm_kelas", jenjang="$jenjang"; |
+| QRY-10   | Delete Data Kelas | DELETE FROM kelasWHERE id_kelas="$id";                            |
+| QRY-11   | Update Data Kelas | UPDATE kelas SET nama_kelas="$nm_kelas", jenjang="$jenjang";      |
+| QRY-12   | Lihat Data Kelas  | SELECT * FROM kelas;                                              |
 
 ##### 3.3.3.4 Spesifikasi Field Data Layar
 
-| Label    | Field          | Tabel/Query | Validasi | Keterangan |
-|----------|----------------|-------------|----------|------------|
-| nama_mhs | nama_mahasiswa |             |          |            |
-| nim      | nim            |             |          |            |
-| kelas    | id_kelas       |             |          |            |
+| Label      | Field    | Tabel/Query | Validasi         | Keterangan                                                     |
+|------------|----------|-------------|------------------|----------------------------------------------------------------|
+| id_kelas   | id_kelas | kelas       | -                | Primary key dan diinputkan otomatis oleh sistem                |
+| nm_kelas   | nm_kelas | kelas       | required, string | nama kelas dimasukan manual oleh admin                         |
+| jenjang    | jenjang  | kelas       | -                | jenjang dipilih oleh admin dan sudah ada pilihanya pada sistem |
+| dosen_wali | id_dosen | dosen       | -                | forigen key yang di ambil dari tabel dosen                     |
 
 ##### 3.3.3.5 Spesifikasi Objek-objek pada Layar
 
-| id_objek     | Jenis           | keterangan |
-|--------------|-----------------|------------|
-| nm_mahasiswa | Input type Text |            |
-| nim          | Input type Text |            |
-| kelas        | Select          |            |
+| id_objek   | Jenis           | keterangan    | kategori |
+|------------|-----------------|---------------|----------|
+| nm_kelas   | Input type Text | Nama Kelas    | WEB      |
+| jenjang    | Select          | Jenjang kelas | WEB      |
+| dosen_wali | Select          | Dosen wali    | WEB      |
 
 ##### 3.3.3.6 Spesifikasi Proses/Algoritma
 
@@ -672,16 +669,18 @@ Event :
 
 | Inisial State (IS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Form kelas kosong |
 
 
 | Final State (FS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Form kelas diupdate dengan data yang baru |
 
 | Spesifikasi Proses/Algoritma |
 |-----------------------|
-| Form mahasiswa kosong |
+| IF data kelas sudah ada|
+| THEN data tidak di masukan dan ulang input|
+| ELSE masukan data ke database dan update data kelas yang lama|
 
 
 #### 3.3.4 Modul Ruangan
