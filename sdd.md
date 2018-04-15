@@ -976,17 +976,11 @@ Event :
 
 ##### 3.3.8.1 Fungsi Modul
 
-| No | Fungsi | Jenis | Tabel Terkait |
-|----|--------|-------|---------------|
-| 1  |        |       |               |
-| 2  |        |       |               |
-| 3  |        |       |               |
-| 4  |        |       |               |
-| 5  |        |       |               |
-| 6  |        |       |               |
-| 7  |        |       |               |
-| 8  |        |       |               |
-| 9  |        |       |               |
+| No | Fungsi             | Jenis             | Tabel Terkait |
+|----|--------------------|-------------------|---------------|
+| 1  | Login Admin        | Form Login        | user          |
+| 2  | Register Dosen     | Register Activity | user          |
+| 3  | Register Mahasiswa | Register Activity | user          |
 
 ##### 3.3.8.2 Spesifikasi Layar Utama
 
@@ -994,46 +988,52 @@ Event :
 
 ##### 3.3.8.3 Spesifikasi Query
 
-| ID Query | Deskripsi             | Ekspresi Query                                                        |
-|----------|-----------------------|-----------------------------------------------------------------------|
-| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
-| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
-| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+| ID Query | Deskripsi          | Ekspresi Query                                                          |
+|----------|--------------------|-------------------------------------------------------------------------|
+| QRY-25   | Login Admin        | SELECT * FROM user WHERE username="$username" AND password="$password"; |
+| QRY-26   | Register Dosen     | INSERT INTO user SET username="$nip", mac="$mac", level="dosen";        |
+| QRY-27   | Register Mahasiswa | INSERT INTO user SET username="$nim", mac="$mac", level="mahasiswa";    |
 
 ##### 3.3.8.4 Spesifikasi Field Data Layar
 
-| Label    | Field          | Tabel/Query | Validasi | Keterangan |
-|----------|----------------|-------------|----------|------------|
-| nama_mhs | nama_mahasiswa |             |          |            |
-| nim      | nim            |             |          |            |
-| kelas    | id_kelas       |             |          |            |
+| Label    | Field    | Tabel/Query | Validasi         | Keterangan                         | keterangan |
+|----------|----------|-------------|------------------|------------------------------------|------------|
+| username | username | user        | required, string | username untuk admin               | WEB        |
+| password | password | user        | required, string | password untuk admin               | WEB        |
+| nip      | username | dosen       | required, string | username untuk dosen               | Android    |
+| nim      | username | mahasiswa   | required, string | username untuk mahasiswa           | Android    |
+| mac      | password | user        | required, string | password untuk dosen dan mahasiswa | Android    |
 
 ##### 3.3.8.5 Spesifikasi Objek-objek pada Layar
 
-| id_objek     | Jenis           | keterangan |
-|--------------|-----------------|------------|
-| nm_mahasiswa | Input type Text |            |
-| nim          | Input type Text |            |
-| kelas        | Select          |            |
+| id_objek | Jenis               | keterangan                               |
+|----------|---------------------|------------------------------------------|
+| username | Input type Text     | username admin                           |
+| password | Input type password | password admin                           |
+| nim      | EditText            | nim mahasiswa sebagai username           |
+| nip      | EditText            | nip dosen sebagai username               |
+| mac      | EditText            | mac sebagai password dosen dan mahasiswa |
 
 ##### 3.3.8.6 Spesifikasi Proses/Algoritma
 
-<id_proses> :..... <br>
-Objek Terkait : nm_mahasiswa, nim, kelas <br>
-Event :
+OP01, OP02 : Register Dosen, Register Mahasiswa <br>
+Objek Terkait : nim, nip, mac <br>
+Event : Register Dosen, Register Mahasiswa
 
 | Inisial State (IS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Device Belum Terdaftar |
 
 
 | Final State (FS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Device sudah terdaftar |
 
 | Spesifikasi Proses/Algoritma |
 |-----------------------|
-| Form mahasiswa kosong |
+| IF informasi device belum terdaftar di database |
+| THEN munculkan activity register |
+| ELSE masuk ke halaman utama |
 
 
 #### 3.3.9 Modul Scan
