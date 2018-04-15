@@ -490,8 +490,8 @@ DFD Level 1 Proses 8 menjelaskan tentang alur data ruangan
 | Label    | Field          | Tabel/Query | Validasi                                     | Keterangan                                                                                                                     |
 |----------|----------------|-------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | id_mhs   | id_mhs         | mahasiswa   | -                                            | primary key dan diinputkan otomatis oleh sistem                                                                                |
-| nama_mhs | nama_mahasiswa | mahasiswa   | required|regex:/^[a-zA-Z]+$/u|string|max:255 | nama mahasiswa diinputkan manual oleh admin                                                                                    |
-| nim      | nim            | mahasiswa   | required|string|max:7|min:7                  | nim mahasiswa diinputkan manual oleh admin, inputkan harus angka namun disimpan dalam string maksimal 7 dan minimal 7 karakter |
+| nama_mhs | nama_mahasiswa | mahasiswa   | required, regex:/^[a-zA-Z]+$/u, string, max:255 | nama mahasiswa diinputkan manual oleh admin                                                                                    |
+| nim      | nim            | mahasiswa   | required, string, max:7, min:7                  | nim mahasiswa diinputkan manual oleh admin, inputkan harus angka namun disimpan dalam string maksimal 7 dan minimal 7 karakter |
 | kelas    | id_kelas       | kelas       | -                                            | forigen key yang di ambil dari kelas menandakan mahasiswa ini memiliki kelas tersebut dan ini dipilih oleh admin               |
 
 ##### 3.3.1.5 Spesifikasi Objek-objek pada Layar
