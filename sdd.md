@@ -981,7 +981,7 @@ Event :
 
 ##### 3.3.9.2 Spesifikasi Layar Utama
 
-<img src="https://4.bp.blogspot.com/-liHMlfLP7xc/WtLV1Qd2qMI/AAAAAAAAA9Q/HoEzqNOb-pYoAiqbN579AsihEgTF2BiVQCLcBGAs/s1600/Screenshot_2018-04-15-11-19-44-557_ga.reang.www.materialdesign.png">
+<img src="https://4.bp.blogspot.com/-liHMlfLP7xc/WtLV1Qd2qMI/AAAAAAAAA9Q/HoEzqNOb-pYoAiqbN579AsihEgTF2BiVQCLcBGAs/s1600/Screenshot_2018-04-15-11-19-44-557_ga.reang.www.materialdesign.png" width="50%" height="50%">
 
 ##### 3.3.9.3 Spesifikasi Query
 
