@@ -1027,7 +1027,7 @@ Event :
 | Form mahasiswa kosong |
 
 
-#### 3.3.2 Modul Dosen
+#### 3.3.2 Modul Kelas 
 
 ##### 3.3.2.1 Fungsi Modul
 
@@ -1045,7 +1045,7 @@ Event :
 
 ##### 3.3.2.2 Spesifikasi Layar Utama
 
-<img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg">
+<img src="https://2.bp.blogspot.com/-bMQFn6qQd9c/WtLz_7gR2PI/AAAAAAAAA90/cZICjrn9CCISExBxqMhtD9jInwaVUrkugCLcBGAs/s1600/kelas.PNG">
 
 ##### 3.3.2.3 Spesifikasi Query
 
