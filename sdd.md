@@ -1101,4 +1101,18 @@ Event :
 
 
 
-### 3.4 Matriks Keturunan
+### 3.4 Matriks Kerunutan
+
+| ID Kebutuhan    | Modul          | Keterangan |
+|-----------------|----------------|--------------------------|
+| mac address	  | Otentikasi	   | untuk validasi agar bisa mengakses untuk melakukan presensi menggunakan mac address dari masing-masing device|
+| id_mata_kuliah  | mata_kuliah    | menampilkan data mata kuliah yang akan dilakukan oleh dosen dan mahasiswa|
+| id_ruangan 	  | ruangan 	   | menampilkan ruangan mana yang akan ditempati untuk proses pembelajaran|
+| id_kelas 		  | kelas 		   | menmapilkan data kelas yang akan diajar oleh dosen|
+| id_dosen 		  | dosen  		   | dosen yang mengajar dan membuka presensi|
+| id_jadwal 	  | jadwal  	   | menampilkan jadwal kuliah untuk mahasiswa dan dosen|
+| scan 			  | Scan 	  	   | melakukan scan presensi |
+| id_mahasiswa    | mahasiswa  	   | mahasiswa melakukan scan dan mengirim data kehadiran ke dosen dan admin|
+| id_rekap        | rekap          | menmapilkan hasil rekap absen, presensi dan keterlambatan|
+
+
