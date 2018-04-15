@@ -687,64 +687,65 @@ Event : Tambah Kelas
 
 ##### 3.3.4.1 Fungsi Modul
 
-| No | Fungsi | Jenis | Tabel Terkait |
-|----|--------|-------|---------------|
-| 1  |        |       |               |
-| 2  |        |       |               |
-| 3  |        |       |               |
-| 4  |        |       |               |
-| 5  |        |       |               |
-| 6  |        |       |               |
-| 7  |        |       |               |
-| 8  |        |       |               |
-| 9  |        |       |               |
+| No | Fungsi              | Jenis          | Tabel Terkait | Kategori |
+|----|---------------------|----------------|---------------|----------|
+| 1  | Input Data Ruangan  | Form Modal     | ruangan       | WEB      |
+| 2  | Update Data Ruangan | Form Modal     | ruangan       | WEB      |
+| 3  | Delete Ruangan      | Button Warning | ruangan       | WEB      |
+| 4  | Lihat Data Ruangan  | Tabel          | ruangan       | WEB      |
+| 6  | Generate QR-Code    | Button Success | ruangan       | WEB      |
 
 ##### 3.3.4.2 Spesifikasi Layar Utama
 
-![modul-ruangan](https://2.bp.blogspot.com/-3TDWDJEdsjU/WtHTZlf-_bI/AAAAAAAAAy8/yMR_scn0YI0XJFlI53owsPJKhyi7SFLtgCLcBGAs/s1000/modul-ruangan.JPG)
+![modul-ruangan](https://2.bp.blogspot.com/-Yn_cWmRCfs0/WtMcC2NVr5I/AAAAAAAAA-k/sUmlBDBSr00YsWsb5CiIHBPsyysOngxqwCLcBGAs/s1600/ruangan.PNG)
 
 ##### 3.3.4.3 Spesifikasi Query
 
-| ID Query | Deskripsi             | Ekspresi Query                                                        |
-|----------|-----------------------|-----------------------------------------------------------------------|
-| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
-| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
-| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+| ID Query | Deskripsi           | Ekspresi Query                                                                                    |
+|----------|---------------------|---------------------------------------------------------------------------------------------------|
+| QRY-13   | Input Data Ruangan  | INSERT INTO ruangan SET nama_ruangan="$nm_ruangan"; |
+| QRY-14   | Delete Data Ruangan | DELETE FROM ruangan WHERE id_ruangan="$id";                                                       |
+| QRY-15   | Update Data Ruangan | UPDATE ruanganSET nama_ruangan="$nm_ruangan";       |
+| QRY-16   | Lihat Data Ruangan  | SELECT * FROM ruangan;                                                                            |
 
 ##### 3.3.4.4 Spesifikasi Field Data Layar
 
-| Label    | Field          | Tabel/Query | Validasi | Keterangan |
-|----------|----------------|-------------|----------|------------|
-| nama_mhs | nama_mahasiswa |             |          |            |
-| nim      | nim            |             |          |            |
-| kelas    | id_kelas       |             |          |            |
+| Label      | Field          | Tabel/Query | Validasi         | Keterangan                                                                    |
+|------------|----------------|-------------|------------------|-------------------------------------------------------------------------------|
+| id_ruangan | id_ruangan     | ruangan     | -                | Primary key yang otomatis diinputkan oleh sistem dan sebagai isi dari QR Code |
+| nm_ruangan | nama_mahasiswa | raangan     | required, string | Nama ruangan diinputkan manual oleh admin                                     |
 
 ##### 3.3.4.5 Spesifikasi Objek-objek pada Layar
 
-| id_objek     | Jenis           | keterangan |
-|--------------|-----------------|------------|
-| nm_mahasiswa | Input type Text |            |
-| nim          | Input type Text |            |
-| kelas        | Select          |            |
+| id_objek         | Jenis           | keterangan                                                   | Kategori |
+|------------------|-----------------|--------------------------------------------------------------|----------|
+| nm_ruangan       | Input type Text | nama ruangan                                                 | WEB      |
+| btnQRCode        | Button Info     | Tombol untuk mengenerate QR Code                             | WEB      |
+| btnTmbhRuangan   | Button Primary  | Tombol yang digunakan untuk memunculkan modal tambah ruangan | WEB      |
+| btnEditRuangan   | Button Success  | Tombol yang digunakan untuk memunculkan modal edit ruangan   | WEB      |
+| btnDeleteRuangan | Button Warning  | Tombol yang digunakan untuk menghapus ruangan                | WEB      |
+| btnClose         | Button Default  | Tombol untuk membatalkan input ruangan                       | WEB      |
 
 ##### 3.3.4.6 Spesifikasi Proses/Algoritma
 
-<id_proses> :..... <br>
-Objek Terkait : nm_mahasiswa, nim, kelas <br>
-Event :
+OP20 :Tambah Ruangan <br>
+Objek Terkait : nm_ruangan, btnTmbhRuangan<br>
+Event : Tambah Ruangan
 
 | Inisial State (IS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Form ruangan kosong |
 
 
 | Final State (FS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Form riamgam diupdate dengan data yang baru |
 
 | Spesifikasi Proses/Algoritma |
 |-----------------------|
-| Form mahasiswa kosong |
+| IF data ruangan sudah ada|
+| THEN data tidak di masukan dan ulang input|
+| ELSE masukan data ke database dan update data ruangan yang lama|
 
 
 #### 3.3.5 Modul Jadwal
