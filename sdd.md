@@ -62,42 +62,11 @@ Proses presensi yang dilakukan dengan cara dosen harus membuka akses scan kode b
 
 ### 1.5 Referensi
 
-IEEE, IEEE Draft Standard for Software Design Descriptions. IEEE P1 01 6/D5.0; 1 2 December 2005
+IEEE, <i>IEEE Draft Standard for Software Design Descriptions. </i> IEEE P1 01 6/D5.0; 1 2 December 2005
 
 Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
 
 ### 1.6 Ikhtisar Dokumen
-
-##### BAB 1. Pendahulan
-##### 1.1 		Tujuan Penulisan Dokumen
-##### 1.2 		Lingkup Masalah
-##### 1.3 		Definisi dan Istilah
-##### 1.4		Aturan Penamaan dan Penomoran
-##### 1.5		Referensi
-##### 1.6		Ikhtisar Dokumen
-
-##### BAB 2. 	Deskripsi perancangan Global
-##### 2.1		Rancangan Lingkungan Implementasi
-##### 2.2		Deskripsi Data
-##### 2.2.1		Definisi Domain/Type
-##### 2.2.2		Conceptual
-##### 2.2.3		Physical Data Model
-##### 2.2.4		Daftar Tabel Aplikasi
-
-##### BAB 3.	Deskripsi Perancangan Tabel
-##### 3.1		Deskripsi Rinci Tabel
-##### 3.1.1		Tabel Nama
-##### 3.1.2		Tabel Detail	
-##### 3.2		Deskripsi Rinci Modul
-##### 3.2.1		Modul
-##### 3.2.1.1	Fungsi Modul
-##### 3.2.1.2	Spesifikasi Layar Utama
-##### 3.2.1.3	Spesifikasi Query (jka ada)
-##### 3.2.1.4	Spesifikasi Field Data Layar
-##### 3.2.1.5	Spesifikasi Objek-Objek pada Layar
-##### 3.2.1.5	Spesifikasi Proses/Algoitma
-
-##### BAB 3.3	Matriks keturunan
 
 
 # BAB II DESKRIPSI PERANCANGAN GLOBAL
@@ -392,15 +361,15 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 | No | Nama Modul  | Keterangan |
 |----|-------------|------------|
-| 1  | Mahasiswa   |            |
-| 2  | Dosen       |            |
-| 3  | Mata Kuliah |            |
-| 4  | Jadwal      |            |
-| 5  | Ruangan     |            |
-| 6  | Rekap       |            |
-| 7  | Otentikasi  |            |
-| 8  | Kelas       |            |
-| 9  | Scan        |            |
+| 1  | Mahasiswa   | Modul yang mencakup input, edit, delete dan update  semua data mahasiswa  |
+| 2  | Dosen       | Modul yang mencakup input, edit, delete, dan update semua data dosen  |
+| 3  | Mata Kuliah | Modul yang mencakup input, edit, dekete, dan update semua data Mata Kuliah |
+| 4  | Jadwal      | Modul yang digunakan untuk membuat jadwal, mendownload jadwal, dan menampilkan jadwal |
+| 5  | Ruangan     | Modul yang mencakup input, edit, dekete, dan update semua data Mata Kuliah           |
+| 6  | Rekap       | Modul yang digunakan untuk mendata semua hasil presensi, absensi, dan kompensasi            |
+| 7  | Otentikasi  | Modul yang di gunakan untuk vailidasi akses masuk ke sistem Q-Press baik di web maupun di android |
+| 8  | Kelas       | Modul yang mencakup input, edit, dekete, dan update semua data kelas           |
+| 9  | Scan        | Modul yang digunakan untuk mendata presensi yang di ambil pada saat mata kuliah di mulai   |
 
 
 # 3. Deskripsi Perancangan Rinci
@@ -409,74 +378,67 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 <p align="justify">Diagram konteks adalah diagram yang terdiri dari suatu proses dan menggambarkan ruang lingkup suatu sistem. Diagram konteks merupakan level tertinggi dari DFD yang menggambarkan seluruh input ke dalam sistem atau output dari sistem yang memberi gambaran tentang keseluruhan sistem. Sistem dibatasi oleh boundary (Digambarkan dengan garis putus - putus). Dalam diagram konteks hanya ada satu proses, tidak boleh ada store dalam diagram konteks. Berikut ini adalah gambar diagram konteks dari sistem Aplikasi Q-Press.</p>
 
-![enter image description here](https://4.bp.blogspot.com/-ryglZ2Z6quA/WqoUoke0ITI/AAAAAAAAA8M/y5qzYs-CwMwnnReNo_klMpJ5sGQnwy43wCLcBGAs/s1600/diagram%2Bkonteks.jpg)
+![diagram-konteks](https://3.bp.blogspot.com/-ENgHjQKp8IE/WtHJM6mzcYI/AAAAAAAAAx0/2sP3lzvUyCgOZlfgJ7nxGOokuGfGEd9hQCLcBGAs/s600/1-konteks.JPG)
 
-#### 3.1.1 DFD Level 0
+#### 3.1.1 DFD Level 0 
 
 <p align="justify">Data Flow Diagram atau biasa disingkat dengan DFD adalah salah satu cara untuk memodelkan proses dalam analisis dan perancangan perangkat lunak, khususnya dengan pendekatan terstruktur.  Berikut DFD Level 0 Aplikasi Q-Press.</p>
 
-![enter image description here](https://4.bp.blogspot.com/-N0GXfhsMyZ4/Wrf0wSkKLJI/AAAAAAAAAvc/P7QC6DdyNZAP8OoRqHADbVone2KQ8k_HQCLcBGAs/s1600/2-level+0.JPG)
+![level 0](https://1.bp.blogspot.com/-vcaDv1shpM4/WtHMIL0-zdI/AAAAAAAAAyI/bXa2eP9orWAvL-FPYW68tLhFZ1i5S_lOwCLcBGAs/s1600/2-level+0.JPG)
 
-#### 3.1.2 DFD Level 1 : Proses 1
+#### 3.1.2 DFD Level 1 : Proses 1 - Otentikasi
 
 DFD Level 1 ini penjelasan dari DFD Level 0 yang sebelumnya, berikut DFD level 1 yang menjelaskan Proses 1 Daftar akun. Data yang dikirim oleh mahasiswa dan dosen akan di vailidasi terlebih darhulu
 
-![enter image description here](https://4.bp.blogspot.com/-YygLIn-0SCM/WqO9dHZ0VUI/AAAAAAAAA60/V8wdqykbIV0R57rqzNY2eES-E5hPFbGogCLcBGAs/s1600/dfd+level+1++Proses+1.jpg)
+![level 1 proses1](https://1.bp.blogspot.com/-sBpCjLbLDro/WtHLOwHeYKI/AAAAAAAAAyA/1j0un0s7eR4xkDl2Z-Q76rYUSuMgxjVOACLcBGAs/s600/3-Level+1-proses+1.JPG)
 
-#### 3.1.3 DFD Level 1 : Proses 2
+#### 3.1.3 DFD Level 1 : Proses 2 - Data Jadwal
 
 Pada DFD Level 1 ini menjelaskan proses 2 dari DFD Level 0. Admin sebelumnya mengolah jadwal lalu akan di tampilkan ke dosen dan mahasiswa, dosen bisa mengubah jadwal dan melihat jadwal, dan mahasiswa  hanya bisa melihat jadwal.
 
-![enter image description here](https://3.bp.blogspot.com/-knvvADDrpnA/WqO9dDdiaKI/AAAAAAAAA64/3fUCnuOp15AZiaOpkSbs5Jvo_lq72sXmACLcBGAs/s1600/dfd+level+1+proses+2.jpg)
+![enter image description here](https://3.bp.blogspot.com/-knvvADDrpnA/WqO9dDdiaKI/AAAAAAAAA64/3fUCnuOp15AZiaOpkSbs5Jvo_lq72sXmACLcBGAs/s600/dfd+level+1+proses+2.jpg)
 
-#### 3.1.4 DFD Level 1 : Proses 3
+#### 3.1.4 DFD Level 1 : Proses 3 - Data Scan
 
 Pada DFD Level 1 ini menjelaskan Proses 3 yang ada di DFD Level 0. Mahasiswa baru bisa scan setelah dosen mengaktifkan sistem scan kemudian mahasiswa yang berhasil scan akan terlihat di list scan yang ada di dosen
 
-![enter image description here](https://2.bp.blogspot.com/-5zEGPb69OvE/WqO9eHQwwhI/AAAAAAAAA7A/MXoRub7UMmM1y20-53VhTTRD_CM6C52qwCLcBGAs/s1600/dfd+level+1+proses+3.jpg)
+![enter image description here](https://2.bp.blogspot.com/-5zEGPb69OvE/WqO9eHQwwhI/AAAAAAAAA7A/MXoRub7UMmM1y20-53VhTTRD_CM6C52qwCLcBGAs/s600/dfd+level+1+proses+3.jpg)
 
-#### 3.1.5 DFD Level 1 : Proses 4
+#### 3.1.5 DFD Level 1 : Proses 4 - Data Kelas
 
 DFD Level 1 menjelaskan proses 4 yang tersapat pada DFD level 0. Dimana Admin dapat memanagement Data Kelas seperti Mengerdit, Menghapus dan Menambahkan Kelas.
 
-![dfd4datakelas](https://2.bp.blogspot.com/-3gg_8m71oug/WqUxAyMeuiI/AAAAAAAAAuE/4cz07FG6NaIkYwLIV0coPfNZvsQlsTc5ACLcBGAs/s1600/dfd+data+kelas.JPG)
+![dfd4datakelas](https://2.bp.blogspot.com/-3gg_8m71oug/WqUxAyMeuiI/AAAAAAAAAuE/4cz07FG6NaIkYwLIV0coPfNZvsQlsTc5ACLcBGAs/s600/dfd+data+kelas.JPG)
 
-#### 3.1.6 DFD Level 1 : Proses 5
+#### 3.1.6 DFD Level 1 : Proses 5 - Data Mahasiswa
 
 DFD Level 1 menjelaskan proses 5 yang terdapat pada DFD level 0. Admin dapat mengelola atau memanagement Data Mahasiswa seperti menghapus, mengedit dan menambahkan Data Mahasiswa. 
 
-![dfdmhs](https://1.bp.blogspot.com/-vxcmFP-msAQ/WqUywuuFZOI/AAAAAAAAAuQ/V_PkOcC95toual3f7rIxm-jAj0xb3S7xwCLcBGAs/s1600/dfd+data+mhs.JPG)
+![dfdmhs](https://1.bp.blogspot.com/-vxcmFP-msAQ/WqUywuuFZOI/AAAAAAAAAuQ/V_PkOcC95toual3f7rIxm-jAj0xb3S7xwCLcBGAs/s600/dfd+data+mhs.JPG)
 
-#### 3.1.7 DFD Level 1 : Proses 6
+#### 3.1.7 DFD Level 1 : Proses 6 - Data Dosen
 
 DFD Level 1 menjelaskan proses 6 yang terdapat pada DFD level 0. Admin dapat mengelola atau memanagement Data Dosen seperti menghapus, mengedit dan menambahkan Data Dosen.
 
-![dfddatadosen](https://3.bp.blogspot.com/-wYcbP3bMLCI/WqUz3qAhsbI/AAAAAAAAAuY/TLjr8zLgsJAd_FacmGzjkYVHACiBlsHeQCLcBGAs/s1600/dfd+data+dosen.JPG)
+![dfddatadosen](https://3.bp.blogspot.com/-wYcbP3bMLCI/WqUz3qAhsbI/AAAAAAAAAuY/TLjr8zLgsJAd_FacmGzjkYVHACiBlsHeQCLcBGAs/s600/dfd+data+dosen.JPG)
 
-#### 3.1.8 DFD Level 1 : Proses 7
+#### 3.1.8 DFD Level 1 : Proses 7 - Rekap
 
 DFD Level 1 menjelaskan proses 7 yang terdapat pada DFD level 0. Dimana admin dan dosen dapat mendownload data Rekap Kehadiran Mahasiswa.
 
-![enter image description here](https://2.bp.blogspot.com/-wI-1Wwn2Apo/WqU6kLZIgqI/AAAAAAAAAuo/4cqL1f3YvcEL_0O1Jvr0NhTKSSVvbu97ACLcBGAs/s1600/dfd+rekap.JPG)
+![enter image description here](https://2.bp.blogspot.com/-wI-1Wwn2Apo/WqU6kLZIgqI/AAAAAAAAAuo/4cqL1f3YvcEL_0O1Jvr0NhTKSSVvbu97ACLcBGAs/s600/dfd+rekap.JPG)
 
-#### 3.1.9 DFD Level 1 : Proses 8
+#### 3.1.9 DFD Level 1 : Proses 8 - Data Mata Kuliah
 
 DFD Level 1 Proses 9 menjelaskan tentang mata kuliah
 
-![enter image description here](https://2.bp.blogspot.com/-fhVEsMZ2vvA/Wrf2T2duVcI/AAAAAAAAAvs/5w6e27EL9dQR9bstOabvFbVVxwbKgt5xACLcBGAs/s1600/9-Level+1-proses+8.JPG)
+![enter image description here](https://2.bp.blogspot.com/-fhVEsMZ2vvA/Wrf2T2duVcI/AAAAAAAAAvs/5w6e27EL9dQR9bstOabvFbVVxwbKgt5xACLcBGAs/s600/9-Level+1-proses+8.JPG)
 
-#### 3.1.10 DFD Level 1 : Proses 9
+#### 3.1.10 DFD Level 1 : Proses 9 - Data Ruangan
 
-DFD Level 1 Proses 8 menjelaskan tenang alur data ruangan
+DFD Level 1 Proses 8 menjelaskan tentang alur data ruangan
 
-![enter image description here](https://2.bp.blogspot.com/-8jYs6vOu_JY/Wrf150s97II/AAAAAAAAAvo/X7-eqRiYDQ0OrhCLM3FMMu4vTHjcp28cwCLcBGAs/s1600/10-Level+1-proses+9.JPG)
-
-#### 3.1.10 DFD Level 1 : Proses 10
-
-DFD Level 1 Proses 10 tentang alur data kompensasi
-
-![enter image description here](https://3.bp.blogspot.com/-5fvyyf5l6RA/Wrf29lz-ltI/AAAAAAAAAv4/o2ANKz73_BMA7f1_rWDWCtwuMdWHP01DACLcBGAs/s1600/12-Level+1-proses+10.JPG)
-
+![enter image description here](https://2.bp.blogspot.com/-8jYs6vOu_JY/Wrf150s97II/AAAAAAAAAvo/X7-eqRiYDQ0OrhCLM3FMMu4vTHjcp28cwCLcBGAs/s600/10-Level+1-proses+9.JPG)
 
 ### 3.2 Deskripsi Rinci Tabel
 
@@ -498,19 +460,15 @@ DFD Level 1 Proses 10 tentang alur data kompensasi
 
 | No | Fungsi | Jenis | Tabel Terkait |
 |----|--------|-------|---------------|
-| 1  |        |       |               |
-| 2  |        |       |               |
-| 3  |        |       |               |
-| 4  |        |       |               |
-| 5  |        |       |               |
-| 6  |        |       |               |
-| 7  |        |       |               |
-| 8  |        |       |               |
-| 9  |        |       |               |
+| 1  | Input Data Mahasiswa | Import File   | mahasiswa    |
+| 2  | Update Data Mahasiswa  | Import File atau Form Modal      |  mahasiswa  |
+| 3  | Delete Data Mahasiswa       | Button Warning      |  mahasiswa    |
+| 4  | Menampilkan Data Mahasiswa       | Tabel  | mahasiswa  |
+
 
 ##### 3.3.1.2 Spesifikasi Layar Utama
 
-<img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg">
+![modul-mhs](https://1.bp.blogspot.com/-EpXHD527vTA/WtHQrwMk1tI/AAAAAAAAAyU/8R0t9aq9_Jcf8xoQRKhtur7W6cZPP9cGgCLcBGAs/s1000/modul-mhs.JPG)
 
 ##### 3.3.1.3 Spesifikasi Query
 
@@ -519,6 +477,7 @@ DFD Level 1 Proses 10 tentang alur data kompensasi
 | QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
 | QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
 | QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+| QRY-04   | Lihat Data Mahasiswa  | SELECT * FROM mahasiswa;      										   |
 
 ##### 3.3.1.4 Spesifikasi Field Data Layar
 
@@ -532,11 +491,523 @@ DFD Level 1 Proses 10 tentang alur data kompensasi
 
 | id_objek     | Jenis           | keterangan |
 |--------------|-----------------|------------|
+| nm_mahasiswa | Input type Text | Nama Mahasiswa        |
+| nim          | Input type Text | NIM Mahasiswa         |
+| kelas        | Select          | Kelas yang di ikuti |
+
+##### 3.3.1.6 Spesifikasi Proses/Algoritma
+
+OP04 : Tambah Mahasiswa <br>
+Objek Terkait : nm_mahasiswa, nim, kelas <br>
+Event : Tambah mahasiswa
+
+| Inisial State (IS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
+| Final State (FS)    |
+|-----------------------|
+| Tabel mahasiswa di update dengan data yang baru |
+
+| Spesifikasi Proses/Algoritma |
+|-----------------------|
+| IF data mahasiswa sudah ada|
+| THEN data tidak di masukan dan ulang input|
+| ELSE masukan data ke database dan update data mahasiswa yang lama|
+
+#### 3.3.2 Modul Dosen
+
+##### 3.3.2.1 Fungsi Modul
+
+| No | Fungsi | Jenis | Tabel Terkait |
+|----|--------|-------|---------------|
+| 1  |        |       |               |
+| 2  |        |       |               |
+| 3  |        |       |               |
+| 4  |        |       |               |
+| 5  |        |       |               |
+| 6  |        |       |               |
+| 7  |        |       |               |
+| 8  |        |       |               |
+| 9  |        |       |               |
+
+##### 3.3.2.2 Spesifikasi Layar Utama
+
+![moduldosen](https://2.bp.blogspot.com/-5rg2Mufruw8/WtHR3Slj_bI/AAAAAAAAAyg/CkEuJfaLaWcgzkB4wEkOamnkO364zl_4QCLcBGAs/s1000/modul-dosen.JPG)
+
+##### 3.3.2.3 Spesifikasi Query
+
+| ID Query | Deskripsi             | Ekspresi Query                                                        |
+|----------|-----------------------|-----------------------------------------------------------------------|
+| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
+| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
+| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+
+##### 3.3.2.4 Spesifikasi Field Data Layar
+
+| Label    | Field          | Tabel/Query | Validasi | Keterangan |
+|----------|----------------|-------------|----------|------------|
+| nama_mhs | nama_mahasiswa |             |          |            |
+| nim      | nim            |             |          |            |
+| kelas    | id_kelas       |             |          |            |
+
+##### 3.3.2.5 Spesifikasi Objek-objek pada Layar
+
+| id_objek     | Jenis           | keterangan |
+|--------------|-----------------|------------|
 | nm_mahasiswa | Input type Text |            |
 | nim          | Input type Text |            |
 | kelas        | Select          |            |
 
-##### 3.3.1.6 Spesifikasi Proses/Algoritma
+##### 3.3.2.6 Spesifikasi Proses/Algoritma
+
+<id_proses> :..... <br>
+Objek Terkait : nm_mahasiswa, nim, kelas <br>
+Event :
+
+| Inisial State (IS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
+| Final State (FS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+| Spesifikasi Proses/Algoritma |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
+#### 3.3.3 Modul Data Kelas
+
+##### 3.3.3.1 Fungsi Modul
+
+| No | Fungsi | Jenis | Tabel Terkait |
+|----|--------|-------|---------------|
+| 1  |        |       |               |
+| 2  |        |       |               |
+| 3  |        |       |               |
+| 4  |        |       |               |
+| 5  |        |       |               |
+| 6  |        |       |               |
+| 7  |        |       |               |
+| 8  |        |       |               |
+| 9  |        |       |               |
+
+##### 3.3.3.2 Spesifikasi Layar Utama
+
+![modul-kelas](https://2.bp.blogspot.com/-YPzMIICMKuw/WtHVDCPExyI/AAAAAAAAAzU/6nnDNxPTVesLOAb1saLCjrNDiB70JuThQCLcBGAs/s1000/modul-kelas.JPG)
+
+##### 3.3.3.3 Spesifikasi Query
+
+| ID Query | Deskripsi             | Ekspresi Query                                                        |
+|----------|-----------------------|-----------------------------------------------------------------------|
+| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
+| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
+| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+
+##### 3.3.3.4 Spesifikasi Field Data Layar
+
+| Label    | Field          | Tabel/Query | Validasi | Keterangan |
+|----------|----------------|-------------|----------|------------|
+| nama_mhs | nama_mahasiswa |             |          |            |
+| nim      | nim            |             |          |            |
+| kelas    | id_kelas       |             |          |            |
+
+##### 3.3.3.5 Spesifikasi Objek-objek pada Layar
+
+| id_objek     | Jenis           | keterangan |
+|--------------|-----------------|------------|
+| nm_mahasiswa | Input type Text |            |
+| nim          | Input type Text |            |
+| kelas        | Select          |            |
+
+##### 3.3.3.6 Spesifikasi Proses/Algoritma
+
+<id_proses> :..... <br>
+Objek Terkait : nm_mahasiswa, nim, kelas <br>
+Event :
+
+| Inisial State (IS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
+| Final State (FS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+| Spesifikasi Proses/Algoritma |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
+#### 3.3.4 Modul Ruangan
+
+##### 3.3.4.1 Fungsi Modul
+
+| No | Fungsi | Jenis | Tabel Terkait |
+|----|--------|-------|---------------|
+| 1  |        |       |               |
+| 2  |        |       |               |
+| 3  |        |       |               |
+| 4  |        |       |               |
+| 5  |        |       |               |
+| 6  |        |       |               |
+| 7  |        |       |               |
+| 8  |        |       |               |
+| 9  |        |       |               |
+
+##### 3.3.4.2 Spesifikasi Layar Utama
+
+![modul-ruangan](https://2.bp.blogspot.com/-3TDWDJEdsjU/WtHTZlf-_bI/AAAAAAAAAy8/yMR_scn0YI0XJFlI53owsPJKhyi7SFLtgCLcBGAs/s1000/modul-ruangan.JPG)
+
+##### 3.3.4.3 Spesifikasi Query
+
+| ID Query | Deskripsi             | Ekspresi Query                                                        |
+|----------|-----------------------|-----------------------------------------------------------------------|
+| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
+| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
+| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+
+##### 3.3.4.4 Spesifikasi Field Data Layar
+
+| Label    | Field          | Tabel/Query | Validasi | Keterangan |
+|----------|----------------|-------------|----------|------------|
+| nama_mhs | nama_mahasiswa |             |          |            |
+| nim      | nim            |             |          |            |
+| kelas    | id_kelas       |             |          |            |
+
+##### 3.3.4.5 Spesifikasi Objek-objek pada Layar
+
+| id_objek     | Jenis           | keterangan |
+|--------------|-----------------|------------|
+| nm_mahasiswa | Input type Text |            |
+| nim          | Input type Text |            |
+| kelas        | Select          |            |
+
+##### 3.3.4.6 Spesifikasi Proses/Algoritma
+
+<id_proses> :..... <br>
+Objek Terkait : nm_mahasiswa, nim, kelas <br>
+Event :
+
+| Inisial State (IS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
+| Final State (FS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+| Spesifikasi Proses/Algoritma |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
+#### 3.3.5 Modul Jadwal
+
+##### 3.3.5.1 Fungsi Modul
+
+| No | Fungsi | Jenis | Tabel Terkait |
+|----|--------|-------|---------------|
+| 1  |        |       |               |
+| 2  |        |       |               |
+| 3  |        |       |               |
+| 4  |        |       |               |
+| 5  |        |       |               |
+| 6  |        |       |               |
+| 7  |        |       |               |
+| 8  |        |       |               |
+| 9  |        |       |               |
+
+##### 3.3.5.2 Spesifikasi Layar Utama
+
+![modul-jadwal](https://3.bp.blogspot.com/-74_-R4AGrTQ/WtHSS3foC-I/AAAAAAAAAyk/dkRmwlLXQzAL-19AO2Sm9aeeofKCU4rzgCLcBGAs/s1000/modul-jadwal.JPG)
+
+##### 3.3.5.3 Spesifikasi Query
+
+| ID Query | Deskripsi             | Ekspresi Query                                                        |
+|----------|-----------------------|-----------------------------------------------------------------------|
+| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
+| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
+| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+
+##### 3.3.5.4 Spesifikasi Field Data Layar
+
+| Label    | Field          | Tabel/Query | Validasi | Keterangan |
+|----------|----------------|-------------|----------|------------|
+| nama_mhs | nama_mahasiswa |             |          |            |
+| nim      | nim            |             |          |            |
+| kelas    | id_kelas       |             |          |            |
+
+##### 3.3.5.5 Spesifikasi Objek-objek pada Layar
+
+| id_objek     | Jenis           | keterangan |
+|--------------|-----------------|------------|
+| nm_mahasiswa | Input type Text |            |
+| nim          | Input type Text |            |
+| kelas        | Select          |            |
+
+##### 3.3.5.6 Spesifikasi Proses/Algoritma
+
+<id_proses> :..... <br>
+Objek Terkait : nm_mahasiswa, nim, kelas <br>
+Event :
+
+| Inisial State (IS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
+| Final State (FS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+| Spesifikasi Proses/Algoritma |
+|-----------------------|
+| Form mahasiswa kosong |
+
+#### 3.3.6 Modul Rekap
+
+##### 3.3.6.1 Fungsi Modul
+
+| No | Fungsi | Jenis | Tabel Terkait |
+|----|--------|-------|---------------|
+| 1  |        |       |               |
+| 2  |        |       |               |
+| 3  |        |       |               |
+| 4  |        |       |               |
+| 5  |        |       |               |
+| 6  |        |       |               |
+| 7  |        |       |               |
+| 8  |        |       |               |
+| 9  |        |       |               |
+
+##### 3.3.5.2 Spesifikasi Layar Utama
+
+<img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg">
+
+##### 3.3.6.3 Spesifikasi Query
+
+| ID Query | Deskripsi             | Ekspresi Query                                                        |
+|----------|-----------------------|-----------------------------------------------------------------------|
+| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
+| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
+| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+
+##### 3.3.6.4 Spesifikasi Field Data Layar
+
+| Label    | Field          | Tabel/Query | Validasi | Keterangan |
+|----------|----------------|-------------|----------|------------|
+| nama_mhs | nama_mahasiswa |             |          |            |
+| nim      | nim            |             |          |            |
+| kelas    | id_kelas       |             |          |            |
+
+##### 3.3.6.5 Spesifikasi Objek-objek pada Layar
+
+| id_objek     | Jenis           | keterangan |
+|--------------|-----------------|------------|
+| nm_mahasiswa | Input type Text |            |
+| nim          | Input type Text |            |
+| kelas        | Select          |            |
+
+##### 3.3.6.6 Spesifikasi Proses/Algoritma
+
+<id_proses> :..... <br>
+Objek Terkait : nm_mahasiswa, nim, kelas <br>
+Event :
+
+| Inisial State (IS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
+| Final State (FS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+| Spesifikasi Proses/Algoritma |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
+#### 3.3.7 Modul Mata Kuliah
+
+##### 3.3.7.1 Fungsi Modul
+
+| No | Fungsi | Jenis | Tabel Terkait |
+|----|--------|-------|---------------|
+| 1  |        |       |               |
+| 2  |        |       |               |
+| 3  |        |       |               |
+| 4  |        |       |               |
+| 5  |        |       |               |
+| 6  |        |       |               |
+| 7  |        |       |               |
+| 8  |        |       |               |
+| 9  |        |       |               |
+
+##### 3.3.7.2 Spesifikasi Layar Utama
+
+![modul-matkul](https://2.bp.blogspot.com/-3xgj2PkT2sU/WtHSzk_eHQI/AAAAAAAAAyw/XDANIU60xWs65t67832XgvGzeLDOaec9gCLcBGAs/s1000/modul-matkul.JPG)
+
+##### 3.3.7.3 Spesifikasi Query
+
+| ID Query | Deskripsi             | Ekspresi Query                                                        |
+|----------|-----------------------|-----------------------------------------------------------------------|
+| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
+| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
+| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+
+##### 3.3.7.4 Spesifikasi Field Data Layar
+
+| Label    | Field          | Tabel/Query | Validasi | Keterangan |
+|----------|----------------|-------------|----------|------------|
+| nama_mhs | nama_mahasiswa |             |          |            |
+| nim      | nim            |             |          |            |
+| kelas    | id_kelas       |             |          |            |
+
+##### 3.3.7.5 Spesifikasi Objek-objek pada Layar
+
+| id_objek     | Jenis           | keterangan |
+|--------------|-----------------|------------|
+| nm_mahasiswa | Input type Text |            |
+| nim          | Input type Text |            |
+| kelas        | Select          |            |
+
+##### 3.3.7.6 Spesifikasi Proses/Algoritma
+
+<id_proses> :..... <br>
+Objek Terkait : nm_mahasiswa, nim, kelas <br>
+Event :
+
+| Inisial State (IS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
+| Final State (FS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+| Spesifikasi Proses/Algoritma |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
+#### 3.3.8 Modul Otentikasi
+
+##### 3.3.8.1 Fungsi Modul
+
+| No | Fungsi | Jenis | Tabel Terkait |
+|----|--------|-------|---------------|
+| 1  |        |       |               |
+| 2  |        |       |               |
+| 3  |        |       |               |
+| 4  |        |       |               |
+| 5  |        |       |               |
+| 6  |        |       |               |
+| 7  |        |       |               |
+| 8  |        |       |               |
+| 9  |        |       |               |
+
+##### 3.3.8.2 Spesifikasi Layar Utama
+
+<img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg">
+
+##### 3.3.8.3 Spesifikasi Query
+
+| ID Query | Deskripsi             | Ekspresi Query                                                        |
+|----------|-----------------------|-----------------------------------------------------------------------|
+| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
+| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
+| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+
+##### 3.3.8.4 Spesifikasi Field Data Layar
+
+| Label    | Field          | Tabel/Query | Validasi | Keterangan |
+|----------|----------------|-------------|----------|------------|
+| nama_mhs | nama_mahasiswa |             |          |            |
+| nim      | nim            |             |          |            |
+| kelas    | id_kelas       |             |          |            |
+
+##### 3.3.8.5 Spesifikasi Objek-objek pada Layar
+
+| id_objek     | Jenis           | keterangan |
+|--------------|-----------------|------------|
+| nm_mahasiswa | Input type Text |            |
+| nim          | Input type Text |            |
+| kelas        | Select          |            |
+
+##### 3.3.8.6 Spesifikasi Proses/Algoritma
+
+<id_proses> :..... <br>
+Objek Terkait : nm_mahasiswa, nim, kelas <br>
+Event :
+
+| Inisial State (IS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
+| Final State (FS)    |
+|-----------------------|
+| Form mahasiswa kosong |
+
+| Spesifikasi Proses/Algoritma |
+|-----------------------|
+| Form mahasiswa kosong |
+
+
+#### 3.3.9 Modul Scan
+
+##### 3.3.9.1 Fungsi Modul
+
+| No | Fungsi | Jenis | Tabel Terkait |
+|----|--------|-------|---------------|
+| 1  |        |       |               |
+| 2  |        |       |               |
+| 3  |        |       |               |
+| 4  |        |       |               |
+| 5  |        |       |               |
+| 6  |        |       |               |
+| 7  |        |       |               |
+| 8  |        |       |               |
+| 9  |        |       |               |
+
+##### 3.3.9.2 Spesifikasi Layar Utama
+
+<img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg">
+
+##### 3.3.9.3 Spesifikasi Query
+
+| ID Query | Deskripsi             | Ekspresi Query                                                        |
+|----------|-----------------------|-----------------------------------------------------------------------|
+| QRY-01   | Input Data Mahasiswa  | INSERT INTO mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim"; |
+| QRY-02   | Delete Data Mahasiswa | DELETE FROM mahasiswa WHERE id_mahasiswa="$id";                       |
+| QRY-03   | Update Data Mahasiswa | UPDATE mahasiswa SET nama_mahasiswa="$nm_mahasiswa", nim="$nim";      |
+
+##### 3.3.9.4 Spesifikasi Field Data Layar
+
+| Label    | Field          | Tabel/Query | Validasi | Keterangan |
+|----------|----------------|-------------|----------|------------|
+| nama_mhs | nama_mahasiswa |             |          |            |
+| nim      | nim            |             |          |            |
+| kelas    | id_kelas       |             |          |            |
+
+##### 3.3.9.5 Spesifikasi Objek-objek pada Layar
+
+| id_objek     | Jenis           | keterangan |
+|--------------|-----------------|------------|
+| nm_mahasiswa | Input type Text |            |
+| nim          | Input type Text |            |
+| kelas        | Select          |            |
+
+##### 3.3.9.6 Spesifikasi Proses/Algoritma
 
 <id_proses> :..... <br>
 Objek Terkait : nm_mahasiswa, nim, kelas <br>
