@@ -306,7 +306,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 | OP16      | Ubah Jadwal          | Digunakan untuk mengubah jadwal                                |
 | OP17      | Lihat Jadwal         | Digunakan untuk melihat jadwal                                 |
 | OP18      | Tutup                | Digunakan untuk menutup aktivitas                              |
-| OP19      | Mulai                | Digunakan untuk memulai presensi                               |
+| OP19      | Mulai Scan               | Digunakan untuk memulai presensi                               |
 | OP20      | Tambah Ruangan       | Digunakan untuk menambah ruangan                               |
 | OP21      | Tambah Mata Kuliah       | Digunakan untuk menambah mata Kuliah                               |
 

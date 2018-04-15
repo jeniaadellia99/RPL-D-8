@@ -1040,17 +1040,10 @@ Event : Register Dosen, Register Mahasiswa
 
 ##### 3.3.9.1 Fungsi Modul
 
-| No | Fungsi | Jenis | Tabel Terkait |
-|----|--------|-------|---------------|
-| 1  |        |       |               |
-| 2  |        |       |               |
-| 3  |        |       |               |
-| 4  |        |       |               |
-| 5  |        |       |               |
-| 6  |        |       |               |
-| 7  |        |       |               |
-| 8  |        |       |               |
-| 9  |        |       |               |
+| No | Fungsi            | Jenis        | Tabel Terkait | Kategori |
+|----|-------------------|--------------|---------------|----------|
+| 1  | Scan Presensi     | ScnannerView | rekap         | Android  |
+| 2  | Scan mulai Sistem | ScnannerView | rekap         | Android  |
 
 ##### 3.3.9.2 Spesifikasi Layar Utama
 
@@ -1066,38 +1059,38 @@ Event : Register Dosen, Register Mahasiswa
 
 ##### 3.3.9.4 Spesifikasi Field Data Layar
 
-| Label    | Field          | Tabel/Query | Validasi | Keterangan |
-|----------|----------------|-------------|----------|------------|
-| nama_mhs | nama_mahasiswa |             |          |            |
-| nim      | nim            |             |          |            |
-| kelas    | id_kelas       |             |          |            |
+| Label       | Field | Tabel/Query | Validasi | Keterangan                                 | Kategori |
+|-------------|-------|-------------|----------|--------------------------------------------|----------|
+| scDosen     | -     | -           | -        | Scanner untuk mengaktifkan sistem presensi | Android  |
+| scMahasiswa | -     | -           | -        | Scanner untuk presensi mahasiswa           | Android  |
 
 ##### 3.3.9.5 Spesifikasi Objek-objek pada Layar
 
-| id_objek     | Jenis           | keterangan |
-|--------------|-----------------|------------|
-| nm_mahasiswa | Input type Text |            |
-| nim          | Input type Text |            |
-| kelas        | Select          |            |
+| id_objek    | Jenis       | keterangan                                                      | kategori |
+|-------------|-------------|-----------------------------------------------------------------|----------|
+| scDosen     | ScannerView | Scanner dosen yang digunakan untuk mengaktifkan sistem presensi | Android  |
+| scMahasiswa | ScannerView | Scanner mahasiswa yang digunakan untuk presensi                 | Android  |
 
 ##### 3.3.9.6 Spesifikasi Proses/Algoritma
 
-<id_proses> :..... <br>
-Objek Terkait : nm_mahasiswa, nim, kelas <br>
+OP19 : Mulai Scan <br>
+Objek Terkait : scDosen <br>
 Event :
 
 | Inisial State (IS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Tampil Activity Scan Dosen |
 
 
 | Final State (FS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Scan sukses dan pindah activty |
 
 | Spesifikasi Proses/Algoritma |
 |-----------------------|
-| Form mahasiswa kosong |
+| IF Scan Sukses |
+| THEN Tampil activity sukses dan pindah ke presensi |
+| ELSE Ulangi Scan |
 
 
 
