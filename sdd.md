@@ -581,19 +581,22 @@ Event : Tambah mahasiswa
 
 ##### 3.3.2.5 Spesifikasi Objek-objek pada Layar
 
-| id_objek     | Jenis           | keterangan                                                                       |
-|--------------|-----------------|----------------------------------------------------------------------------------|
-| nm_mahasiswa | Input type Text | Nama Mahasiswa                                                                   |
-| nim          | Input type Text | NIM Mahasiswa                                                                    |
-| kelas        | Select          | Wali Kelas                                                                       |
-| btnMulai     | ButtonView      | Tombol untuk memulai scan                                                        |
-| btnDetail    | ButtonView      | Tombol untuk melihat detail SKS                                                  |
-| tvMatKul     | TextView        | Nama matkul                                                                      |
-| tvJam        | TextView        | Menampilkan jam mulai dan berakhir mata kuliah                                   |
-| tvRuangan    | TextView        | Menampilkan Ruangan yang digunakan                                               |
-| cardMatkul   | CardView        | ViewGroup untuk mata kuliah (tvMatkul, tvJam, tvRuangan, btnMulai, dan btnDetail |
-| btnRekap     | ButtonView      | Tombol untuk mendownload Rekap                                                   |
-| btnJadwal    | ButtonView      | Tombol untuk mendownload Jadwal                                                  |
+| id_objek     | Jenis           | keterangan                                                                       | Kategori |
+|--------------|-----------------|----------------------------------------------------------------------------------|----------|
+| nm_mahasiswa | Input type Text | Nama Mahasiswa                                                                   | WEB      |
+| nim          | Input type Text | NIM Mahasiswa                                                                    | WEB      |
+| kelas        | Select          | Wali Kelas                                                                       | WEB      |
+| btnSimpan    | Button Primary  | Timbol untuk menyimpan data mahasiswa yang sudah di inputkan                     | WEB      |
+| btnBatal     | Button Default  | Tombol untuk membatalkan input                                                   | WEB      |
+| btnEdit      | Button Success  | Tombol untuk menampilakn modal edit dosen                                        | WEB      |
+| btnMulai     | ButtonView      | Tombol untuk memulai scan                                                        | Android  |
+| btnDetail    | ButtonView      | Tombol untuk melihat detail SKS                                                  | Android  |
+| tvMatKul     | TextView        | Nama matkul                                                                      | Android  |
+| tvJam        | TextView        | Menampilkan jam mulai dan berakhir mata kuliah                                   | Android  |
+| tvRuangan    | TextView        | Menampilkan Ruangan yang digunakan                                               | Android  |
+| cardMatkul   | CardView        | ViewGroup untuk mata kuliah (tvMatkul, tvJam, tvRuangan, btnMulai, dan btnDetail | Android  |
+| btnRekap     | ButtonView      | Tombol untuk mendownload Rekap                                                   | Android  |
+| btnJadwal    | ButtonView      | Tombol untuk mendownload Jadwal                                                  | Android  |
 
 ##### 3.3.2.6 Spesifikasi Proses/Algoritma
 
