@@ -789,7 +789,7 @@ Event :
 
 ##### 3.3.5.2 Spesifikasi Layar Utama
 
-<img src="https://4.bp.blogspot.com/-S7XMnGnLohQ/WpJhVY0pGrI/AAAAAAAAA30/D2kuP-a58X03M0PZjeH8SJfAKJ8OTeDeACLcBGAs/s1600/login.jpg">
+<img src="https://1.bp.blogspot.com/-UpvYoRIguPA/WtLv0J20nzI/AAAAAAAAA9o/L35d_5rINUQdIATHWTIhCSLhIp6ZczwSQCLcBGAs/s1600/rekap.PNG">
 
 ##### 3.3.6.3 Spesifikasi Query
 
