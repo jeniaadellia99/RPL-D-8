@@ -59,12 +59,15 @@ Proses presensi yang dilakukan dengan cara dosen harus membuka akses scan kode b
 
 ### 1.4 Aturan Penamaan dan Penomoran
 
-
 ### 1.5 Referensi
 
 IEEE, <i>IEEE Draft Standard for Software Design Descriptions. </i> IEEE P1 01 6/D5.0; 1 2 December 2005
 
 Eka Ismantohadi & Moh. Yani, Software Design Document (SDD). 2018
+
+https://www.visual-paradigm.com/support/documents/vpuserguide/3563/3564/85378_conceptual,l.html
+
+https://www.1keydata.com/datawarehousing/physical-data-model.html
 
 ### 1.6 Ikhtisar Dokumen
 
@@ -109,11 +112,12 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 |Nama Field | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
-| id_dosen| Integer| 10 | Primary Key| Iya |Auto_increment| id dosen auto increment |
-| id_kelas| Integer| 10 | Tidak | Foreign Key | id_kelas pada kelas| relasi untuk menampilkan kelas |
-| nip | int| 10 | Tidak | Tidak | - |nip dosen |
-| nidn| int | 10 | Tidak | Tidak | -| nidn dosen |
+| id_dosen| integer| 10 | Primary Key| Iya |Auto_increment| id dosen auto increment |
+| nip | varchar| 10 | Tidak | Tidak | - |nip dosen |
+| nidn| varchar | 10 | Tidak | Tidak | -| nidn dosen |
 | nama_dosen | varchar| 50 | Tidak | Tidak | -| nama dosen |
+| gelar | varchar| 20 | Tidak | Tidak | -| gelar dosen |
+
 
 **Tabel Kelas**
 
@@ -127,9 +131,10 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 |Nama Field | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
-| id_kelas| Integer| 10 | Primary Key| Iya |Auto_increment| id kelas auto increment |
+| id_detail_kelas| Integer| 10 | Primary Key| Iya |Auto_increment| id kelas auto increment |
 | id_kelas| Integer| 10 | Foreign Key| Iya |id_dosen pada dosen| relasi untuk menampilkan wali dosen |
 | id_matkul| Integer| 10 | Foreign Key | Iya |id_matkul pada mata_kuliah | relasi untuk menampilkan mata kuliah |
+| id_dosen| Integer| 10 | Foreign Key | Iya |id_dosen pada dosen | relasi untuk menampilkan dosen wali |
 
 **Tabel Mata Kuliah**
 
@@ -140,7 +145,7 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 | nama_matkul | Varchar| 25 | Tidak | Tidak | - | untuk menampilkan mata kuliah |
 | jumlah_sks | Integer| 3 | Tidak | Tidak | - | jumlah sks |
 | sks_teori | Integer| 3 | Tidak | Tidak | - | sks teori |
-| nama_praktek | Integer | 3 | Tidak | Tidak | - | sks praktek |
+| sks_praktek | Integer | 3 | Tidak | Tidak | - | sks praktek |
 | semester | Integer| 2 | Tidak | Tidak | - | untuk menampilkan semester |
 
 **Tabel Jadwal**
@@ -148,12 +153,12 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 |Nama Field | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
 | id_jadwal| Integer| 10 | Primary Key| Iya |Auto_increment| id mata kuliah auto increment |
-| thn_ajaran| Integer| 15 | Foreign Key| Iya |- | Tahun Ajaran |
+| thn_ajaran| varchar| 10 | Foreign Key| Iya |- | Tahun Ajaran |
 | id_detail_kelas | Integer| 10 |  | Foreign Key | - | untuk menampilkan kelas |
-| id_ruangan | Integer| 10 | Iya | Foreign Key | id_ruangan pada ruangan | relasi menapilkan ruangan |
+| id_ruangan | Integer| 10 | Iya | Foreign Key | id_ruangan pada ruangan | relasi menampilkan ruangan |
 | waktu_mulai | Varchar| 10 | Tidak | Tidak | - | waktu mulai mata kuliah |
-| waktu_selesai | Varchar | 3 | Tidak | Tidak | - | waktu berakhir mata kuliah |
-| hari | Integer| Varchar | Tidak | Tidak | - | untuk menampilkan hari |
+| waktu_selesai | Varchar | 10 | Tidak | Tidak | - | waktu berakhir mata kuliah |
+| hari | varchar| 7 | Tidak | Tidak | - | untuk menampilkan hari |
 
 **Tabel Ruangan**
 
@@ -161,6 +166,21 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 |------------|----------|----------|-------------|-----------|-----------|---------------------|
 | id_ruangan| Integer| 10 | Primary Key| Iya |Auto_increment| id ruangan auto increment |
 | ruangan| Varchar| 20 | Tidak | Tidak |- | Keterangan Ruangan |
+
+**Tabel Rekap**
+
+|Nama Field | Jenis |Volume| Laju| Primary Key| contraint integrity| Deskripsi|
+|------------|----------|----------|-------------|-----------|-----------|---------------------|
+| id_rekap| Integer| 10 | Primary Key| Iya |Auto_increment| id rekap |
+| semester | Integer| 2 | tidak| tidak | - | semester |
+| thn_ajaran | varchar | 10 | tidak | tidak |- | semester |
+| id_kelas| Integer| 10 | foreign key| tidak | id_kelas pada kelas | relasi id_kelas pada kelas |
+| id_mhs| Integer| 10 | foreign key | tidak | id_mhs pda mahasiswa| menampilkan nama mahasiswa  |
+| id_matkul| Integer| 10 | foreign key| tidak | id_matkul pada mata kuliah| id_matkul pada mata kuliah |
+| id_dosen | Integer| 10 | foreign key | tidak | id_dosen pada dosen | menampilkan dosen |
+| absen | varchar | 10 | tidak | tidak | - | - |
+| keterlambatan | varchar | 10 | tidak | tidak | - | - |
+
 
 #### 2.2.1 Definisi Domain/Type
 
@@ -282,7 +302,11 @@ Deskripsi tabel-tabel yang terdapat pada database pembuatan aplikasi Presensi Me
 
 #### 2.2.2 Conceptual Data Model
 
+![cdm](https://2.bp.blogspot.com/-Du45OdYDQJ4/WtM1pQu-ylI/AAAAAAAAAzk/WOOTN_LxE1U69sAbqKU2I5cNVaFY-ojPACLcBGAs/s900/cdm.JPG)
+
 #### 2.2.3 Physical Data Model
+
+![pdm](https://4.bp.blogspot.com/-jkK6R63vmjY/WtM3HhPlOiI/AAAAAAAAAzw/pqrNF1zFNlYLYPNx5MCFnkdCl0TrGMblQCLcBGAs/s900/pdm.JPG)
 
 #### 2.2.4 Daftar Tabel Aplikasi
 
