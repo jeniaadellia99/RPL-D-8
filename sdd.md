@@ -771,38 +771,45 @@ Event : Tambah Ruangan
 
 ##### 3.3.5.4 Spesifikasi Field Data Layar
 
-| Label    | Field          | Tabel/Query | Validasi | Keterangan |
-|----------|----------------|-------------|----------|------------|
-| nama_mhs | nama_mahasiswa |             |          |            |
-| nim      | nim            |             |          |            |
-| kelas    | id_kelas       |             |          |            |
+| Label         | Field       | Tabel/Query | Validasi               | Keterangan                                      |
+|---------------|-------------|-------------|------------------------|-------------------------------------------------|
+| id_jadwal     | id_jadwal   | jadwal      | -                      | Primary key dan diinputkan otomatis oleh sistem |
+| thn_ajrn      | thn_ajaran  | jadwal      | required, string, year | nama ruangan diinputkan manual oleh admin       |
+| id_kelas      | id_kelas    | kelas       | -                      | forigen key dari kelas                          |
+| id_ruangan    | id_ruangan  | ruangan     | -                      | forigen key dari ruangan                        |
+| waktu_mulai   | wkt_mulai   | jadwal      | required, string, time | waktu mulai pelajaran                           |
+| waktu_selesai | wkt_selesai | jadwal      | required, string, time | waktu selesai pelajaran                         |
+| hari          | hari        | jadwal      | required, string       | hari ketika pelajaran dimulai                   |
 
 ##### 3.3.5.5 Spesifikasi Objek-objek pada Layar
 
-| id_objek     | Jenis           | keterangan |
-|--------------|-----------------|------------|
-| nm_mahasiswa | Input type Text |            |
-| nim          | Input type Text |            |
-| kelas        | Select          |            |
+| id_objek  | Jenis           | keterangan                                                 | Kategori |
+|-----------|-----------------|------------------------------------------------------------|----------|
+| btnUbah   | Button Default  | nama ruangan                                               | WEB      |
+| btnLihat  | Button Success  | tombol yang digunakan untuk memasukan input nama mahasiswa | WEB      |
+| btnUpload | Input type File | tombol untuk membatalkan inputan                           | WEB      |
+| btnImport | Input type File | tombol untuk membuka modal edit ruangan                    | WEB      |
 
 ##### 3.3.5.6 Spesifikasi Proses/Algoritma
 
-<id_proses> :..... <br>
-Objek Terkait : nm_mahasiswa, nim, kelas <br>
+OP15, OP16 : Import Jadwal, Ubah Jadwal <br>
+Objek Terkait : btnUbah, btnImport, btnUpload <br>
 Event :
 
 | Inisial State (IS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Form jadwal kosong |
 
 
 | Final State (FS)    |
 |-----------------------|
-| Form mahasiswa kosong |
+| Data jadwal tersimpan dalam database |
 
 | Spesifikasi Proses/Algoritma |
 |-----------------------|
-| Form mahasiswa kosong |
+| IF format yang diinputkan pada excel salah |
+| THEN ulangi input data dan munculkan peringatan |
+| ELSE masukan data dalam database |
 
 #### 3.3.6 Modul Rekap
 
