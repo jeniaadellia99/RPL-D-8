@@ -22,15 +22,15 @@
 </body>
 </html>
 
-##1. Pendahuluan
+## 1. Pendahuluan
 
-###1.1 Tujuan Pembuatan Dokumen
+### 1.1 Tujuan Pembuatan Dokumen
 
 <p align="justify">
 	Dokumen ini digunakan sebagai pandusan melakukan pengujian terhadap perangkat lunak pad asistem Aplikasi Q-Press yaitu Sistem Presensi Menggunakan QR - Code. Dokumen ini dipakai untuk melihat kemampuan dari program yang telah dirancang agar sesuai dengan perancangan sistem yang telah dibuat dan sesuai dengan keinginan pengguna. Sehingga, menghasilkan suatu sistem yang dapat mempermudah proses Presensi yang umumnya dilakukan secara manual. Pembuatan Dokumen ini ditujukan untuk menguji pernagkat lunak Sistem Presnsi Menggunakan QR - Code yang merupakan bagian dar tugas mata kuliah Rekayasa Perangkat Lunak.
 </p>
 
-###1.2 Deskripsi Umum Sistem
+### 1.2 Deskripsi Umum Sistem
 
 <p align="justify"> 
 	Pada umumnya sistem presensi kehadiran menggunakan pemanggilan dosen ke siswa satu per satu dengan menyebutkan nama dari siswa tersebut. Dalam penggunaan sistem tersebut, sangat memakan waktu dan tidak efesien, karena memakan banyak waktu dari jam mata kuliah. Selain itu, sistem presensi manual menggunakan banyak kertas sehingga terjadi pemborosan. Pembuatan kertas menggunakan bahan baku kulit pohon, jadi jika menggunakan banyak kertas tentunya menggunakan kulit pohon secara berlebihan, jika hal ini terjadi kemungkinan besar terjadinya kerusan alam.
@@ -71,22 +71,22 @@ Pada sistem Admin yaitu : <br>
 - Presentase presensi mahasiswa per hari dan per semester. <br>
 
 
-###1.3 Deskripsi DOkumen (Ikhtisar)
+### 1.3 Deskripsi DOkumen (Ikhtisar)
 
 <p align="justify">
 	Pada Dokumen Software Testing Docoment (STD) terdapat 3 bagian utama yaitu Pendahuluan, Lingkungan Pengujian Perangkat Lunak, Identifikasi dan Rencana Pengujian.
 	
 </p>
 
-###1.4 Definisi dan Singkatan
+### 1.4 Definisi dan Singkatan
 
-####1.4.1 Definisi
+#### 1.4.1 Definisi
 
 - SRS atau Software Requirements Spesification adalah dokumen yang mendeskrpisikan spesifikasi kebutuhan dari aplikasi yang akan dibuat. Pada dokumen ini dijelaskan bagaimana dan seperti apa rancangan aplikasi tersebut.
 - SRS-xxx adalah kode yang digunakan unutk mempresentasikan kebutuhan (requirement) pada SRS, dengan SRS merupakan dokumen referensi yang menjadi acuan bagian tersebut, dan xxx adalah nomor/digit kebutuhan (requrement) pada bagian tersebut.
 - DPPL-xxx adalah kode yang digunakan untuk mengimplementasikan perancangan. dengan xxx adalah nomor/digit perancangan.
 
-####1.4.2 Singkatan
+#### 1.4.2 Singkatan
 
 |       Akronim       |      Arti            	  |
 |---------------------|---------------------------|
@@ -95,31 +95,34 @@ Pada sistem Admin yaitu : <br>
 |QR-Kode			  | Quick Response	  		  |
 
 
-###1.5 Dokumen Referensi
+### 1.5 Dokumen Referensi
 
 - Ernita H. GL03. Dokumen Uji Perangkat Lunak (DUPL) SDS. Bogor.
 - Sistem Pentiketan Elektronik Konser.2013. Spesifikasi Kebutuhan Perangkat Lunak (SKPL)SPEK. Bogor.
 - Sistem Pentiketan Elektronik Konser.2013. Dokumen Perancangan Perangkat Lunak (DPPL)SPEK. Bogor.
 
 
-##2. Lingkungan Pengujian Perangkat Lunak
+## 2. Lingkungan Pengujian Perangkat Lunak
 
-###2.1 Perangkat Lunak Pengujian
+### 2.1 Perangkat Lunak Pengujian
 
-###2.2 Perangkat Keras Pengujian
+### 2.2 Perangkat Keras Pengujian
 
-###2.3 Material Pengujian
+### 2.3 Material Pengujian
 
-###2.4 Sumber Daya Manusia
+### 2.4 Sumber Daya Manusia
 
-###2.5 Prosedur Umum Pengujian
+### 2.5 Prosedur Umum Pengujian
 
-####2.5.1 Pengenalan dan Latihan 
+#### 2.5.1 Pengenalan dan Latihan 
 
-####2.5.2 Persiapan Awal
-#####2.5.2.1 Persiapan Prosedural
-#####2.5.2.2 Persiapan Perangkat Keras
-#####2.5.2.3 Persiapan Perangkat Lunak
+#### 2.5.2 Persiapan Awal
+##### 2.5.2.1 Persiapan Prosedural
+##### 2.5.2.2 Persiapan Perangkat Keras
+##### 2.5.2.3 Persiapan Perangkat Lunak
 
-####2.5.3 Pelaksanaan
-####2.5.4 Pelaporan Hasil
+#### 2.5.3 Pelaksanaan
+#### 2.5.4 Pelaporan Hasil
+
+
+
