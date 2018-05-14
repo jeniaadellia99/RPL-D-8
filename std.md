@@ -122,9 +122,9 @@ Aplikasi ini diujikan dengan beberapa perangkat lunak lain, seperti :
 
 Perangkat keras yang digunakan untuk menguji aplikasi Q-Press ini adalah satu set PC atau Laptop dengan spesifikasi :
 
-- Processor	:
-- Memory	:
-- Harddisk	: 
+- Processor	: Intel Core i3
+- Memory	: 6GB
+- Harddisk	: 500GB
 
 ### 2.3 Material Pengujian
 
@@ -152,11 +152,22 @@ Persyaratan sumber daya manusia yang akan terlibat dalam proses pengujian Aplika
 
 #### 2.5.2 Persiapan Awal
 ##### 2.5.2.1 Persiapan Prosedural
+Pengujian ini dilakukan di luar lingkungan kampus. Dimana pengujian ini dilakukan oleh Dosen mata kuliah Rekayasa Perangkat Lunak (RPL). Alat yang digunakan 1 buah laptop dengan software yang telah di instalasi.
 ##### 2.5.2.2 Persiapan Perangkat Keras
+Perangkat keras yang perlu dipesiapkan adalah : 
+Sebuah perangkat Laptop yang dilengkapi dengan : 
+- Processor		: Intel® Core i3
+- Memory		: 2 GB DDR3 
+- Harddisk		: 100 GB
 ##### 2.5.2.3 Persiapan Perangkat Lunak
+Persiapan yang harus dilakukan untuk menyiapkan perangkat lunak untuk diuji di lingkungan sistem operasi Microsoft Windows 10 adalah sebagai berikut :
+1. Persiapkan sistem operasi Microsoft Windows. 
+2. Perangkat lunak yang akan di uji di copy ke sebuah direktori, misalnya C:\XAMPP\htdocs. 
+3. Browser Google Chrome. 
+4. Database di import ke phpMyAdmin. 
+5. Sublime Text 3 untuk melihat source code.
 
 #### 2.5.3 Pelaksanaan
+Pada bagian pelaksanaan ini. Aplikasi yang yang akan di Uji, dijalankan pada perangkat keras yang telah di sediaka yang berupa laptop. Pengujian akan dilaksanakan berdasarkan sekenario yang telah tersedia oleh penguji.
 #### 2.5.4 Pelaporan Hasil
-
-
-
+Setelah aplikasi diuji oleh penguji, kemudian laporan hasil dari pengujian tersebut akan diberikan kepada dosen pengampu Rekayasa Perangkat Lunak (RPL) yang akan di evaluasi. Sehingga dapat memberikan umpan balik antara penguji dan pembuat dalam pengembangan aplikasi tersebut.
