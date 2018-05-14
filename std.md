@@ -147,8 +147,9 @@ Persyaratan sumber daya manusia yang akan terlibat dalam proses pengujian Aplika
 - Memahami konsep pemrograman Framework dan Database
 
 ### 2.5 Prosedur Umum Pengujian
-
 #### 2.5.1 Pengenalan dan Latihan 
+Penguji aplikasi ini harus memahami setidaknya beberapa materi yang akan diuji. Seperti Framework dan perangkat mobile android.
+Pada dasarnya penguji telah memiliki pengetahuan tentang hal yang akan di ujikan. Sehingga para penguji dapat menguji dengan baik dan dapat memberikan umpan balik kepada client, sehingga client dapat mengembangkan aplikasinya dengan lebih baik lagi.
 
 #### 2.5.2 Persiapan Awal
 ##### 2.5.2.1 Persiapan Prosedural
