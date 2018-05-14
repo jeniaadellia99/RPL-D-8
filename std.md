@@ -82,9 +82,15 @@ Pada sistem Admin yaitu : <br>
 
 #### 1.4.1 Definisi
 
-- SRS atau Software Requirements Spesification adalah dokumen yang mendeskrpisikan spesifikasi kebutuhan dari aplikasi yang akan dibuat. Pada dokumen ini dijelaskan bagaimana dan seperti apa rancangan aplikasi tersebut.
-- SRS-xxx adalah kode yang digunakan unutk mempresentasikan kebutuhan (requirement) pada SRS, dengan SRS merupakan dokumen referensi yang menjadi acuan bagian tersebut, dan xxx adalah nomor/digit kebutuhan (requrement) pada bagian tersebut.
+<p align="justify"> 
+	- SRS atau Software Requirements Spesification adalah dokumen yang mendeskrpisikan spesifikasi kebutuhan dari aplikasi yang akan dibuat. Pada dokumen ini dijelaskan bagaimana dan seperti apa rancangan aplikasi tersebut. 
+ </p>
+ <p align="justify">
+    - SRS-xxx adalah kode yang digunakan unutk mempresentasikan kebutuhan (requirement) pada SRS, dengan SRS merupakan dokumen referensi yang menjadi acuan bagian tersebut, dan xxx adalah nomor/digit kebutuhan (requrement) pada bagian tersebut.
+</p>
+<p align="justify">
 - DPPL-xxx adalah kode yang digunakan untuk mengimplementasikan perancangan. dengan xxx adalah nomor/digit perancangan.
+</p>
 
 #### 1.4.2 Singkatan
 
@@ -106,11 +112,39 @@ Pada sistem Admin yaitu : <br>
 
 ### 2.1 Perangkat Lunak Pengujian
 
+Aplikasi ini diujikan dengan beberapa perangkat lunak lain, seperti :
+
+- Sistem Operasi 		: Windows 10
+- Framework 			: Laravel
+- Database				: Mysql dan Firebase
+
 ### 2.2 Perangkat Keras Pengujian
+
+Perangkat keras yang digunakan untuk menguji aplikasi Q-Press ini adalah satu set PC atau Laptop dengan spesifikasi :
+
+- Processor	:
+- Memory	:
+- Harddisk	: 
 
 ### 2.3 Material Pengujian
 
+<p align="justify">
+	Pada program Aplikasi Presensi Menggunakan QR - Code ini Mahasiswa dan Dosen dapat melakukan presensi menggunakan Device (Hp) yang digunakan. Dengan melakukan pendaftaran menggunakan MAC Address dari perangkat tersebut, satu akun hanya mempunyai MAC Address. Dari user mahasiswa menggunakan NIM dan MAC Address sebagai pendaftaran dan menggunakan akun ini sedangkan user dosen menggunakan NIP. 
+</p>
+<p align="justify">
+	Mahasiswa dapat melakukan scan presensi apabila dosen telah membuka hak akses untuk presensi. Jika mahasiswa terlambat melakukan presensi maka terdapat keterangan dan akan masuk ke sistem data database untuk kompensasi keterlambatan. Dosen dapat melakukan validasi presensi dengan melakukan presensi secara manual dengan menyebutkan nama atau menghitung jumlah dari mahasiswa. Setelah mahasiswa melakukan presensi data presensi, data keterlambatan dan data absen akan masuk ke sistem Admin dan Sistem DOsen.
+</p>
+<p align="justify">
+	Dari s=user Admin dapat mengelola data berupa Data Mahasiswa, Data Dosen, Data Mata Kuliah, Data Jadwal, dan Data Rekap.
+</p>
+
 ### 2.4 Sumber Daya Manusia
+
+Persyaratan sumber daya manusia yang akan terlibat dalam proses pengujian Aplikasi ini adalah :
+
+- Memmahami konsep pemrograman berorientasi Objek 
+- Memahami proses pengujian perangkat lunak berorientasi objek
+- Memahami konsep pemrograman Framework dan Database
 
 ### 2.5 Prosedur Umum Pengujian
 
