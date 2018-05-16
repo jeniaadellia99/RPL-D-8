@@ -147,14 +147,20 @@ Persyaratan sumber daya manusia yang akan terlibat dalam proses pengujian Aplika
 - Memahami konsep pemrograman Framework dan Database
 
 ### 2.5 Prosedur Umum Pengujian
+
 #### 2.5.1 Pengenalan dan Latihan 
+
 Penguji aplikasi ini harus memahami setidaknya beberapa materi yang akan diuji. Seperti Framework dan perangkat mobile android.
 Pada dasarnya penguji telah memiliki pengetahuan tentang hal yang akan di ujikan. Sehingga para penguji dapat menguji dengan baik dan dapat memberikan umpan balik kepada client, sehingga client dapat mengembangkan aplikasinya dengan lebih baik lagi.
 
 #### 2.5.2 Persiapan Awal
+
 ##### 2.5.2.1 Persiapan Prosedural
+
 Pengujian ini dilakukan di luar lingkungan kampus. Dimana pengujian ini dilakukan oleh Dosen mata kuliah Rekayasa Perangkat Lunak (RPL). Alat yang digunakan 1 buah laptop dengan software yang telah di instalasi.
+
 ##### 2.5.2.2 Persiapan Perangkat Keras
+
 Perangkat keras yang perlu dipesiapkan adalah : 
 Sebuah perangkat Laptop yang dilengkapi dengan : 
 - Processor		: Intel® Core i3
@@ -169,6 +175,30 @@ Persiapan yang harus dilakukan untuk menyiapkan perangkat lunak untuk diuji di l
 5. Sublime Text 3 untuk melihat source code.
 
 #### 2.5.3 Pelaksanaan
+
 Pada bagian pelaksanaan ini. Aplikasi yang yang akan di Uji, dijalankan pada perangkat keras yang telah di sediaka yang berupa laptop. Pengujian akan dilaksanakan berdasarkan sekenario yang telah tersedia oleh penguji.
+
 #### 2.5.4 Pelaporan Hasil
+
 Setelah aplikasi diuji oleh penguji, kemudian laporan hasil dari pengujian tersebut akan diberikan kepada dosen pengampu Rekayasa Perangkat Lunak (RPL) yang akan di evaluasi. Sehingga dapat memberikan umpan balik antara penguji dan pembuat dalam pengembangan aplikasi tersebut.
+
+## 3. Identifikasi Rencana Pengujian
+
+Tabel 1 Identifikasi dan Rencana Pengujian
+
+<table>
+	<thead>
+		<tr>
+			<td rowspan="2" align="center"><strong>Kelas Uji</strong></td>
+			<td rowspan="2" align="center"><strong>Butir Uji</strong></td>
+			<td rowspan="2" align="center"><strong>Identifikasi</strong></td>
+			<td rowspan="2" align="center"><strong>Jenis Pengujian</strong></td>
+			<td rowspan="2" align="center"><strong>Teknik Pengujian</strong></td>
+			<td rowspan="2" align="center"><strong>Penguji</strong></td>
+		</tr>
+		<tr>
+			<td align="center"><strong>SRS/SDD</strong></td>
+			<td align="center"><strong>SPMP</strong></td>
+		</tr>
+	</thead>
+</table>
