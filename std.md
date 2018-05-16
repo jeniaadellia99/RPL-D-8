@@ -191,7 +191,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td rowspan="2" align="center"><strong>Kelas Uji</strong></td>
 			<td rowspan="2" align="center"><strong>Butir Uji</strong></td>
-			<td rowspan="2" align="center"><strong>Identifikasi</strong></td>
+			<td colspan="2" align="center"><strong>Identifikasi</strong></td>
 			<td rowspan="2" align="center"><strong>Jenis Pengujian</strong></td>
 			<td rowspan="2" align="center"><strong>Teknik Pengujian</strong></td>
 			<td rowspan="2" align="center"><strong>Penguji</strong></td>
