@@ -318,7 +318,7 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 ![usecaserevisi](https://2.bp.blogspot.com/-GGIlVuLUMKk/Wssc_IK3L5I/AAAAAAAAAwU/Oi8bsiUcSgoNOPcmGrfwIRG0r-7UuJrWQCLcBGAs/s500/usecaserevisi.jpg)
 
-<b>2.2.1	Data Kelas</b>
+
 
 <b> <li>Tabel Kebutuhan Fungsional </b>
 	<br>
@@ -437,7 +437,7 @@ Xref : 3.2.11
 
 Admin melakukan Login pada web dengan cara :
 1. Admin Masuk ke Web QPRESS
-2. Admin memasukkan User name, Password dan Captcha
+2. Admin memasukkan Email, Password dan Captcha
 3. Sistem akan melakukan validasi
 4. Jika tidak sesuai, maka login akan gagal
 5. Jika berhasil login, admin akan masuk ke dashboard admin

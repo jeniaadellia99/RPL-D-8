@@ -86,7 +86,7 @@ Pada sistem Admin yaitu : <br>
 	- SRS atau Software Requirements Spesification adalah dokumen yang mendeskrpisikan spesifikasi kebutuhan dari aplikasi yang akan dibuat. Pada dokumen ini dijelaskan bagaimana dan seperti apa rancangan aplikasi tersebut. 
  </p>
  <p align="justify">
-    - SRS-xxx adalah kode yang digunakan unutk mempresentasikan kebutuhan (requirement) pada SRS, dengan SRS merupakan dokumen referensi yang menjadi acuan bagian tersebut, dan xxx adalah nomor/digit kebutuhan (requrement) pada bagian tersebut.
+    - SRS-x.x.x adalah kode yang digunakan unutk mempresentasikan kebutuhan (requirement) pada SRS, dengan SRS merupakan dokumen referensi yang menjadi acuan bagian tersebut, dan xxx adalah nomor/digit kebutuhan (requrement) pada bagian tersebut.
 </p>
 <p align="justify">
 - DPPL-xxx adalah kode yang digunakan untuk mengimplementasikan perancangan. dengan xxx adalah nomor/digit perancangan.
@@ -103,9 +103,9 @@ Pada sistem Admin yaitu : <br>
 
 ### 1.5 Dokumen Referensi
 
-- Ernita H. GL03. Dokumen Uji Perangkat Lunak (DUPL) SDS. Bogor.
-- Sistem Pentiketan Elektronik Konser.2013. Spesifikasi Kebutuhan Perangkat Lunak (SKPL)SPEK. Bogor.
-- Sistem Pentiketan Elektronik Konser.2013. Dokumen Perancangan Perangkat Lunak (DPPL)SPEK. Bogor.
+- <i>Ernita H. GL03. Dokumen Uji Perangkat Lunak (DUPL) SDS. Bogor.</i>
+- <i>Sistem Pentiketan Elektronik Konser.2013. Spesifikasi Kebutuhan Perangkat Lunak (SKPL)SPEK. Bogor.</i>
+- <i>Sistem Pentiketan Elektronik Konser.2013. Dokumen Perancangan Perangkat Lunak (DPPL)SPEK. Bogor.</i>
 
 
 ## 2. Lingkungan Pengujian Perangkat Lunak
@@ -199,6 +199,40 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td align="center"><strong>SRS/SDD</strong></td>
 			<td align="center"><strong>SPMP</strong></td>
+		</tr>
+		<tr>
+			<td rowspan="3" align="center"><strong>Login Admin</strong></td>
+			<td>Email address, Password dan Captcha yang di masukkan sesuai data</td>
+			<td>SRS-2.2.9</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Email address, Password dan Captcha yang di masukkan tidak sesuai data</td>
+			<td>SRS-2.2.9</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Email address, Password dan Captcha yang di masukkan salah</td>
+			<td>SRS-2.2.9</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td rowspan="3" align="center"><strong>Data Kelas</strong></td>
+			<td>Penambahan dengan data baru</td>
+			<td>SRS-2.2.1</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
 		</tr>
 	</thead>
 </table>
