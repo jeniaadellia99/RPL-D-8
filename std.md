@@ -260,14 +260,6 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>Koriah</td>
 		</tr>
 		<tr>
-			<td>Penambahan dengan data baru</td>
-			<td>SRS-2.2.1</td>
-			<td>--</td>
-			<td>sistem</td>
-			<td>Black Box</td>
-			<td>Koriah</td>
-		</tr>
-		<tr>
 			<td>Penambahan dengan data yang sudah ada</td>
 			<td>SRS-2.2.1</td>
 			<td>--</td>
