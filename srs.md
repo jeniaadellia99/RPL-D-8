@@ -345,6 +345,18 @@ Admin bisa Memilih menu data kelas untuk melihat dan mengolah data kelas dengan 
 2. Sistem menampilkan menu dashboard
 3. Admin mengklik tombol menu Data Kelas
 4. Sistem menampilkan menu  Data Kelas
+5. Admin dapat menambah data kelas dengan mengklik tombol Tambahkan data kelas
+6. Sistem menampilkan log tambah data kelas
+7. Admin menambahkan data kelas
+8. Sistem menyimpan data kelas
+9. Admin dapat menghapus data kelas dengan mengklik delete
+10. Sistem akan menghapus data kelas yang dihapus
+11. Admin dapat menampilkan detail data kelas dengan mengklik tombol detail data kelas
+12. Sistem menampilkan detail data kelas
+13. Admin dapat mengedit data kelas dengan cara mengeklik edit pada kelas yang dipilih
+14. Sistem menampilkan log edit data kelas
+15. Admin mengedit data kelas 
+16. Sistem menyimpan data kelas yang telah diedit
 Xref : bagian 3.2.8
 
 <b>2.2.2 Registrasi Mahasiswa</b>
@@ -371,7 +383,7 @@ Xref : bagian 3.2.1
 
 <b>2.2.4 Rekap Presensi Admin</b>
 
-![enter image description here](https://3.bp.blogspot.com/-Nt8seRDIjGU/Wp_cQOUoG4I/AAAAAAAAA5Y/JtgsGsHGFQoI5ijcB70Sp8THagl2m58HwCEwYBhgL/s1600/Download+Rekap+Admin.png)
+![rekap-admin](https://3.bp.blogspot.com/-42NEgXzu9WI/Wv6hnbN7GdI/AAAAAAAAA10/hJoBUqRUKzk-aIBfeMveHEmeLpOAx6omQCLcBGAs/s1600/admin-rekap.PNG)
 
 
 Admin bisa mendownload rekap hasil presensi dengan cara :
@@ -380,6 +392,8 @@ Admin bisa mendownload rekap hasil presensi dengan cara :
 2. Sistem menampilkan menu dashboard  
 3. Admin Mengklik tombol menu Rekap Presensi
 4. Sistem menampilkan menu halaman Rekap
+5. Admin dapat mendownload data rekap dengan cara klik tombol download
+6. Sistem akan mwndownload data rekap
 Xref : bagian 3.2.12
 
 <b>2.2.5 Rekap Presensi Dosen</b>
@@ -409,12 +423,22 @@ Xref : bagian 3.2.4
 
 <b>2.2.7 Data Dosen pada Admin</b>
 
-![enter image description here](https://3.bp.blogspot.com/-cZTQOPviYAI/Wv6RJXfA7MI/AAAAAAAAA0s/A59e5IZwxaY2DvgmoSjlX2cmevI_UNrigCLcBGAs/s1600/admin-data%2Bdosen.PNG)
+![data-dosen-admin](https://3.bp.blogspot.com/-cZTQOPviYAI/Wv6RJXfA7MI/AAAAAAAAA0s/A59e5IZwxaY2DvgmoSjlX2cmevI_UNrigCLcBGAs/s1600/admin-data%2Bdosen.PNG)
 
 Admin bisa Mengolah data dosen  dengan cara :
 1. Admin masuk berada di dashboard admin 
 2. Admin Mengklik tombol menu Data Dosen
 3. Sistem Menampilkan Data Dosen
+4. Admin dapat menambah data dosen dengan cara mengklik Tambahkan data dosen
+5. Sistem menampilkan log tambah dosen
+6. Admin menambahkan data dosen dan menyimpan data dosen
+7. Sistem menyimpan Data dosen yang telah ditambahkan
+8. Admin dapat menghapus data dosen dengan cara mengklik delete data dosen
+9. Sistem menghapus data dosen
+10. Admin dapat mengedit data dosen dengan cara klik Edit
+11. Sistem menampilkan log edit data dosen
+12. Admin mengedit data dosen dan menyimpan data dosen
+13. Sistem menyimpan data dosen
 Xref : bagian 3.2.10
 
 <b>2.2.8 Lihat Jadwal Mahasiswa</b>
@@ -467,7 +491,7 @@ Xref : 3.2.3
 
 <b>2.2.12 Upload Jadwal pada Admin </b>
 
-![uploadjadwaladmin](https://1.bp.blogspot.com/-UhzTnPC4POY/Wp_s6_6eXqI/AAAAAAAAAtg/LWapsn3divs0qw0kl678gntv0n0PNyGMwCLcBGAs/s1600/Upload+Jadwal.png)
+![uploadjadwaladmin](https://3.bp.blogspot.com/-LSaI1nKtv2k/Wv6iDwHxTZI/AAAAAAAAA18/nAUPljPlmhcyh0Fu9SZayrrVdIK6ujTbACLcBGAs/s1600/admin-jadwal.PNG)
 
 Admin dapat melakukan Upload Jadwal dengan cara :
 1. Admin berada pada dashboard admin
