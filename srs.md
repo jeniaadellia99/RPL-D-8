@@ -538,7 +538,7 @@ Admin dapat mengelola Data Mata Kuliah
 12. Admin dapat menghapus data mata kuliah dengan cara klik delete
 13. Sistem akan menghapus data yang dihapus oleh admin
 
-<b>2.2.15 Data Mata Ruangan pada Admin </b>
+<b>2.2.15 Data Ruangan pada Admin </b>
 
 ![datamatakuliah](https://2.bp.blogspot.com/-PM2Qcf49is4/Wv9AjsnKeSI/AAAAAAAAA2g/E7KN23rF9nsyXLeL3tnNU-uWs09TgciLwCLcBGAs/s1600/admin-data%2Bruangan.PNG)
 
