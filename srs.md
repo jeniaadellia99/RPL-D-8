@@ -538,6 +538,24 @@ Admin dapat mengelola Data Mata Kuliah
 12. Admin dapat menghapus data mata kuliah dengan cara klik delete
 13. Sistem akan menghapus data yang dihapus oleh admin
 
+<b>2.2.15 Data Mata Ruangan pada Admin </b>
+
+![datamatakuliah](https://2.bp.blogspot.com/-PM2Qcf49is4/Wv9AjsnKeSI/AAAAAAAAA2g/E7KN23rF9nsyXLeL3tnNU-uWs09TgciLwCLcBGAs/s1600/admin-data%2Bruangan.PNG)
+
+Admin dapat mengelola Data Ruangan
+1. Admin sudah berada pada dashboard admin
+2. Admin mengklik menu Ruangan
+3. Sistem menampilkan menu Ruangan
+4. Admin dapat mengedit data ruangan dengan cara klik tombol edit
+5. Sistem menampilkan log edit
+6. Admin mengedit ruangan 
+7. Sistem menyimpan data ruangan
+8. Admin dapat menambah data ruangan dengan cara klik tambah data ruangan
+9. Sistem menampilkan log tambah data ruangan
+10. Admin menambah data ruangan dan mengklik tombol tombol simpan untuk disimpan
+11. Sistem menyimpan data ruangan
+12. Admin dapat menghapus data ruangan dengan cara klik delete
+13. Sistem akan menghapus data yang ruangan dipilih hapus oleh admin
 
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
