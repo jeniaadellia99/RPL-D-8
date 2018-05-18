@@ -318,8 +318,6 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 ![usecaserevisi](https://2.bp.blogspot.com/-GGIlVuLUMKk/Wssc_IK3L5I/AAAAAAAAAwU/Oi8bsiUcSgoNOPcmGrfwIRG0r-7UuJrWQCLcBGAs/s500/usecaserevisi.jpg)
 
-<b>2.2.1	Data Kelas</b>
-
 <b> <li>Tabel Kebutuhan Fungsional </b>
 	<br>
 
@@ -338,9 +336,9 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 |11|Sistem dapat menampilkan dan melakukan operasi - operasi pada Data Dosen melalui web admin|
 
 
-<b>2.2.1 Data Kelas</b>
+<b>2.2.1 Data Kelas Pada Admin</b>
 
-![enter image description here](https://1.bp.blogspot.com/-sJm5euw-tUc/Wp_cP0rFzOI/AAAAAAAAA5U/rPftPNVQdwoDIScYcSeolV38AHr3zCWHgCEwYBhgL/s1600/Data+kelas.png)
+![enter image description here](https://2.bp.blogspot.com/-Fa4ZW1RE2fI/Wv6R6BT5y_I/AAAAAAAAA00/ZHrjnttwrU4mkyi91pQLmSF74jkjtw3XgCLcBGAs/s1600/admin-data%2Bkelas.PNG)
 
 Admin bisa Memilih menu data kelas untuk melihat dan mengolah data kelas dengan cara :
 1. Admin masuk ke dashboard admin
@@ -411,7 +409,7 @@ Xref : bagian 3.2.4
 
 <b>2.2.7 Data Dosen pada Admin</b>
 
-![enter image description here](https://4.bp.blogspot.com/-ay2CiVbgCLQ/Wp_ceco_LJI/AAAAAAAAA5o/XJFjT4FSbsYx8ziyn3eytudg6OyQ0utwQCLcBGAs/s1600/Data+dosen.png)
+![enter image description here](https://3.bp.blogspot.com/-cZTQOPviYAI/Wv6RJXfA7MI/AAAAAAAAA0s/A59e5IZwxaY2DvgmoSjlX2cmevI_UNrigCLcBGAs/s1600/admin-data%2Bdosen.PNG)
 
 Admin bisa Mengolah data dosen  dengan cara :
 1. Admin masuk berada di dashboard admin 
@@ -479,6 +477,43 @@ Admin dapat melakukan Upload Jadwal dengan cara :
 5. Sistem memvalidasi format dokumen yang diupload oleh admin
 6. Sistem menyimpan hasil data yang diupload oleh admin
 Xref : 3.2.11
+
+<b>2.2.13 Data Mahasiswa pada Admin </b>
+
+![uploadjadwaladmin](https://4.bp.blogspot.com/-g5nALHA804Q/Wv6UI4XYD3I/AAAAAAAAA1I/8eN9uotS-UYMyp1aSZQ2EeRc7Up3xsafQCLcBGAs/s1600/admin-data%2Bmhs.PNG)
+
+Admin dapat melakukan Import Data Mahasiswa
+1. Admin berada didashboard Admin
+2. Admin mengklik menu mahasiswa
+3. Sistem menampilkan menu Mahasiswa
+4. Admin dapat mengupload data Mahasiswa dengan mengklik Import
+5. Sistem menyimpan data tersebut
+6. Admin juga dapat mengeksport data mahasiswa dengan cara klik Export 
+7. Sistem mengunduh data Mahasiswa
+8. Admin dapat mengedit data Mahasiswa
+9. Sistem menampilkan log edit
+10. Admin mengedit data mahasiswa
+11. Sistem menyimpan data mahasiswa
+
+<b>2.2.14 Data Mata Kuliah pada Admin </b>
+
+![datamatakuliah](https://1.bp.blogspot.com/-aZZ79lxHaiQ/Wv6R9iTfYvI/AAAAAAAAA1A/rBWv39_o2D8yypoZcd2W2PX8oInEhGbCACEwYBhgL/s1600/admin-data%2Bmatkul.PNG)
+
+Admin dapat mengelola Data Mata Kuliah
+1. Admin sudah berada pada dashboard admin
+2. Admin mengklik menu Mata Kuliah
+3. Sistem menampilkan menu mata kuliah
+4. Admin dapat mengedit data mata kuliah dengan cara klik tombol edit
+5. Sistem menampilkan log edit
+6. Admin mengedit mata kuliah 
+7. Sistem menyimpan data mata kuliah
+8. Admin dapat menambah data mata kuliah dengan cara klik tambah data mata kuliah
+9. Sistem menampilkan log tambah data mata kuliah
+10. Admin menambah data mata kuliah
+11. Sistem menyimpan data mata kuliah
+12. Admin dapat menghapus data mata kuliah dengan cara klik delete
+13. Sistem akan menghapus data yang dihapus oleh admin
+
 
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
