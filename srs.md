@@ -361,7 +361,7 @@ Xref : bagian 3.2.8
 
 <b>2.2.2 Registrasi Mahasiswa</b>
 
-![enter image description here](https://1.bp.blogspot.com/-Sf8a8e1iANY/Wp_cerC8DJI/AAAAAAAAA5s/o7XA9YgGjwIkaPVuqZamNffkMEFj4yYwACLcBGAs/s1600/Registrasi+Mahasiswa.png)
+![regis-mhs](https://2.bp.blogspot.com/-m9JenFfba14/Wv6izzCGUHI/AAAAAAAAA2M/6OkqIsd-11MxwTyQi2l4SLMNVk0PahTzgCLcBGAs/s1600/mhs-daftar.PNG)
 
 Mahasiswa harus menRegistrasi untuk bisa mengakses ke dalam aplikasi dengan cara :
 1. Mahasiswa mengklik tombol Registrasi Mahasiswa.  
@@ -372,7 +372,7 @@ Xref : bagian 3.2.2
 
 <b>2.2.3 Registrasi Dosen</b>
 
-![enter image description here](https://2.bp.blogspot.com/-vuzil8qTePo/Wp_ceVsRiWI/AAAAAAAAA5k/FbSEiPqPZc0JBbmXgJvPBywrJF-O_um1wCLcBGAs/s1600/Registrasi+Dosen.png)
+![enter image description here](https://1.bp.blogspot.com/-fQ674mAnyOE/Wv6ij_KkgsI/AAAAAAAAA2E/cerZLOrtvPUO5tUpFgVKkYjYblygYFaKQCLcBGAs/s1600/dosen-daftar.PNG)
 
 Dosen harus menRegistrasi untuk bisa mengakses ke dalam aplikasi dengan cara :
 1. Dosen mengklik tombol Registrasi Dosen.  
