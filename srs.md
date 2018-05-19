@@ -768,6 +768,33 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Post Condition|1. Scan berhasil <br> 2. Masuk ke hasil list scan mahasiswa|
 |Exception Push	|1. Tidak ada Koneksi|
 
+**3.2.14 Data Mata Kuliah pada Admin**
+
+| Nama fungsi  |Scan Dosen|
+|--|--|
+|Ref|Bag 2.1.2, Data Mata Kuliah | 
+|Trigger|Login sebagai admin|
+|Precondition|Halaman Dashboard|
+|Basic Path| 1. Admin mengklik menu Mata Kuliah <br> 2. Sistem menampilkan menu mata kuliah <br> 3. Admin dapat mengedit data mata kuliah dengan cara klik tombol edit <br> 4. Sistem menampilkan log edit <br> 5. Admin mengedit mata kuliah <br> 6. Sistem menyimpan data mata kuliah <br> 7. Admin dapat menambah data mata kuliah dengan cara klik tambah data mata kuliah <br> 8. Sistem menampilkan log tambah data mata kuliah <br> 9. Admin menambah data mata kuliah <br> 10. Sistem menyimpan data mata kuliah <br>
+11. Admin dapat menghapus data mata kuliah dengan cara klik delete <br> 12. Sistem akan menghapus data yang dihapus oleh admin|
+|Alternative|Tidak Ada|
+|Post Condition|1. Admin dapat melihat dan mengelola data Mata Kuliah|
+|Exception Push	|1. Tidak ada Koneksi|
+
+**3.2.14 Data Ruangan pada Admin**
+
+| Nama fungsi  |Scan Dosen|
+|--|--|
+|Ref|Bag 2.1.2, Data Ruangan pada Admin | 
+|Trigger|Login sebagai admin|
+|Precondition|Halaman Dashboard|
+|Basic Path|1. Admin mengklik menu Ruangan  <br> 2. Sistem menampilkan menu Ruangan <br> 3. Admin dapat mengedit data ruangan dengan cara klik tombol edit <br> 4. Sistem menampilkan log edit <br> 5. Admin mengedit ruangan  <br> 6. Sistem menyimpan data ruangan <br> 7. Admin dapat menambah data ruangan dengan cara klik tambah data ruangan <br> 8. Sistem menampilkan log tambah data ruangan <br> 9. Admin menambah data ruangan dan mengklik tombol tombol simpan untuk disimpan <br> 10. Sistem menyimpan data ruangan <br> 11. Admin dapat menghapus data ruangan dengan cara klik delete <br> 12. Sistem akan menghapus data yang ruangan dipilih hapus oleh admin|
+|Alternative|Tidak Ada|
+|Post Condition|1. Admin dapat melihat dan mengelola Data Ruangan|
+|Exception Push	|1. Tidak ada Koneksi|
+
+
+
  ## 3.3 Struktur Detail Kebutuhan Non-Fungsional <br>
 
 **3.3.1	Logika Struktur Data**
