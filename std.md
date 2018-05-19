@@ -590,6 +590,32 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>Black Box</td>
 			<td>Koriah</td>
 		</tr>
+			<!-- Lihat Jadwal Pada Dosen-->
+			<tr>
+			<td rowspan="3" align="center"><strong>Lihat Jadwal Pada Dosen</strong></td>
+			<td>Dosen mnegklik menu lihat jadwal</td>
+			<td>SRS-2.2.6</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>--</td>
+			<td>SRS-2.2.6</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Tidak ada koneksi</td>
+			<td>SRS-2.2.11</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
 	</thead>
 </table>
 
