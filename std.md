@@ -564,7 +564,6 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>Black Box</td>
 			<td>Koriah</td>
 		</tr>
-		</tr>
 		<!-- Scan Presensi pada Mahasiswa -->
 			<tr>
 			<td rowspan="3" align="center"><strong>Scan Presensi pada Mahasiswa</strong></td>
@@ -589,8 +588,6 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>--</td>
 			<td>sistem</td>
 			<td>Black Box</td>
-			<td>Koriah</td>
-
 			<td>Koriah</td>
 		</tr>
 	</thead>
