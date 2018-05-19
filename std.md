@@ -200,10 +200,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td align="center"><strong>SRS/SDD</strong></td>
 			<td align="center"><strong>SPMP</strong></td>
 		</tr>
-<<<<<<< HEAD
 		<!-- Login Admin -->
-=======
->>>>>>> 687739432df96ee91bd2e278a6325529ee6f1b02
 		<tr>
 			<td rowspan="3" align="center"><strong>Login Admin</strong></td>
 			<td>Email address, Password dan Captcha yang di masukkan sesuai data</td>
@@ -211,11 +208,8 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>--</td>
 			<td>sistem</td>
 			<td>Black Box</td>
-<<<<<<< HEAD
 			<td>Koriah</td> <!-- benar -->
-=======
 			<td>Koriah</td>
->>>>>>> 687739432df96ee91bd2e278a6325529ee6f1b02
 		</tr>
 		<tr>
 			<td>Email address, Password dan Captcha yang di masukkan tidak sesuai data</td>
@@ -223,11 +217,8 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>--</td>
 			<td>sistem</td>
 			<td>Black Box</td>
-<<<<<<< HEAD
 			<td>Koriah</td> <!-- salah -->
-=======
 			<td>Koriah</td>
->>>>>>> 687739432df96ee91bd2e278a6325529ee6f1b02
 		</tr>
 		<tr>
 			<td>Tidak Ada koneksi</td>
@@ -235,7 +226,6 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>--</td>
 			<td>sistem</td>
 			<td>Black Box</td>
-<<<<<<< HEAD
 			<td>Koriah</td> <!-- salah -->
 		</tr>
 		<!-- Data Kelas pada Admin -->
@@ -602,7 +592,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td>
-=======
+
 			<td>Koriah</td>
 		</tr>
 	</thead>
@@ -693,7 +683,6 @@ Tabel 2 Deskripsi dan Hasil Uji
 					<li></li>
 				</ul>
 			</td>
->>>>>>> 687739432df96ee91bd2e278a6325529ee6f1b02
 		</tr>
 	</thead>
 </table>
