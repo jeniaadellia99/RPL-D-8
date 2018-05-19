@@ -200,6 +200,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td align="center"><strong>SRS/SDD</strong></td>
 			<td align="center"><strong>SPMP</strong></td>
 		</tr>
+		<!-- Login Admin -->
 		<tr>
 			<td rowspan="3" align="center"><strong>Login Admin</strong></td>
 			<td>Email address, Password dan Captcha yang di masukkan sesuai data</td>
@@ -207,7 +208,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>--</td>
 			<td>sistem</td>
 			<td>Black Box</td>
-			<td>Koriah</td>
+			<td>Koriah</td> <!-- benar -->
 		</tr>
 		<tr>
 			<td>Email address, Password dan Captcha yang di masukkan tidak sesuai data</td>
@@ -215,20 +216,376 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>--</td>
 			<td>sistem</td>
 			<td>Black Box</td>
-			<td>Koriah</td>
+			<td>Koriah</td> <!-- salah -->
 		</tr>
 		<tr>
-			<td>Email address, Password dan Captcha yang di masukkan salah</td>
+			<td>Tidak Ada koneksi</td>
 			<td>SRS-2.2.9</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td> <!-- salah -->
+		</tr>
+		<!-- Data Kelas pada Admin -->
+		<tr>
+			<td rowspan="3" align="center"><strong>Data Kelas pada Admin</strong></td>
+			<td>Penambahan dengan data baru</td>
+			<td>SRS-2.2.1</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td> <!-- benar -->
+		</tr>
+		<tr>
+			<td>Penambahan dengan data yang sudah ada</td>
+			<td>SRS-2.2.1</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td> <!-- salah -->
+		</tr>
+		<tr>
+			<td>Tidak Ada koneksi internet</td>
+			<td>SRS-2.2.1</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td> <!-- salah -->
+		</tr>
+		<!-- Data Mahasiswa Pada Admin -->
+		<tr>
+			<td rowspan="3" align="center"><strong>Data Mahasiswa pada Admin</strong></td>
+			<td>Penambahan dengan data baru</td>
+			<td>SRS-2.2.13</td>
 			<td>--</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td>
 		</tr>
 		<tr>
-			<td rowspan="3" align="center"><strong>Data Kelas</strong></td>
+			<td>Penambahan dengan data yang sudah ada</td>
+			<td>SRS-2.2.13</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Tidak ada koneksi</td>
+			<td>SRS-2.2.13</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<!-- Data Dosen pad aadmin -->
+		<tr>
+			<td rowspan="3" align="center"><strong>Data Dosen pada Admin</strong></td>
 			<td>Penambahan dengan data baru</td>
-			<td>SRS-2.2.1</td>
+			<td>SRS-2.2.7</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Penambahan dengan data yang sudah ada</td>
+			<td>SRS-2.2.7</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Tidak ada koneksi</td>
+			<td>SRS-2.2.7</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<!-- Data Mata Kuliah pada Admin -->
+		<tr>
+			<td rowspan="3" align="center"><strong>Data Mata Kuliah pada Admin</strong></td>
+			<td>Penambahan dengan data baru</td>
+			<td>SRS-2.2.14</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Penambahan dengan data yang sudah ada</td>
+			<td>SRS-2.2.14</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Tidak ada koneksi</td>
+			<td>SRS-2.2.14</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<!-- Data Ruangan pada Admin -->
+		<tr>
+			<td rowspan="3" align="center"><strong>Data Ruangan pada Admin</strong></td>
+			<td>Penambahan dengan data baru</td>
+			<td>SRS-2.2.15</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Penambahan dengan data yang sudah ada</td>
+			<td>SRS-2.2.15</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Tidak ada koneksi</td>
+			<td>SRS-2.2.5</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		U<!-- pload Jadwal Pada Admin -->
+		<tr>
+			<td rowspan="3" align="center"><strong>Upload Jadwal pada Admin</strong></td>
+			<td>Upload Jadwal dengan file format excel</td>
+			<td>SRS-2.2.12</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Upload Jadwal dengan bukan file format excel</td>
+			<td>SRS-2.2.12</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Tidak ada koneksi</td>
+			<td>SRS-2.2.12</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<!-- Download Rekap -->
+		<tr>
+			<td rowspan="3" align="center"><strong>Download Rekap Presensi pada Admin</strong></td>
+			<td>Download Rekap</td>
+			<td>SRS-2.2.4</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Upload Jadwal dengan bukan file format excel</td>
+			<td>SRS-2.2.4</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Tidak ada koneksi</td>
+			<td>SRS-2.2.4</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<!-- Registrasi Mahasiswa -->
+		<tr>
+			<td rowspan="3" align="center"><strong>Registrasi Mahasiswa </strong></td>
+			<td>Regis menggunakan Nim dan Mac Address</td>
+			<td>SRS-2.2.2</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Regis tidak menggunakan Nim dan Mac Address</td>
+			<td>SRS-2.2.2</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Tidak ada koneksi</td>
+			<td>SRS-2.2.2</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<!-- Registrasi Dosen -->
+		<tr>
+			<td rowspan="3" align="center"><strong>Registrasi Dosen </strong></td>
+			<td>Regis menggunakan Nip dan Mac Address</td>
+			<td>SRS-2.2.3</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Regis tidak menggunakan Nip dan Mac Address</td>
+			<td>SRS-2.2.3</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Tidak ada koneksi</td>
+			<td>SRS-2.2.3</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<!-- Rekap Presensi pada Dosen -->
+		<tr>
+			<td rowspan="3" align="center"><strong>Rekap Presensi pada Dosen</strong></td>
+			<td>Dosen mengeklik tombol rekap untuk di download</td>
+			<td>SRS-2.2.5</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>--</td>
+			<td>SRS-2.2.5</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Tidak ada koneksi</td>
+			<td>SRS-2.2.5</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<!-- Lihat Jadwal Pada Dosen -->
+			<tr>
+			<td rowspan="3" align="center"><strong>Lihat Jadwal Pada Dosen</strong></td>
+			<td>Dosen mengeklik menu lihat jadwal</td>
+			<td>SRS-2.2.5</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>--</td>
+			<td>SRS-2.2.5</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Tidak ada koneksi</td>
+			<td>SRS-2.2.5</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<!-- Lihat Jadwal Pada Mahasiswa -->
+			<tr>
+			<td rowspan="3" align="center"><strong>Lihat Jadwal Pada Mahasiswa</strong></td>
+			<td>Dosen mengeklik menu lihat jadwal</td>
+			<td>SRS-2.2.8</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>--</td>
+			<td>SRS-2.2.8</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Tidak ada koneksi</td>
+			<td>SRS-2.2.8</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<!-- Scan Presensi pada Dosen -->
+			<tr>
+			<td rowspan="3" align="center"><strong>Scan Presensi pada Dosen</strong></td>
+			<td>Dosen mengeklik button scan</td>
+			<td>SRS-2.2.10</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>--</td>
+			<td>SRS-2.2.10</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Tidak ada koneksi</td>
+			<td>SRS-2.2.10</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		</tr>
+		<!-- Scan Presensi pada Mahasiswa -->
+			<tr>
+			<td rowspan="3" align="center"><strong>Scan Presensi pada Mahasiswa</strong></td>
+			<td>Mahasiswa mengeklik button scan</td>
+			<td>SRS-2.2.11</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>--</td>
+			<td>SRS-2.2.11</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Tidak ada koneksi</td>
+			<td>SRS-2.2.11</td>
 			<td>--</td>
 			<td>sistem</td>
 			<td>Black Box</td>
