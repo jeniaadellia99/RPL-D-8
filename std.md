@@ -135,7 +135,7 @@ Perangkat keras yang digunakan untuk menguji aplikasi Q-Press ini adalah satu se
 	Mahasiswa dapat melakukan scan presensi apabila dosen telah membuka hak akses untuk presensi. Jika mahasiswa terlambat melakukan presensi maka terdapat keterangan dan akan masuk ke sistem data database untuk kompensasi keterlambatan. Dosen dapat melakukan validasi presensi dengan melakukan presensi secara manual dengan menyebutkan nama atau menghitung jumlah dari mahasiswa. Setelah mahasiswa melakukan presensi data presensi, data keterlambatan dan data absen akan masuk ke sistem Admin dan Sistem DOsen.
 </p>
 <p align="justify">
-	Dari s=user Admin dapat mengelola data berupa Data Mahasiswa, Data Dosen, Data Mata Kuliah, Data Jadwal, dan Data Rekap.
+	Dari user Admin dapat mengelola data berupa Data Mahasiswa, Data Dosen, Data Mata Kuliah, Data Jadwal, dan Data Rekap.
 </p>
 
 ### 2.4 Sumber Daya Manusia
@@ -166,7 +166,9 @@ Sebuah perangkat Laptop yang dilengkapi dengan :
 - Processor		: Intel® Core i3
 - Memory		: 2 GB DDR3 
 - Harddisk		: 100 GB
+
 ##### 2.5.2.3 Persiapan Perangkat Lunak
+
 Persiapan yang harus dilakukan untuk menyiapkan perangkat lunak untuk diuji di lingkungan sistem operasi Microsoft Windows 10 adalah sebagai berikut :
 1. Persiapkan sistem operasi Microsoft Windows. 
 2. Perangkat lunak yang akan di uji di copy ke sebuah direktori, misalnya C:\XAMPP\htdocs. 
@@ -564,7 +566,6 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>Black Box</td>
 			<td>Koriah</td>
 		</tr>
-		</tr>
 		<!-- Scan Presensi pada Mahasiswa -->
 			<tr>
 			<td rowspan="3" align="center"><strong>Scan Presensi pada Mahasiswa</strong></td>
@@ -590,6 +591,31 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td>
+		</tr>
+			<!-- Lihat Jadwal Pada Dosen-->
+			<tr>
+			<td rowspan="3" align="center"><strong>Lihat Jadwal Pada Dosen</strong></td>
+			<td>Dosen mnegklik menu lihat jadwal</td>
+			<td>SRS-2.2.6</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>--</td>
+			<td>SRS-2.2.6</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
+			<td>Koriah</td>
+		</tr>
+		<tr>
+			<td>Tidak ada koneksi</td>
+			<td>SRS-2.2.11</td>
+			<td>--</td>
+			<td>sistem</td>
+			<td>Black Box</td>
 			<td>Koriah</td>
 		</tr>
 	</thead>
