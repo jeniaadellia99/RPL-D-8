@@ -200,7 +200,10 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td align="center"><strong>SRS/SDD</strong></td>
 			<td align="center"><strong>SPMP</strong></td>
 		</tr>
+<<<<<<< HEAD
 		<!-- Login Admin -->
+=======
+>>>>>>> 687739432df96ee91bd2e278a6325529ee6f1b02
 		<tr>
 			<td rowspan="3" align="center"><strong>Login Admin</strong></td>
 			<td>Email address, Password dan Captcha yang di masukkan sesuai data</td>
@@ -208,7 +211,11 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>--</td>
 			<td>sistem</td>
 			<td>Black Box</td>
+<<<<<<< HEAD
 			<td>Koriah</td> <!-- benar -->
+=======
+			<td>Koriah</td>
+>>>>>>> 687739432df96ee91bd2e278a6325529ee6f1b02
 		</tr>
 		<tr>
 			<td>Email address, Password dan Captcha yang di masukkan tidak sesuai data</td>
@@ -216,7 +223,11 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>--</td>
 			<td>sistem</td>
 			<td>Black Box</td>
+<<<<<<< HEAD
 			<td>Koriah</td> <!-- salah -->
+=======
+			<td>Koriah</td>
+>>>>>>> 687739432df96ee91bd2e278a6325529ee6f1b02
 		</tr>
 		<tr>
 			<td>Tidak Ada koneksi</td>
@@ -224,6 +235,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>--</td>
 			<td>sistem</td>
 			<td>Black Box</td>
+<<<<<<< HEAD
 			<td>Koriah</td> <!-- salah -->
 		</tr>
 		<!-- Data Kelas pada Admin -->
@@ -590,6 +602,99 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td>
+=======
+			<td>Koriah</td>
 		</tr>
 	</thead>
 </table>
+
+## Deskripsi dan Hasil Uji
+
+Tabel 2 Deskripsi dan Hasil Uji
+
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3"></td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3"></td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3"></td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3"><br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3"></td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3"></td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li></li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					<li></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</td>
+>>>>>>> 687739432df96ee91bd2e278a6325529ee6f1b02
+		</tr>
+	</thead>
+</table>
+

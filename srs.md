@@ -316,9 +316,13 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 
 ## 2.2 Spesifikasi Kebutuhan Fungsional
 
+<<<<<<< HEAD
 ![usecaserevisi](https://2.bp.blogspot.com/-GGIlVuLUMKk/Wssc_IK3L5I/AAAAAAAAAwU/Oi8bsiUcSgoNOPcmGrfwIRG0r-7UuJrWQCLcBGAs/s500/usecaserevisi.jpg)
 
 
+=======
+![usecaserevisi](https://2.bp.blogspot.com/-uTBzpxEu0JM/Wv6jJwflq-I/AAAAAAAAA2U/QwDtGiWKP40yiztHFlsda8a_nudOFCQMwCLcBGAs/s1600/esuecaseterbaru2.jpg)
+>>>>>>> 687739432df96ee91bd2e278a6325529ee6f1b02
 
 <b> <li>Tabel Kebutuhan Fungsional </b>
 	<br>
@@ -338,20 +342,32 @@ Penggunaan Memori untuk Aplikasi pada Smartphone Android diusahakan tidak melebi
 |11|Sistem dapat menampilkan dan melakukan operasi - operasi pada Data Dosen melalui web admin|
 
 
-<b>2.2.1 Data Kelas</b>
+<b>2.2.1 Data Kelas Pada Admin</b>
 
-![enter image description here](https://1.bp.blogspot.com/-sJm5euw-tUc/Wp_cP0rFzOI/AAAAAAAAA5U/rPftPNVQdwoDIScYcSeolV38AHr3zCWHgCEwYBhgL/s1600/Data+kelas.png)
+![enter image description here](https://2.bp.blogspot.com/-Fa4ZW1RE2fI/Wv6R6BT5y_I/AAAAAAAAA00/ZHrjnttwrU4mkyi91pQLmSF74jkjtw3XgCLcBGAs/s1600/admin-data%2Bkelas.PNG)
 
 Admin bisa Memilih menu data kelas untuk melihat dan mengolah data kelas dengan cara :
 1. Admin masuk ke dashboard admin
 2. Sistem menampilkan menu dashboard
 3. Admin mengklik tombol menu Data Kelas
 4. Sistem menampilkan menu  Data Kelas
+5. Admin dapat menambah data kelas dengan mengklik tombol Tambahkan data kelas
+6. Sistem menampilkan log tambah data kelas
+7. Admin menambahkan data kelas
+8. Sistem menyimpan data kelas
+9. Admin dapat menghapus data kelas dengan mengklik delete
+10. Sistem akan menghapus data kelas yang dihapus
+11. Admin dapat menampilkan detail data kelas dengan mengklik tombol detail data kelas
+12. Sistem menampilkan detail data kelas
+13. Admin dapat mengedit data kelas dengan cara mengeklik edit pada kelas yang dipilih
+14. Sistem menampilkan log edit data kelas
+15. Admin mengedit data kelas 
+16. Sistem menyimpan data kelas yang telah diedit
 Xref : bagian 3.2.8
 
 <b>2.2.2 Registrasi Mahasiswa</b>
 
-![enter image description here](https://1.bp.blogspot.com/-Sf8a8e1iANY/Wp_cerC8DJI/AAAAAAAAA5s/o7XA9YgGjwIkaPVuqZamNffkMEFj4yYwACLcBGAs/s1600/Registrasi+Mahasiswa.png)
+![regis-mhs](https://2.bp.blogspot.com/-m9JenFfba14/Wv6izzCGUHI/AAAAAAAAA2M/6OkqIsd-11MxwTyQi2l4SLMNVk0PahTzgCLcBGAs/s1600/mhs-daftar.PNG)
 
 Mahasiswa harus menRegistrasi untuk bisa mengakses ke dalam aplikasi dengan cara :
 1. Mahasiswa mengklik tombol Registrasi Mahasiswa.  
@@ -362,7 +378,7 @@ Xref : bagian 3.2.2
 
 <b>2.2.3 Registrasi Dosen</b>
 
-![enter image description here](https://2.bp.blogspot.com/-vuzil8qTePo/Wp_ceVsRiWI/AAAAAAAAA5k/FbSEiPqPZc0JBbmXgJvPBywrJF-O_um1wCLcBGAs/s1600/Registrasi+Dosen.png)
+![enter image description here](https://1.bp.blogspot.com/-fQ674mAnyOE/Wv6ij_KkgsI/AAAAAAAAA2E/cerZLOrtvPUO5tUpFgVKkYjYblygYFaKQCLcBGAs/s1600/dosen-daftar.PNG)
 
 Dosen harus menRegistrasi untuk bisa mengakses ke dalam aplikasi dengan cara :
 1. Dosen mengklik tombol Registrasi Dosen.  
@@ -373,7 +389,7 @@ Xref : bagian 3.2.1
 
 <b>2.2.4 Rekap Presensi Admin</b>
 
-![enter image description here](https://3.bp.blogspot.com/-Nt8seRDIjGU/Wp_cQOUoG4I/AAAAAAAAA5Y/JtgsGsHGFQoI5ijcB70Sp8THagl2m58HwCEwYBhgL/s1600/Download+Rekap+Admin.png)
+![rekap-admin](https://3.bp.blogspot.com/-42NEgXzu9WI/Wv6hnbN7GdI/AAAAAAAAA10/hJoBUqRUKzk-aIBfeMveHEmeLpOAx6omQCLcBGAs/s1600/admin-rekap.PNG)
 
 
 Admin bisa mendownload rekap hasil presensi dengan cara :
@@ -382,6 +398,8 @@ Admin bisa mendownload rekap hasil presensi dengan cara :
 2. Sistem menampilkan menu dashboard  
 3. Admin Mengklik tombol menu Rekap Presensi
 4. Sistem menampilkan menu halaman Rekap
+5. Admin dapat mendownload data rekap dengan cara klik tombol download
+6. Sistem akan mwndownload data rekap
 Xref : bagian 3.2.12
 
 <b>2.2.5 Rekap Presensi Dosen</b>
@@ -411,12 +429,22 @@ Xref : bagian 3.2.4
 
 <b>2.2.7 Data Dosen pada Admin</b>
 
-![enter image description here](https://4.bp.blogspot.com/-ay2CiVbgCLQ/Wp_ceco_LJI/AAAAAAAAA5o/XJFjT4FSbsYx8ziyn3eytudg6OyQ0utwQCLcBGAs/s1600/Data+dosen.png)
+![data-dosen-admin](https://3.bp.blogspot.com/-cZTQOPviYAI/Wv6RJXfA7MI/AAAAAAAAA0s/A59e5IZwxaY2DvgmoSjlX2cmevI_UNrigCLcBGAs/s1600/admin-data%2Bdosen.PNG)
 
 Admin bisa Mengolah data dosen  dengan cara :
 1. Admin masuk berada di dashboard admin 
 2. Admin Mengklik tombol menu Data Dosen
 3. Sistem Menampilkan Data Dosen
+4. Admin dapat menambah data dosen dengan cara mengklik Tambahkan data dosen
+5. Sistem menampilkan log tambah dosen
+6. Admin menambahkan data dosen dan menyimpan data dosen
+7. Sistem menyimpan Data dosen yang telah ditambahkan
+8. Admin dapat menghapus data dosen dengan cara mengklik delete data dosen
+9. Sistem menghapus data dosen
+10. Admin dapat mengedit data dosen dengan cara klik Edit
+11. Sistem menampilkan log edit data dosen
+12. Admin mengedit data dosen dan menyimpan data dosen
+13. Sistem menyimpan data dosen
 Xref : bagian 3.2.10
 
 <b>2.2.8 Lihat Jadwal Mahasiswa</b>
@@ -469,7 +497,7 @@ Xref : 3.2.3
 
 <b>2.2.12 Upload Jadwal pada Admin </b>
 
-![uploadjadwaladmin](https://1.bp.blogspot.com/-UhzTnPC4POY/Wp_s6_6eXqI/AAAAAAAAAtg/LWapsn3divs0qw0kl678gntv0n0PNyGMwCLcBGAs/s1600/Upload+Jadwal.png)
+![uploadjadwaladmin](https://3.bp.blogspot.com/-LSaI1nKtv2k/Wv6iDwHxTZI/AAAAAAAAA18/nAUPljPlmhcyh0Fu9SZayrrVdIK6ujTbACLcBGAs/s1600/admin-jadwal.PNG)
 
 Admin dapat melakukan Upload Jadwal dengan cara :
 1. Admin berada pada dashboard admin
@@ -479,6 +507,61 @@ Admin dapat melakukan Upload Jadwal dengan cara :
 5. Sistem memvalidasi format dokumen yang diupload oleh admin
 6. Sistem menyimpan hasil data yang diupload oleh admin
 Xref : 3.2.11
+
+<b>2.2.13 Data Mahasiswa pada Admin </b>
+
+![uploadjadwaladmin](https://4.bp.blogspot.com/-g5nALHA804Q/Wv6UI4XYD3I/AAAAAAAAA1I/8eN9uotS-UYMyp1aSZQ2EeRc7Up3xsafQCLcBGAs/s1600/admin-data%2Bmhs.PNG)
+
+Admin dapat melakukan Import Data Mahasiswa
+1. Admin berada didashboard Admin
+2. Admin mengklik menu mahasiswa
+3. Sistem menampilkan menu Mahasiswa
+4. Admin dapat mengupload data Mahasiswa dengan mengklik Import
+5. Sistem menyimpan data tersebut
+6. Admin juga dapat mengeksport data mahasiswa dengan cara klik Export 
+7. Sistem mengunduh data Mahasiswa
+8. Admin dapat mengedit data Mahasiswa
+9. Sistem menampilkan log edit
+10. Admin mengedit data mahasiswa
+11. Sistem menyimpan data mahasiswa
+
+<b>2.2.14 Data Mata Kuliah pada Admin </b>
+
+![datamatakuliah](https://1.bp.blogspot.com/-aZZ79lxHaiQ/Wv6R9iTfYvI/AAAAAAAAA1A/rBWv39_o2D8yypoZcd2W2PX8oInEhGbCACEwYBhgL/s1600/admin-data%2Bmatkul.PNG)
+
+Admin dapat mengelola Data Mata Kuliah
+1. Admin sudah berada pada dashboard admin
+2. Admin mengklik menu Mata Kuliah
+3. Sistem menampilkan menu mata kuliah
+4. Admin dapat mengedit data mata kuliah dengan cara klik tombol edit
+5. Sistem menampilkan log edit
+6. Admin mengedit mata kuliah 
+7. Sistem menyimpan data mata kuliah
+8. Admin dapat menambah data mata kuliah dengan cara klik tambah data mata kuliah
+9. Sistem menampilkan log tambah data mata kuliah
+10. Admin menambah data mata kuliah
+11. Sistem menyimpan data mata kuliah
+12. Admin dapat menghapus data mata kuliah dengan cara klik delete
+13. Sistem akan menghapus data yang dihapus oleh admin
+
+<b>2.2.15 Data Ruangan pada Admin </b>
+
+![datamatakuliah](https://2.bp.blogspot.com/-PM2Qcf49is4/Wv9AjsnKeSI/AAAAAAAAA2g/E7KN23rF9nsyXLeL3tnNU-uWs09TgciLwCLcBGAs/s1600/admin-data%2Bruangan.PNG)
+
+Admin dapat mengelola Data Ruangan
+1. Admin sudah berada pada dashboard admin
+2. Admin mengklik menu Ruangan
+3. Sistem menampilkan menu Ruangan
+4. Admin dapat mengedit data ruangan dengan cara klik tombol edit
+5. Sistem menampilkan log edit
+6. Admin mengedit ruangan 
+7. Sistem menyimpan data ruangan
+8. Admin dapat menambah data ruangan dengan cara klik tambah data ruangan
+9. Sistem menampilkan log tambah data ruangan
+10. Admin menambah data ruangan dan mengklik tombol tombol simpan untuk disimpan
+11. Sistem menyimpan data ruangan
+12. Admin dapat menghapus data ruangan dengan cara klik delete
+13. Sistem akan menghapus data yang ruangan dipilih hapus oleh admin
 
 
 ## 2.3 Spesifikasi Kebutuhan Non-Fungsional
