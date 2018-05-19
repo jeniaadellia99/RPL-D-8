@@ -590,7 +590,6 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td>
-
 			<td>Koriah</td>
 		</tr>
 	</thead>
