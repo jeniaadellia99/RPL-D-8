@@ -5,10 +5,10 @@
 <p align="center"><b>Version 1.0 </b><br>
 <p align="center">09 Mei 2018</b>
 <p align="center">
-<img src="https://2.bp.blogspot.com/-dxdRgMQGbLk/WpA-Tp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
+<img src="https://2.bp.blogspot.com/dxdRgMQGbLk/WpATp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
 </p>
 
-<br><p align="center"><b> Q-PRESS (QR-Kode Presensi)</b><br>
+<br><p align="center"><b> QPRESS (QRKode Presensi)</b><br>
 <p align="center"><b>Aplikasi Menggunakan Kode QR
 </b>
 <p align="center">Kelompok 8 <br>
@@ -27,7 +27,7 @@
 ### 1.1 Tujuan Pembuatan Dokumen
 
 <p align="justify">
-	Dokumen ini digunakan sebagai pandusan melakukan pengujian terhadap perangkat lunak pad asistem Aplikasi Q-Press yaitu Sistem Presensi Menggunakan QR - Code. Dokumen ini dipakai untuk melihat kemampuan dari program yang telah dirancang agar sesuai dengan perancangan sistem yang telah dibuat dan sesuai dengan keinginan pengguna. Sehingga, menghasilkan suatu sistem yang dapat mempermudah proses Presensi yang umumnya dilakukan secara manual. Pembuatan Dokumen ini ditujukan untuk menguji pernagkat lunak Sistem Presnsi Menggunakan QR - Code yang merupakan bagian dar tugas mata kuliah Rekayasa Perangkat Lunak.
+	Dokumen ini digunakan sebagai pandusan melakukan pengujian terhadap perangkat lunak pad asistem Aplikasi QPress yaitu Sistem Presensi Menggunakan QR  Code. Dokumen ini dipakai untuk melihat kemampuan dari program yang telah dirancang agar sesuai dengan perancangan sistem yang telah dibuat dan sesuai dengan keinginan pengguna. Sehingga, menghasilkan suatu sistem yang dapat mempermudah proses Presensi yang umumnya dilakukan secara manual. Pembuatan Dokumen ini ditujukan untuk menguji pernagkat lunak Sistem Presnsi Menggunakan QR  Code yang merupakan bagian dar tugas mata kuliah Rekayasa Perangkat Lunak.
 </p>
 
 ### 1.2 Deskripsi Umum Sistem
@@ -37,18 +37,18 @@
 	</p>
 
 <p align="justify">
-	Untuk itu, kelompok 8 mempunyai gagasan yang dapat meminimialisir dari tidak efesiennya sistem presensi sekarang, yaitu dengan membuat aplikas Q-PRES (QR-Code Presensi). Aplikasi menggunakan sistem scan kode QR untuk setiap presensi pada jadwal mata kuliah di setiap Lab atau Kelas. Dari sistemnya sendiri menggunakan 3 user, yaitu mahasiswa, dosen dan admin. 
+	Untuk itu, kelompok 8 mempunyai gagasan yang dapat meminimialisir dari tidak efesiennya sistem presensi sekarang, yaitu dengan membuat aplikas QPRES (QRCode Presensi). Aplikasi menggunakan sistem scan kode QR untuk setiap presensi pada jadwal mata kuliah di setiap Lab atau Kelas. Dari sistemnya sendiri menggunakan 3 user, yaitu mahasiswa, dosen dan admin. 
 </p>
 
 <p align="justify">
-	Dari sistem mahasiswa menggunakan MAC address device (HP) dan Nim untuk pendaftaran. Hak akses dari mahasiswa menggunakan NIM, yang kemudian NIM tersebut akan mencari MAC device pada saat pertama pendaftaran untuk mencocokkannya. Jika NIM dan MAC addressnya sudah sinkron maka mahasiswa tersebut dapat login. Kemudian mahasiswa dapat melakukan Scan QR-Code presensi yang menyatakan bahwa dia hadir. Mahasiswa tidak akan bisa melakukan scan Kode QR jikalau dosen belum mengaktivasi atau membuka sistemnya. 
+	Dari sistem mahasiswa menggunakan MAC address device (HP) dan Nim untuk pendaftaran. Hak akses dari mahasiswa menggunakan NIM, yang kemudian NIM tersebut akan mencari MAC device pada saat pertama pendaftaran untuk mencocokkannya. Jika NIM dan MAC addressnya sudah sinkron maka mahasiswa tersebut dapat login. Kemudian mahasiswa dapat melakukan Scan QRCode presensi yang menyatakan bahwa dia hadir. Mahasiswa tidak akan bisa melakukan scan Kode QR jikalau dosen belum mengaktivasi atau membuka sistemnya. 
 </p>
 
 Pada sistem siswa, terdapat beberapa fungsi utama yaitu : <br>
 
-- Siswa dapat melihat jadwal perkuliahan.<br>
-- Sebelum siswa melakukan presensi, dia akan mendapatkan notifikasi untuk memulai scan, jika berhasil melakukan scan siswa akan mendapat notifikasi scan telah berhasil.<br>
-- Siswa dapat melihat jumlah kompen yang dia dapatkan karena keterlambatan maupun ketidakhadiran. <br>
+ Siswa dapat melihat jadwal perkuliahan.<br>
+ Sebelum siswa melakukan presensi, dia akan mendapatkan notifikasi untuk memulai scan, jika berhasil melakukan scan siswa akan mendapat notifikasi scan telah berhasil.<br>
+ Siswa dapat melihat jumlah kompen yang dia dapatkan karena keterlambatan maupun ketidakhadiran. <br>
 
 <p align="justify">	
 	Sedangkan pada sistem Dosen memiliki hak akses untuk membuka presensi. Setelah para mahasiswa telah melakukan presensi, maka dosen akan mendapat data siswa yang masuk pada mata kuliah hari itu. Jika hasilnya tidak sesuai maka untuk validasinya Dosen akan pengecekan ulang untuk memastikan. 
@@ -56,19 +56,19 @@ Pada sistem siswa, terdapat beberapa fungsi utama yaitu : <br>
 
 Pada sistem Dosen memiliki fungsi yaitu :<br>
 
-- Dosen bisa melihat jadwal. <br>
-- Dosen memilih jadwal yang akan dilaksanakan. <br>
-- Mempunyai hak akses untuk membuka presensi untuk mahasiswa. <br>
-- Melihat data kehadiran siswa. <br>
-- Validasi siswa <br>
+ Dosen bisa melihat jadwal. <br>
+ Dosen memilih jadwal yang akan dilaksanakan. <br>
+ Mempunyai hak akses untuk membuka presensi untuk mahasiswa. <br>
+ Melihat data kehadiran siswa. <br>
+ Validasi siswa <br>
 
 Pada sistem Admin yaitu : <br>
 
-- Menerima data mahasiswa yang hadir secara otomatis. <br>
-- Menginput data mahasiswa. <br>
-- Menginput dosen. <br>
-- Menginput jadwal Kuliah. <br>
-- Presentase presensi mahasiswa per hari dan per semester. <br>
+ Menerima data mahasiswa yang hadir secara otomatis. <br>
+ Menginput data mahasiswa. <br>
+ Menginput dosen. <br>
+ Menginput jadwal Kuliah. <br>
+ Presentase presensi mahasiswa per hari dan per semester. <br>
 
 
 ### 1.3 Deskripsi DOkumen (Ikhtisar)
@@ -83,29 +83,29 @@ Pada sistem Admin yaitu : <br>
 #### 1.4.1 Definisi
 
 <p align="justify"> 
-	- SRS atau Software Requirements Spesification adalah dokumen yang mendeskrpisikan spesifikasi kebutuhan dari aplikasi yang akan dibuat. Pada dokumen ini dijelaskan bagaimana dan seperti apa rancangan aplikasi tersebut. 
+	 SRS- atau Software Requirements Spesification adalah dokumen yang mendeskrpisikan spesifikasi kebutuhan dari aplikasi yang akan dibuat. Pada dokumen ini dijelaskan bagaimana dan seperti apa rancangan aplikasi tersebut. 
  </p>
  <p align="justify">
-    - SRS-x.x.x adalah kode yang digunakan unutk mempresentasikan kebutuhan (requirement) pada SRS, dengan SRS merupakan dokumen referensi yang menjadi acuan bagian tersebut, dan xxx adalah nomor/digit kebutuhan (requrement) pada bagian tersebut.
+     SRS-x.x.x adalah kode yang digunakan unutk mempresentasikan kebutuhan (requirement) pada SRS, dengan SRS merupakan dokumen referensi yang menjadi acuan bagian tersebut, dan xxx adalah nomor/digit kebutuhan (requrement) pada bagian tersebut.
 </p>
 <p align="justify">
-- DPPL-xxx adalah kode yang digunakan untuk mengimplementasikan perancangan. dengan xxx adalah nomor/digit perancangan.
+ STD-Lxxx adalah kode yang digunakan untuk mengimplementasikan perancangan. dengan xxx adalah nomor/digit perancangan.
 </p>
 
 #### 1.4.2 Singkatan
 
 |       Akronim       |      Arti            	  |
-|---------------------|---------------------------|
-|STD				  | Software Testing Document |
-|Q-Press              | QR-Kode Presensi	 	  |
-|QR-Kode			  | Quick Response	  		  |
+|||
+|STD-				  | Software Testing Document |
+|QPress              | QRKode Presensi	 	  |
+|QRKode			  | Quick Response	  		  |
 
 
 ### 1.5 Dokumen Referensi
 
-- <i>Ernita H. GL03. Dokumen Uji Perangkat Lunak (DUPL) SDS. Bogor.</i>
-- <i>Sistem Pentiketan Elektronik Konser.2013. Spesifikasi Kebutuhan Perangkat Lunak (SKPL)SPEK. Bogor.</i>
-- <i>Sistem Pentiketan Elektronik Konser.2013. Dokumen Perancangan Perangkat Lunak (DPPL)SPEK. Bogor.</i>
+ <i>Ernita H. GL03. Dokumen Uji Perangkat Lunak (DUPL) SDS. Bogor.</i>
+ <i>Sistem Pentiketan Elektronik Konser.2013. Spesifikasi Kebutuhan Perangkat Lunak (SKPL)SPEK. Bogor.</i>
+ <i>Sistem Pentiketan Elektronik Konser.2013. Dokumen Perancangan Perangkat Lunak (DPPL)SPEK. Bogor.</i>
 
 
 ## 2. Lingkungan Pengujian Perangkat Lunak
@@ -114,22 +114,22 @@ Pada sistem Admin yaitu : <br>
 
 Aplikasi ini diujikan dengan beberapa perangkat lunak lain, seperti :
 
-- Sistem Operasi 		: Windows 10
-- Framework 			: Laravel
-- Database				: Mysql dan Firebase
+ Sistem Operasi 		: Windows 10
+ Framework 			: Laravel
+ Database				: Mysql dan Firebase
 
 ### 2.2 Perangkat Keras Pengujian
 
-Perangkat keras yang digunakan untuk menguji aplikasi Q-Press ini adalah satu set PC atau Laptop dengan spesifikasi :
+Perangkat keras yang digunakan untuk menguji aplikasi QPress ini adalah satu set PC atau Laptop dengan spesifikasi :
 
-- Processor	: Intel Core i3
-- Memory	: 6GB
-- Harddisk	: 500GB
+ Processor	: Intel Core i3
+ Memory	: 6GB
+ Harddisk	: 500GB
 
 ### 2.3 Material Pengujian
 
 <p align="justify">
-	Pada program Aplikasi Presensi Menggunakan QR - Code ini Mahasiswa dan Dosen dapat melakukan presensi menggunakan Device (Hp) yang digunakan. Dengan melakukan pendaftaran menggunakan MAC Address dari perangkat tersebut, satu akun hanya mempunyai MAC Address. Dari user mahasiswa menggunakan NIM dan MAC Address sebagai pendaftaran dan menggunakan akun ini sedangkan user dosen menggunakan NIP. 
+	Pada program Aplikasi Presensi Menggunakan QR  Code ini Mahasiswa dan Dosen dapat melakukan presensi menggunakan Device (Hp) yang digunakan. Dengan melakukan pendaftaran menggunakan MAC Address dari perangkat tersebut, satu akun hanya mempunyai MAC Address. Dari user mahasiswa menggunakan NIM dan MAC Address sebagai pendaftaran dan menggunakan akun ini sedangkan user dosen menggunakan NIP. 
 </p>
 <p align="justify">
 	Mahasiswa dapat melakukan scan presensi apabila dosen telah membuka hak akses untuk presensi. Jika mahasiswa terlambat melakukan presensi maka terdapat keterangan dan akan masuk ke sistem data database untuk kompensasi keterlambatan. Dosen dapat melakukan validasi presensi dengan melakukan presensi secara manual dengan menyebutkan nama atau menghitung jumlah dari mahasiswa. Setelah mahasiswa melakukan presensi data presensi, data keterlambatan dan data absen akan masuk ke sistem Admin dan Sistem DOsen.
@@ -142,9 +142,9 @@ Perangkat keras yang digunakan untuk menguji aplikasi Q-Press ini adalah satu se
 
 Persyaratan sumber daya manusia yang akan terlibat dalam proses pengujian Aplikasi ini adalah :
 
-- Memmahami konsep pemrograman berorientasi Objek 
-- Memahami proses pengujian perangkat lunak berorientasi objek
-- Memahami konsep pemrograman Framework dan Database
+ Memmahami konsep pemrograman berorientasi Objek 
+ Memahami proses pengujian perangkat lunak berorientasi objek
+ Memahami konsep pemrograman Framework dan Database
 
 ### 2.5 Prosedur Umum Pengujian
 
@@ -163,9 +163,9 @@ Pengujian ini dilakukan di luar lingkungan kampus. Dimana pengujian ini dilakuka
 
 Perangkat keras yang perlu dipesiapkan adalah : 
 Sebuah perangkat Laptop yang dilengkapi dengan : 
-- Processor		: Intel® Core i3
-- Memory		: 2 GB DDR3 
-- Harddisk		: 100 GB
+ Processor		: Intel® Core i3
+ Memory		: 2 GB DDR3 
+ Harddisk		: 100 GB
 
 ##### 2.5.2.3 Persiapan Perangkat Lunak
 
@@ -199,67 +199,67 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td rowspan="2" align="center"><strong>Penguji</strong></td>
 		</tr>
 		<tr>
-			<td align="center"><strong>SRS/SDD</strong></td>
-			<td align="center"><strong>STD</strong></td>
+			<td align="center"><strong>SRS-/SDD</strong></td>
+			<td align="center"><strong>STD-</strong></td>
 		</tr>
-		<!-- Login Admin -->
+		<!-- <! Login Admin > -->
 		<tr>
 			<td rowspan="3" align="center"><strong>Login Admin</strong></td>
-			<td>Email address, Password dan Captcha yang di masukkan sesuai data</td>
+			<td>Email address dan Password yang di masukkan sesuai data</td>
 			<td>SRS-2.2.9</td>
-			<td>STD-09</td>
+			<td>STD-1.0</td>
 			<td>sistem</td>
 			<td>Black Box</td>
-			<td>Koriah</td> <!-- benar -->
+			<td>Koriah</td>
 		</tr>
 		<tr>
-			<td>Email address, Password dan Captcha yang di masukkan tidak sesuai data</td>
+			<td>Email address dan Password yang di masukkan tidak sesuai data</td>
 			<td>SRS-2.2.9</td>
-			<td>STD-09</td>
+			<td>STD-1.1</td>
 			<td>sistem</td>
 			<td>Black Box</td>
-			<td>Koriah</td> <!-- salah -->
+			<td>Koriah</td> 
 		</tr>
 		<tr>
-			<td>Tidak mengisi Email address, Password dan Capctha</td>
+			<td>Tidak mengisi Email address dan Password </td>
 			<td>SRS-2.2.9</td>
-			<td>STD-09</td>
+			<td>STD-1.2</td>
 			<td>sistem</td>
 			<td>Black Box</td>
-			<td>Koriah</td> <!-- salah -->
+			<td>Koriah</td>
 		</tr>
-		<!-- Data Kelas pada Admin -->
+		<!--  Data Kelas pada Admin  -->
 		<tr>
 			<td rowspan="3" align="center"><strong>Data Kelas pada Admin</strong></td>
 			<td>Pengujian Penambahan dengan data baru pada data kelas</td>
 			<td>SRS-2.2.1</td>
-			<td>STD-01</td>
+			<td>STD-2.0</td>
 			<td>sistem</td>
 			<td>Black Box</td>
-			<td>Koriah</td> <!-- benar -->
+			<td>Koriah</td> 
 		</tr>
 		<tr>
 			<td>Pengujian Penambahan dengan data yang sudah ada pada data kelas</td>
 			<td>SRS-2.2.1</td>
-			<td>STD-01</td>
+			<td>STD-2.1</td>
 			<td>sistem</td>
 			<td>Black Box</td>
-			<td>Koriah</td> <!-- salah -->
+			<td>Koriah</td>
 		</tr>
 		<tr>
 			<td>Penambahan dengan data dikosongkan pada data kelas</td>
 			<td>SRS-2.2.1</td>
-			<td>STD-01</td>
+			<td>STD-2.2</td>
 			<td>sistem</td>
 			<td>Black Box</td>
-			<td>Koriah</td> <!-- salah -->
+			<td>Koriah</td> 
 		</tr>
-		<!-- Data Mahasiswa Pada Admin -->
+		 <!-- Data Mahasiswa Pada Admin --> 
 		<tr>
 			<td rowspan="3" align="center"><strong>Data Mahasiswa pada Admin</strong></td>
 			<td>Penambahan dengan data baru</td>
 			<td>SRS-2.2.13</td>
-			<td>STD-13</td>
+			<td>STD-3.0</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Syamsul Fahri Hadi</td>
@@ -267,7 +267,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Pengujian Penambahan dengan data yang sudah ada</td>
 			<td>SRS-2.2.13</td>
-			<td>STD-13</td>
+			<td>STD-3.1</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Syamsul Fahri Hadi</td>
@@ -275,17 +275,17 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Pengujian Penambahan dengan data dikosongkan</td>
 			<td>SRS-2.2.13</td>
-			<td>STD-13</td>
+			<td>STD-3.2</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Syamsul Fahri Hadi</td>
 		</tr>
-		<!-- Data Dosen pada admin -->
+		 <!-- Data Dosen pada admin -->
 		<tr>
 			<td rowspan="3" align="center"><strong>Data Dosen pada Admin</strong></td>
 			<td>Penambahan dengan data baru</td>
 			<td>SRS-2.2.7</td>
-			<td>STD-07</td>
+			<td>STD-4.0</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td>
@@ -293,7 +293,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Pengujian Penambahan dengan data yang sudah ada</td>
 			<td>SRS-2.2.7</td>
-			<td>STD-07</td>
+			<td>STD-4.1</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td>
@@ -301,17 +301,17 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Pengujian Penambahan dengan data dikosongkan</td>
 			<td>SRS-2.2.7</td>
-			<td>STD-07</td>
+			<td>STD-4.2</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td>
 		</tr>
-		<!-- Data Mata Kuliah pada Admin -->
+		 <!-- Data Mata Kuliah pada Admin  -->
 		<tr>
 			<td rowspan="3" align="center"><strong>Data Mata Kuliah pada Admin</strong></td>
 			<td>Penambahan dengan data baru</td>
 			<td>SRS-2.2.14</td>
-			<td>STD-14</td>
+			<td>STD-5.0</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td>
@@ -319,7 +319,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Pengujian Penambahan dengan data yang sudah ada</td>
 			<td>SRS-2.2.14</td>
-			<td>STD-14</td>
+			<td>STD-5.1</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td>
@@ -327,17 +327,17 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Pengujian Penambahan dengan data dikosongkan</td>
 			<td>SRS-2.2.14</td>
-			<td>STD-14</td>
+			<td>STD-5.2</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td>
 		</tr>
-		<!-- Data Ruangan pada Admin -->
+		<!--  Data Ruangan pada Admin  -->
 		<tr>
 			<td rowspan="3" align="center"><strong>Data Ruangan pada Admin</strong></td>
 			<td>Penambahan dengan data baru</td>
 			<td>SRS-2.2.15</td>
-			<td>STD-15</td>
+			<td>STD-6.0</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td>
@@ -345,25 +345,25 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Pengujian Penambahan dengan data yang sudah ada</td>
 			<td>SRS-2.2.15</td>
-			<td>STD-15</td>
+			<td>STD-6.1</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td>
 		</tr>
 		<tr>
-			<td>Pengujian Penambahan dengan data dikosongkan</td>
+			<td>Pengujian Penambahan dengan field data dikosongkan</td>
 			<td>SRS-2.2.15</td>
-			<td>STD-15</td>
+			<td>STD-6.2/td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td>
 		</tr>
-		<!-- Upload Jadwal Pada Admin -->
+		 <!-- Upload Jadwal Pada Admin --> 
 		<tr>
 			<td rowspan="3" align="center"><strong>Upload Jadwal pada Admin</strong></td>
 			<td>Upload Jadwal dengan file format excel</td>
 			<td>SRS-2.2.12</td>
-			<td>STD-12</td>
+			<td>STD-7.0</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Syamsul Fahri Hadi</td>
@@ -371,7 +371,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Upload Jadwal dengan bukan file format excel</td>
 			<td>SRS-2.2.12</td>
-			<td>STD-12</td>
+			<td>STD-7.1</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Syamsul Fahri Hadi</td>
@@ -379,25 +379,25 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Tidak ada koneksi</td>
 			<td>SRS-2.2.12</td>
-			<td>STD-12</td>
+			<td>STD-7.2</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Syamsul Fahri Hadi</td>
 		</tr>
-		<!-- Download Rekap -->
+		 <!-- Download Rekap --> 
 		<tr>
 			<td rowspan="3" align="center"><strong>Download Rekap Presensi pada Admin</strong></td>
 			<td>Download Rekap</td>
 			<td>SRS-2.2.4</td>
-			<td>STD-04</td>
+			<td>STD-8.0</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Syamsul Fahri Hadi</td>
 		</tr>
 		<tr>
-			<td>-</td>
+			<td></td>
 			<td>SRS-2.2.4</td>
-			<td>STD-04</td>
+			<td>STD-8.1</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Syamsul Fahri Hadi</td>
@@ -405,17 +405,17 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Tidak ada koneksi</td>
 			<td>SRS-2.2.4</td>
-			<td>STD-04</td>
+			<td>STD-8.2</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Syamsul Fahri Hadi</td>
 		</tr>
-		<!-- Registrasi Mahasiswa -->
+		 <!-- Registrasi Mahasiswa --> 
 		<tr>
 			<td rowspan="3" align="center"><strong>Registrasi Mahasiswa </strong></td>
 			<td>Regis menggunakan Nim dan Mac Address</td>
 			<td>SRS-2.2.2</td>
-			<td>STD-02</td>
+			<td>STD-9.0</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
@@ -423,7 +423,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Regis tidak menggunakan Nim dan Mac Address</td>
 			<td>SRS-2.2.2</td>
-			<td>STD-02</td>
+			<td>STD-9.1</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
@@ -431,17 +431,17 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Regis menggunakan Nim dan Mac Address yang tidak sesuain data</td>
 			<td>SRS-2.2.2</td>
-			<td>STD-02</td>
+			<td>STD-9.2</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
 		</tr>
-		<!-- Registrasi Dosen -->
+		<!-- Registrasi Dosen --> 
 		<tr>
 			<td rowspan="3" align="center"><strong>Registrasi Dosen </strong></td>
 			<td>Regis menggunakan Nip dan Mac Address</td>
 			<td>SRS-2.2.3</td>
-			<td>STD-03</td>
+			<td>STD-10.0</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
@@ -449,7 +449,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Regis tidak menggunakan Nip dan Mac Address</td>
 			<td>SRS-2.2.3</td>
-			<td>STD-03</td>
+			<td>STD-10.1</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
@@ -457,25 +457,25 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Tidak ada koneksi</td>
 			<td>SRS-2.2.3</td>
-			<td>STD-03</td>
+			<td>STD-10.2</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
 		</tr>
-		<!-- Rekap Presensi pada Dosen -->
+		 <!-- Rekap Presensi pada Dosen  -->
 		<tr>
 			<td rowspan="3" align="center"><strong>Rekap Presensi pada Dosen</strong></td>
 			<td>Dosen mengeklik tombol rekap untuk di download</td>
 			<td>SRS-2.2.5</td>
-			<td>STD-05</td>
+			<td>STD-11.0</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
 		</tr>
 		<tr>
-			<td>--</td>
+			<td></td>
 			<td>SRS-2.2.5</td>
-			<td>STD-05</td>
+			<td>STD-11.1</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
@@ -483,25 +483,25 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Tidak ada koneksi</td>
 			<td>SRS-2.2.5</td>
-			<td>STD-05</td>
+			<td>STD-11.2</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
 		</tr>
-		<!-- Lihat Jadwal Pada Dosen -->
+		<!-- <! Lihat Jadwal Pada Dosen > -->
 			<tr>
 			<td rowspan="3" align="center"><strong>Lihat Jadwal Pada Dosen</strong></td>
 			<td>Dosen mengeklik menu lihat jadwal</td>
 			<td>SRS-2.2.6</td>
-			<td>STD-06</td>
+			<td>STD-12.0</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
 		</tr>
 		<tr>
-			<td>--</td>
+			<td></td>
 			<td>SRS-2.2.6</td>
-			<td>STD-06</td>
+			<td>STD-12.1</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
@@ -509,25 +509,25 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Tidak ada koneksi</td>
 			<td>SRS-2.2.06</td>
-			<td>STD-6</td>
+			<td>STD-12.2</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
 		</tr>
-		<!-- Lihat Jadwal Pada Mahasiswa -->
+		<!-- Lihat Jadwal Pada Mahasiswa --> 
 			<tr>
 			<td rowspan="3" align="center"><strong>Lihat Jadwal Pada Mahasiswa</strong></td>
 			<td>Mahasiswa mengeklik menu lihat jadwal</td>
 			<td>SRS-2.2.8</td>
-			<td>STD-08</td>
+			<td>STD-13.0</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
 		</tr>
 		<tr>
-			<td>--</td>
+			<td></td>
 			<td>SRS-2.2.8</td>
-			<td>STD-08</td>
+			<td>STD-13.1</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
@@ -535,17 +535,17 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Tidak ada koneksi</td>
 			<td>SRS-2.2.8</td>
-			<td>STD-08</td>
+			<td>STD-13.2</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
 		</tr>
-		<!-- Scan Presensi pada Dosen -->
+		 <!-- Scan Presensi pada Dosen  -->
 			<tr>
 			<td rowspan="3" align="center"><strong>Scan Presensi pada Dosen</strong></td>
 			<td>Dosen mengeklik button scan dengan kode yang tersedia diruangan</td>
 			<td>SRS-2.2.10</td>
-			<td>STD-10</td>
+			<td>STD-14.0</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
@@ -553,7 +553,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Dosen mengeklik button scan dengan kode yang berbeda pada ruangan</td>
 			<td>SRS-2.2.10</td>
-			<td>STD-10</td>
+			<td>STD-14.1</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
@@ -561,17 +561,17 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Tidak ada koneksi</td>
 			<td>SRS-2.2.10</td>
-			<td>STD-10</td>
+			<td>STD-14.2</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
 		</tr>
-		<!-- Scan Presensi pada Mahasiswa -->
+		 <!-- Scan Presensi pada Mahasiswa --> 
 			<tr>
 			<td rowspan="3" align="center"><strong>Scan Presensi pada Mahasiswa</strong></td>
 			<td>Mahasiswa mengeklik button scan yang sudah dibuka hak aksesnya</td>
 			<td>SRS-2.2.11</td>
-			<td>STD-11</td>
+			<td>STD-15.0</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
@@ -579,7 +579,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Mahasiswa mengeklik button scan yang belum dibuka hak aksesnya</td>
 			<td>SRS-2.2.11</td>
-			<td>STD-11</td>
+			<td>STD-15.1</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
@@ -587,7 +587,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Tidak ada koneksi</td>
 			<td>SRS-2.2.11</td>
-			<td>STD-11</td>
+			<td>STD-15.2</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Bayu Rasukma Raga</td>
@@ -599,28 +599,29 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 
 Tabel 2 Deskripsi dan Hasil Uji
 
+<!-- Login Admin -->
 <table>  
 	<thead> 
 		<tr>
 			<td rowspan="1"><strong>Identifikasi</td>
-			<td colspan="3">STD-01</td>
+			<td colspan="3">STD-1.0</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Nama Butir Uji</td>
-			<td colspan="3">Pengujian Penambahan dengan data baru</td>
+			<td colspan="3">Email Address dan Password sesuai data</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Tujuan</td>
-			<td colspan="3">Memeriksa apakah data baru yang ditambahkan tersimpan ke tabel data kelas pada database</td>
+			<td colspan="3">Memeriksa apakah Login berhasil masuk ke halaman admin</td>
 		</tr>
 		<tr>
-			<td rowspan="1"><strong>Kondisi Awaltd>
-			<td colspan="3">Admin sudah berada pada menu Data Kelas <br>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
 			</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Tanggal Pengujian</td>
-			<td colspan="3">19 - 05 - 2018</td>
+			<td colspan="3">19-05-2018</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Penguji</td>
@@ -632,9 +633,9 @@ Tabel 2 Deskripsi dan Hasil Uji
 		<tr>
 			<td colspan="4">
 				<ul>
-					<ol>Klik tombol Tambah Kelas</ol>
-					<ol>Masukkan nama kelas, jenjang dan wali dosen</ol>
-					<ol>Klik Simpan</ol>
+					 Input Email address dan password yang sesuai database <br>
+					 Input kode captcha<br>
+					 klik tombol login
 				</ul>
 			</td>
 		</tr>
@@ -649,27 +650,109 @@ Tabel 2 Deskripsi dan Hasil Uji
 		</tr>
 		<tr>
 			<td rowspan="1">
-				<ul>
-					<ol>Nama kelas : D3TI2D</ol>
-					<ol>Jenjang : D3</ol>
-					<ol>Wali Dosen : Eka Ismanto Hadi </ol>
+				<ul> 
+					 user name : kori@gmail.com <br>
+					 Password  : 123456
+					 captcha   : cdjqe
 				</ul>
 			</td>
 			<td rowspan="1">
 				<ul>
-					<ol>Data yang dimasukkan disimpan pada sistem penyimpanan tabel database Data Kelas</ol>
+					 Admin dapat login dengan data yang sesuai dan masuk ke halaman admin
 				</ul>
 			</td>
 			<td rowspan="1">
 				<ul>
-					<ol>Data yang dimasukkan berupa data baru</ol>
-					<ol>Data yang dimasukkan tidak boleh kosong</ol>
-					<ol>Tombol simpan akan berfungsi menyimpan data jika field yang diisi lengkap </ol>
+				     username dan password harus sesuai dengan database. kode captcha yang dimasukkan sesuai.
 				</ul>
 			</td>
 			<td rowspan="1">
 				<ul>
-					<ol>Berhasil menyimpan data</ol>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+<!-- Login Admin tidak sesuai data-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-1.1</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Email Address dan Password tidak sesuai data</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Login dengan data yang salah akan berhasil masuk ke halaman admin</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">19-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Koriah</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Input Email address dan password yang sesuai database <br>
+					 Input kode captcha<br>
+					 klik tombol login
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 user name : kokokm@gmail.com <br>
+					 Password  : 124567
+					 captcha   : asder
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Admin tidak dapat login dengan data yang tidak sesuai dan tidak dapat masuk ke halaman admin
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     email address yang tidak sesuai dengan data tidak dapat login dan admin tidak dapat masuk ke halaman admin
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
 				</ul>
 			</td>
 		</tr>
@@ -685,3 +768,342 @@ Tabel 2 Deskripsi dan Hasil Uji
 	</thead>
 </table>
 
+<!-- Login Admin dengan data kosong-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-1.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Tidak mengisi Email address dan Password </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah Login berhasil jika tidak mengisi form login</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Halaman Login<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">19-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Koriah</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Tidak menginputkan apapun pada gorm login <br>
+					 klik tombol login
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 tidak ada
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Admin tidak dapat login karena tidak mengisi form login
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     tombol login dapat di klik dan terdapat peringatan bahwa form harus diisi
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+
+<!-- STD Data Kelas -->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-2.0</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Pengujian Penambahan dengan data baru</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah data baru yang ditambahkan tersimpan ke tabel data kelas pada database</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Admin sudah berada pada menu Data Kelas <br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">19-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Koriah</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Klik tombol Tambah Kelas
+					 Masukkan nama kelas, jenjang dan wali dosen
+					 Klik Simpan
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 Nama kelas : D3TI2D <br>
+					 Jenjang : D3 <br>
+					 Wali Dosen : Eka Ismanto Hadi <br>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Data yang dimasukkan disimpan pada sistem penyimpanan tabel database Data Kelas
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Data yang dimasukkan berupa data baru <br>
+					 Tombol simpan berfungsi jika field yang diisi lengkap <br>
+					 Data yang telah ditambahkan akan muncul pada view data kelas <br>
+					 Berhasil menyimpan data
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+<!-- STD-2.1 Data Kelas-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-2.1</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Pengujian Penambahan dengan data yang sudah ada pada data kelas</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah data yang sudah ditambahkan sebelumnya dapat tersimpan ke tabel data kelas pada database</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Admin sudah berada pada menu Data Kelas <br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">19-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Koriah</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Klik tombol Tambah Kelas
+					 Masukkan nama kelas, jenjang dan wali dosen
+					 Klik Simpan
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					 Nama kelas : D3TI2D <br>
+					 Jenjang : D3 <br>
+					 Wali Dosen : Eka Ismanto Hadi <br>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Data yang dimasukkan tidak disimpan pada sistem penyimpanan tabel database Data Kelas
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Data yang dimasukkan berupa data yang sudah ada <br>
+					 Data yang dimasukkan tidak boleh kosong <br>
+					 Tombol simpan akan berfungsi menyimpan data jika field yang diisi lengkap <br>
+					 Terjadi eror karena data yang dimasukkan sudah ada sebelumnya. Berupa notifikasi bahwa data yang dimasukkan sudah ada.
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+<!-- data kosong -->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-2.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Pengujian Penambahan dengan field data dikosongkan</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa hasil dari pengujian jika field tidak terisi a</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Admin sudah berada pada menu Data Kelas <br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">19-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Koriah</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Klik tombol Tambah Kelas
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					Tidak mengisi field kelas
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Terdapat eror berupa notifikasi peringatan
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Data yang dimasukkan tidak boleh kosong <br>
+					 Tombol simpan tidak berfungsi karena field kosong <br>
+					 Terjadi eror berupa notifikasi bahwa field tersebut tidak boleh kosong <br>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
