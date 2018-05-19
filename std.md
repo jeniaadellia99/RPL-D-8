@@ -231,7 +231,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<!-- Data Kelas pada Admin -->
 		<tr>
 			<td rowspan="3" align="center"><strong>Data Kelas pada Admin</strong></td>
-			<td>Penambahan dengan data baru</td>
+			<td>Pengujian Penambahan dengan data baru pada data kelas</td>
 			<td>SRS-2.2.1</td>
 			<td>STD-01</td>
 			<td>sistem</td>
@@ -239,7 +239,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>Koriah</td> <!-- benar -->
 		</tr>
 		<tr>
-			<td>Penambahan dengan data yang sudah ada</td>
+			<td>Pengujian Penambahan dengan data yang sudah ada pada data kelas</td>
 			<td>SRS-2.2.1</td>
 			<td>STD-01</td>
 			<td>sistem</td>
@@ -247,7 +247,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>Koriah</td> <!-- salah -->
 		</tr>
 		<tr>
-			<td>Penambahan dengan data dikosongkan</td>
+			<td>Penambahan dengan data dikosongkan pada data kelas</td>
 			<td>SRS-2.2.1</td>
 			<td>STD-01</td>
 			<td>sistem</td>
@@ -517,7 +517,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<!-- Lihat Jadwal Pada Mahasiswa -->
 			<tr>
 			<td rowspan="3" align="center"><strong>Lihat Jadwal Pada Mahasiswa</strong></td>
-			<td>Dosen mengeklik menu lihat jadwal</td>
+			<td>Mahasiswa mengeklik menu lihat jadwal</td>
 			<td>SRS-2.2.8</td>
 			<td>STD-08</td>
 			<td>sistem</td>
@@ -603,28 +603,28 @@ Tabel 2 Deskripsi dan Hasil Uji
 	<thead> 
 		<tr>
 			<td rowspan="1"><strong>Identifikasi</td>
-			<td colspan="3"></td>
+			<td colspan="3">STD-01</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Nama Butir Uji</td>
-			<td colspan="3"></td>
+			<td colspan="3">Pengujian Penambahan dengan data baru</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Tujuan</td>
-			<td colspan="3"></td>
+			<td colspan="3">Memeriksa apakah data baru yang ditambahkan tersimpan ke tabel data kelas pada database</td>
 		</tr>
 		<tr>
-			<td rowspan="1"><strong>Kondisi Awal</td>
-			<td colspan="3"><br>
+			<td rowspan="1"><strong>Kondisi Awaltd>
+			<td colspan="3">Admin sudah berada pada menu Data Kelas <br>
 			</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Tanggal Pengujian</td>
-			<td colspan="3"></td>
+			<td colspan="3">19 - 05 - 2018</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Penguji</td>
-			<td colspan="3"></td>
+			<td colspan="3">Koriah</td>
 		</tr>
 		<tr>
 			<td colspan="4" align="center"><strong>Skenario</td>
@@ -632,8 +632,9 @@ Tabel 2 Deskripsi dan Hasil Uji
 		<tr>
 			<td colspan="4">
 				<ul>
-					<li></li>
-					<li></li>
+					<ol>Klik tombol Tambah Kelas</ol>
+					<ol>Masukkan nama kelas, jenjang dan wali dosen</ol>
+					<ol>Klik Simpan</ol>
 				</ul>
 			</td>
 		</tr>
@@ -649,24 +650,26 @@ Tabel 2 Deskripsi dan Hasil Uji
 		<tr>
 			<td rowspan="1">
 				<ul>
-					<li></li>
-					<li></li>
+					<ol>Nama kelas : D3TI2D</ol>
+					<ol>Jenjang : D3</ol>
+					<ol>Wali Dosen : Eka Ismanto Hadi </ol>
 				</ul>
 			</td>
 			<td rowspan="1">
 				<ul>
-					<li></li>
+					<ol>Data yang dimasukkan disimpan pada sistem penyimpanan tabel database Data Kelas</ol>
 				</ul>
 			</td>
 			<td rowspan="1">
 				<ul>
-					<li></li>
-					<li></li>
+					<ol>Data yang dimasukkan berupa data baru</ol>
+					<ol>Data yang dimasukkan tidak boleh kosong</ol>
+					<ol>Tombol simpan akan berfungsi menyimpan data jika field yang diisi lengkap </ol>
 				</ul>
 			</td>
 			<td rowspan="1">
 				<ul>
-					<li></li>
+					<ol>Berhasil menyimpan data</ol>
 				</ul>
 			</td>
 		</tr>
@@ -675,9 +678,7 @@ Tabel 2 Deskripsi dan Hasil Uji
 		</tr>
 		<tr>
 			<td colspan="4">
-				<ul>
-					<li></li>
-					<li></li>
+				<ul>					
 				</ul>
 			</td>
 		</tr>
