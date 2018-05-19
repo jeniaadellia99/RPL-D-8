@@ -5,7 +5,7 @@
 <p align="center"><b>Version 1.0 </b><br>
 <p align="center">09 Mei 2018</b>
 <p align="center">
-<img src="https://2.bp.blogspot.com/dxdRgMQGbLk/WpATp2rNGI/AAAAAAAAAh8/3_jBWFb7Cf48033QvB34D2WCwoN2sxZLgCLcBGAs/s1000/index.png"/>
+<img src="https://1.bp.blogspot.com/-rLf4TVfx-4I/WwCteBFEcwI/AAAAAAAAA3E/NARlA19-LHAmuor2GYn6Pb5v61__pGDEgCLcBGAs/s1000/index.png"/>
 </p>
 
 <br><p align="center"><b> QPRESS (QRKode Presensi)</b><br>
