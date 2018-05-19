@@ -257,7 +257,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		 <!-- Data Mahasiswa Pada Admin --> 
 		<tr>
 			<td rowspan="3" align="center"><strong>Data Mahasiswa pada Admin</strong></td>
-			<td>Penambahan dengan data baru</td>
+			<td>Import File data mahasiswa format excel</td>
 			<td>SRS-2.2.13</td>
 			<td>STD-3.0</td>
 			<td>sistem</td>
@@ -265,7 +265,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>Syamsul Fahri Hadi</td>
 		</tr>
 		<tr>
-			<td>Pengujian Penambahan dengan data yang sudah ada</td>
+			<td>import file data mahasiswa bukan format excel</td>
 			<td>SRS-2.2.13</td>
 			<td>STD-3.1</td>
 			<td>sistem</td>
@@ -273,7 +273,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>Syamsul Fahri Hadi</td>
 		</tr>
 		<tr>
-			<td>Pengujian Penambahan dengan data dikosongkan</td>
+			<td>import file data mahasiswa yang sudah ada</td>
 			<td>SRS-2.2.13</td>
 			<td>STD-3.2</td>
 			<td>sistem</td>
@@ -291,7 +291,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>Koriah</td>
 		</tr>
 		<tr>
-			<td>Pengujian Penambahan dengan data yang sudah ada</td>
+			<td>Pengujian Penambahan dengan data NIK dan NIDN tidak sesuai jumlah karakter</td>
 			<td>SRS-2.2.7</td>
 			<td>STD-4.1</td>
 			<td>sistem</td>
@@ -353,7 +353,7 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 		<tr>
 			<td>Pengujian Penambahan dengan field data dikosongkan</td>
 			<td>SRS-2.2.15</td>
-			<td>STD-6.2/td>
+			<td>STD-6.2</td>
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td>
@@ -735,7 +735,7 @@ Tabel 2 Deskripsi dan Hasil Uji
 		<tr>
 			<td rowspan="1">
 				<ul> 
-					 user name : kokokm@gmail.com <br>
+					 user name : kokomm@gmail.com <br>
 					 Password  : 124567
 					 captcha   : asder
 				</ul>
@@ -802,7 +802,7 @@ Tabel 2 Deskripsi dan Hasil Uji
 		<tr>
 			<td colspan="4">
 				<ul>
-					 Tidak menginputkan apapun pada gorm login <br>
+					 Tidak menginputkan apapun pada form login <br>
 					 klik tombol login
 				</ul>
 			</td>
@@ -938,7 +938,7 @@ Tabel 2 Deskripsi dan Hasil Uji
 		</tr>
 	</thead>
 </table>
-<!-- STD-2.1 Data Kelas-->
+<!-- STD-2.1 Data Kelas yang sudah ada-->
 <table>  
 	<thead> 
 		<tr>
@@ -1038,7 +1038,7 @@ Tabel 2 Deskripsi dan Hasil Uji
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Tujuan</td>
-			<td colspan="3">Memeriksa hasil dari pengujian jika field tidak terisi a</td>
+			<td colspan="3">Memeriksa hasil dari pengujian jika field tidak terisi</td>
 		</tr>
 		<tr>
 			<td rowspan="1"><strong>Kondisi Awal</td>
@@ -1086,13 +1086,1004 @@ Tabel 2 Deskripsi dan Hasil Uji
 			<td rowspan="1">
 				<ul>
 					 Data yang dimasukkan tidak boleh kosong <br>
-					 Tombol simpan tidak berfungsi karena field kosong <br>
-					 Terjadi eror berupa notifikasi bahwa field tersebut tidak boleh kosong <br>
+					 kelika mengklik tombol simpan Terjadi eror berupa notifikasi bahwa field tersebut tidak boleh kosong <br>
 				</ul>
 			</td>
 			<td rowspan="1">
 				<ul>
 					 OK
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Data Mahasiswa pada admin-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-3.0</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Pengujian Import File data mahasiswa format excel</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa hasil pengujian Data mahasiswa format excel </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Admin sudah berada pada menu Data Mahasiswa <br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Syamsul Fahri Hadi</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Klik tombol Import
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					data mahasiswa berformat excel
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 file dapat terimport dan tersimpan
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 File yang harus di import berupa excel<br>
+					 Data berhasil disimpan dengan format excel
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					OK 
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Data Mahasiswa pada admin-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-3.1</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Pengujian Import File data mahasiswa format selain excel</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa hasil pengujian Data mahasiswa selain format excel </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Admin sudah berada pada menu Data Mahasiswa <br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Syamsul Fahri Hadi</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Klik tombol Import
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					data mahasiswa berformat docx
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 file tidak dapat terimport dan terjadi eror //belum fiks pengujiannya
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 File yang selain excel akan terjad error
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK //belum fiks pengujiannya
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Data Mahasiswa pada admin-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-3.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Pengujian Import File data mahasiswa format selain excel</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa hasil pengujian Data mahasiswa selain format excel </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Admin sudah berada pada menu Data Mahasiswa <br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Syamsul Fahri Hadi</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Klik tombol Import
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					tidak ada
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 terdapat peringatan bahwa harus memiliki file untuk diimport
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 harus ada file yang di import
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK //belum fiks pengujiannya
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+<!-- Data Dosen pada admin-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-4.0</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Penambahan dengan data baru</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa hasil Penambahan dengan data baru </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Admin sudah berada pada menu Data Dosen <br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Koriahi</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Klik tombol Tambah Dosen. Admin mengisi data dosen
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					NIK : 9098630
+					NIDN : 410108601
+					Nama : Willy Permana Putra
+					Gelar : S.T., M.Eng
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 data disimpan pada database dan ditampilkan pad view data dosen
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					data yang diisi harus data baru <br> Tombol simpan berfungsi dan data ditampilkan pada view menu dosen <br> data disimpan pada database
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK 
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+<!-- Data Dosen pada admin dengan data yang sudah ada-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-4.1</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Pengujian Penambahan dengan data NIK dan NIDN tidak sesuai jumlah karakter</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa hasil Pengujian Penambahan dengan data NIK dan NIDN tidak sesuai jumlah karakter</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Admin sudah berada pada menu Data Dosen <br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Koriahi</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Klik tombol Tambah Dosen. Admin mengisi data dosen
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					NIK : 90900
+					NIDN : 408601
+					Nama : Willy Permana Putra
+					Gelar : S.T., M.Eng
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					tidak dapat menyimoan data dan terdapat peringatan
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 untuk NIDN data harus berjumlah 10 karakter <br> NIK data harus berjumlah 8 karakter <br> Tombol simpan berfungsi dan data tidak ditampilkan pada view menu dosen <br> ketika klik tambah dosen lagi terdapat peringatan bahwa field NIDN berjumlah 10 karakter dan NIK 8 karakter
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK 
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Data Dosen pada admin dengan data kosong-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-4.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Pengujian Penambahan dengan data dikosongkan</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa hasil Pengujian Penambahan dengan data dikosongkan</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Admin sudah berada pada menu Data Dosen <br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Koriahi</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Klik tombol Tambah Dosen. Admin mengisi data dosen
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					tidak ada
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					terdapat peringatan bahwa field tidak boleh kosong
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 form tambah tidak boleh kosong <br> ketika mengklik tombol simpan terdapat notif bahwa field tidak boleh kosong
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK 
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Data Mata Kuliah dengan data yang baru-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-5.0</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Penambahan dengan data baru</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa hasil Penambahan dengan data baru </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Admin sudah berada pada menu Data Mata Kuliah <br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Koriahi</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Klik tombol Tambah Dosen. Admin mengisi data dosen
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					Kode Matkul : TIKB2283 <br>
+					Nama Matkul	: PROYEK 1 <br>
+					SKS Teori	: 3 <br>
+					SKS Praktek	: 4 <br>
+					Jenjang 	: D3 <br>
+					Semester 	: 3 <br>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 data disimpan pada database dan ditampilkan pad view data mata kuliah
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					data yang diisi harus data baru <br> Tombol simpan berfungsi dan data ditampilkan pada view menu dosen <br> data disimpan pada database
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK 
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- STD-2.1 Data Kelas yang sudah ada-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-5.1</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Pengujian Penambahan dengan data yang sudah ada pada data mata kuliah</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa apakah data yang sudah ditambahkan sebelumnya dapat tersimpan ke tabel data mata kuliah pada database</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Admin sudah berada pada menu Data Mata Kuliah<br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Koriah</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Klik tombol Tambah Kelas
+					 Masukkan nama kelas, jenjang dan wali dosen
+					 Klik Simpan
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					Kode Matkul : TIKB2283 <br>
+					Nama Matkul	: PROYEK 1 <br>
+					SKS Teori	: 3 <br>
+					SKS Praktek	: 4 <br>
+					Jenjang 	: D3 <br>
+					Semester 	: 3 <br>
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 Data yang dimasukkan tidak disimpan pada sistem dan terjadi error peringatan data tidak boleh sama //belum fiks
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+				     Data yang dimasukkan berupa data yang sudah ada <br>
+					 Data yang dimasukkan tidak boleh kosong <br>
+					 Tombol simpan akan berfungsi menyimpan data jika field yang diisi lengkap <br>
+					 Terjadi eror karena data yang dimasukkan sudah ada sebelumnya. Berupa notifikasi bahwa data yang dimasukkan sudah ada.
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK //belum fiks
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Data Mata KUliah pada admin dengan data kosong-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-5.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Pengujian Penambahan dengan data dikosongkan</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa hasil Pengujian Penambahan dengan data dikosongkan</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Admin sudah berada pada menu Data Dosen <br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Koriahi</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Klik tombol Tambah Mata Kuliah. Admin mengisi data Mata Kuliah
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					tidak ada
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					terdapat peringatan bahwa field tidak boleh kosong
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 form tambah tidak boleh kosong <br> ketika mengklik tombol simpan terdapat notif bahwa field tidak boleh kosong
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK 
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Data Ruangan dengan data yang baru-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-6.0</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Penambahan dengan data baru</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa hasil Penambahan dengan data baru </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Admin sudah berada pada menu Data Mata Kuliah <br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Koriahi</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Klik tombol Tambah ruangan. Admin mengisi data Ruangan
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					Lab Multimedia
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 data disimpan pada database dan ditampilkan pad view data Ruangan
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					data yang diisi harus data baru <br> Tombol simpan berfungsi dan data ditampilkan pada view menu dosen <br> data disimpan pada database
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK 
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Data Ruangan dengan data yang yang sudah ada-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-6.1</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Penambahan dengan data yang sudah ada</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa hasil Penambahan dengan data yang sudah ada </td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Admin sudah berada pada menu Data Ruangan <br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Koriahi</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Klik tombol Tambah Ruangan. Admin mengisi data dosen
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					Lab Multimedia
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 data disimpan pada database dan ditampilkan pad view data Ruangan
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					data yang diisi sama dengan data sebelumnya <br> Tombol simpan berfungsi dan data ditampilkan pada view menu dosen <br> data tidak disimpan pada database <br> terjadi error peringatan dat atidak boleh kosong //belum fiks
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK 
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Catatan</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>					
+				</ul>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<!-- Data Mata KUliah pada admin dengan data kosong-->
+<table>  
+	<thead> 
+		<tr>
+			<td rowspan="1"><strong>Identifikasi</td>
+			<td colspan="3">STD-6.2</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Nama Butir Uji</td>
+			<td colspan="3">Pengujian Penambahan dengan data dikosongkan</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tujuan</td>
+			<td colspan="3">Memeriksa hasil Pengujian Penambahan dengan data dikosongkan</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Kondisi Awal</td>
+			<td colspan="3">Admin sudah berada pada menu Data Dosen <br>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Tanggal Pengujian</td>
+			<td colspan="3">20-05-2018</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Penguji</td>
+			<td colspan="3">Koriahi</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Skenario</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<ul>
+					 Klik tombol Tambah Ruangan. Admin mengisi data Ruangan
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" align="center"><strong>Hasil</td>
+		</tr>
+		<tr>
+			<td rowspan="1"><strong>Data yang Diberikan</td>
+			<td rowspan="1"><strong>Yang Diharapkan</td>
+			<td rowspan="1"><strong>Pengamatan</td>
+			<td rowspan="1"><strong>Kesimpulan</td>
+		</tr>
+		<tr>
+			<td rowspan="1">
+				<ul> 
+					tidak ada
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					terdapat peringatan bahwa field tidak boleh kosong
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 form tambah tidak boleh kosong <br> ketika mengklik tombol simpan terdapat notif bahwa field tidak boleh kosong
+				</ul>
+			</td>
+			<td rowspan="1">
+				<ul>
+					 OK 
 				</ul>
 			</td>
 		</tr>
