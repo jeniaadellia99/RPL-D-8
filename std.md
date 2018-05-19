@@ -209,7 +209,6 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td> <!-- benar -->
-			<td>Koriah</td>
 		</tr>
 		<tr>
 			<td>Email address, Password dan Captcha yang di masukkan tidak sesuai data</td>
@@ -218,7 +217,6 @@ Tabel 1 Identifikasi dan Rencana Pengujian
 			<td>sistem</td>
 			<td>Black Box</td>
 			<td>Koriah</td> <!-- salah -->
-			<td>Koriah</td>
 		</tr>
 		<tr>
 			<td>Tidak Ada koneksi</td>
