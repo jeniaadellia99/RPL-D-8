@@ -243,6 +243,18 @@ Pada sistem Admin memiliki beberapa fungsi yaitu :
 		<tr>
 			<td><img src="https://1.bp.blogspot.com/-6GUTyCOFLns/WpJhWvUHVsI/AAAAAAAAA4A/qQnHU3tJ0soWjCHxv4PJkCxRWQwXxZKiwCLcBGAs/s1600/ubah%2Bjadwal.jpg"><br><p align="justify">Pada Edit jadwal sama seperti pada Edit mahasiswa dan dosen yakni terdapat 2 tombol untuk download tamplate dan upload untuk mengunggah data yang sudah di edit</p></td>
 		</tr>
+	<tr>
+			<td><b>Data Mata Kuliah</td>
+		</tr>
+		<tr>
+			<td><img src="https://2.bp.blogspot.com/-7u6WW6cD1lU/WwB3qcqzRNI/AAAAAAAAA2w/2vJdOqKz73MvB3Xccv3xr19RdEBjU1duACLcBGAs/s1600/admin-data%2Bmatkul.JPG"><br><p align="justify">Pada menu Data Kuliah admin dapat melakukan operasi-operasi seperti menambah, menghapus dan mengedit data mata kuliah</p></td>
+		</tr>
+		<tr>
+			<td><b>Data Ruangan</td>
+		</tr>
+		<tr>
+			<td><img src="https://4.bp.blogspot.com/-J8iL-oVuF6M/WwB3_5VG5zI/AAAAAAAAA24/MFZHQCDWC7oYFXY1QCkHC994DKdF7hAuQCLcBGAs/s1600/admin-data%2Bruangan.JPG"><br><p align="justify">Pada menu Data Ruangan admin dapat melakukan operasi-operasi seperti menambah, menghapus dan mengedit data mata kuliah</p></td>
+		</tr>
 	</table>
 
 
@@ -775,8 +787,7 @@ Sistem scan hanya berlaku selama jam mata kuliah berlangsung.
 |Ref|Bag 2.1.2, Data Mata Kuliah | 
 |Trigger|Login sebagai admin|
 |Precondition|Halaman Dashboard|
-|Basic Path| 1. Admin mengklik menu Mata Kuliah <br> 2. Sistem menampilkan menu mata kuliah <br> 3. Admin dapat mengedit data mata kuliah dengan cara klik tombol edit <br> 4. Sistem menampilkan log edit <br> 5. Admin mengedit mata kuliah <br> 6. Sistem menyimpan data mata kuliah <br> 7. Admin dapat menambah data mata kuliah dengan cara klik tambah data mata kuliah <br> 8. Sistem menampilkan log tambah data mata kuliah <br> 9. Admin menambah data mata kuliah <br> 10. Sistem menyimpan data mata kuliah <br>
-11. Admin dapat menghapus data mata kuliah dengan cara klik delete <br> 12. Sistem akan menghapus data yang dihapus oleh admin|
+|Basic Path| 1. Admin mengklik menu Mata Kuliah <br> 2. Sistem menampilkan menu mata kuliah <br> 3. Admin dapat mengedit data mata kuliah dengan cara klik tombol edit <br> 4. Sistem menampilkan log edit <br> 5. Admin mengedit mata kuliah <br> 6. Sistem menyimpan data mata kuliah <br> 7. Admin dapat menambah data mata kuliah dengan cara klik tambah data mata kuliah <br> 8. Sistem menampilkan log tambah data mata kuliah <br> 9. Admin menambah data mata kuliah <br> 10. Sistem menyimpan data mata kuliah <br>11. Admin dapat menghapus data mata kuliah dengan cara klik delete <br>12. Sistem akan menghapus data yang dihapus oleh admin|
 |Alternative|Tidak Ada|
 |Post Condition|1. Admin dapat melihat dan mengelola data Mata Kuliah|
 |Exception Push	|1. Tidak ada Koneksi|
