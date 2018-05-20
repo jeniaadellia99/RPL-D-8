@@ -27,13 +27,13 @@
 ### 1.1 Tujuan Pembuatan Dokumen
 
 <p align="justify">
-	Dokumen ini digunakan sebagai pandusan melakukan pengujian terhadap perangkat lunak pad asistem Aplikasi QPress yaitu Sistem Presensi Menggunakan QR  Code. Dokumen ini dipakai untuk melihat kemampuan dari program yang telah dirancang agar sesuai dengan perancangan sistem yang telah dibuat dan sesuai dengan keinginan pengguna. Sehingga, menghasilkan suatu sistem yang dapat mempermudah proses Presensi yang umumnya dilakukan secara manual. Pembuatan Dokumen ini ditujukan untuk menguji pernagkat lunak Sistem Presnsi Menggunakan QR  Code yang merupakan bagian dar tugas mata kuliah Rekayasa Perangkat Lunak.
+	Dokumen ini digunakan sebagai panduan melakukan pengujian terhadap perangkat lunak pada asistem Aplikasi QPress yaitu Sistem Presensi Menggunakan QR  Code. Dokumen ini dipakai untuk melihat kemampuan dari program yang telah dirancang agar sesuai dengan perancangan sistem yang telah dibuat dan sesuai dengan keinginan pengguna. Sehingga, menghasilkan suatu sistem yang dapat mempermudah proses Presensi yang umumnya dilakukan secara manual. Pembuatan Dokumen ini ditujukan untuk menguji pernagkat lunak Sistem Presnsi Menggunakan QR  Code yang merupakan bagian dari tugas mata kuliah Rekayasa Perangkat Lunak.
 </p>
 
 ### 1.2 Deskripsi Umum Sistem
 
 <p align="justify"> 
-	Pada umumnya sistem presensi kehadiran menggunakan pemanggilan dosen ke siswa satu per satu dengan menyebutkan nama dari siswa tersebut. Dalam penggunaan sistem tersebut, sangat memakan waktu dan tidak efesien, karena memakan banyak waktu dari jam mata kuliah. Selain itu, sistem presensi manual menggunakan banyak kertas sehingga terjadi pemborosan. Pembuatan kertas menggunakan bahan baku kulit pohon, jadi jika menggunakan banyak kertas tentunya menggunakan kulit pohon secara berlebihan, jika hal ini terjadi kemungkinan besar terjadinya kerusan alam.
+	Pada umumnya sistem presensi kehadiran menggunakan pemanggilan dosen ke siswa satu per satu dengan menyebutkan nama dari siswa tersebut. Dalam penggunaan sistem tersebut, sangat memakan waktu dan tidak efesien, karena memakan banyak waktu dari jam mata kuliah. Selain itu, sistem presensi manual menggunakan banyak kertas sehingga terjadi pemborosan. Pembuatan kertas menggunakan bahan baku kulit pohon, jadi jika menggunakan banyak kertas tentunya menggunakan kulit pohon secara berlebihan, jika hal ini terjadi kemungkinan besar terjadinya kerusakan alam.
 	</p>
 
 <p align="justify">
@@ -46,8 +46,8 @@
 
 Pada sistem siswa, terdapat beberapa fungsi utama yaitu : <br>
 
- Siswa dapat melihat jadwal perkuliahan.<br>
- Sebelum siswa melakukan presensi, dia akan mendapatkan notifikasi untuk memulai scan, jika berhasil melakukan scan siswa akan mendapat notifikasi scan telah berhasil.<br>
+ Siswa dapat melihat jadwal perkuliahan. <br>
+ Sebelum siswa melakukan presensi, dia akan mendapatkan notifikasi untuk melakukan scan, jika berhasil melakukan scan siswa akan mendapat notifikasi scan telah berhasil. <br>
  Siswa dapat melihat jumlah kompen yang dia dapatkan karena keterlambatan maupun ketidakhadiran. <br>
 
 <p align="justify">	
